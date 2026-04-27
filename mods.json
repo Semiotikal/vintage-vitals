@@ -1,7 +1,16 @@
 {
   "version": "1.22.0",
-  "last_updated": "2026-04-27 19:57 UTC",
+  "last_updated": "2026-04-27 20:13 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "delsfestivedrifters"
+      ],
+      "modid": 8348,
+      "name": "Festive Drifters",
+      "lastreleased": "2026-04-27 20:09:45",
+      "logo": "https://moddbcdn.vintagestory.at/Festive+Drifters+Ico_9896062e4d0c2bd74b4289a75f9ba434.png"
+    },
     {
       "modidstrs": [
         "smithingplusfork"
@@ -3471,6 +3480,15 @@
     },
     {
       "modidstrs": [
+        "mnflowers"
+      ],
+      "modid": 6382,
+      "name": "Material Needs: Flowers",
+      "lastreleased": "2026-04-27 19:58:53",
+      "logo": "https://moddbcdn.vintagestory.at/materialneedsflowers_fbd73477afe2a68060059cc6240d8cdd.jpg"
+    },
+    {
+      "modidstrs": [
         "mushroomhat"
       ],
       "modid": 6375,
@@ -5392,6 +5410,15 @@
     },
     {
       "modidstrs": [
+        "snowcaps"
+      ],
+      "modid": 3874,
+      "name": "Snow Caps",
+      "lastreleased": "2026-04-27 19:59:15",
+      "logo": "https://moddbcdn.vintagestory.at/snowcaps_logo1_c72d564feff0a350276fc13254fad499.jpg"
+    },
+    {
+      "modidstrs": [
         "waterfall"
       ],
       "modid": 3845,
@@ -6349,6 +6376,15 @@
       "name": "K's Cartography Table",
       "lastreleased": "2026-04-25 11:41:51",
       "logo": "https://moddbcdn.vintagestory.at/k_68112f1c3cefcf3bc142db069ba9d43c.jpg"
+    },
+    {
+      "modidstrs": [
+        "SoundOfConfession"
+      ],
+      "modid": 2340,
+      "name": "Sound Of Confession",
+      "lastreleased": "2026-04-27 20:06:19",
+      "logo": null
     },
     {
       "modidstrs": [
