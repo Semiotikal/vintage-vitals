@@ -22,7 +22,10 @@ jobs:
         run: |
           # Simplified: Just grab the tagid of the very last entry in the gameversions list
           TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions[-1].tagid')
+          VSSEMVERS=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions[-1].name')
+
           echo "tagid=$TAGID" >> $GITHUB_OUTPUT
+          echo "vssemvers=$VSSEMVERS" >> $GITHUB_OUTPUT
 
       - name: Fetch Mods Data
         run: |
@@ -41,7 +44,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add mods.json
-          git commit -m "Update mods.json for game version ${{ steps.fetch_tagid.outputs.tagid }}" || echo "No changes to commit"
+          git commit -m "Update mods.json for game version ${{ steps.fetch_tagid.outputs.vssemvers }} ( tagid: ${{ steps.fetch_tagid.outputs.tagid }} )" || echo "No changes to commit"
           git push
 
       - name: Deploy to GitHub Pages
