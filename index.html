@@ -31,12 +31,16 @@
     </div>
 
     <p>Check your locally installed Vintage Story mods against the ModDB database.</p>
+    <p>All searches are conducted locally (clientside).</p>
 
-    <input type="file" id="folderPicker" webkitdirectory directory multiple>
-    <button id="scanFolder">Scan Folder</button>
+    <h2> Instructions </h2>
+    <ul> Click 'Choose Files' and select your mod cache folder ('unpack'). For windows, copy paste this to find it: <code>%APPDATA%\VintagestoryData\Cache</code></ul>
+    <ul> Ignore warning about "uploading" files (nothing leaves your computer, its just uploading them into the browser). Click on 'Scan Folder' to check ModDB </ul>
+    <li><input type="file" id="folderPicker" webkitdirectory directory multiple><li>
+    <li><button id="scanFolder">🔎Scan Mods</button></li>
 
     <div id="loadingArea" style="display: none;">
-        <label id="progressLabel">Initializing scan...</label>
+        <label id="progressLabel">⌛ Initializing scan...</label>
         <progress id="scanProgress" value="0" max="100"></progress>
     </div>
 
@@ -117,7 +121,7 @@ async def scan_folder(event):
                 mid = data.get("modid")
                 name = data.get("name", mid)
                 if mid:
-                    found_mods[mid] = name
+                    found_mods[mid] = local_name
             except: continue
 
     display_results(found_mods)
@@ -149,24 +153,35 @@ def display_results(found_mods):
         name_td = document.createElement("td")
         display_name = mod_info.get("name", local_name) if is_compat else local_name
         
-        # If compat, we use the moidstr from API, otherwise use local ID
+        # If compat, we use the modid from API, otherwise use local ID
         sub_name = mid
-            
-        name_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
-            
+        moddb_row = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
+        local_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
+        
+        if is_compat:
+            name_td.innerHTML = moddb_row
+        else:
+            sub_name = local_name
+            name_td.innerHTML = local_row
+        
         # 3. Release Date Cell
         date_td = document.createElement("td")
-        date_td.textContent = mod_info.get("lastreleased", "N/A") if is_compat else "N/A"
+        date_td.textContent = mod_info.get("lastreleased", "N/A") if is_compat else "Unknown"
         
         # 4. Status Cell
         status_td = document.createElement("td")
         status_class = 'yes' if is_compat else 'no'
-        status_text = "✅ Compatible" if is_compat else "❓ Unknown"
+        # Get the version string from the header we already set
+        vs_label = document.getElementById("gameVersion").textContent.split('v')[-1]
+
+        status_class = 'yes' if is_compat else 'no'
+        status_text = f"✅ v{vs_label} Compatible" if is_compat else f"❌ v{vs_label} Not Found"
+
         status_td.innerHTML = f'<span class="status-tag {status_class}">{status_text}</span>'
             
         for td in [logo_td, name_td, date_td, status_td]:
             row.appendChild(td)
-        body.appendChild(row)
+            body.appendChild(row)
 
     document.getElementById("resultsTable").style.display = "table"
 
