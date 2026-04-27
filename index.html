@@ -49,9 +49,10 @@
         <tbody id="resultsBody"></tbody>
     </table>
 
-    <py-config>
-        interpreter = "micropython"
-    </py-config>
+<py-config>
+    [experimental]
+    interpreter = "https://pyscript.net/releases/2024.1.1/micropython.mjs"
+</py-config>
 
     <py-script>
 from js import document, console, fetch
