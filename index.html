@@ -232,6 +232,10 @@
             background-color: #fff3cd;
             color: #856404;
         }
+        /* This hides the default number of files text while keeping the button functional */
+        input[type="file"] {
+            color: transparent;
+        }
     </style>
 </head>
 <body>
@@ -249,7 +253,8 @@
 
     <div class="input-section">
         <div class="input-group">
-            <input type="file" id="folderPicker" webkitdirectory directory multiple title="Select your mod cache folder (unpack)">
+            <input type="file" id="folderPicker" webkitdirectory directory multiple>
+            <span id="fileCountLabel" style="font-size: 0.9em; color: #666;"></span> 
             <button id="scanFolder">🔎 Scan Mods</button>
         </div>
         <div class="info-box show">
@@ -279,6 +284,19 @@ from js import document, console, fetch
 import json
 import asyncio
 from pyodide.ffi import create_proxy
+
+
+def update_mod_count(event):
+    all_files = document.getElementById("folderPicker").files
+    # Filter for mods immediately
+    mod_files = [f for f in all_files if f.name == "modinfo.json"]
+    count = len(mod_files)
+    
+    label = document.getElementById("fileCountLabel")
+    if count > 0:
+        label.textContent = f"{count} mods detected"
+    else:
+        label.textContent = "No mods found"
 
 # api_mods will store: "modidstr": {full_mod_data_object}
 api_mods = {}
@@ -421,7 +439,12 @@ def display_results(found_mods):
 
 async def setup():
     await load_api_data()
+    # This triggers the moment they finish picking the folder
+    picker = document.getElementById("folderPicker")
+    picker.onchange = create_proxy(update_mod_count) 
+    
     document.getElementById("scanFolder").onclick = create_proxy(scan_folder)
+    asyncio.ensure_future(setup())
 
 asyncio.ensure_future(setup())
     </py-script>
