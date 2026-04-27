@@ -1,6 +1,14 @@
 [
   {
     "modidstrs": [
+      "antixray"
+    ],
+    "name": "AntiXray ",
+    "lastreleased": "2026-04-27 18:37:17",
+    "logo": null
+  },
+  {
+    "modidstrs": [
       "notouchitems"
     ],
     "name": "Apply/Remove Admin Protections to Items & Creatures - Barebones Framework ",
