@@ -8,31 +8,33 @@ on:
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
+    # Grant permission to write to the repository contents
+    permissions:
+      contents: write
 
     steps:
-    # Step 1: Checkout the repository
-    - name: Checkout Code
-      uses: actions/checkout@v3
+      # Step 1: Checkout the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4 # Updated to v4 for Node.js 24 support
 
-    # Step 2: Fetch the latest game version tagid
-    - name: Fetch Latest Game Version TagID
-      id: fetch_tagid
-      run: |
-        # Fetch game versions and extract the tagid of the last item
-        TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions | last | .tagid')
-        echo "Latest tagid: $TAGID"
-        echo "tagid=$TAGID" >> $GITHUB_ENV
+      # Step 2: Fetch the latest game version tagid
+      - name: Fetch Latest Game Version TagID
+        id: fetch_tagid
+        run: |
+          TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions | last | .tagid')
+          echo "Latest tagid: $TAGID"
+          echo "tagid=$TAGID" >> $GITHUB_ENV
 
-    # Step 3: Fetch mods for the latest game version
-    - name: Fetch Mods Data
-      run: |
-        # Use the tagid from the previous step to fetch mods
-        curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=${{ env.tagid }}" | jq '[.mods[] | {modidstrs, name, lastreleased, logo}]' > mods.json
-        echo "Fetched mods data for tagid: ${{ env.tagid }}"
+      # Step 3: Fetch mods for the latest game version
+      - name: Fetch Mods Data
+        run: |
+          curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=${{ env.tagid }}" | jq '[.mods[] | {modidstrs, name, lastreleased, logo}]' > mods.json
+          echo "Fetched mods data for tagid: ${{ env.tagid }}"
 
-    # Step 4: Deploy to GitHub Pages
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.vv-deploy-token }}
-        publish_dir: .  # Deploy the root directory
+      # Step 4: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4 # Updated to v4 for Node.js 24 support
+        with:
+          # Use the automatic GitHub Token
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
