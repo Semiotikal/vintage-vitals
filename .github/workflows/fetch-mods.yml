@@ -5,51 +5,64 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *' # Runs at 00:00 UTC daily
 
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Fetch Latest Game Version TagID
+      - name: Fetch Game Version Group
         id: fetch_tagid
         run: |
-          # Simplified: Just grab the tagid of the very last entry in the gameversions list
-          TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions[-1].tagid')
-          VSSEMVERS=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions[-1].name')
-
-          echo "tagid=$TAGID" >> $GITHUB_OUTPUT
-          echo "vssemvers=$VSSEMVERS" >> $GITHUB_OUTPUT
+          # 1. Get the full list from API
+          RESPONSE=$(curl -s "https://mods.vintagestory.at/api/gameversions")
+          
+          # 2. Identify the very latest version name (e.g., "1.22.0")
+          LATEST_NAME=$(echo "$RESPONSE" | jq -r '.gameversions[-1].name')
+          
+          # 3. Extract the Major.Minor prefix (e.g., "1.22")
+          PREFIX=$(echo "$LATEST_NAME" | cut -d. -f1,2)
+          
+          # 4. Filter all versions starting with that prefix and get their tagids
+          # We also grab names for the UI display
+          TAGIDS=$(echo "$RESPONSE" | jq -r --arg pre "$PREFIX" '.gameversions[] | select(.name | startswith($pre)) | .tagid')
+          SEMVERS=$(echo "$RESPONSE" | jq -r --arg pre "$PREFIX" '.gameversions[] | select(.name | startswith($pre)) | .name' | paste -sd ", " -)
+          
+          # 5. Format TAGIDS for the API URL (gameversions[]=ID1&gameversions[]=ID2...)
+          QUERY_STRING=$(echo "$TAGIDS" | sed 's/^/gameversions[]=/ ' | paste -sd "&" -)
+          
+          echo "query_string=$QUERY_STRING" >> $GITHUB_OUTPUT
+          echo "vssemvers=$PREFIX.x ($SEMVERS)" >> $GITHUB_OUTPUT
 
       - name: Fetch Mods Data
         run: |
-          # Use the output from the previous step
-          # We add a check to make sure TAGID isn't empty or null
-          TAGID="${{ steps.fetch_tagid.outputs.tagid }}"
-          if [ "$TAGID" = "null" ] || [ -z "$TAGID" ]; then
-            echo "Error: Could not retrieve a valid TagID"
+          QUERY="${{ steps.fetch_tagid.outputs.query_string }}"
+          
+          if [ -z "$QUERY" ]; then
+            echo "Error: Could not retrieve valid TagIDs"
             exit 1
           fi
+
           # Get current timestamp
           FRESHDATE=$(date -u +"%Y-%m-%d %H:%M UTC")
-          
-          # Create a JSON object that contains the version, the fresh date, and the mod list
-          curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=$TAGID" | \
+
+          # Call the API using the constructed query string
+          curl -s "https://mods.vintagestory.at/api/mods?$QUERY" | \
           jq --arg vsver "${{ steps.fetch_tagid.outputs.vssemvers }}" \
              --arg fresh "$FRESHDATE" \
           '{version: $vsver, last_updated: $fresh, mods: [.mods[] | {modidstrs, modid, name, lastreleased, logo}]}' > mods.json
+
       - name: Commit and Push mods.json
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add mods.json
-          git commit -m "Update mods.json for game version ${{ steps.fetch_tagid.outputs.vssemvers }} ( tagid: ${{ steps.fetch_tagid.outputs.tagid }} )" || echo "No changes to commit"
+          git commit -m "Update mods.json for ${{ steps.fetch_tagid.outputs.vssemvers }}" || echo "No changes to commit"
           git push
 
       - name: Deploy to GitHub Pages
