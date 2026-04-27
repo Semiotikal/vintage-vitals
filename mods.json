@@ -1,6 +1,6 @@
 {
   "version": "1.22.0",
-  "last_updated": "2026-04-27 20:20 UTC",
+  "last_updated": "2026-04-27 21:01 UTC",
   "mods": [
     {
       "modidstrs": [
@@ -4282,7 +4282,7 @@
       ],
       "modid": 5577,
       "name": "Boric Alchemy",
-      "lastreleased": "2026-04-22 19:08:02",
+      "lastreleased": "2026-04-27 20:22:01",
       "logo": "https://moddbcdn.vintagestory.at/Untitled_9fb32f256f672c816292d8ef1d82b201.png"
     },
     {
@@ -5162,6 +5162,15 @@
       "name": "Forgotten Armory: Greenwich style",
       "lastreleased": "2026-04-22 14:37:28",
       "logo": "https://moddbcdn.vintagestory.at/MODICON_Greenwich2_e332f2a156095cc29114833b6f6da911.png"
+    },
+    {
+      "modidstrs": [
+        "shelfobsessed"
+      ],
+      "modid": 4313,
+      "name": "Shelf Obsessed",
+      "lastreleased": "2026-04-27 20:22:53",
+      "logo": "https://moddbcdn.vintagestory.at/logo_eed939a1f834cf70a896014ce24b6404.png"
     },
     {
       "modidstrs": [
@@ -6393,7 +6402,7 @@
       "modid": 2340,
       "name": "Sound Of Confession",
       "lastreleased": "2026-04-27 20:06:19",
-      "logo": null
+      "logo": "https://moddbcdn.vintagestory.at/thumbnail_99f5ace0f9f6329d532a787346832281.png"
     },
     {
       "modidstrs": [
