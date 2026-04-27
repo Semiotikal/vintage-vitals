@@ -4,37 +4,41 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 0 * * *' # Updates once a day automatically
 
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
-    # Grant permission to write to the repository contents
     permissions:
       contents: write
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Code
-        uses: actions/checkout@v4 # Updated to v4 for Node.js 24 support
+        uses: actions/checkout@v4
 
-      # Step 2: Fetch the latest game version tagid
       - name: Fetch Latest Game Version TagID
         id: fetch_tagid
         run: |
-          TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions | last | .tagid')
-          echo "Latest tagid: $TAGID"
+          # The API returns a list; we want the last stable version's tagid
+          TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions | map(select(.active == true)) | last | .tagid')
           echo "tagid=$TAGID" >> $GITHUB_ENV
 
-      # Step 3: Fetch mods for the latest game version
       - name: Fetch Mods Data
         run: |
+          # Fetch mods for that version and save to mods.json
           curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=${{ env.tagid }}" | jq '[.mods[] | {modidstrs, name, lastreleased, logo}]' > mods.json
-          echo "Fetched mods data for tagid: ${{ env.tagid }}"
+          
+      - name: Commit and Push mods.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add mods.json
+          git commit -m "Update mods.json for game version ${{ env.tagid }}" || echo "No changes to commit"
+          git push
 
-      # Step 4: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4 # Updated to v4 for Node.js 24 support
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          # Use the automatic GitHub Token
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
