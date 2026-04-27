@@ -43,7 +43,7 @@ jobs:
           curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=$TAGID" | \
           jq --arg vsver "${{ steps.fetch_tagid.outputs.vssemvers }}" \
              --arg fresh "$FRESHDATE" \
-          '{version: $vsver, last_updated: $fresh, mods: [.mods[] | {modidstrs, name, lastreleased, logo}]}' > mods.json
+          '{version: $vsver, last_updated: $fresh, mods: [.mods[] | {modidstrs, modid, name, lastreleased, logo}]}' > mods.json
       - name: Commit and Push mods.json
         run: |
           git config --local user.email "action@github.com"
