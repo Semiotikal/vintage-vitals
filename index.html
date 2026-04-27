@@ -14,8 +14,6 @@
         th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
         th { background-color: #f4f4f4; }
         .yes { color: green; font-weight: bold; }
-        
-        /* Loading Bar Styles */
         #loadingArea { margin-top: 20px; padding: 15px; background: #f9f9f9; border-radius: 4px; border: 1px solid #eee; }
         progress { width: 100%; height: 20px; appearance: none; margin-top: 10px; }
         progress::-webkit-progress-bar { background-color: #eee; border-radius: 4px; }
@@ -24,11 +22,12 @@
 </head>
 <body>
     <h1>Vintage-Vitals: VS Mod Compatibility Checker</h1>
+    <p> Check your locally installed Vintage Story mods and check compatibility with the latest version of Vintage Story</p>
+    <p> This app runs <strong>entirely locally</strong> on your browser so your mod files are just being "uploaded" to the browser</p>
     <p>
-        <strong>Privacy Note:</strong> Your files are <em>not</em> being uploaded. PyScript reads them locally in your browser. <br><br>
+        <strong>Privacy Note: You will see a warning that your files are being "uploaded". </strong> Your files are <em>not</em> being "uploaded" anywhere, they're just being read into your local browser.<br><br>
         Please select your <code>vintagestorydata/cache/unpack</code> folder. <br>
-        On Windows, you can copy-paste this path: <br>
-        <code>%AppData%\VintagestoryData\cache\unpack</code>
+        On Windows: <code>%AppData%\VintagestoryData\cache\unpack</code>
     </p>
 
     <input type="file" id="folderPicker" webkitdirectory directory multiple>
@@ -49,16 +48,13 @@
         <tbody id="resultsBody"></tbody>
     </table>
 
-<py-config>
-    # This is the modern, non-experimental way to force MicroPython
-    type = "micropython"
-</py-config>
+    <py-config>
+        # Leaving this blank defaults to the stable Pyodide interpreter
+    </py-config>
 
-<py-script>
+    <py-script>
 from js import document, console, fetch
-# Use standard json - both engines support this now, 
-# which prevents the 'ModuleNotFoundError' if Pyodide ever takes over
-import json 
+import json
 import asyncio
 
 api_mods = {}
@@ -66,44 +62,48 @@ api_mods = {}
 async def load_api_data():
     global api_mods
     try:
+        # Pulling from the mods.json you generated in your GitHub Action
         response = await fetch("mods.json")
         data = await response.text()
         list_data = json.loads(data)
         api_mods = {m['modidstrs'][0] if isinstance(m['modidstrs'], list) else m['modidstrs']: m['name'] for m in list_data}
-        console.log("Loaded API data.")
+        console.log("API Data loaded successfully.")
     except Exception as e:
-        console.log(f"Failed to load mods.json: {e}")
+        console.log(f"Error loading mods.json: {e}")
 
 async def scan_folder(event):
     btn = document.getElementById("scanFolder")
     loading_area = document.getElementById("loadingArea")
     progress_bar = document.getElementById("scanProgress")
-    progress_label = document.getElementById("progressLabel")
+    label = document.getElementById("progressLabel")
     
+    files = document.getElementById("folderPicker").files
+    if not files: return
+
     btn.disabled = True
     loading_area.style.display = "block"
     document.getElementById("resultsTable").style.display = "none"
 
-    files = document.getElementById("folderPicker").files
-    total_files = len(files)
+    total = len(files)
     found_mods = {}
 
     for i, file in enumerate(files):
+        # Update UI every 100 files
         if i % 100 == 0:
-            percent = int((i / total_files) * 100)
+            percent = int((i / total) * 100)
             progress_bar.value = percent
-            progress_label.textContent = f"Processing file {i} of {total_files}..."
-            await asyncio.sleep(0) 
+            label.textContent = f"Processing {i} of {total} files..."
+            await asyncio.sleep(0)
 
         if file.name == "modinfo.json":
             try:
-                raw_text = await file.text()
-                # Clean trailing commas
-                cleaned_json = raw_text.replace(",}", "}").replace(",]", "]")
-                moddata = json.loads(cleaned_json)
-                mid = moddata.get("modid")
+                content = await file.text()
+                # Clean up those common trailing comma JSON errors
+                cleaned = content.replace(",}", "}").replace(",]", "]")
+                data = json.loads(cleaned)
+                mid = data.get("modid")
                 if mid:
-                    found_mods[mid] = moddata.get("name", mid)
+                    found_mods[mid] = data.get("name", mid)
             except:
                 continue
 
@@ -113,35 +113,38 @@ async def scan_folder(event):
     btn.disabled = False
 
 def display_results(found_mods):
-    results_body = document.getElementById("resultsBody")
-    results_body.innerHTML = ""
+    body = document.getElementById("resultsBody")
+    body.innerHTML = ""
 
     for mid, name in found_mods.items():
         row = document.createElement("tr")
-        id_cell = document.createElement("td")
-        id_cell.textContent = f"{name} ({mid})"
+        is_compat = mid in api_mods
         
-        status_cell = document.createElement("td")
-        if mid in api_mods:
-            status_cell.textContent = "✅ Compatible"
-            status_cell.className = "yes"
+        id_td = document.createElement("td")
+        id_td.textContent = f"{name} ({mid})"
+        
+        status_td = document.createElement("td")
+        if is_compat:
+            status_td.textContent = "✅ Compatible"
+            status_td.className = "yes"
         else:
-            status_cell.textContent = "❓ Unknown / Incompatible"
-            status_cell.style.color = "orange"
+            status_td.textContent = "❓ Unknown / Incompatible"
+            status_td.style.color = "orange"
 
-        row.appendChild(id_cell)
-        row.appendChild(status_cell)
-        results_body.appendChild(row)
+        row.appendChild(id_td)
+        row.appendChild(status_td)
+        body.appendChild(row)
 
     document.getElementById("resultsTable").style.display = "table"
 
 async def main():
     await load_api_data()
-    # Using 'pyscript' ffi is the safest way to avoid triggering the Pyodide loader
+    # Binding the button using standard PyScript FFI
     from pyscript import ffi
     document.getElementById("scanFolder").onclick = ffi.create_proxy(scan_folder)
 
+# Use standard asyncio to run the main loop
 asyncio.ensure_future(main())
-</py-script>
+    </py-script>
 </body>
 </html>
