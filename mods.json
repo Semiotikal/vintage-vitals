@@ -1,13 +1,15 @@
 [
   {
+    "modid": 8345,
     "modidstrs": [
       "antixray"
     ],
     "name": "AntiXray ",
     "lastreleased": "2026-04-27 18:37:17",
-    "logo": null
+    "logo": "https://moddbcdn.vintagestory.at/antixray_758e751dcd9b92e2dd616bd2066e7421.jpg"
   },
   {
+    "modid": 8343,
     "modidstrs": [
       "notouchitems"
     ],
@@ -16,6 +18,7 @@
     "logo": null
   },
   {
+    "modid": 8340,
     "modidstrs": [
       "amphitaritraits"
     ],
@@ -24,6 +27,7 @@
     "logo": null
   },
   {
+    "modid": 8335,
     "modidstrs": [
       "kcsdragontraits"
     ],
@@ -32,6 +36,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon-kcsdragontra_28b6996af6a8ee7b55613b7604b0ca60_480_320.png"
   },
   {
+    "modid": 8333,
     "modidstrs": [
       "auctionfilter"
     ],
@@ -40,6 +45,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon1_6826e4bc1d42050bf702a07c63901a44.png"
   },
   {
+    "modid": 8332,
     "modidstrs": [
       "fishbreeding"
     ],
@@ -48,6 +54,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Poster+Image_5c302de42f25953224a1d32e92d41aa0_480_320.png"
   },
   {
+    "modid": 8331,
     "modidstrs": [
       "agreenlupine"
     ],
@@ -56,6 +63,7 @@
     "logo": "https://moddbcdn.vintagestory.at/AGL_74d2d4f45b59a076d52239877c2618b6.png"
   },
   {
+    "modid": 8330,
     "modidstrs": [
       "cmimpact"
     ],
@@ -64,6 +72,7 @@
     "logo": "https://moddbcdn.vintagestory.at/CM-ImpactMOD_ae3ec6a44f496d6eecab9b69028db2a1.png"
   },
   {
+    "modid": 8329,
     "modidstrs": [
       "harptechfix122"
     ],
@@ -72,6 +81,7 @@
     "logo": null
   },
   {
+    "modid": 8327,
     "modidstrs": [
       "emgravelandsand"
     ],
@@ -80,6 +90,7 @@
     "logo": null
   },
   {
+    "modid": 8326,
     "modidstrs": [
       "realisticbiomegeneration"
     ],
@@ -88,6 +99,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2026-04-26_04-41-57__1ee48251ee619cf64e540b9272143681.png"
   },
   {
+    "modid": 8325,
     "modidstrs": [
       "hardcorewaterevolved"
     ],
@@ -96,6 +108,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Thumb_4f849fbf665a584dbb9ce9e388226e0a.png"
   },
   {
+    "modid": 8324,
     "modidstrs": [
       "chiselingqolpatches"
     ],
@@ -104,6 +117,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ChiselingQoLPatchesT_e090c267a0ce866e87f7951a50f3ada7.png"
   },
   {
+    "modid": 8322,
     "modidstrs": [
       "realsmokeqppatch"
     ],
@@ -112,6 +126,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Mod+Thumbnail+Image_ee7666afb66a9d65ec5bf7c01c8931e6.png"
   },
   {
+    "modid": 8321,
     "modidstrs": [
       "hitscanbegone"
     ],
@@ -120,6 +135,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_4b35a3071d51a63ab77786f048d44d5e.png"
   },
   {
+    "modid": 8320,
     "modidstrs": [
       "scrapblocksfix"
     ],
@@ -128,6 +144,7 @@
     "logo": "https://moddbcdn.vintagestory.at/exo0_4720dd405623b53251de5f9ef27917d4_480_320.jpg"
   },
   {
+    "modid": 8319,
     "modidstrs": [
       "wait"
     ],
@@ -136,6 +153,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wait_Mod_1a9ec091b5e8edcf79bd22cd08c9b70b.png"
   },
   {
+    "modid": 8317,
     "modidstrs": [
       "betterjonasdevicesfixedagain"
     ],
@@ -144,6 +162,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cover_be4bd5b3a1f9f3fef104152dcc0e2fcc.png"
   },
   {
+    "modid": 8316,
     "modidstrs": [
       "notraderclaims"
     ],
@@ -152,6 +171,7 @@
     "logo": null
   },
   {
+    "modid": 8315,
     "modidstrs": [
       "andieseffects"
     ],
@@ -160,6 +180,7 @@
     "logo": null
   },
   {
+    "modid": 8313,
     "modidstrs": [
       "mutations"
     ],
@@ -168,6 +189,7 @@
     "logo": null
   },
   {
+    "modid": 8312,
     "modidstrs": [
       "improvedmetallurgy"
     ],
@@ -176,6 +198,7 @@
     "logo": "https://moddbcdn.vintagestory.at/IM+Preview_5b589b2effd5cec901f1bbd8ef713a8b.png"
   },
   {
+    "modid": 8311,
     "modidstrs": [
       "bedrespawnerz1"
     ],
@@ -184,6 +207,7 @@
     "logo": "https://moddbcdn.vintagestory.at/mini_1_ea86686b0912da11d62fe9e01c3ffb68.png"
   },
   {
+    "modid": 8309,
     "modidstrs": [
       "itemtraits"
     ],
@@ -192,6 +216,7 @@
     "logo": null
   },
   {
+    "modid": 8308,
     "modidstrs": [
       "whatsyourname"
     ],
@@ -200,6 +225,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_bdb881b4a997baa6db518d396ded9ccb.png"
   },
   {
+    "modid": 8307,
     "modidstrs": [
       "killzonekhazaddum"
     ],
@@ -208,6 +234,7 @@
     "logo": null
   },
   {
+    "modid": 8306,
     "modidstrs": [
       "wapitifluteextend"
     ],
@@ -216,6 +243,7 @@
     "logo": null
   },
   {
+    "modid": 8305,
     "modidstrs": [
       "forestregenmod"
     ],
@@ -224,6 +252,7 @@
     "logo": null
   },
   {
+    "modid": 8304,
     "modidstrs": [
       "overlapclaims"
     ],
@@ -232,6 +261,7 @@
     "logo": null
   },
   {
+    "modid": 8303,
     "modidstrs": [
       "mechanicalfix"
     ],
@@ -240,6 +270,7 @@
     "logo": null
   },
   {
+    "modid": 8301,
     "modidstrs": [
       "autoclaylayerforming"
     ],
@@ -248,6 +279,7 @@
     "logo": null
   },
   {
+    "modid": 8299,
     "modidstrs": [
       "attackfish"
     ],
@@ -256,6 +288,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogo_baa48d519836f0b0b2ba17f6f214843a.png"
   },
   {
+    "modid": 8298,
     "modidstrs": [
       "meapineapplescraps"
     ],
@@ -264,6 +297,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_e27efd51187ff3b489683e9552f436b2.png"
   },
   {
+    "modid": 8297,
     "modidstrs": [
       "realisticwater"
     ],
@@ -272,6 +306,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon_01b441c679a9297e32fb8804df44a135.png"
   },
   {
+    "modid": 8296,
     "modidstrs": [
       "helvehammerextforked"
     ],
@@ -280,6 +315,7 @@
     "logo": "https://moddbcdn.vintagestory.at/hhe42_ba1d1bdcaf04a87bc902fde1e8e8f3f7.png"
   },
   {
+    "modid": 8295,
     "modidstrs": [
       "toolbeltfork"
     ],
@@ -288,6 +324,7 @@
     "logo": null
   },
   {
+    "modid": 8294,
     "modidstrs": [
       "lexiconlib"
     ],
@@ -296,6 +333,7 @@
     "logo": null
   },
   {
+    "modid": 8293,
     "modidstrs": [
       "synergy"
     ],
@@ -304,6 +342,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb_squared_dc81c541467b4e50ae1efc568c52443c.png"
   },
   {
+    "modid": 8292,
     "modidstrs": [
       "inventorymovespeed"
     ],
@@ -312,6 +351,7 @@
     "logo": null
   },
   {
+    "modid": 8291,
     "modidstrs": [
       "killstreak"
     ],
@@ -320,6 +360,7 @@
     "logo": null
   },
   {
+    "modid": 8289,
     "modidstrs": [
       "lhenhancedtrees"
     ],
@@ -328,6 +369,7 @@
     "logo": "https://moddbcdn.vintagestory.at/redwood+thumbnail_0c46f2f159d8fd00346ee0fdc3347943.png"
   },
   {
+    "modid": 8287,
     "modidstrs": [
       "weatherthestormshelter"
     ],
@@ -336,6 +378,7 @@
     "logo": "https://moddbcdn.vintagestory.at/WeatherTheStorm-Shel_3593274405cf33c1642caed6ce9c8350.png"
   },
   {
+    "modid": 8286,
     "modidstrs": [
       "p1nksshelvingtweaks"
     ],
@@ -344,6 +387,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Copy+of+Blush+%283%29_f831eaed116530b8b614bf8aab0572ec.png"
   },
   {
+    "modid": 8285,
     "modidstrs": [
       "rustcreaturescandestroy"
     ],
@@ -352,6 +396,7 @@
     "logo": "https://moddbcdn.vintagestory.at/download+%281%29_4e95515e7a46d30d7d3b6ae6d66f5d17.png"
   },
   {
+    "modid": 8284,
     "modidstrs": [
       "fullstatgui"
     ],
@@ -360,6 +405,7 @@
     "logo": null
   },
   {
+    "modid": 8282,
     "modidstrs": [
       "hungereffects"
     ],
@@ -368,6 +414,7 @@
     "logo": null
   },
   {
+    "modid": 8280,
     "modidstrs": [
       "healtheffects"
     ],
@@ -376,6 +423,7 @@
     "logo": null
   },
   {
+    "modid": 8279,
     "modidstrs": [
       "stonequarryrepckfipil"
     ],
@@ -384,6 +432,7 @@
     "logo": "https://moddbcdn.vintagestory.at/StoneQuarryCard_a5eac7328f4f3e1a8e7ce5555c133bf3.jpg"
   },
   {
+    "modid": 8278,
     "modidstrs": [
       "hudclocksimpleseasons"
     ],
@@ -392,6 +441,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cardicon_cd9c9e7412aae279ca227c2d715ee53f.png"
   },
   {
+    "modid": 8277,
     "modidstrs": [
       "aldiclassesdragonia"
     ],
@@ -400,6 +450,7 @@
     "logo": null
   },
   {
+    "modid": 8276,
     "modidstrs": [
       "xskillsxaldisclassesdragonia"
     ],
@@ -408,6 +459,7 @@
     "logo": null
   },
   {
+    "modid": 8275,
     "modidstrs": [
       "xskillgildedxadlisclassesdragonia"
     ],
@@ -416,6 +468,7 @@
     "logo": null
   },
   {
+    "modid": 8273,
     "modidstrs": [
       "buffbox"
     ],
@@ -424,6 +477,7 @@
     "logo": null
   },
   {
+    "modid": 8272,
     "modidstrs": [
       "xlibxaldisclassesdragonia"
     ],
@@ -432,6 +486,7 @@
     "logo": null
   },
   {
+    "modid": 8270,
     "modidstrs": [
       "sortingcontainers"
     ],
@@ -440,6 +495,7 @@
     "logo": "https://moddbcdn.vintagestory.at/sortbanner_ded3d6af98ec20ae06d40fc69b7da095.png"
   },
   {
+    "modid": 8269,
     "modidstrs": [
       "loveiscold"
     ],
@@ -448,6 +504,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_3b305cb2c771bbd1bd87f5eba0e9af64.png"
   },
   {
+    "modid": 8268,
     "modidstrs": [
       "stepuptwoblocks"
     ],
@@ -456,6 +513,7 @@
     "logo": null
   },
   {
+    "modid": 8266,
     "modidstrs": [
       "armorexpanded"
     ],
@@ -464,6 +522,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_30754485163ee0d6c9094ef18e1cf376.png"
   },
   {
+    "modid": 8265,
     "modidstrs": [
       "effectmeter"
     ],
@@ -472,6 +531,7 @@
     "logo": null
   },
   {
+    "modid": 8264,
     "modidstrs": [
       "waypointtogetherreborn"
     ],
@@ -480,6 +540,7 @@
     "logo": "https://moddbcdn.vintagestory.at/WtogetherIcon_7328472f541cbeb3e8f37c2b5e392f9c.png"
   },
   {
+    "modid": 8262,
     "modidstrs": [
       "ndlclayworks"
     ],
@@ -488,6 +549,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NDLClayworksBackgrou_28bd1d22bbc1b584d1e7395aa0d42597.png"
   },
   {
+    "modid": 8261,
     "modidstrs": [
       "stonequarryforked"
     ],
@@ -496,6 +558,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_9ce9812eda3bec744ebe52ed209def32.png"
   },
   {
+    "modid": 8260,
     "modidstrs": [
       "elkaccessories"
     ],
@@ -504,6 +567,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Elk480_bca95c00ca966e11bdfc2a917c1b37cc.png"
   },
   {
+    "modid": 8259,
     "modidstrs": [
       "horxskillgilded"
     ],
@@ -512,6 +576,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 8258,
     "modidstrs": [
       "noprotectedzones"
     ],
@@ -520,6 +585,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NoProtectedZonesMOD_0453b725a6d489c614d0655965214e7b.png"
   },
   {
+    "modid": 8256,
     "modidstrs": [
       "unnerfedflowers"
     ],
@@ -528,6 +594,7 @@
     "logo": "https://moddbcdn.vintagestory.at/slowers_fb2e5837971ec3daa9236f28a4f64cd2.png"
   },
   {
+    "modid": 8254,
     "modidstrs": [
       "stackedtemporalgear"
     ],
@@ -536,6 +603,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Screenshot_233_d0e1b44a138133d129c9a78967886d83.png"
   },
   {
+    "modid": 8253,
     "modidstrs": [
       "moldsexpanded"
     ],
@@ -544,6 +612,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Screenshot_228_09a81d8668a75e7f6d50e973e52b6bc4.png"
   },
   {
+    "modid": 8252,
     "modidstrs": [
       "grindingwheelrework"
     ],
@@ -552,6 +621,7 @@
     "logo": "https://moddbcdn.vintagestory.at/grinding+wheel+logo_30cc653bc5b2c8de6b0dc65baacb3254.png"
   },
   {
+    "modid": 8251,
     "modidstrs": [
       "deathwounds"
     ],
@@ -560,6 +630,7 @@
     "logo": null
   },
   {
+    "modid": 8250,
     "modidstrs": [
       "traitbuffs"
     ],
@@ -568,6 +639,7 @@
     "logo": null
   },
   {
+    "modid": 8249,
     "modidstrs": [
       "codamageeffects"
     ],
@@ -576,6 +648,7 @@
     "logo": "https://moddbcdn.vintagestory.at/bonk_ce4c299f77873f49f2f9a47d1077a5f3.png"
   },
   {
+    "modid": 8248,
     "modidstrs": [
       "kyattonopsp"
     ],
@@ -584,6 +657,7 @@
     "logo": null
   },
   {
+    "modid": 8247,
     "modidstrs": [
       "freeformatelier"
     ],
@@ -592,6 +666,7 @@
     "logo": null
   },
   {
+    "modid": 8245,
     "modidstrs": [
       "luckyblock"
     ],
@@ -600,6 +675,7 @@
     "logo": "https://moddbcdn.vintagestory.at/imagengg_fa62d63ea129fc1c0a361c6b60acd2f9.png"
   },
   {
+    "modid": 8244,
     "modidstrs": [
       "commonlibforked"
     ],
@@ -608,6 +684,7 @@
     "logo": null
   },
   {
+    "modid": 8243,
     "modidstrs": [
       "playercorpseforked"
     ],
@@ -616,6 +693,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_e4351a2dd5671959e9616afcd6776e3f.png"
   },
   {
+    "modid": 8241,
     "modidstrs": [
       "hardcorewaterforked"
     ],
@@ -624,6 +702,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cover_resized_ab1f97f6f447de88400df7ee512d2cf3.png"
   },
   {
+    "modid": 8240,
     "modidstrs": [
       "improvedhandbookrecipesfork"
     ],
@@ -632,6 +711,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_460396bf049defb6327b88b74effeede.png"
   },
   {
+    "modid": 8239,
     "modidstrs": [
       "fishingfix"
     ],
@@ -640,6 +720,7 @@
     "logo": null
   },
   {
+    "modid": 8238,
     "modidstrs": [
       "horperfopt"
     ],
@@ -648,6 +729,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HoR_2bd9c4e3d7a666571831e2c479ba598e.png"
   },
   {
+    "modid": 8237,
     "modidstrs": [
       "continentalworlds"
     ],
@@ -656,6 +738,7 @@
     "logo": null
   },
   {
+    "modid": 8236,
     "modidstrs": [
       "chaoscast"
     ],
@@ -664,6 +747,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon4_db8fd9c35b260ff9cdb3e5e0d2a304a0.jpg"
   },
   {
+    "modid": 8235,
     "modidstrs": [
       "emotes"
     ],
@@ -672,6 +756,7 @@
     "logo": "https://moddbcdn.vintagestory.at/emotesthumb_c4971b937bfaa9922829f0c4715911ac.png"
   },
   {
+    "modid": 8234,
     "modidstrs": [
       "moarfirewood"
     ],
@@ -680,6 +765,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_ab0e536cf8d8c4391092c3f891d381ea.png"
   },
   {
+    "modid": 8232,
     "modidstrs": [
       "vsmineralmasonrygrouttiles"
     ],
@@ -688,6 +774,7 @@
     "logo": "https://moddbcdn.vintagestory.at/vsmineralmasonry-gro_10dc13b3731069c4e7f8f7381acc8ed4.png"
   },
   {
+    "modid": 8231,
     "modidstrs": [
       "vsmineralmasonrymuralslabs"
     ],
@@ -696,6 +783,7 @@
     "logo": "https://moddbcdn.vintagestory.at/vsmineralmasonry-mur_70bb3d7af6c80d0a1b03d9e1149c29fb.png"
   },
   {
+    "modid": 8230,
     "modidstrs": [
       "vsmineralmasonrycobblespaths"
     ],
@@ -704,6 +792,7 @@
     "logo": "https://moddbcdn.vintagestory.at/vsmineralmasonry-cob_ec88a0e12cbbb82eade3b8822082aa7a.png"
   },
   {
+    "modid": 8229,
     "modidstrs": [
       "kyattonostickybranches"
     ],
@@ -712,6 +801,7 @@
     "logo": "https://moddbcdn.vintagestory.at/KyattoStickyBranches_c2304415f7547aa71d83a4ec96f68d0f.png"
   },
   {
+    "modid": 8228,
     "modidstrs": [
       "vsmineralmasonryarchespillars"
     ],
@@ -720,6 +810,7 @@
     "logo": "https://moddbcdn.vintagestory.at/vsmineralmasonry-arc_99c3081f537bebdc97f4e9cdc5bed0ff.png"
   },
   {
+    "modid": 8227,
     "modidstrs": [
       "lovelyliripipes"
     ],
@@ -728,6 +819,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_e62df2aa56aea46e22ea8f3a6323c829.png"
   },
   {
+    "modid": 8224,
     "modidstrs": [
       "meapineapplestone"
     ],
@@ -736,6 +828,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_66b5b2b805c9f89aa2fd48a8b5a2c5a4.png"
   },
   {
+    "modid": 8221,
     "modidstrs": [
       "expandedbeekeepingfork"
     ],
@@ -744,6 +837,7 @@
     "logo": null
   },
   {
+    "modid": 8217,
     "modidstrs": [
       "stablesurfaceupdated"
     ],
@@ -752,6 +846,7 @@
     "logo": null
   },
   {
+    "modid": 8215,
     "modidstrs": [
       "ritualapotheosis"
     ],
@@ -760,6 +855,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ra_moddblogo_c08af0c2190785ef8c2b953c8a441790.png"
   },
   {
+    "modid": 8214,
     "modidstrs": [
       "enhancedriftward"
     ],
@@ -768,6 +864,7 @@
     "logo": null
   },
   {
+    "modid": 8212,
     "modidstrs": [
       "bridgetbishopservertweaks"
     ],
@@ -776,6 +873,7 @@
     "logo": null
   },
   {
+    "modid": 8210,
     "modidstrs": [
       "axinserverbridge"
     ],
@@ -784,6 +882,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icono_9ea498e362d20cca886a2cc2ff83211f.png"
   },
   {
+    "modid": 8208,
     "modidstrs": [
       "guiextendable"
     ],
@@ -792,6 +891,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon_ffeeff979aa9510f975fbdaa14bc53d8.png"
   },
   {
+    "modid": 8207,
     "modidstrs": [
       "civitascontent"
     ],
@@ -800,6 +900,7 @@
     "logo": null
   },
   {
+    "modid": 8205,
     "modidstrs": [
       "bombgravity"
     ],
@@ -808,6 +909,7 @@
     "logo": null
   },
   {
+    "modid": 8204,
     "modidstrs": [
       "tallheightwatershedslandformssealevelfork"
     ],
@@ -816,6 +918,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_ceaf3677eab1a0f91c91db6736cef773.png"
   },
   {
+    "modid": 8202,
     "modidstrs": [
       "achievements"
     ],
@@ -824,6 +927,7 @@
     "logo": null
   },
   {
+    "modid": 8200,
     "modidstrs": [
       "aldiclasseslanguagesrussianpatch"
     ],
@@ -832,6 +936,7 @@
     "logo": null
   },
   {
+    "modid": 8199,
     "modidstrs": [
       "roll"
     ],
@@ -840,6 +945,7 @@
     "logo": "https://moddbcdn.vintagestory.at/roll-icon_5e05625f7478693789536547eb31ca1a.png"
   },
   {
+    "modid": 8192,
     "modidstrs": [
       "blushandbins"
     ],
@@ -848,6 +954,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Copy+of+Blush+%282%29_a2549a1b4b7cdb9399a9fe79ecc83af6.png"
   },
   {
+    "modid": 8188,
     "modidstrs": [
       "betternutrition"
     ],
@@ -856,6 +963,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_470e7258993e5220c3f0fd29f7a9b0b8.png"
   },
   {
+    "modid": 8185,
     "modidstrs": [
       "chiselreborn"
     ],
@@ -864,6 +972,7 @@
     "logo": "https://moddbcdn.vintagestory.at/iconsite_d762e8e67aa2867db24e4845af06ff3a.png"
   },
   {
+    "modid": 8184,
     "modidstrs": [
       "customwindowstorage"
     ],
@@ -872,6 +981,7 @@
     "logo": "https://moddbcdn.vintagestory.at/CWS+480x320_ce74297f96e05a39b7ced8994f166acb.png"
   },
   {
+    "modid": 8177,
     "modidstrs": [
       "aldiclassesnonegatives"
     ],
@@ -880,6 +990,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes2+480x3_a0f42826a3097c45927f491d2bfb2806.png"
   },
   {
+    "modid": 8174,
     "modidstrs": [
       "naac"
     ],
@@ -888,6 +999,7 @@
     "logo": "https://moddbcdn.vintagestory.at/naac-cover_121c7a5232123b19392b50830f5e64f1.png"
   },
   {
+    "modid": 8169,
     "modidstrs": [
       "volumetricshadingreglued"
     ],
@@ -896,6 +1008,7 @@
     "logo": null
   },
   {
+    "modid": 8163,
     "modidstrs": [
       "canevents"
     ],
@@ -904,6 +1017,7 @@
     "logo": "https://moddbcdn.vintagestory.at/events_cdab068c7d2cdac9b80393e2bfce3a47.png"
   },
   {
+    "modid": 8162,
     "modidstrs": [
       "chiselgridmod"
     ],
@@ -912,6 +1026,7 @@
     "logo": "https://moddbcdn.vintagestory.at/chiselgridlogo_76dbb21673e21b914a3ec716c3f2c98f.png"
   },
   {
+    "modid": 8160,
     "modidstrs": [
       "hunterbackpackprogression"
     ],
@@ -920,6 +1035,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_e6d6da765d5a158361865fd0b52478a1.png"
   },
   {
+    "modid": 8158,
     "modidstrs": [
       "wilderlandscustomsealevel"
     ],
@@ -928,6 +1044,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Custom+Sea+Level+3_7ed98a4d25b47359a525b12081548de1.png"
   },
   {
+    "modid": 8157,
     "modidstrs": [
       "cavesonlyores"
     ],
@@ -936,6 +1053,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2026-04-16_21-44-29__dc8d5b8485c900dd71f7c69a06fdd8f4.png"
   },
   {
+    "modid": 8156,
     "modidstrs": [
       "nomusicinterruptionmod"
     ],
@@ -944,6 +1062,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modthumbnail_87f376e0b5991894835c939a49d29dc2.png"
   },
   {
+    "modid": 8146,
     "modidstrs": [
       "kcsdragons"
     ],
@@ -952,6 +1071,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon-kcsdragons_aaa783546625544692f0000809d62a04.png"
   },
   {
+    "modid": 8144,
     "modidstrs": [
       "smeltableflinttoolheads"
     ],
@@ -960,6 +1080,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_9d797b93685f14ab25c23f233cdca5bf.png"
   },
   {
+    "modid": 8141,
     "modidstrs": [
       "cz4tech"
     ],
@@ -968,6 +1089,7 @@
     "logo": null
   },
   {
+    "modid": 8136,
     "modidstrs": [
       "chiseltoolslitedurabilitytweaks"
     ],
@@ -976,6 +1098,7 @@
     "logo": null
   },
   {
+    "modid": 8135,
     "modidstrs": [
       "tradersbuycrops"
     ],
@@ -984,6 +1107,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogo_c6bc240608ac15cd5db588cbfa7ccb87.png"
   },
   {
+    "modid": 8130,
     "modidstrs": [
       "gamepadcontrols"
     ],
@@ -992,6 +1116,7 @@
     "logo": null
   },
   {
+    "modid": 8127,
     "modidstrs": [
       "blushlibrary"
     ],
@@ -1000,6 +1125,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Copy+of+Blush_eea1b5133b840dc1acd6828842879d1c.png"
   },
   {
+    "modid": 8126,
     "modidstrs": [
       "copperheadsrecycling",
       "recyclablecopperspearandarrowheads"
@@ -1009,6 +1135,7 @@
     "logo": "https://moddbcdn.vintagestory.at/a%2Bsh+recyclable_24eab55a794e10c429d5545b8a19428f.png"
   },
   {
+    "modid": 8120,
     "modidstrs": [
       "meapineappleturpentine"
     ],
@@ -1017,6 +1144,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_4e6a995ac8a121d86d47ae4a7e9e506b.png"
   },
   {
+    "modid": 8118,
     "modidstrs": [
       "miningsuppliesinminingbag5",
       "miningsuppliesinminingbag6"
@@ -1026,6 +1154,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_1019bd31836f8b759a5cc2b36b078b3b.png"
   },
   {
+    "modid": 8117,
     "modidstrs": [
       "expandedgladius"
     ],
@@ -1034,6 +1163,7 @@
     "logo": "https://moddbcdn.vintagestory.at/EG_641877c258ca71f0f6a7e17ae9e5d2e0.png"
   },
   {
+    "modid": 8114,
     "modidstrs": [
       "suggestswitchmemory"
     ],
@@ -1042,6 +1172,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SuggestSavedMemoryLo_8c340e010a4d6d11bebe9369cf4fdbe2.png"
   },
   {
+    "modid": 8113,
     "modidstrs": [
       "botaniastory"
     ],
@@ -1050,6 +1181,7 @@
     "logo": "https://moddbcdn.vintagestory.at/480x480_f5f7dbb1450d3ce06677cde7177164cc_480_320.png"
   },
   {
+    "modid": 8112,
     "modidstrs": [
       "mobsdropmetalbits"
     ],
@@ -1058,6 +1190,7 @@
     "logo": "https://moddbcdn.vintagestory.at/mdmb+new_fb79c9da535088cb82948737230dd508.png"
   },
   {
+    "modid": 8109,
     "modidstrs": [
       "vibrantglassquartzed"
     ],
@@ -1066,6 +1199,7 @@
     "logo": "https://moddbcdn.vintagestory.at/iconCROPPEDandDEMOTE_7295b74dfd42d69d9041617c95867c5d.png"
   },
   {
+    "modid": 8098,
     "modidstrs": [
       "autowalkextended"
     ],
@@ -1074,6 +1208,7 @@
     "logo": "https://moddbcdn.vintagestory.at/autowalkextended_d924656aa33bc451a6cc1962144e8f4c.jpg"
   },
   {
+    "modid": 8097,
     "modidstrs": [
       "limitbagslots"
     ],
@@ -1082,6 +1217,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon_903c51df5a637d35b16b23056146d45f_480_320.png"
   },
   {
+    "modid": 8096,
     "modidstrs": [
       "horessentialswatersheds",
       "watershedshoressentials"
@@ -1091,6 +1227,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HoR_2bd9c4e3d7a666571831e2c479ba598e.png"
   },
   {
+    "modid": 8095,
     "modidstrs": [
       "clicktoggle",
       "clicktogglenet8"
@@ -1100,6 +1237,7 @@
     "logo": "https://moddbcdn.vintagestory.at/clickToggleModBanner_6cc687858a0fe65755b27b8de94cbfae.jpg"
   },
   {
+    "modid": 8092,
     "modidstrs": [
       "fallingtrees",
       "treefellas"
@@ -1109,6 +1247,7 @@
     "logo": null
   },
   {
+    "modid": 8091,
     "modidstrs": [
       "vsyasguimod"
     ],
@@ -1117,6 +1256,7 @@
     "logo": null
   },
   {
+    "modid": 8090,
     "modidstrs": [
       "dilkonis"
     ],
@@ -1125,6 +1265,7 @@
     "logo": "https://moddbcdn.vintagestory.at/dilkmodicon_c9a130547a5a4b281bcfc99fbb5d30ee.png"
   },
   {
+    "modid": 8089,
     "modidstrs": [
       "elshadowsp"
     ],
@@ -1133,6 +1274,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_TheShadowFan_5639aa0276d5d4f937469e991cf7ac9b.png"
   },
   {
+    "modid": 8083,
     "modidstrs": [
       "playerinventorylib"
     ],
@@ -1141,6 +1283,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_73ae612fb04ed9c3d164605f0192bfc0.png"
   },
   {
+    "modid": 8082,
     "modidstrs": [
       "industrialdeco"
     ],
@@ -1149,6 +1292,7 @@
     "logo": "https://moddbcdn.vintagestory.at/industdeco_b87960a41a836a7116a07188b3b3e241.png"
   },
   {
+    "modid": 8081,
     "modidstrs": [
       "torturedevices"
     ],
@@ -1157,6 +1301,7 @@
     "logo": "https://moddbcdn.vintagestory.at/torturedevicesthumb_bf9e85307ed84d50335d4192e158e48a.png"
   },
   {
+    "modid": 8073,
     "modidstrs": [
       "extraruins"
     ],
@@ -1165,6 +1310,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_a0da02377be08de7376accbe6aa6fdb5.png"
   },
   {
+    "modid": 8071,
     "modidstrs": [
       "speartrajectory"
     ],
@@ -1173,6 +1319,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_4800b94d42796ca1541d2caadbf3be8a.png"
   },
   {
+    "modid": 8068,
     "modidstrs": [
       "craftablesticksmodern"
     ],
@@ -1181,6 +1328,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Screenshot_1_6baf51a7d3c8f643ff66f93731a67758.png"
   },
   {
+    "modid": 8066,
     "modidstrs": [
       "gothicmusic3"
     ],
@@ -1189,6 +1337,7 @@
     "logo": "https://moddbcdn.vintagestory.at/part+3_f40ee5d10103812cec48e496401d9e98.png"
   },
   {
+    "modid": 8063,
     "modidstrs": [
       "yetanotherarrowheadmold"
     ],
@@ -1197,6 +1346,7 @@
     "logo": "https://moddbcdn.vintagestory.at/YAAM_c6897bbbb90d97d0464861623174b376.png"
   },
   {
+    "modid": 8058,
     "modidstrs": [
       "bixo"
     ],
@@ -1205,6 +1355,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Bix3_178305c2e9ca70d9097aeab3e8940206.png"
   },
   {
+    "modid": 8056,
     "modidstrs": [
       "cropforecaster"
     ],
@@ -1213,6 +1364,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modcover_dd4f4c21da11e20ed6c370dd4e34be32.png"
   },
   {
+    "modid": 8055,
     "modidstrs": [
       "meapineapplefatcandle"
     ],
@@ -1221,6 +1373,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_a415163d68427bdfa4d4303eedea7691.png"
   },
   {
+    "modid": 8054,
     "modidstrs": [
       "sapglasscraft"
     ],
@@ -1229,6 +1382,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_vs_ext_d95d42b1acf587dbf086ecdd8aaa9d70.png"
   },
   {
+    "modid": 8052,
     "modidstrs": [
       "darkerwalnut"
     ],
@@ -1237,6 +1391,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HouseLogo_6ee3e136385320941acff374b75700fc.png"
   },
   {
+    "modid": 8051,
     "modidstrs": [
       "vibrantglass"
     ],
@@ -1245,6 +1400,7 @@
     "logo": "https://moddbcdn.vintagestory.at/iconCROPPEDandDEMOTE_120cb2fc408b9b56b4b9a7645a07e4b8.png"
   },
   {
+    "modid": 8043,
     "modidstrs": [
       "curefirewood"
     ],
@@ -1253,6 +1409,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBicon_244318529092b3fb305403bb029a14b5.png"
   },
   {
+    "modid": 8042,
     "modidstrs": [
       "grindablebonearrows"
     ],
@@ -1261,6 +1418,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_df43d65e1652ffdfb94ab2a37b85c655.png"
   },
   {
+    "modid": 8038,
     "modidstrs": [
       "foodpreferences"
     ],
@@ -1269,6 +1427,7 @@
     "logo": "https://moddbcdn.vintagestory.at/food+preferences+new_0097495549f200ae10bc90fec097e3e4.png"
   },
   {
+    "modid": 8036,
     "modidstrs": [
       "careersnotclasses"
     ],
@@ -1277,6 +1436,7 @@
     "logo": "https://moddbcdn.vintagestory.at/common-aritocrat_88e35489f695a162730c95145acba5af.png"
   },
   {
+    "modid": 8030,
     "modidstrs": [
       "yolsoreobfuscator"
     ],
@@ -1285,6 +1445,7 @@
     "logo": null
   },
   {
+    "modid": 8029,
     "modidstrs": [
       "tseasonedfirewood"
     ],
@@ -1293,6 +1454,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SeasonedFirewood+ICO_fb306da7b70d557ae1e639b65f397558.png"
   },
   {
+    "modid": 8026,
     "modidstrs": [
       "thetruearchimedesscrew"
     ],
@@ -1301,6 +1463,7 @@
     "logo": "https://moddbcdn.vintagestory.at/AI_colourized_source_10daee306563b9b621be8dad114dd5e4.png"
   },
   {
+    "modid": 8014,
     "modidstrs": [
       "ppplogsforash"
     ],
@@ -1309,6 +1472,7 @@
     "logo": "https://moddbcdn.vintagestory.at/PPPLFA_a21547201db9a538ffbc6da770d3b48a.png"
   },
   {
+    "modid": 8007,
     "modidstrs": [
       "plainpotashprocess"
     ],
@@ -1317,6 +1481,7 @@
     "logo": "https://moddbcdn.vintagestory.at/PPP_c21c969f7d1456d2f8bd2f566b32f661.png"
   },
   {
+    "modid": 8003,
     "modidstrs": [
       "fulldropunofficial"
     ],
@@ -1325,6 +1490,7 @@
     "logo": "https://moddbcdn.vintagestory.at/480x480-fulldrop-log_9d2edb984297992632ec62ed9232eee8.png"
   },
   {
+    "modid": 7992,
     "modidstrs": [
       "wolpsocks"
     ],
@@ -1333,6 +1499,7 @@
     "logo": "https://moddbcdn.vintagestory.at/titlecard_bec10af29820090e41b41dd44a9e03e2.png"
   },
   {
+    "modid": 7991,
     "modidstrs": [
       "minorbackpackupgrade"
     ],
@@ -1341,6 +1508,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_fe20e9f49f8aa5a56a69b38614bc3ae3.png"
   },
   {
+    "modid": 7988,
     "modidstrs": [
       "gothicmusic2"
     ],
@@ -1349,6 +1517,7 @@
     "logo": "https://moddbcdn.vintagestory.at/part+2_0724656aea5595a70ffe3705ce51c2bb.png"
   },
   {
+    "modid": 7987,
     "modidstrs": [
       "gothicmusic1"
     ],
@@ -1357,6 +1526,7 @@
     "logo": "https://moddbcdn.vintagestory.at/part+1_4229cb7d05cec4090d5cd1a05a2ef150.png"
   },
   {
+    "modid": 7981,
     "modidstrs": [
       "nogravel"
     ],
@@ -1365,6 +1535,7 @@
     "logo": null
   },
   {
+    "modid": 7979,
     "modidstrs": [
       "bpas"
     ],
@@ -1373,6 +1544,7 @@
     "logo": null
   },
   {
+    "modid": 7978,
     "modidstrs": [
       "vintagestorysurroundsound"
     ],
@@ -1381,6 +1553,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb_48392e60083ff0bf1e164fba25672f71.png"
   },
   {
+    "modid": 7976,
     "modidstrs": [
       "freeroamcam"
     ],
@@ -1389,6 +1562,7 @@
     "logo": "https://moddbcdn.vintagestory.at/FreeRoamCam_ce9574aeee28bcac6be073196952c6e4.png"
   },
   {
+    "modid": 7966,
     "modidstrs": [
       "warmweathereffects"
     ],
@@ -1397,6 +1571,7 @@
     "logo": "https://moddbcdn.vintagestory.at/FrontLogo_c9b86c676ea78c6f6bfcb07d714b038a.png"
   },
   {
+    "modid": 7964,
     "modidstrs": [
       "prospectingscanlite"
     ],
@@ -1405,6 +1580,7 @@
     "logo": "https://moddbcdn.vintagestory.at/pslite_96795226668e40d0269d83add1a75fc5.png"
   },
   {
+    "modid": 7938,
     "modidstrs": [
       "differentfibre"
     ],
@@ -1413,6 +1589,7 @@
     "logo": "https://moddbcdn.vintagestory.at/DF_d7b05335fb6b219bed8f1f441e96b52f.png"
   },
   {
+    "modid": 7934,
     "modidstrs": [
       "itemraritytemp"
     ],
@@ -1421,6 +1598,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cover_2f4f7ee85a7917b4cd32851cd6bbfc86.png"
   },
   {
+    "modid": 7926,
     "modidstrs": [
       "bitzartuitweaks",
       "uitweaks"
@@ -1430,6 +1608,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-preview-smol_48550535b8c45059429859c24a1fbe10.png"
   },
   {
+    "modid": 7924,
     "modidstrs": [
       "pinelogsfortannin"
     ],
@@ -1438,6 +1617,7 @@
     "logo": "https://moddbcdn.vintagestory.at/PLFT_15e62de5145341128502ddb1250edd0b.png"
   },
   {
+    "modid": 7920,
     "modidstrs": [
       "subtleparticlesplus"
     ],
@@ -1446,6 +1626,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SubtlePPLogo480_ce0351a87f9844b01ced1d7194d35187.png"
   },
   {
+    "modid": 7918,
     "modidstrs": [
       "locustdrider"
     ],
@@ -1454,6 +1635,7 @@
     "logo": "https://moddbcdn.vintagestory.at/drocust_e6a38c9810d7d675fadb74f72c6019b6.png"
   },
   {
+    "modid": 7908,
     "modidstrs": [
       "saltyseawater"
     ],
@@ -1462,6 +1644,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SS_33f3ed49cdce67fc515e4cc2424cce6d.png"
   },
   {
+    "modid": 7907,
     "modidstrs": [
       "scalesoundreplacersciohan"
     ],
@@ -1470,6 +1653,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_2d09b8ff65ae4a19c961e438719b6984.png"
   },
   {
+    "modid": 7904,
     "modidstrs": [
       "hortoastlib"
     ],
@@ -1478,6 +1662,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7903,
     "modidstrs": [
       "horteleporter"
     ],
@@ -1486,6 +1671,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HoR_2bd9c4e3d7a666571831e2c479ba598e.png"
   },
   {
+    "modid": 7902,
     "modidstrs": [
       "hortankardsandgobletspatch122"
     ],
@@ -1494,6 +1680,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7901,
     "modidstrs": [
       "horsmithingpluscompat"
     ],
@@ -1502,6 +1689,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7899,
     "modidstrs": [
       "horpurposefulstorage"
     ],
@@ -1510,6 +1698,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7897,
     "modidstrs": [
       "horkevinsfurniture"
     ],
@@ -1518,6 +1707,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7896,
     "modidstrs": [
       "horjonasboat"
     ],
@@ -1526,6 +1716,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7894,
     "modidstrs": [
       "horforgottenarmorypatch122"
     ],
@@ -1534,6 +1725,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7893,
     "modidstrs": [
       "horfoodshelves"
     ],
@@ -1542,6 +1734,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7890,
     "modidstrs": [
       "hordecorbazaarcompat"
     ],
@@ -1550,6 +1743,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7887,
     "modidstrs": [
       "horbottomsuppatch122"
     ],
@@ -1558,6 +1752,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7886,
     "modidstrs": [
       "horairshipscompat"
     ],
@@ -1566,6 +1761,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7885,
     "modidstrs": [
       "horshim"
     ],
@@ -1574,6 +1770,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HoR_2bd9c4e3d7a666571831e2c479ba598e.png"
   },
   {
+    "modid": 7874,
     "modidstrs": [
       "iceiscellar"
     ],
@@ -1582,6 +1779,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cover_339d3e3612cd503b7f0d1e5f99acc9bb.png"
   },
   {
+    "modid": 7872,
     "modidstrs": [
       "birthsigns",
       "birthsignsfresh"
@@ -1591,6 +1789,7 @@
     "logo": "https://moddbcdn.vintagestory.at/birthsigns+abilities_07072c7b6b5725e7b8ffed9072e0d60d.png"
   },
   {
+    "modid": 7860,
     "modidstrs": [
       "tzpraisethesun"
     ],
@@ -1599,6 +1798,7 @@
     "logo": "https://moddbcdn.vintagestory.at/vstory_praisethesun__777fabfc93bde256bd224a95481d81cb.png"
   },
   {
+    "modid": 7859,
     "modidstrs": [
       "slutvival"
     ],
@@ -1607,6 +1807,7 @@
     "logo": null
   },
   {
+    "modid": 7856,
     "modidstrs": [
       "aldissam"
     ],
@@ -1615,6 +1816,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SAM_FORK_6158b2c830ecc9b0e4375fa50ae84be7.png"
   },
   {
+    "modid": 7853,
     "modidstrs": [
       "oresdroprocks"
     ],
@@ -1623,6 +1825,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_f49c9b6aec79dc0d01d93dc057c3c204.png"
   },
   {
+    "modid": 7852,
     "modidstrs": [
       "craftabletreehollows"
     ],
@@ -1631,6 +1834,7 @@
     "logo": "https://moddbcdn.vintagestory.at/preview_d8d85a46123258dc4edd54d74c99ab74.png"
   },
   {
+    "modid": 7846,
     "modidstrs": [
       "moreflooringpatternsopine"
     ],
@@ -1639,6 +1843,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_2e14243b9602ce02aa0295dc9afccba7_480_320.png"
   },
   {
+    "modid": 7839,
     "modidstrs": [
       "fixperishrate"
     ],
@@ -1647,6 +1852,7 @@
     "logo": "https://moddbcdn.vintagestory.at/fixperishrate_480_8f2336d4ae0f92062756e0c5e0dcd2cf.png"
   },
   {
+    "modid": 7838,
     "modidstrs": [
       "lunogridtweaks"
     ],
@@ -1655,6 +1861,7 @@
     "logo": null
   },
   {
+    "modid": 7837,
     "modidstrs": [
       "electricalprogressivetransport"
     ],
@@ -1663,6 +1870,7 @@
     "logo": "https://moddbcdn.vintagestory.at/transport+foto_ad9ecc5396802f2b7e2a912bb620f956.png"
   },
   {
+    "modid": 7831,
     "modidstrs": [
       "nighthallowcroftsong"
     ],
@@ -1671,6 +1879,7 @@
     "logo": "https://moddbcdn.vintagestory.at/vs-ost-meme-thumbnai_bcc10f45b1f2c4543511d602f6051a03.jpg"
   },
   {
+    "modid": 7817,
     "modidstrs": [
       "temporalvessels"
     ],
@@ -1679,6 +1888,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Logo+image_0af3c8ad432c276e00c5ca5700ecbc3c.png"
   },
   {
+    "modid": 7813,
     "modidstrs": [
       "axinmenugui"
     ],
@@ -1687,6 +1897,7 @@
     "logo": "https://moddbcdn.vintagestory.at/AcinMenuGui2_937a4c4422f95d40c12da3103c1f73b8.png"
   },
   {
+    "modid": 7809,
     "modidstrs": [
       "xinvtweaksfork"
     ],
@@ -1695,6 +1906,7 @@
     "logo": null
   },
   {
+    "modid": 7808,
     "modidstrs": [
       "shiverscanclimb"
     ],
@@ -1703,6 +1915,7 @@
     "logo": "https://moddbcdn.vintagestory.at/climb+2_fba44888ed00a773732ab7f7b1c09b6c.png"
   },
   {
+    "modid": 7807,
     "modidstrs": [
       "storagetweaks"
     ],
@@ -1711,6 +1924,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_9ff8654de34ecdadcf9d451855374075.png"
   },
   {
+    "modid": 7804,
     "modidstrs": [
       "ndlblocksslabsstairs"
     ],
@@ -1719,6 +1933,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NDLBlocksSlabsStairs_e636336b83142d46a546832f9bdc6bd8.png"
   },
   {
+    "modid": 7800,
     "modidstrs": [
       "climbabletreestrunks"
     ],
@@ -1727,6 +1942,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ClimbTrees_Mod_425dea42b50fd9155dfabc5f4677e6cd.png"
   },
   {
+    "modid": 7799,
     "modidstrs": [
       "algernonsterrainsampler"
     ],
@@ -1735,6 +1951,7 @@
     "logo": "https://moddbcdn.vintagestory.at/terrainsampler_cde08fedee4f0978cea89efd899dbd6b.png"
   },
   {
+    "modid": 7795,
     "modidstrs": [
       "critchersgrapplehook"
     ],
@@ -1743,6 +1960,7 @@
     "logo": "https://moddbcdn.vintagestory.at/CritchersGrapplingHo_5f15e5e84812076c6793f617ac930cd1.png"
   },
   {
+    "modid": 7787,
     "modidstrs": [
       "woodmushroomsinplantersmod"
     ],
@@ -1751,6 +1969,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ciw_480_103cb8455650437e1b8359fccc08f640.png"
   },
   {
+    "modid": 7784,
     "modidstrs": [
       "dingdong"
     ],
@@ -1759,6 +1978,7 @@
     "logo": "https://moddbcdn.vintagestory.at/mod-cover-dingdong_6fa9fdd1cfd78f0a202db9ad0274b297.png"
   },
   {
+    "modid": 7777,
     "modidstrs": [
       "fallingspawnmanager"
     ],
@@ -1767,6 +1987,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Fall+block+manager+l_65032dd646dfe3856b0b003cc5172124.png"
   },
   {
+    "modid": 7775,
     "modidstrs": [
       "ndlberrybushes"
     ],
@@ -1775,6 +1996,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NDLBerryBushesBackgr_9604377bc9c45265c76565d8007930d5.png"
   },
   {
+    "modid": 7773,
     "modidstrs": [
       "mahboihammering"
     ],
@@ -1783,6 +2005,7 @@
     "logo": "https://moddbcdn.vintagestory.at/mahboi-cropped-squar_bd0090a76551b446acfeff83dcfb021b.png"
   },
   {
+    "modid": 7766,
     "modidstrs": [
       "stickworks"
     ],
@@ -1791,6 +2014,7 @@
     "logo": "https://moddbcdn.vintagestory.at/screenshot_8317facca95c378c0823776cb92dbd88.png"
   },
   {
+    "modid": 7756,
     "modidstrs": [
       "hangingvessels"
     ],
@@ -1799,6 +2023,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_4ee8fd52382bd91afae1e5f11120b8fe.png"
   },
   {
+    "modid": 7755,
     "modidstrs": [
       "toolsmithfork"
     ],
@@ -1807,6 +2032,7 @@
     "logo": "https://moddbcdn.vintagestory.at/toolsmith+screen_e34ad8400fc80c93d4c2b25e794a15d7.png"
   },
   {
+    "modid": 7752,
     "modidstrs": [
       "willisabear"
     ],
@@ -1815,6 +2041,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modiconforpaget_f3acc1e722999b2620d42e5ceaf71d1a.png"
   },
   {
+    "modid": 7747,
     "modidstrs": [
       "controllermovementvs"
     ],
@@ -1823,6 +2050,7 @@
     "logo": "https://moddbcdn.vintagestory.at/controllermovementvs_91549c2505a4d4c9a4e1e4ff614ca1a7.png"
   },
   {
+    "modid": 7741,
     "modidstrs": [
       "farmlandnutrientmanagement"
     ],
@@ -1831,6 +2059,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_7a2c6b601f39cb7dd9a333606fff0a63.png"
   },
   {
+    "modid": 7739,
     "modidstrs": [
       "rollupbed"
     ],
@@ -1839,6 +2068,7 @@
     "logo": "https://moddbcdn.vintagestory.at/480x480_c950cfb94a0d5f7e968c8c59b369ef2a_480_320.png"
   },
   {
+    "modid": 7736,
     "modidstrs": [
       "portcullis"
     ],
@@ -1847,6 +2077,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_ca0f5f31b17c66c2121a240bc2df7922.png"
   },
   {
+    "modid": 7730,
     "modidstrs": [
       "locustsforall"
     ],
@@ -1855,6 +2086,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon-480x480_0cc63502e88b8afd6fb6a98be74c52b2.png"
   },
   {
+    "modid": 7726,
     "modidstrs": [
       "louderbears"
     ],
@@ -1863,6 +2095,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modiconforpaget_f3acc1e722999b2620d42e5ceaf71d1a.png"
   },
   {
+    "modid": 7706,
     "modidstrs": [
       "vanillapluspatch"
     ],
@@ -1871,6 +2104,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_ba918a547c28_838b58bacd07830bd9cbe302a6a21bdf.jpg"
   },
   {
+    "modid": 7704,
     "modidstrs": [
       "tersaphinoid"
     ],
@@ -1879,6 +2113,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon-mod_db_ffc018cc46fe4a8a7a35a0f3667dbbd5.png"
   },
   {
+    "modid": 7690,
     "modidstrs": [
       "xlibxaldisclasses"
     ],
@@ -1887,6 +2122,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_47767f01698500d2c472f264d00cac72.png"
   },
   {
+    "modid": 7688,
     "modidstrs": [
       "xskillgildedxadlisclasses"
     ],
@@ -1895,6 +2131,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_47767f01698500d2c472f264d00cac72.png"
   },
   {
+    "modid": 7687,
     "modidstrs": [
       "xskillsxaldisclasses"
     ],
@@ -1903,6 +2140,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_7bb8fadcbd1cb08ebbd1718ef9ddb731.png"
   },
   {
+    "modid": 7686,
     "modidstrs": [
       "chonkyvessels"
     ],
@@ -1911,6 +2149,7 @@
     "logo": "https://moddbcdn.vintagestory.at/medieval+frame+full+_b7a6f010c696573bf6f64cab821dcf6c.png"
   },
   {
+    "modid": 7685,
     "modidstrs": [
       "wootinganalogvs"
     ],
@@ -1919,6 +2158,7 @@
     "logo": "https://moddbcdn.vintagestory.at/wootinganalogvssmall_fc35c66ced4786e15311229958b755f5.png"
   },
   {
+    "modid": 7681,
     "modidstrs": [
       "germanrefined"
     ],
@@ -1927,6 +2167,7 @@
     "logo": "https://moddbcdn.vintagestory.at/image_2c18eb432d923a1a4273fc6e389ba53e.png"
   },
   {
+    "modid": 7676,
     "modidstrs": [
       "colliderslib"
     ],
@@ -1935,6 +2176,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_f88edcae6274136c12106720d24fa241.png"
   },
   {
+    "modid": 7666,
     "modidstrs": [
       "moreclothmodorsomething"
     ],
@@ -1943,6 +2185,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cover_17c87cd518f144b0f218cac293cbd778.png"
   },
   {
+    "modid": 7662,
     "modidstrs": [
       "analogmovementvs"
     ],
@@ -1951,6 +2194,7 @@
     "logo": "https://moddbcdn.vintagestory.at/analogmovementvssmal_5a1ed5db8f61957581c62d90b4dd7389.png"
   },
   {
+    "modid": 7661,
     "modidstrs": [
       "firearrows"
     ],
@@ -1959,6 +2203,7 @@
     "logo": "https://moddbcdn.vintagestory.at/firearrowsportrait_467b2c0ac1f70661bfd040f88e4a9834.png"
   },
   {
+    "modid": 7648,
     "modidstrs": [
       "fendragonsmc"
     ],
@@ -1967,6 +2212,7 @@
     "logo": "https://moddbcdn.vintagestory.at/title_405113086cba8af04a97aa597d49713e.jpg"
   },
   {
+    "modid": 7642,
     "modidstrs": [
       "stackscoolslower"
     ],
@@ -1975,6 +2221,7 @@
     "logo": null
   },
   {
+    "modid": 7633,
     "modidstrs": [
       "quenchsalvage"
     ],
@@ -1983,6 +2230,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_bc484ad9f3051321213a4039f9c2d8e6.png"
   },
   {
+    "modid": 7630,
     "modidstrs": [
       "realisticmonsterloot"
     ],
@@ -1991,6 +2239,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_2e17a79601826b696281259ddbf300f2.png"
   },
   {
+    "modid": 7629,
     "modidstrs": [
       "antiqueensemble"
     ],
@@ -1999,6 +2248,7 @@
     "logo": "https://moddbcdn.vintagestory.at/pixil-frame-0+%2828%29_c02b47dd1f41e2a49e795d4f1043535c.png"
   },
   {
+    "modid": 7628,
     "modidstrs": [
       "nocavemusic"
     ],
@@ -2007,6 +2257,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_922c5a23b21e4e0db298f626e6ed9fff.jpg"
   },
   {
+    "modid": 7620,
     "modidstrs": [
       "automaticforging"
     ],
@@ -2015,6 +2266,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Logo+_83973a28978ad030f7d2d6efca34e98d_480_320.png"
   },
   {
+    "modid": 7619,
     "modidstrs": [
       "lightninghighlight"
     ],
@@ -2023,6 +2275,7 @@
     "logo": "https://moddbcdn.vintagestory.at/lightningHightlight_26e72574cc574a0dd5dc190a618cf474.jpg"
   },
   {
+    "modid": 7618,
     "modidstrs": [
       "xlibfork"
     ],
@@ -2031,6 +2284,7 @@
     "logo": "https://moddbcdn.vintagestory.at/xlib+secondary+480p_a808b72830d6bb8084b321b0692355e1.jpg"
   },
   {
+    "modid": 7614,
     "modidstrs": [
       "ignisclothing"
     ],
@@ -2039,6 +2293,7 @@
     "logo": null
   },
   {
+    "modid": 7611,
     "modidstrs": [
       "wilderlandsspawnbound"
     ],
@@ -2047,6 +2302,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Spawnbou_af2fbc588d2681f9b720fcc17e2dad42.png"
   },
   {
+    "modid": 7610,
     "modidstrs": [
       "cheapermetalblocks"
     ],
@@ -2055,6 +2311,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_f174f8d6185e1e7a1e12916273963a0d.png"
   },
   {
+    "modid": 7605,
     "modidstrs": [
       "xskillsfork"
     ],
@@ -2063,6 +2320,7 @@
     "logo": "https://moddbcdn.vintagestory.at/xskills+secondary+48_ee7e75113355fb821e96041cfedfd65b.jpg"
   },
   {
+    "modid": 7604,
     "modidstrs": [
       "elivory"
     ],
@@ -2071,6 +2329,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_IvoryBonehiv_274547b084765b446d426b0eebc16b13.png"
   },
   {
+    "modid": 7599,
     "modidstrs": [
       "justvawts"
     ],
@@ -2079,6 +2338,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddblogo_743facb43e14614acb457f9da9a13026.png"
   },
   {
+    "modid": 7592,
     "modidstrs": [
       "prospectingscan"
     ],
@@ -2087,6 +2347,7 @@
     "logo": "https://moddbcdn.vintagestory.at/prospectingscan-480_998970a37881f5c438fa09b4a4ee87f4.png"
   },
   {
+    "modid": 7591,
     "modidstrs": [
       "customlatitude"
     ],
@@ -2095,6 +2356,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_05daba894e297d374508084695215567.png"
   },
   {
+    "modid": 7588,
     "modidstrs": [
       "biodiversity"
     ],
@@ -2103,6 +2365,7 @@
     "logo": "https://moddbcdn.vintagestory.at/BD_core_99509769915c0ff3a5700d99d9934b4a.png"
   },
   {
+    "modid": 7587,
     "modidstrs": [
       "horxskills"
     ],
@@ -2111,6 +2374,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7586,
     "modidstrs": [
       "horxlib"
     ],
@@ -2119,6 +2383,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDBLogoCompat_ddae938a487cd71170e91f68e6a4242a.png"
   },
   {
+    "modid": 7585,
     "modidstrs": [
       "horxskillsaddon"
     ],
@@ -2127,6 +2392,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HoR_2bd9c4e3d7a666571831e2c479ba598e.png"
   },
   {
+    "modid": 7583,
     "modidstrs": [
       "worldmapmasterreforged"
     ],
@@ -2135,6 +2401,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Screenshot+2026-03-1_073f4c0d423027f99d81537fe48aef4a.png"
   },
   {
+    "modid": 7581,
     "modidstrs": [
       "realisticpanningloot"
     ],
@@ -2143,6 +2410,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_297759ef5ce57ac8b4853fdf0400a9a4.png"
   },
   {
+    "modid": 7580,
     "modidstrs": [
       "bronzemeteoricmining"
     ],
@@ -2151,6 +2419,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_1a3698ac411bc43d5320489756ca79d6.png"
   },
   {
+    "modid": 7570,
     "modidstrs": [
       "morepaperrecipes"
     ],
@@ -2159,6 +2428,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_d733de325eaf7114ecb262b2ad2b0614.png"
   },
   {
+    "modid": 7569,
     "modidstrs": [
       "dryingspeedoverhaul"
     ],
@@ -2167,6 +2437,7 @@
     "logo": "https://moddbcdn.vintagestory.at/drying+icon_b0382aa466464224f89c59eb958c37a5.png"
   },
   {
+    "modid": 7561,
     "modidstrs": [
       "beamtweaksmod"
     ],
@@ -2175,6 +2446,7 @@
     "logo": "https://moddbcdn.vintagestory.at/beamconcept480x320_2f1228aa9b857a3952de69d10074df22.png"
   },
   {
+    "modid": 7548,
     "modidstrs": [
       "rustironintoscrap"
     ],
@@ -2183,6 +2455,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_a0fd2e70fe67935da0049375d203365f.png"
   },
   {
+    "modid": 7539,
     "modidstrs": [
       "mailboxtrade"
     ],
@@ -2191,6 +2464,7 @@
     "logo": "https://moddbcdn.vintagestory.at/drifter-delivery-480_5c13ae8e73a07e6fc1b13a2bdaa1cd99.png"
   },
   {
+    "modid": 7514,
     "modidstrs": [
       "morehudbars"
     ],
@@ -2199,6 +2473,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_a7b89994cfb0d116afa6103725678f56_480_320.png"
   },
   {
+    "modid": 7489,
     "modidstrs": [
       "kitchenfuel"
     ],
@@ -2207,6 +2482,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_0e6a2e893eb6929bcaf7bbd2d732fa58_480_320.png"
   },
   {
+    "modid": 7484,
     "modidstrs": [
       "tearitapart"
     ],
@@ -2215,6 +2491,7 @@
     "logo": "https://moddbcdn.vintagestory.at/images_1%281%29_dc63361f10d1f9b5f93ce4bb0501141e.png"
   },
   {
+    "modid": 7468,
     "modidstrs": [
       "wwaymarkersandmatneedspatch"
     ],
@@ -2223,6 +2500,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_0f2fa59608c34a695f922b9a290a39b8.png"
   },
   {
+    "modid": 7455,
     "modidstrs": [
       "geodesandmaterialneedspatch"
     ],
@@ -2231,6 +2509,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_a7a55393c5132589426b67a42eed6c31.png"
   },
   {
+    "modid": 7433,
     "modidstrs": [
       "chiselmore"
     ],
@@ -2239,6 +2518,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_0f11285a1c817b331e1cb0768f6f4f16.png"
   },
   {
+    "modid": 7431,
     "modidstrs": [
       "cryser"
     ],
@@ -2247,6 +2527,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_410daaef867c591a687b06714b84d1ee.png"
   },
   {
+    "modid": 7430,
     "modidstrs": [
       "fasterroots"
     ],
@@ -2255,6 +2536,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddblogo_2a3ab226e55d1f4f9d57f2979ba68b01.png"
   },
   {
+    "modid": 7425,
     "modidstrs": [
       "decoclockrevival"
     ],
@@ -2263,6 +2545,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_806c26179c74be91133d45ec0f4cd1cb.png"
   },
   {
+    "modid": 7421,
     "modidstrs": [
       "noswitchtogeneralondeath"
     ],
@@ -2271,6 +2554,7 @@
     "logo": null
   },
   {
+    "modid": 7407,
     "modidstrs": [
       "dairyplus"
     ],
@@ -2279,6 +2563,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo+resize_e900d46d05fc2d292c85418db3d6da2f.png"
   },
   {
+    "modid": 7406,
     "modidstrs": [
       "ithaniacannedgoods"
     ],
@@ -2287,6 +2572,7 @@
     "logo": "https://moddbcdn.vintagestory.at/IthaniaCannedGoodsLo_8492b6da224f0e1909a57c090c2574de.png"
   },
   {
+    "modid": 7387,
     "modidstrs": [
       "vintageriftclient"
     ],
@@ -2295,6 +2581,7 @@
     "logo": null
   },
   {
+    "modid": 7382,
     "modidstrs": [
       "gloommod"
     ],
@@ -2303,6 +2590,7 @@
     "logo": "https://moddbcdn.vintagestory.at/screen_5a0dc9e1e3de1e41e91f31bf7c55caa4.png"
   },
   {
+    "modid": 7368,
     "modidstrs": [
       "blushandblacksmith"
     ],
@@ -2311,6 +2599,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Blush+%282%29_da73887e23ba6f7fa817b5bed1b012be.png"
   },
   {
+    "modid": 7367,
     "modidstrs": [
       "chuteablequernv2"
     ],
@@ -2319,6 +2608,7 @@
     "logo": null
   },
   {
+    "modid": 7355,
     "modidstrs": [
       "metallurgy"
     ],
@@ -2327,6 +2617,7 @@
     "logo": "https://moddbcdn.vintagestory.at/480_e6cb0abdccbc5a3f39ec340cf2124498_480_320.png"
   },
   {
+    "modid": 7353,
     "modidstrs": [
       "featherclay"
     ],
@@ -2335,6 +2626,7 @@
     "logo": null
   },
   {
+    "modid": 7351,
     "modidstrs": [
       "wilderlandsechoes"
     ],
@@ -2343,6 +2635,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Echoes+L_549d9173acf41597057a5ad8d447f32e.png"
   },
   {
+    "modid": 7344,
     "modidstrs": [
       "tradingcards"
     ],
@@ -2351,6 +2644,7 @@
     "logo": "https://moddbcdn.vintagestory.at/STC_1eaba8e91d7fe56a410b53231d0fe859.png"
   },
   {
+    "modid": 7335,
     "modidstrs": [
       "windowstoragelib"
     ],
@@ -2359,6 +2653,7 @@
     "logo": "https://moddbcdn.vintagestory.at/WSL+480x320_7b74303b4261adeba4a9ab53e367669a.png"
   },
   {
+    "modid": 7325,
     "modidstrs": [
       "hydrateordiedrateptbr"
     ],
@@ -2367,6 +2662,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_8cde50b43a12056f3cf2234e5f749a97.png"
   },
   {
+    "modid": 7320,
     "modidstrs": [
       "wilderlandsadjustments"
     ],
@@ -2375,6 +2671,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Adjustme_926c09f0ca44b2df91ebe78d2489f1fc.png"
   },
   {
+    "modid": 7312,
     "modidstrs": [
       "warscythe"
     ],
@@ -2383,6 +2680,7 @@
     "logo": "https://moddbcdn.vintagestory.at/WS_2fb4f8c61459c622524165de915eda6d.png"
   },
   {
+    "modid": 7307,
     "modidstrs": [
       "felk4sale"
     ],
@@ -2391,6 +2689,7 @@
     "logo": "https://moddbcdn.vintagestory.at/treasurehuntersellsf_1e352f36dc9d7ff420a4f6d65124093b.png"
   },
   {
+    "modid": 7287,
     "modidstrs": [
       "deadlycleavers"
     ],
@@ -2399,6 +2698,7 @@
     "logo": "https://moddbcdn.vintagestory.at/DC_f4973a6e07f6c108eaa0e6590f91072a.png"
   },
   {
+    "modid": 7286,
     "modidstrs": [
       "watersheds"
     ],
@@ -2407,6 +2707,7 @@
     "logo": "https://moddbcdn.vintagestory.at/001_title_author_ani_94dfc2046c891d928268448faa994fa7.png"
   },
   {
+    "modid": 7281,
     "modidstrs": [
       "underwaterhorrors"
     ],
@@ -2415,6 +2716,7 @@
     "logo": "https://moddbcdn.vintagestory.at/serpent_logo+%281%29+%281%29_af5ef3436f79afd73317b0432133f3d9_480_320.jpg"
   },
   {
+    "modid": 7276,
     "modidstrs": [
       "translocatorlocatorredux"
     ],
@@ -2423,6 +2725,7 @@
     "logo": "https://moddbcdn.vintagestory.at/translocator-locator_079ce0b2688031b3e8d108c078ead716.png"
   },
   {
+    "modid": 7251,
     "modidstrs": [
       "coilsofropefromflax"
     ],
@@ -2431,6 +2734,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_dfa74acea905d1dee5665a2c25f304d7.png"
   },
   {
+    "modid": 7231,
     "modidstrs": [
       "bdcrop"
     ],
@@ -2439,6 +2743,7 @@
     "logo": "https://moddbcdn.vintagestory.at/BD_crops_75dc020c493c715b6e804c18d3b1061c.png"
   },
   {
+    "modid": 7229,
     "modidstrs": [
       "bdorchard"
     ],
@@ -2447,6 +2752,7 @@
     "logo": "https://moddbcdn.vintagestory.at/BD_orchards_5e564ab6ba98a77771530f6fac900632.png"
   },
   {
+    "modid": 7228,
     "modidstrs": [
       "bdtree"
     ],
@@ -2455,6 +2761,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_eb0e0d688d160e9cdfe676466bd95f97.png"
   },
   {
+    "modid": 7206,
     "modidstrs": [
       "simplesaltpetresolution"
     ],
@@ -2463,6 +2770,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SSS_2ca7e7d9d2d6b74a65159e6ed6381698.png"
   },
   {
+    "modid": 7197,
     "modidstrs": [
       "kkhungryalert"
     ],
@@ -2471,6 +2779,7 @@
     "logo": "https://moddbcdn.vintagestory.at/kkhungryalert_5f4c4a5b36c8d56ab8219cac6a256b16.png"
   },
   {
+    "modid": 7194,
     "modidstrs": [
       "raccoonplayermodeliiqh"
     ],
@@ -2479,6 +2788,7 @@
     "logo": "https://moddbcdn.vintagestory.at/480x480_906bc7aa1d20159bb52f1fd60e80db31.png"
   },
   {
+    "modid": 7193,
     "modidstrs": [
       "renderhatsthrougharmour"
     ],
@@ -2487,6 +2797,7 @@
     "logo": "https://moddbcdn.vintagestory.at/hatsimage_147232c68586f0a1f9c38276ebb689e1.png"
   },
   {
+    "modid": 7185,
     "modidstrs": [
       "jsonpatcheslib"
     ],
@@ -2495,6 +2806,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_90b469509d09a98d03619209d4e3ea2b.png"
   },
   {
+    "modid": 7178,
     "modidstrs": [
       "brblueprinttweaks"
     ],
@@ -2503,6 +2815,7 @@
     "logo": null
   },
   {
+    "modid": 7165,
     "modidstrs": [
       "lupinehair"
     ],
@@ -2511,6 +2824,7 @@
     "logo": "https://moddbcdn.vintagestory.at/dontaskme_976645f162b5899b1dd8c7a331733ecc.png"
   },
   {
+    "modid": 7157,
     "modidstrs": [
       "hazmatsuit"
     ],
@@ -2519,6 +2833,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_59a15a422fbd3352f1db1d3251e51043.png"
   },
   {
+    "modid": 7149,
     "modidstrs": [
       "ndltreehollows"
     ],
@@ -2527,6 +2842,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NDLTreeHollowsBackgr_e11b6ac9ee6ac73230d6679ce6558adb.png"
   },
   {
+    "modid": 7141,
     "modidstrs": [
       "antiqueharmony",
       "antiqueharmony1",
@@ -2537,6 +2853,7 @@
     "logo": "https://moddbcdn.vintagestory.at/pixil-frame-0%2823%29_b5121bfee8b3ca8bebe7846bda121d43.png"
   },
   {
+    "modid": 7131,
     "modidstrs": [
       "closedcaptions"
     ],
@@ -2545,6 +2862,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_15f5fe50e30d6221df2a96e8f3a92eba.png"
   },
   {
+    "modid": 7130,
     "modidstrs": [
       "honeybatchsqueeze"
     ],
@@ -2553,6 +2871,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_e551f0ce8a9aa1703ffe29ca5a132e37.png"
   },
   {
+    "modid": 7128,
     "modidstrs": [
       "vschunkreloader"
     ],
@@ -2561,6 +2880,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logoCut_86f83c7e1c816cef349adbf1018409e6.png"
   },
   {
+    "modid": 7111,
     "modidstrs": [
       "databasemanager"
     ],
@@ -2569,6 +2889,7 @@
     "logo": null
   },
   {
+    "modid": 7102,
     "modidstrs": [
       "waypointbeacon"
     ],
@@ -2577,6 +2898,7 @@
     "logo": "https://moddbcdn.vintagestory.at/WaypointBeaconModDB4_155c5b5619b96f0410616aa3402ccc7b.png"
   },
   {
+    "modid": 7095,
     "modidstrs": [
       "racialequalityexpanded"
     ],
@@ -2585,6 +2907,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2026-02-06_22-29-05+_1381087cae4c2b3f41091a41b77418c5.png"
   },
   {
+    "modid": 7087,
     "modidstrs": [
       "huganvilsagain"
     ],
@@ -2593,6 +2916,7 @@
     "logo": "https://moddbcdn.vintagestory.at/huganvilsagain_b068c6521e70c28d91e75ece8f0fedd0.gif"
   },
   {
+    "modid": 7079,
     "modidstrs": [
       "bowtornbyproducts"
     ],
@@ -2601,6 +2925,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+bbbb_bd221bbc4240a8d6ba8e46fd0949ac12.png"
   },
   {
+    "modid": 7036,
     "modidstrs": [
       "rustthermomod"
     ],
@@ -2609,6 +2934,7 @@
     "logo": null
   },
   {
+    "modid": 6998,
     "modidstrs": [
       "specializedclasses"
     ],
@@ -2617,6 +2943,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Specialized+Classes+_3a51127c1586c7c9edc8e03a2d0e8b1e.png"
   },
   {
+    "modid": 6989,
     "modidstrs": [
       "treetapredux"
     ],
@@ -2625,6 +2952,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2023-02-20_10-25-47__582cdf777f37c89dc6532f4e01a90180.png"
   },
   {
+    "modid": 6985,
     "modidstrs": [
       "aldiclassesdrunkenaddition"
     ],
@@ -2633,6 +2961,7 @@
     "logo": "https://moddbcdn.vintagestory.at/drunkard2+320_6a1aa88713d3046bb22fd16b7a5f1132.png"
   },
   {
+    "modid": 6965,
     "modidstrs": [
       "snailmail"
     ],
@@ -2641,6 +2970,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SnailMail_4df8b56d97a99cefd4df90aebf9999af.png"
   },
   {
+    "modid": 6954,
     "modidstrs": [
       "horessentials"
     ],
@@ -2649,6 +2979,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HoR_2bd9c4e3d7a666571831e2c479ba598e.png"
   },
   {
+    "modid": 6953,
     "modidstrs": [
       "horpatches"
     ],
@@ -2657,6 +2988,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HoR_2bd9c4e3d7a666571831e2c479ba598e.png"
   },
   {
+    "modid": 6942,
     "modidstrs": [
       "nutrientdisplay"
     ],
@@ -2665,6 +2997,7 @@
     "logo": null
   },
   {
+    "modid": 6895,
     "modidstrs": [
       "baconbaconbacon"
     ],
@@ -2673,6 +3006,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon_327caf35025728cc4254a1c1b62cfd6d.png"
   },
   {
+    "modid": 6880,
     "modidstrs": [
       "plushiemodpack"
     ],
@@ -2681,6 +3015,7 @@
     "logo": "https://moddbcdn.vintagestory.at/png233_3579df3047de46142d077fb2a695d712.png"
   },
   {
+    "modid": 6877,
     "modidstrs": [
       "conicalhotgear"
     ],
@@ -2689,6 +3024,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modbanner_a185abe8fece1cad408e07e9f1a22c73_480_320.png"
   },
   {
+    "modid": 6865,
     "modidstrs": [
       "gndhuntingdebuffs",
       "huntingdebuff"
@@ -2698,6 +3034,7 @@
     "logo": "https://moddbcdn.vintagestory.at/180px-Taxidermy-male_0dd602b09c08b7f6f68f6dd9db5af449.png"
   },
   {
+    "modid": 6861,
     "modidstrs": [
       "fallingdirt"
     ],
@@ -2706,6 +3043,7 @@
     "logo": null
   },
   {
+    "modid": 6856,
     "modidstrs": [
       "uniqueuniqueplatehelms2"
     ],
@@ -2714,6 +3052,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Screenshot+2026-01-2_b75d47df65b199a69b44c6f0b1102ed9.png"
   },
   {
+    "modid": 6854,
     "modidstrs": [
       "wgroundlayers"
     ],
@@ -2722,6 +3061,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Ground+L_532c13c7f34c1064899028f7c938b75f.png"
   },
   {
+    "modid": 6851,
     "modidstrs": [
       "stringsense"
     ],
@@ -2730,6 +3070,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Square+480x480_5f79d22e807253de45201a612b12ba8f.png"
   },
   {
+    "modid": 6850,
     "modidstrs": [
       "lastonline"
     ],
@@ -2738,6 +3079,7 @@
     "logo": "https://moddbcdn.vintagestory.at/LastOnline_Logo_d9a98fcbdbcb5bce8690a546808d6850.png"
   },
   {
+    "modid": 6837,
     "modidstrs": [
       "knitting"
     ],
@@ -2746,6 +3088,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Knitting+moddb+icon_4ca92c9a853b1c3842109e1d2997a8b9.png"
   },
   {
+    "modid": 6833,
     "modidstrs": [
       "backpacks"
     ],
@@ -2754,6 +3097,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_c7e2f235148847971ce823c1496e9098.png"
   },
   {
+    "modid": 6832,
     "modidstrs": [
       "radialhotgear"
     ],
@@ -2762,6 +3106,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modbanner_1ef1d2068118befb7f7c2a897f6fec20_480_320.png"
   },
   {
+    "modid": 6824,
     "modidstrs": [
       "opineuponpine"
     ],
@@ -2770,6 +3115,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDB+Logo+image_8ac5752d4847026367d505f461d78c7a.jpg"
   },
   {
+    "modid": 6820,
     "modidstrs": [
       "uniqueuniqueplatehelms"
     ],
@@ -2778,6 +3124,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2026-01-21_21-58-35_6eb848f35d90457f230843b5665346f0.png"
   },
   {
+    "modid": 6807,
     "modidstrs": [
       "fastpackeddirtpaths"
     ],
@@ -2786,6 +3133,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_1d9716d36c6a14734e5c8de88e19913f.png"
   },
   {
+    "modid": 6795,
     "modidstrs": [
       "grindstones"
     ],
@@ -2794,6 +3142,7 @@
     "logo": "https://moddbcdn.vintagestory.at/GrindstoneThumbnail_5b64dde6e2035233b0e3bdb582967c6b.png"
   },
   {
+    "modid": 6784,
     "modidstrs": [
       "nf3ttranslocatornavigator"
     ],
@@ -2802,6 +3151,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_41d3a9386ba4e78232c8fc1371e4f437.png"
   },
   {
+    "modid": 6770,
     "modidstrs": [
       "craftabletextureflipper"
     ],
@@ -2810,6 +3160,7 @@
     "logo": "https://moddbcdn.vintagestory.at/CraftableTextureFlip_54e737761f1607ab98fd96827ff1c53a.png"
   },
   {
+    "modid": 6764,
     "modidstrs": [
       "commandblockclientextmod"
     ],
@@ -2818,6 +3169,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnailcmd480_d783dbc48c748c04417857f502106289.png"
   },
   {
+    "modid": 6754,
     "modidstrs": [
       "uniquesallinone"
     ],
@@ -2826,6 +3178,7 @@
     "logo": "https://moddbcdn.vintagestory.at/allinone_db7e7c865d604ca178ec08b547151ff0.png"
   },
   {
+    "modid": 6721,
     "modidstrs": [
       "customplayermodel"
     ],
@@ -2834,6 +3187,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_5bcc4a0d7d7ae7a32d2029043e30f9c4.png"
   },
   {
+    "modid": 6711,
     "modidstrs": [
       "fuelbriquettes"
     ],
@@ -2842,6 +3196,7 @@
     "logo": "https://moddbcdn.vintagestory.at/FB_2d4664e1fe0d5ca7acffb5b7eadab3ba.png"
   },
   {
+    "modid": 6710,
     "modidstrs": [
       "vsvanillaplus"
     ],
@@ -2850,6 +3205,7 @@
     "logo": null
   },
   {
+    "modid": 6709,
     "modidstrs": [
       "butcheringseraphlevelingcompatibility"
     ],
@@ -2858,6 +3214,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_1ca840c2742e2fdfd3cad071addd52cd.png"
   },
   {
+    "modid": 6674,
     "modidstrs": [
       "realistictemperatures"
     ],
@@ -2866,6 +3223,7 @@
     "logo": "https://moddbcdn.vintagestory.at/coldNWet_1485ea2d4a923408d8d6293ba1296c2b.png"
   },
   {
+    "modid": 6662,
     "modidstrs": [
       "arachnoid",
       "vintagearachnoid"
@@ -2875,6 +3233,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Icon_5ec06817de7d3a41628c92a60b51b840.png"
   },
   {
+    "modid": 6661,
     "modidstrs": [
       "nf3ttranslocatorfindercmd"
     ],
@@ -2883,6 +3242,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_19096b07ca05fb1deab5b0dfbe451adb.png"
   },
   {
+    "modid": 6656,
     "modidstrs": [
       "noofflinecontainerfoodspoil"
     ],
@@ -2891,6 +3251,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDB+Card_99e77500822135694d92d8a6b1d47262.png"
   },
   {
+    "modid": 6650,
     "modidstrs": [
       "hungertweaks"
     ],
@@ -2899,6 +3260,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Hunger+Tweaks.V2_61d864cd66f881a76005bafb0531b39a.jpg"
   },
   {
+    "modid": 6642,
     "modidstrs": [
       "simplestarvation"
     ],
@@ -2907,6 +3269,7 @@
     "logo": "https://moddbcdn.vintagestory.at/title_c7d8411d639f7ab33be1fbc4ded76e8e.png"
   },
   {
+    "modid": 6623,
     "modidstrs": [
       "fendragonptr"
     ],
@@ -2915,6 +3278,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Tittle01_ba5d4466ac9cbcc841a3ad8a3dd2de6b.jpg"
   },
   {
+    "modid": 6617,
     "modidstrs": [
       "aldiclassessmallcreature"
     ],
@@ -2923,6 +3287,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes2+480x3_5976dd8e560543af5029f9db54c69119.png"
   },
   {
+    "modid": 6607,
     "modidstrs": [
       "mapper"
     ],
@@ -2931,6 +3296,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_5d78f3d68b3f2ac41596a5df3bc5e0f2.png"
   },
   {
+    "modid": 6587,
     "modidstrs": [
       "elkphysics"
     ],
@@ -2939,6 +3305,7 @@
     "logo": "https://moddbcdn.vintagestory.at/e1_0fbf09483cb07b5bc243076008643dee.png"
   },
   {
+    "modid": 6581,
     "modidstrs": [
       "resonatorrangeincrease"
     ],
@@ -2947,6 +3314,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Vintagestory+Screens_d62eaeb881c66e8c5e303f78f1d2f486_480_320.png"
   },
   {
+    "modid": 6564,
     "modidstrs": [
       "darkvision"
     ],
@@ -2955,6 +3323,7 @@
     "logo": "https://moddbcdn.vintagestory.at/darkvision+thumb_3d2e9671acc5443191e42dafbea3f705.jpg"
   },
   {
+    "modid": 6561,
     "modidstrs": [
       "ggbcsrepair"
     ],
@@ -2963,6 +3332,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_centered_57fc88ab901bfd7befa70d1e4789734f.png"
   },
   {
+    "modid": 6553,
     "modidstrs": [
       "p1nkstacksizes"
     ],
@@ -2971,6 +3341,7 @@
     "logo": "https://moddbcdn.vintagestory.at/P1nks+%281%29_001999c986e4e04a4198712e50eeb2db.png"
   },
   {
+    "modid": 6540,
     "modidstrs": [
       "moretuningcylinders"
     ],
@@ -2979,6 +3350,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Logo-Small_5df92cede6f303ee832702fa534baa7d.png"
   },
   {
+    "modid": 6538,
     "modidstrs": [
       "moredirslabs"
     ],
@@ -2987,6 +3359,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_2a6d37d149ee800c17d97a6e60772e7c.jpg"
   },
   {
+    "modid": 6523,
     "modidstrs": [
       "seraphleveling"
     ],
@@ -2995,6 +3368,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Seraph+Levelling+Log_811bcbe1cd1e2f61d5f3cd22aaed667d_480_320.png"
   },
   {
+    "modid": 6520,
     "modidstrs": [
       "favarangian"
     ],
@@ -3003,6 +3377,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_Varangian_08923fcfa06982415879396df0cc0855.png"
   },
   {
+    "modid": 6518,
     "modidstrs": [
       "lunchbox"
     ],
@@ -3011,6 +3386,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddbimage_b83da2c0e79bb812f07c48ecd1955808.png"
   },
   {
+    "modid": 6495,
     "modidstrs": [
       "playerlistrevived"
     ],
@@ -3019,6 +3395,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Vintagestory_4xvOs8i_f9a6a6fc334ea8ca32c5a2b5d32ca93b.png"
   },
   {
+    "modid": 6477,
     "modidstrs": [
       "exchangablejonasparts"
     ],
@@ -3027,6 +3404,7 @@
     "logo": "https://moddbcdn.vintagestory.at/LogoSmall_ab7829c57c00cc494cbe5df368e515ec.png"
   },
   {
+    "modid": 6462,
     "modidstrs": [
       "cindersandembers"
     ],
@@ -3035,6 +3413,7 @@
     "logo": "https://moddbcdn.vintagestory.at/CaE-logo_b71dfdf56cf23de914e9036546787c6d.png"
   },
   {
+    "modid": 6459,
     "modidstrs": [
       "placeonslabs"
     ],
@@ -3043,6 +3422,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modcard_2ad9a80fdadbcbf656b1d3e93d9a6989.jpg"
   },
   {
+    "modid": 6447,
     "modidstrs": [
       "steadygreenhouses"
     ],
@@ -3051,6 +3431,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Greenhouse+MS+Paint+_4a4780cb57927730bce1b9bf95d50439.png"
   },
   {
+    "modid": 6410,
     "modidstrs": [
       "vsstabilitysetter"
     ],
@@ -3059,6 +3440,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_3944f4c14775f0aaceb728ac2c525ba3.png"
   },
   {
+    "modid": 6406,
     "modidstrs": [
       "aldiclassesracepatch"
     ],
@@ -3067,6 +3449,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes+races+_3609c2434fc7006d6d45d822faec370e.png"
   },
   {
+    "modid": 6375,
     "modidstrs": [
       "mushroomhat"
     ],
@@ -3075,6 +3458,7 @@
     "logo": "https://moddbcdn.vintagestory.at/mush5_64c11a6edfb98de68f6d6828e5a2ae2e.png"
   },
   {
+    "modid": 6368,
     "modidstrs": [
       "elstoneforge"
     ],
@@ -3083,6 +3467,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_CindersOfSto_ac614c9632834e6c9f4e3cbf6399479e_480_320.png"
   },
   {
+    "modid": 6362,
     "modidstrs": [
       "forestfloor"
     ],
@@ -3091,6 +3476,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Forest_floor_%28close-_b23ddf17a02e72e400bb31a1733aa36c.png"
   },
   {
+    "modid": 6358,
     "modidstrs": [
       "vanillapanestorage"
     ],
@@ -3099,6 +3485,7 @@
     "logo": "https://moddbcdn.vintagestory.at/VPS+480x320_c024079308ed53b27eaf0ce404907d3f.png"
   },
   {
+    "modid": 6357,
     "modidstrs": [
       "buildingwands"
     ],
@@ -3107,6 +3494,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_9a17c0702292a16357f0b6c7a526ad17.png"
   },
   {
+    "modid": 6344,
     "modidstrs": [
       "ruderalisddr"
     ],
@@ -3115,6 +3503,7 @@
     "logo": null
   },
   {
+    "modid": 6340,
     "modidstrs": [
       "materialneedsgeology",
       "mngeology",
@@ -3126,6 +3515,7 @@
     "logo": "https://moddbcdn.vintagestory.at/materialneedsgeology_89710ff99b2c6a7bc6d0e1031c0e54d3.png"
   },
   {
+    "modid": 6333,
     "modidstrs": [
       "botanicalleathers"
     ],
@@ -3134,6 +3524,7 @@
     "logo": "https://moddbcdn.vintagestory.at/BotanicalLeathers_9dcc8e0465ace4e55f2a8ebd14602e0a.png"
   },
   {
+    "modid": 6312,
     "modidstrs": [
       "needleandthread"
     ],
@@ -3142,6 +3533,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+needlethread_f13b2c9da5da1f12201a6ce3e3df9289.png"
   },
   {
+    "modid": 6290,
     "modidstrs": [
       "abyssaldepths"
     ],
@@ -3150,6 +3542,7 @@
     "logo": "https://moddbcdn.vintagestory.at/AbyssalDepths_09e8053c570fed64eedb55e9f8e4cc3b.png"
   },
   {
+    "modid": 6271,
     "modidstrs": [
       "wenvironmentalstabilitypatch"
     ],
@@ -3158,6 +3551,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Environm_73aeb5caca3dc117f41ae49ab2c84025.png"
   },
   {
+    "modid": 6266,
     "modidstrs": [
       "traitacquirermoddedclasses"
     ],
@@ -3166,6 +3560,7 @@
     "logo": null
   },
   {
+    "modid": 6251,
     "modidstrs": [
       "awr"
     ],
@@ -3174,6 +3569,7 @@
     "logo": "https://moddbcdn.vintagestory.at/awr_5c30f8bad672953edd4940a3fb394ce7.png"
   },
   {
+    "modid": 6250,
     "modidstrs": [
       "antlerutilmod"
     ],
@@ -3182,6 +3578,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon_480_n_c3f5c4ce5ccba4fc22a854127cb99717.png"
   },
   {
+    "modid": 6243,
     "modidstrs": [
       "theremnantsreborn"
     ],
@@ -3190,6 +3587,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon480_4cc00ced77a5f3d5fee03d0d7c6af858.png"
   },
   {
+    "modid": 6242,
     "modidstrs": [
       "coriaendershaders"
     ],
@@ -3198,6 +3596,7 @@
     "logo": "https://moddbcdn.vintagestory.at/card_8c3b62034bb68dd81c0efdfc37ebc263.jpg"
   },
   {
+    "modid": 6206,
     "modidstrs": [
       "windowstorage"
     ],
@@ -3206,6 +3605,7 @@
     "logo": "https://moddbcdn.vintagestory.at/WS+480x320_16b1f7120f908e49186035e6696b5603.png"
   },
   {
+    "modid": 6196,
     "modidstrs": [
       "eternalstew",
       "perpetualstew"
@@ -3215,6 +3615,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_3e48ca6c74fceb561e9a97ed6be9e640.png"
   },
   {
+    "modid": 6194,
     "modidstrs": [
       "mossterpiece"
     ],
@@ -3223,6 +3624,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+mossterpiece_14731a5eb92f96cd7c2edffa96522718.png"
   },
   {
+    "modid": 6192,
     "modidstrs": [
       "trashbinned"
     ],
@@ -3231,6 +3633,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%285%29_a4260c418412c456aa6ff5f825ca903f.png"
   },
   {
+    "modid": 6178,
     "modidstrs": [
       "temporalslite"
     ],
@@ -3239,6 +3642,7 @@
     "logo": "https://moddbcdn.vintagestory.at/drifters3_ffa3976fdb8f5223ee27eb2a7c6c6053.png"
   },
   {
+    "modid": 6171,
     "modidstrs": [
       "manualfirestarter"
     ],
@@ -3247,6 +3651,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%284%29_0c8668ef0705231d755906a2e017f314.png"
   },
   {
+    "modid": 6164,
     "modidstrs": [
       "scoopofjammod"
     ],
@@ -3255,6 +3660,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumb480_jambread_n_76602b2e09e90e32a8d39ddb890d2d52.png"
   },
   {
+    "modid": 6153,
     "modidstrs": [
       "gimap"
     ],
@@ -3263,6 +3669,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon_f683362beb6d289bfdd8ca9f1fc1dc45.png"
   },
   {
+    "modid": 6147,
     "modidstrs": [
       "manualdishes"
     ],
@@ -3271,6 +3678,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%283%29_890ac6a28d6f8d490cf835060983e7f4.png"
   },
   {
+    "modid": 6133,
     "modidstrs": [
       "techblocker"
     ],
@@ -3279,6 +3687,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%281%29_4c5e1e8257b8c69a328972d70a8a4d7d.png"
   },
   {
+    "modid": 6129,
     "modidstrs": [
       "iceisice"
     ],
@@ -3287,6 +3696,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnail2_72af5cff28948735d3dab20bf3b13f90.png"
   },
   {
+    "modid": 6128,
     "modidstrs": [
       "coconutelkhoofsounds"
     ],
@@ -3295,6 +3705,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_12eb0775f110e4d3dbedd6fd79628126.png"
   },
   {
+    "modid": 6121,
     "modidstrs": [
       "eltrench"
     ],
@@ -3303,6 +3714,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_TheRustedTre_c61e7a9a8ff5465411cc251d0a2d4c4c.png"
   },
   {
+    "modid": 6115,
     "modidstrs": [
       "evenjugincrements121"
     ],
@@ -3311,6 +3723,7 @@
     "logo": "https://moddbcdn.vintagestory.at/evenjugincrements121_de40dcaed6db91f46eceea5fd2378007.jpg"
   },
   {
+    "modid": 6114,
     "modidstrs": [
       "ropetiable121"
     ],
@@ -3319,6 +3732,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ropetieablegen0121ic_a20507e599b660eb41606a379509d07f.jpg"
   },
   {
+    "modid": 6097,
     "modidstrs": [
       "insectoid"
     ],
@@ -3327,6 +3741,7 @@
     "logo": "https://moddbcdn.vintagestory.at/insectoidpmicon_553056aa56ec8e76932dffc7288f4a16.png"
   },
   {
+    "modid": 6078,
     "modidstrs": [
       "temporalityplus"
     ],
@@ -3335,6 +3750,7 @@
     "logo": "https://moddbcdn.vintagestory.at/fdfggjgjjk13ymkuy_d6a6f1a3e9d344fd30be08ece031f723.png"
   },
   {
+    "modid": 6074,
     "modidstrs": [
       "shotglasses"
     ],
@@ -3343,6 +3759,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon-moddb_a3bc36ce2a6bb28364dec806f76841a2.png"
   },
   {
+    "modid": 6068,
     "modidstrs": [
       "depositsimilar"
     ],
@@ -3351,6 +3768,7 @@
     "logo": "https://moddbcdn.vintagestory.at/mini_1_86877a5ecf516947e1e656ae406fabc2.png"
   },
   {
+    "modid": 6047,
     "modidstrs": [
       "noblooms"
     ],
@@ -3359,6 +3777,7 @@
     "logo": "https://moddbcdn.vintagestory.at/hate_6e5eb1327d4e382432dc9c4c5c3f0998.png"
   },
   {
+    "modid": 6046,
     "modidstrs": [
       "healingsprings"
     ],
@@ -3367,6 +3786,7 @@
     "logo": "https://moddbcdn.vintagestory.at/healing+springs4_5b2f5c4b6c117f746293c6fb996d3150.jpg"
   },
   {
+    "modid": 6036,
     "modidstrs": [
       "regenores"
     ],
@@ -3375,6 +3795,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_40454ee2d799ad4b5237629075ea5bc8.png"
   },
   {
+    "modid": 6018,
     "modidstrs": [
       "simplelamellar"
     ],
@@ -3383,6 +3804,7 @@
     "logo": "https://moddbcdn.vintagestory.at/sla-thumb_516e70fac687f35bc902cb2301647d3c.png"
   },
   {
+    "modid": 6004,
     "modidstrs": [
       "blackguardadditionsddr"
     ],
@@ -3391,6 +3813,7 @@
     "logo": null
   },
   {
+    "modid": 6002,
     "modidstrs": [
       "chandeliercraft"
     ],
@@ -3399,6 +3822,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_ddba1063b67bae5f9ebe147761f97b86.png"
   },
   {
+    "modid": 5994,
     "modidstrs": [
       "idlepause"
     ],
@@ -3407,6 +3831,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%289%29_8eadf8b6c420fc89ccfdd7d9cf533758.png"
   },
   {
+    "modid": 5993,
     "modidstrs": [
       "nogears"
     ],
@@ -3415,6 +3840,7 @@
     "logo": "https://moddbcdn.vintagestory.at/bcd12d08-7c9b-44e6-a_7411e1475ac796f976071314e4c3d7f6.jpg"
   },
   {
+    "modid": 5990,
     "modidstrs": [
       "aldiclassnt"
     ],
@@ -3423,6 +3849,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldisclassntsquaresm_29ea6d5edfb1c44c4c5151cdd060a680.png"
   },
   {
+    "modid": 5988,
     "modidstrs": [
       "characterinventorymaster"
     ],
@@ -3431,6 +3858,7 @@
     "logo": null
   },
   {
+    "modid": 5985,
     "modidstrs": [
       "scythefix"
     ],
@@ -3439,6 +3867,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Scythe-copper_a6ef5f0702f3db64b0241232cb68b521.png"
   },
   {
+    "modid": 5981,
     "modidstrs": [
       "uraniumexpanded"
     ],
@@ -3447,6 +3876,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Main+Image+with+Text_cf2e6fa555ebf31d06a16abc9b7b2ef6.png"
   },
   {
+    "modid": 5975,
     "modidstrs": [
       "wstonebound"
     ],
@@ -3455,6 +3885,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Stonebou_4cf3ac4ed03f0de780e8180dd0dcccd3.png"
   },
   {
+    "modid": 5972,
     "modidstrs": [
       "uruguayan1800sweaponry"
     ],
@@ -3463,6 +3894,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_f8c2bc9e90f90d9e3e016c468aaae9ec.png"
   },
   {
+    "modid": 5969,
     "modidstrs": [
       "worldoffortune"
     ],
@@ -3471,6 +3903,7 @@
     "logo": "https://moddbcdn.vintagestory.at/wof-thumb_c84a5df7e856414b013d62465273881e.png"
   },
   {
+    "modid": 5967,
     "modidstrs": [
       "elkvariants"
     ],
@@ -3479,6 +3912,7 @@
     "logo": "https://moddbcdn.vintagestory.at/elkvariantspic4_d6be3dfbe5d5bdfc7f2304526578ab6a.png"
   },
   {
+    "modid": 5945,
     "modidstrs": [
       "smb1x1doorvariants"
     ],
@@ -3487,6 +3921,7 @@
     "logo": "https://moddbcdn.vintagestory.at/smb1x1doorvariantslo_5e5025e8c9c60a293904ecd1d274adff.jpg"
   },
   {
+    "modid": 5943,
     "modidstrs": [
       "tungsten"
     ],
@@ -3495,6 +3930,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb_squared_7e9155a036c62ae30eb2fc21a3bfd421.png"
   },
   {
+    "modid": 5942,
     "modidstrs": [
       "optitime"
     ],
@@ -3503,6 +3939,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb_squared_b9f12365ccc53adeb5e751542dd1cb7d.png"
   },
   {
+    "modid": 5923,
     "modidstrs": [
       "fastpouring"
     ],
@@ -3511,6 +3948,7 @@
     "logo": null
   },
   {
+    "modid": 5922,
     "modidstrs": [
       "ndlmushroomgrowth"
     ],
@@ -3519,6 +3957,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MushroomModule%28480x3_b600ca4bea4385a842623eff692c1ac8.png"
   },
   {
+    "modid": 5919,
     "modidstrs": [
       "extremefirestartersreforged"
     ],
@@ -3527,6 +3966,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ExtremeFirestartsRef_a7f14e09cd9544964bf06d198b798567_480_320.png"
   },
   {
+    "modid": 5918,
     "modidstrs": [
       "climbmountain"
     ],
@@ -3535,6 +3975,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%288%29_19815d62796814b25a46f81998a84f93.png"
   },
   {
+    "modid": 5908,
     "modidstrs": [
       "signalslinkep"
     ],
@@ -3543,6 +3984,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SignalsLinkEP-title_c090ff20ea73f653ec25bd91a05d92ed.jpg"
   },
   {
+    "modid": 5907,
     "modidstrs": [
       "signalslink"
     ],
@@ -3551,6 +3993,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SignalsLink-title_c397e4fefd34e5ca99db7334a3136fa4.jpg"
   },
   {
+    "modid": 5896,
     "modidstrs": [
       "dragoniapatch"
     ],
@@ -3559,6 +4002,7 @@
     "logo": null
   },
   {
+    "modid": 5848,
     "modidstrs": [
       "lostandfound"
     ],
@@ -3567,6 +4011,7 @@
     "logo": "https://moddbcdn.vintagestory.at/laf_logo_text_78992352cf56c8ebdf70817e33f80d01.png"
   },
   {
+    "modid": 5842,
     "modidstrs": [
       "aldiclassespvppatch"
     ],
@@ -3575,6 +4020,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes2+480x3_546b39a872d492012912bf063b7500f3.png"
   },
   {
+    "modid": 5829,
     "modidstrs": [
       "pegasus"
     ],
@@ -3583,6 +4029,7 @@
     "logo": "https://moddbcdn.vintagestory.at/peg_413ee3c8679fb6e4732f759f9c1f733a.png"
   },
   {
+    "modid": 5823,
     "modidstrs": [
       "classoverhaul"
     ],
@@ -3591,6 +4038,7 @@
     "logo": "https://moddbcdn.vintagestory.at/klgndkrgf_5791651421d040345e81311c66e22dfe.png"
   },
   {
+    "modid": 5814,
     "modidstrs": [
       "hpspinningwheel",
       "spinningwheel"
@@ -3600,6 +4048,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modthumblogo_7acbf78bcb1846a8d0a41cf8a1fc6315.png"
   },
   {
+    "modid": 5799,
     "modidstrs": [
       "cavepainting"
     ],
@@ -3608,6 +4057,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%287%29_755d6cdb30eeda2d7a5a569b734d5830.png"
   },
   {
+    "modid": 5786,
     "modidstrs": [
       "aldiclassesallpatch"
     ],
@@ -3616,6 +4066,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes2+480x3_6405f6bc575ddeea8237c6ac327acc42.png"
   },
   {
+    "modid": 5779,
     "modidstrs": [
       "aldiclassesvanillapatch"
     ],
@@ -3624,6 +4075,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes2+480x3_b53f34635f6f6406a69e4ed29c640b31.png"
   },
   {
+    "modid": 5766,
     "modidstrs": [
       "jammorefruitin"
     ],
@@ -3632,6 +4084,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_12f3ebdaf3b93953628ee4342a722ab0.png"
   },
   {
+    "modid": 5765,
     "modidstrs": [
       "spookynights"
     ],
@@ -3640,6 +4093,7 @@
     "logo": "https://moddbcdn.vintagestory.at/miniature_480x320_d3ed6bb6d5d2a4c1104ec87f1bc44347.png"
   },
   {
+    "modid": 5754,
     "modidstrs": [
       "faviking"
     ],
@@ -3648,6 +4102,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_Viking_d42c94db449fae73d1e1542fc7b71a14.png"
   },
   {
+    "modid": 5751,
     "modidstrs": [
       "terrainslabs"
     ],
@@ -3656,6 +4111,7 @@
     "logo": "https://moddbcdn.vintagestory.at/tslogo2_1fe05e6815a16aac76874063332714a9.png"
   },
   {
+    "modid": 5746,
     "modidstrs": [
       "aldiclassesrppatch"
     ],
@@ -3664,6 +4120,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes2+480x3_2a35a4d8f4c9fb19da29e7a17ea492f7.png"
   },
   {
+    "modid": 5723,
     "modidstrs": [
       "lupinerace",
       "lupines"
@@ -3673,6 +4130,7 @@
     "logo": "https://moddbcdn.vintagestory.at/mini_69abd76881ee7f6425789e8604c34ba0.png"
   },
   {
+    "modid": 5701,
     "modidstrs": [
       "ndlflowergrowth"
     ],
@@ -3681,6 +4139,7 @@
     "logo": "https://moddbcdn.vintagestory.at/FlowerModule%28480x320_bb397b214886e95dece17dec81bbb4ca.png"
   },
   {
+    "modid": 5700,
     "modidstrs": [
       "ndlgrassgrowth"
     ],
@@ -3689,6 +4148,7 @@
     "logo": "https://moddbcdn.vintagestory.at/GrassModule%28480x320%29_aee90a1288cb2c02e24377ebc79ddb83.png"
   },
   {
+    "modid": 5699,
     "modidstrs": [
       "ndlcoralgrowth"
     ],
@@ -3697,6 +4157,7 @@
     "logo": "https://moddbcdn.vintagestory.at/CoralModule%28480x320%29_2a4321c7a184d21b893637ff3499a68f.png"
   },
   {
+    "modid": 5697,
     "modidstrs": [
       "ndltreegrowth"
     ],
@@ -3705,6 +4166,7 @@
     "logo": "https://moddbcdn.vintagestory.at/TreeModule%28480x320%29_ab9ae3f1cb248338ee4055d2c7f8d850.png"
   },
   {
+    "modid": 5691,
     "modidstrs": [
       "alternateelkhoofsounds"
     ],
@@ -3713,6 +4175,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_d700e0782b0189d1b7e2f136b746af56.png"
   },
   {
+    "modid": 5690,
     "modidstrs": [
       "waypoint"
     ],
@@ -3721,6 +4184,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%286%29_417078aeda187a2f445d9c9e2ad4851a.png"
   },
   {
+    "modid": 5686,
     "modidstrs": [
       "soilamendments"
     ],
@@ -3729,6 +4193,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_b3157f6b8a9e1efb2132f46db041d4f6.png"
   },
   {
+    "modid": 5672,
     "modidstrs": [
       "panningmachine"
     ],
@@ -3737,6 +4202,7 @@
     "logo": "https://moddbcdn.vintagestory.at/panningmachine_fba5f2bad13efbb73ac6748a8c265673.png"
   },
   {
+    "modid": 5654,
     "modidstrs": [
       "hidearmor"
     ],
@@ -3745,6 +4211,7 @@
     "logo": "https://moddbcdn.vintagestory.at/%D0%91%D0%B5%D0%B7+%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_b740e35da46654c0f3a59672d11be0f0.jpg"
   },
   {
+    "modid": 5624,
     "modidstrs": [
       "wolfeyes"
     ],
@@ -3753,6 +4220,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Thumbnail+classic+wo_8ceb1f20608a6bf7aca46e1157a933ad.png"
   },
   {
+    "modid": 5616,
     "modidstrs": [
       "longburningfirewood"
     ],
@@ -3761,6 +4229,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+lbf_d2f13ee9b723fc259d5962bff978129e.png"
   },
   {
+    "modid": 5597,
     "modidstrs": [
       "altarmor"
     ],
@@ -3769,6 +4238,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Alternative+armor2_f36670e507275ab2dc1e792967fbcc65.png"
   },
   {
+    "modid": 5577,
     "modidstrs": [
       "boricalchemy"
     ],
@@ -3777,6 +4247,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Untitled_9fb32f256f672c816292d8ef1d82b201.png"
   },
   {
+    "modid": 5574,
     "modidstrs": [
       "captions"
     ],
@@ -3785,6 +4256,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modbanner_53f08a54f9e01c9ceaf1ce458679872d.png"
   },
   {
+    "modid": 5557,
     "modidstrs": [
       "fluffydreg"
     ],
@@ -3793,6 +4265,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_c90fdbc30a981437ae3349cbfc3ee6cc_480_320.png"
   },
   {
+    "modid": 5551,
     "modidstrs": [
       "aldiclassesnakedpatch",
       "nakedaldis"
@@ -3802,6 +4275,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes2+480x3_d8f0a1c30b2713cc569d59629c6e1751.png"
   },
   {
+    "modid": 5548,
     "modidstrs": [
       "transmutableironbits",
       "transmutablemetalbits"
@@ -3811,6 +4285,7 @@
     "logo": "https://moddbcdn.vintagestory.at/00c45fad-e9fc-4592-8_f091cda675765bda0f2fd0b36af545ee.jpg"
   },
   {
+    "modid": 5529,
     "modidstrs": [
       "xskillsgilded"
     ],
@@ -3819,6 +4294,7 @@
     "logo": "https://moddbcdn.vintagestory.at/gilded+secondary_a8c527fc81e8b31a07ee5fa7d11fef8b.png"
   },
   {
+    "modid": 5492,
     "modidstrs": [
       "figurinesseasons"
     ],
@@ -3827,6 +4303,7 @@
     "logo": "https://moddbcdn.vintagestory.at/FS+480x320_bb3ee5288f890bed4cb5060200f0b055.png"
   },
   {
+    "modid": 5491,
     "modidstrs": [
       "wlunarbound"
     ],
@@ -3835,6 +4312,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Lunarbou_4b2292d79cbd34a62dded377c1e5b8a5.png"
   },
   {
+    "modid": 5468,
     "modidstrs": [
       "aldiclasseshandwrightpatch",
       "disablehandwright"
@@ -3844,6 +4322,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldis+classes2+480x3_ba32dabf0372f64e06506eebb12e08f5.png"
   },
   {
+    "modid": 5463,
     "modidstrs": [
       "xvshaders"
     ],
@@ -3852,6 +4331,7 @@
     "logo": "https://moddbcdn.vintagestory.at/newcard_fb7c96eeae77b04fff8170ba7d155f63.png"
   },
   {
+    "modid": 5455,
     "modidstrs": [
       "materialneeds",
       "morecolors"
@@ -3861,6 +4341,7 @@
     "logo": "https://moddbcdn.vintagestory.at/materialneeds_ee8539b019866229180c5c83613c9ea5.jpg"
   },
   {
+    "modid": 5438,
     "modidstrs": [
       "builderssofmen"
     ],
@@ -3869,6 +4350,7 @@
     "logo": "https://moddbcdn.vintagestory.at/BOMLOGO_38cab10de785df977d566e080a7ee3b9_480_320.png"
   },
   {
+    "modid": 5372,
     "modidstrs": [
       "homesteading"
     ],
@@ -3877,6 +4359,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+homesteader_498b6b1d9f364eb31282f335204f458e.png"
   },
   {
+    "modid": 5357,
     "modidstrs": [
       "meteoricsteel"
     ],
@@ -3885,6 +4368,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MSmodicon_480x320_68884d155bcfc67450cec70c2a37e928.png"
   },
   {
+    "modid": 5356,
     "modidstrs": [
       "wilderlandscavessystem"
     ],
@@ -3893,6 +4377,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Caves+Lo_72a27f4f7985375432eb31372db717ad.png"
   },
   {
+    "modid": 5355,
     "modidstrs": [
       "wilderlandsbehaviors"
     ],
@@ -3901,6 +4386,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Behavior_851bae3d48ce72635ac2eff1119b3c3b.png"
   },
   {
+    "modid": 5329,
     "modidstrs": [
       "bookends"
     ],
@@ -3909,6 +4395,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Bookends+480x320_d69141110b966479dc4ba9624ae9464c.png"
   },
   {
+    "modid": 5327,
     "modidstrs": [
       "aldiclasses"
     ],
@@ -3917,6 +4404,7 @@
     "logo": "https://moddbcdn.vintagestory.at/aldigeasy_abfa58f0aad25fddb593ce085d9a05f9.jpg"
   },
   {
+    "modid": 5310,
     "modidstrs": [
       "medievalarchitecture"
     ],
@@ -3925,6 +4413,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon_8d303362b7fb9683efbbf5a8a540c01f.jpg"
   },
   {
+    "modid": 5291,
     "modidstrs": [
       "craftfirepit"
     ],
@@ -3933,6 +4422,7 @@
     "logo": "https://moddbcdn.vintagestory.at/image+%283%29_63555d66245f9bdae327e603ba743bf6.png"
   },
   {
+    "modid": 5283,
     "modidstrs": [
       "fahussar"
     ],
@@ -3941,6 +4431,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_9af45162f46c07e29cebcd50040bf651.png"
   },
   {
+    "modid": 5277,
     "modidstrs": [
       "tackandequipment"
     ],
@@ -3949,6 +4440,7 @@
     "logo": "https://moddbcdn.vintagestory.at/tackicon_23de9af3f26fcf5ed912f2ebae1e4f4e.png"
   },
   {
+    "modid": 5208,
     "modidstrs": [
       "strongersediments"
     ],
@@ -3957,6 +4449,7 @@
     "logo": null
   },
   {
+    "modid": 5202,
     "modidstrs": [
       "putitinthebag"
     ],
@@ -3965,6 +4458,7 @@
     "logo": "https://moddbcdn.vintagestory.at/putitinthebagicon_ca41f60be04ed39ba3fd4443fe6355ee.png"
   },
   {
+    "modid": 5193,
     "modidstrs": [
       "tstweaks"
     ],
@@ -3973,6 +4467,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb+logo_025b74e093ae65074da5025453d46ad7.png"
   },
   {
+    "modid": 5180,
     "modidstrs": [
       "hungerpatcher",
       "hungrywhileinjured"
@@ -3982,6 +4477,7 @@
     "logo": null
   },
   {
+    "modid": 5163,
     "modidstrs": [
       "deskpictureframe"
     ],
@@ -3990,6 +4486,7 @@
     "logo": "https://moddbcdn.vintagestory.at/DPF+480x320_7b1f36de3ee519c9ebfdce16e011c92e.png"
   },
   {
+    "modid": 5152,
     "modidstrs": [
       "slings"
     ],
@@ -3998,6 +4495,7 @@
     "logo": "https://moddbcdn.vintagestory.at/%D0%91%D0%B5%D0%B7+%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_606d706b8970ecc32bdaf95b60f01c30.jpg"
   },
   {
+    "modid": 5147,
     "modidstrs": [
       "heraldrybanners"
     ],
@@ -4006,6 +4504,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HeraldryBanners_953de0d35694feb13a63d74d166cfded.png"
   },
   {
+    "modid": 5139,
     "modidstrs": [
       "changeclass"
     ],
@@ -4014,6 +4513,7 @@
     "logo": "https://moddbcdn.vintagestory.at/changeclass_8e05fdb4087aca8720b637ff02258640.png"
   },
   {
+    "modid": 5096,
     "modidstrs": [
       "electricalprogressiveindustry"
     ],
@@ -4022,6 +4522,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2025-09-15_22-16-55_e32ce4041a45ce2da05734e3eefdee49.png"
   },
   {
+    "modid": 5094,
     "modidstrs": [
       "starlessskies"
     ],
@@ -4030,6 +4531,7 @@
     "logo": "https://moddbcdn.vintagestory.at/starless+skies+NOT+h_ecfe6b982a47a79481204880c96a54c6.jpg"
   },
   {
+    "modid": 5073,
     "modidstrs": [
       "realsmokeforbraziers"
     ],
@@ -4038,6 +4540,7 @@
     "logo": "https://moddbcdn.vintagestory.at/image_4ca8e618b531580e1172a891f32b044c.png"
   },
   {
+    "modid": 5072,
     "modidstrs": [
       "realsmokeforancienttools"
     ],
@@ -4046,6 +4549,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Screenshot_20250914__3511c94cc4a59f697fde69445e7a71c7.png"
   },
   {
+    "modid": 5067,
     "modidstrs": [
       "truethirdperson"
     ],
@@ -4054,6 +4558,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_small_05e968f6be3cf78c0843e0dabc381b6f.png"
   },
   {
+    "modid": 5062,
     "modidstrs": [
       "fadynasties"
     ],
@@ -4062,6 +4567,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_b092bacc022b19900072f1521c0c7814.png"
   },
   {
+    "modid": 5031,
     "modidstrs": [
       "antisiezure"
     ],
@@ -4070,6 +4576,7 @@
     "logo": null
   },
   {
+    "modid": 4957,
     "modidstrs": [
       "fallingtree"
     ],
@@ -4078,6 +4585,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s_a0d8ee300ebc5eaa0e4b44a9b66d3e5e.png"
   },
   {
+    "modid": 4945,
     "modidstrs": [
       "canadditionalmetals"
     ],
@@ -4086,6 +4594,7 @@
     "logo": "https://moddbcdn.vintagestory.at/metals2_0e059650a18241762364c8e439020d66.png"
   },
   {
+    "modid": 4916,
     "modidstrs": [
       "bettererprospecting"
     ],
@@ -4094,6 +4603,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_db9278f27244b0f0c6d45abab8a94e07.png"
   },
   {
+    "modid": 4912,
     "modidstrs": [
       "repairmepatch"
     ],
@@ -4102,6 +4612,7 @@
     "logo": null
   },
   {
+    "modid": 4894,
     "modidstrs": [
       "vaultandroll"
     ],
@@ -4110,6 +4621,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%282%29_423a08bfc3eb589307cafea571c93f2e.png"
   },
   {
+    "modid": 4891,
     "modidstrs": [
       "foragersgamble"
     ],
@@ -4118,6 +4630,7 @@
     "logo": "https://moddbcdn.vintagestory.at/fglogo_725ff3a72e9060209ae3005d6454e73c.png"
   },
   {
+    "modid": 4871,
     "modidstrs": [
       "bettermoistureredux"
     ],
@@ -4126,6 +4639,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_d3380677f3f4083648d5fbe4f4f13f77.png"
   },
   {
+    "modid": 4864,
     "modidstrs": [
       "chiselwiz"
     ],
@@ -4134,6 +4648,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Y2og08p_87988a06c4b47cfc98d2360b8fac1fe8.png"
   },
   {
+    "modid": 4842,
     "modidstrs": [
       "heraldry"
     ],
@@ -4142,6 +4657,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Heraldry_0a1808e7018062aa8a933ed229993abc.png"
   },
   {
+    "modid": 4837,
     "modidstrs": [
       "crawlanddive"
     ],
@@ -4150,6 +4666,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%281%29_92eddffc619fe24e36ce52aad3a7cb7c.png"
   },
   {
+    "modid": 4836,
     "modidstrs": [
       "vsvoxelsniper"
     ],
@@ -4158,6 +4675,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_68a16a22fedf35414a45900380f62a45.png"
   },
   {
+    "modid": 4835,
     "modidstrs": [
       "crosshairoverlay"
     ],
@@ -4166,6 +4684,7 @@
     "logo": "https://moddbcdn.vintagestory.at/display_dfbd5f979edd6b59aa42c042446ff0a8_480_320.png"
   },
   {
+    "modid": 4823,
     "modidstrs": [
       "capes"
     ],
@@ -4174,6 +4693,7 @@
     "logo": "https://moddbcdn.vintagestory.at/HeraldryCapes_17806f2689fd324f21f257ea52cc0dee.png"
   },
   {
+    "modid": 4814,
     "modidstrs": [
       "koboldrdx"
     ],
@@ -4182,6 +4702,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2025-08-30_16-39-22_0c4b68f9592019efccf177d6ddbe9c80.png"
   },
   {
+    "modid": 4803,
     "modidstrs": [
       "solidskeps"
     ],
@@ -4190,6 +4711,7 @@
     "logo": "https://moddbcdn.vintagestory.at/480x2025-08-30_15-53_1280d36c76a2c570926e27950a06e7a9.png"
   },
   {
+    "modid": 4792,
     "modidstrs": [
       "figurines"
     ],
@@ -4198,6 +4720,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Figurines+480x320_28769f6e8ef54fdb60381b23d940727b.png"
   },
   {
+    "modid": 4776,
     "modidstrs": [
       "racialability"
     ],
@@ -4206,6 +4729,7 @@
     "logo": "https://moddbcdn.vintagestory.at/piniru_coc-addon_093293b53957f73a308dd8a88ae40e1b.png"
   },
   {
+    "modid": 4766,
     "modidstrs": [
       "sourceify"
     ],
@@ -4214,6 +4738,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Source-ify-Thumbnail_ab81a48dd8a4c1a821d7e238bf6793bf.png"
   },
   {
+    "modid": 4758,
     "modidstrs": [
       "maketeaforked"
     ],
@@ -4222,6 +4747,7 @@
     "logo": "https://moddbcdn.vintagestory.at/makeTeaLogo-Small_3add0bcceb3a64c595bf8d42426ba38a.png"
   },
   {
+    "modid": 4729,
     "modidstrs": [
       "temporalsreformed"
     ],
@@ -4230,6 +4756,7 @@
     "logo": "https://moddbcdn.vintagestory.at/drifters2_c05cb2aaddaf1786b2939373692b6a82.png"
   },
   {
+    "modid": 4696,
     "modidstrs": [
       "catchledge"
     ],
@@ -4238,6 +4765,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s_c42c9a8ee621372dcad25ea12b252d82.png"
   },
   {
+    "modid": 4690,
     "modidstrs": [
       "limestonefromcaves"
     ],
@@ -4246,6 +4774,7 @@
     "logo": null
   },
   {
+    "modid": 4684,
     "modidstrs": [
       "sawchiseling"
     ],
@@ -4254,6 +4783,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%281%29_5103b547ec0335b1b7e1673b0cd2713a.png"
   },
   {
+    "modid": 4668,
     "modidstrs": [
       "autotoolbar"
     ],
@@ -4262,6 +4792,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2_b9cc5581029078755299cfd769d4b2fd.png"
   },
   {
+    "modid": 4663,
     "modidstrs": [
       "nobonearrows"
     ],
@@ -4270,6 +4801,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_30304157ffd5028a9d293de6e20034fa.png"
   },
   {
+    "modid": 4661,
     "modidstrs": [
       "claimnavigator"
     ],
@@ -4278,6 +4810,7 @@
     "logo": "https://moddbcdn.vintagestory.at/title_abcc37e471c6017199464ba61bba286e.png"
   },
   {
+    "modid": 4651,
     "modidstrs": [
       "castaway"
     ],
@@ -4286,6 +4819,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_c4462123c19129044b538596467b04d9.png"
   },
   {
+    "modid": 4635,
     "modidstrs": [
       "falandsknecht"
     ],
@@ -4294,6 +4828,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_Landsknecht2_cfed319cbaf668be8f655780ebdc6797.png"
   },
   {
+    "modid": 4616,
     "modidstrs": [
       "racialequality"
     ],
@@ -4302,6 +4837,7 @@
     "logo": "https://moddbcdn.vintagestory.at/piniru_coc_b9fa8140d15e2db0e7f062a682acbf81.png"
   },
   {
+    "modid": 4610,
     "modidstrs": [
       "temporalstability"
     ],
@@ -4310,6 +4846,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumb_de40149669bb4e5363122620fb23f9ca.png"
   },
   {
+    "modid": 4600,
     "modidstrs": [
       "reborn"
     ],
@@ -4318,6 +4855,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%E2%80%99s_ad0207d5b82e7ae2fc6695d7d9f02d79.png"
   },
   {
+    "modid": 4599,
     "modidstrs": [
       "cutthehides"
     ],
@@ -4326,6 +4864,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Cut+the+hides_6119cf92d69d27328be47c131976da2c.png"
   },
   {
+    "modid": 4591,
     "modidstrs": [
       "realsmoke"
     ],
@@ -4334,6 +4873,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cabin_42c07df221b4e196c60cc63674f60fa8.png"
   },
   {
+    "modid": 4568,
     "modidstrs": [
       "tetopear"
     ],
@@ -4342,6 +4882,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon_teto_pear_05d93ccba14485da84c264ab9b3a4aaa.png"
   },
   {
+    "modid": 4560,
     "modidstrs": [
       "sconce"
     ],
@@ -4350,6 +4891,7 @@
     "logo": "https://moddbcdn.vintagestory.at/IamcalledaSCONCE_6c559652339d0a4aa6febfec443b9fd0.png"
   },
   {
+    "modid": 4548,
     "modidstrs": [
       "expandedstomach"
     ],
@@ -4358,6 +4900,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Expanded+Stomach+log_052429f5e988d367bc4baeaa83d7bd26_480_320.png"
   },
   {
+    "modid": 4547,
     "modidstrs": [
       "birdseye"
     ],
@@ -4366,6 +4909,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%E2%80%99s_6998f59655448a03ca2eb5d110b0bb3b.png"
   },
   {
+    "modid": 4543,
     "modidstrs": [
       "draconis"
     ],
@@ -4374,6 +4918,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_e8120273012ef28c2ee114e59060f5a5.png"
   },
   {
+    "modid": 4517,
     "modidstrs": [
       "attributerenderinglibrary"
     ],
@@ -4382,6 +4927,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ARL_ab3fc3bc93bb037d9d34c13e73f5db16.png"
   },
   {
+    "modid": 4511,
     "modidstrs": [
       "immersivemining"
     ],
@@ -4390,6 +4936,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2_5a91fc1c7f649216c9d7fe0ce120bd8a.png"
   },
   {
+    "modid": 4504,
     "modidstrs": [
       "hideplayerinfo"
     ],
@@ -4398,6 +4945,7 @@
     "logo": "https://moddbcdn.vintagestory.at/playerinfo_7fcdc4bdcef37c804addf258ee52384d.png"
   },
   {
+    "modid": 4498,
     "modidstrs": [
       "sticksfromfirewoodmallow"
     ],
@@ -4406,6 +4954,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SFF_01ff408365c56c6ff3d238c8c6c69f5b_480_320.png"
   },
   {
+    "modid": 4485,
     "modidstrs": [
       "beastsofmen"
     ],
@@ -4414,6 +4963,7 @@
     "logo": "https://moddbcdn.vintagestory.at/catpicture_3b25a5890d3dc53cfdf78d131355935c.png"
   },
   {
+    "modid": 4479,
     "modidstrs": [
       "charlottesclothes"
     ],
@@ -4422,6 +4972,7 @@
     "logo": "https://moddbcdn.vintagestory.at/clotheslogo_0b2339964271769465ae59dfe769017d_480_320.png"
   },
   {
+    "modid": 4443,
     "modidstrs": [
       "slowtox"
     ],
@@ -4430,6 +4981,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnail_8c48f9e4709bfc66414d0d9429fadf2d.png"
   },
   {
+    "modid": 4441,
     "modidstrs": [
       "vintagetweaks"
     ],
@@ -4438,6 +4990,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_96bb61c50db654b88b9111972d05a976.png"
   },
   {
+    "modid": 4436,
     "modidstrs": [
       "footsteps"
     ],
@@ -4446,6 +4999,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+Footsteps+%28_a6b15e05d49878e5a4a5548a7540dfee.png"
   },
   {
+    "modid": 4425,
     "modidstrs": [
       "vigor"
     ],
@@ -4454,6 +5008,7 @@
     "logo": "https://moddbcdn.vintagestory.at/VIGOR_11405ff3796c1037d5a472526a82402f.png"
   },
   {
+    "modid": 4415,
     "modidstrs": [
       "fatemplar"
     ],
@@ -4462,6 +5017,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modlogo_6cf81aedcc064a9ac05bebbb37fddb69.png"
   },
   {
+    "modid": 4413,
     "modidstrs": [
       "nicnekoadminstuff"
     ],
@@ -4470,6 +5026,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NicNekoAdminStuff-IC_26f1e26a02657956eb5e44d792183b69.png"
   },
   {
+    "modid": 4412,
     "modidstrs": [
       "relictools"
     ],
@@ -4478,6 +5035,7 @@
     "logo": "https://moddbcdn.vintagestory.at/relictools_e06d33c15c84bac9faacfefe49ea5762.png"
   },
   {
+    "modid": 4400,
     "modidstrs": [
       "freelook"
     ],
@@ -4486,6 +5044,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%E2%80%99s+Free+Look_31bc73a9f550636ee219ded9116ad40b.png"
   },
   {
+    "modid": 4357,
     "modidstrs": [
       "noincombathealing"
     ],
@@ -4494,6 +5053,7 @@
     "logo": "https://moddbcdn.vintagestory.at/nohealing_d21e0acb910f0ec43f4f270c65cf7482.png"
   },
   {
+    "modid": 4347,
     "modidstrs": [
       "justthepepper"
     ],
@@ -4502,6 +5062,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-logo_91ed24428dc2320e89733d4b25e3b429.png"
   },
   {
+    "modid": 4345,
     "modidstrs": [
       "bettersmelting"
     ],
@@ -4510,6 +5071,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_4e84f39127c6d132301dc6f07a95faa9.png"
   },
   {
+    "modid": 4335,
     "modidstrs": [
       "cinematiccamera"
     ],
@@ -4518,6 +5080,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Vintage+Smooth+%281%29_33a760fd371d9f61b36d01417946c86f.png"
   },
   {
+    "modid": 4333,
     "modidstrs": [
       "extendedelectrictools"
     ],
@@ -4526,6 +5089,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Steam+Pic-Larg_9c208aa6a941c676f094db80f6a0e62b.jpg"
   },
   {
+    "modid": 4329,
     "modidstrs": [
       "gloomeclasses"
     ],
@@ -4534,6 +5098,7 @@
     "logo": "https://moddbcdn.vintagestory.at/classmodfull_39134032e3eb4a725fbb5007779c812a.jpg"
   },
   {
+    "modid": 4328,
     "modidstrs": [
       "unhallowedpatches"
     ],
@@ -4542,6 +5107,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_17d93c965db4ed1499267364a0d02afd.png"
   },
   {
+    "modid": 4326,
     "modidstrs": [
       "fagothic"
     ],
@@ -4550,6 +5116,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_Gothic2_1e5dd4a0c9fb0f8433528ef971f428b9.png"
   },
   {
+    "modid": 4321,
     "modidstrs": [
       "fagreenwich"
     ],
@@ -4558,6 +5125,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MODICON_Greenwich2_e332f2a156095cc29114833b6f6da911.png"
   },
   {
+    "modid": 4299,
     "modidstrs": [
       "aminerscraft"
     ],
@@ -4566,6 +5134,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_e13737f4f8b0d59904f111d1ddf1c4da.png"
   },
   {
+    "modid": 4298,
     "modidstrs": [
       "radialcrafting"
     ],
@@ -4574,6 +5143,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Design+sem+nome+%282%29_2790c825f286520ae2977f7a22d9ace5.png"
   },
   {
+    "modid": 4291,
     "modidstrs": [
       "fairywren"
     ],
@@ -4582,6 +5152,7 @@
     "logo": "https://moddbcdn.vintagestory.at/fairywrenlogo03bg_ef710377902010f9559a352e85cb60cc.jpg"
   },
   {
+    "modid": 4279,
     "modidstrs": [
       "veep"
     ],
@@ -4590,6 +5161,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Steam+Pic-Larg_9c208aa6a941c676f094db80f6a0e62b.jpg"
   },
   {
+    "modid": 4260,
     "modidstrs": [
       "chiseltoolslite"
     ],
@@ -4598,6 +5170,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_8afd609edcc304fa1ea645ed8108f70b.png"
   },
   {
+    "modid": 4254,
     "modidstrs": [
       "jaunt"
     ],
@@ -4606,6 +5179,7 @@
     "logo": "https://moddbcdn.vintagestory.at/dotnet_0BAd8XNlS4_25_e1592d03d9cf5ae965cda5892aca3156.png"
   },
   {
+    "modid": 4246,
     "modidstrs": [
       "khazaddum"
     ],
@@ -4614,6 +5188,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+%283%29_3bc1fac19c8c16ec10de223de72c4db2_480_320.png"
   },
   {
+    "modid": 4236,
     "modidstrs": [
       "millwrightvawtaddon"
     ],
@@ -4622,6 +5197,7 @@
     "logo": "https://moddbcdn.vintagestory.at/millvawt_e1ffe7bab4dc99e1e630f1d576d95524.png"
   },
   {
+    "modid": 4200,
     "modidstrs": [
       "morefluxes"
     ],
@@ -4630,6 +5206,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_3d7a2ac13f99bf4d4f8a84befc44d590.png"
   },
   {
+    "modid": 4173,
     "modidstrs": [
       "cavesymphony"
     ],
@@ -4638,6 +5215,7 @@
     "logo": null
   },
   {
+    "modid": 4165,
     "modidstrs": [
       "equus"
     ],
@@ -4646,6 +5224,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_b57d684036564c39e6c5466567c8bfe6.png"
   },
   {
+    "modid": 4101,
     "modidstrs": [
       "zrustdrops"
     ],
@@ -4654,6 +5233,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-logo_8895660b3f3821a9c02cfa32ecaefa57.jpg"
   },
   {
+    "modid": 4081,
     "modidstrs": [
       "obsidiancraft"
     ],
@@ -4662,6 +5242,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_cd828c0021c749074c1834c9a2b70aae.png"
   },
   {
+    "modid": 4079,
     "modidstrs": [
       "Amongium"
     ],
@@ -4670,6 +5251,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_0e0e76dbf55cbd523e5feee8173ded22.png"
   },
   {
+    "modid": 4070,
     "modidstrs": [
       "crockmod"
     ],
@@ -4678,6 +5260,7 @@
     "logo": "https://moddbcdn.vintagestory.at/scale_12000_f8e90ee29652f52cf6f8d8d3ee7ddfbd.jpg"
   },
   {
+    "modid": 4069,
     "modidstrs": [
       "genelib"
     ],
@@ -4686,6 +5269,7 @@
     "logo": "https://moddbcdn.vintagestory.at/dna_480x480_d2700442c2efb90eee8c7c442aa9cd69.png"
   },
   {
+    "modid": 4058,
     "modidstrs": [
       "containersbundle"
     ],
@@ -4694,6 +5278,7 @@
     "logo": "https://moddbcdn.vintagestory.at/CB_logo2_480x320_39561227558344ca7c371fd22af2c9f0.png"
   },
   {
+    "modid": 4056,
     "modidstrs": [
       "alternativegliderimplementationreforged"
     ],
@@ -4702,6 +5287,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumb_55ea25084af32ae04e0a58460aef6d60.png"
   },
   {
+    "modid": 4000,
     "modidstrs": [
       "infinitumpickupmod"
     ],
@@ -4710,6 +5296,7 @@
     "logo": "https://moddbcdn.vintagestory.at/screen-1_8dbdf29fc561c368f8c0bc2ac928b4ea.png"
   },
   {
+    "modid": 3999,
     "modidstrs": [
       "scrollrackable"
     ],
@@ -4718,6 +5305,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_2ec48d1a76172215d44006b4f655477b.png"
   },
   {
+    "modid": 3966,
     "modidstrs": [
       "insanitylib"
     ],
@@ -4726,6 +5314,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_76029d58fa7cd4a34f9206fee5f14e1b.png"
   },
   {
+    "modid": 3947,
     "modidstrs": [
       "itempickupnotifier"
     ],
@@ -4734,6 +5323,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon480_548c35206f9b40e00f887cc9b232d319.png"
   },
   {
+    "modid": 3934,
     "modidstrs": [
       "interestingoregen"
     ],
@@ -4742,6 +5332,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_93166b5553ff4885215b8b55f6c65182.png"
   },
   {
+    "modid": 3912,
     "modidstrs": [
       "metalpots"
     ],
@@ -4750,6 +5341,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modiconsmall_27413e1481ee9f2b4b97f6196e5b96c7.png"
   },
   {
+    "modid": 3910,
     "modidstrs": [
       "playermodellib"
     ],
@@ -4758,6 +5350,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_1223bc6b2e44969259b6c90a30f5e4cc.png"
   },
   {
+    "modid": 3896,
     "modidstrs": [
       "FemaleSeraph",
       "fseraph"
@@ -4767,6 +5360,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon480_0adc4ba1d7cb67298f9e017035250042.png"
   },
   {
+    "modid": 3883,
     "modidstrs": [
       "bowinlefthand",
       "correctedbowanimation"
@@ -4776,6 +5370,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2025-03-07_20-20-43_6bd8670828b653841dd963632cd5692e.jpg"
   },
   {
+    "modid": 3845,
     "modidstrs": [
       "waterfall"
     ],
@@ -4784,6 +5379,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_d23cfc36e9e99e6bc6b58103ce3cd059_480_320.png"
   },
   {
+    "modid": 3826,
     "modidstrs": [
       "dampenedanvil"
     ],
@@ -4792,6 +5388,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_6d1764b03053e7a76a72c4bddcca5b96.png"
   },
   {
+    "modid": 3821,
     "modidstrs": [
       "reedbuff"
     ],
@@ -4800,6 +5397,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_202641a38d4926783784d17e934487eb.png"
   },
   {
+    "modid": 3805,
     "modidstrs": [
       "overhaullib"
     ],
@@ -4808,6 +5406,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_815467500b122d41a41807f64d87e567.png"
   },
   {
+    "modid": 3802,
     "modidstrs": [
       "farseer"
     ],
@@ -4816,6 +5415,7 @@
     "logo": "https://moddbcdn.vintagestory.at/farseer_f5879995e3a495ee7dc7ef059826fc68.png"
   },
   {
+    "modid": 3793,
     "modidstrs": [
       "irongears"
     ],
@@ -4824,6 +5424,7 @@
     "logo": "https://moddbcdn.vintagestory.at/RUST+%281%29_ec5df2e85da8baf27a2ead995ada73b1.png"
   },
   {
+    "modid": 3776,
     "modidstrs": [
       "ropeladderplacement"
     ],
@@ -4832,6 +5433,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_3dc3e2daa2eed57a8da4506018ea1af8.png"
   },
   {
+    "modid": 3738,
     "modidstrs": [
       "astriaporta"
     ],
@@ -4840,6 +5442,7 @@
     "logo": "https://moddbcdn.vintagestory.at/stargate_preview_a258a62d7deb1c7f8b58744afd7d9ab3.png"
   },
   {
+    "modid": 3726,
     "modidstrs": [
       "bola"
     ],
@@ -4848,6 +5451,7 @@
     "logo": "https://moddbcdn.vintagestory.at/bola_preview_452e06334e7ba84dbc1d3ace124ceb6d.png"
   },
   {
+    "modid": 3710,
     "modidstrs": [
       "MovableOnTopSelect"
     ],
@@ -4856,6 +5460,7 @@
     "logo": null
   },
   {
+    "modid": 3694,
     "modidstrs": [
       "electricalprogressiveequipment"
     ],
@@ -4864,6 +5469,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Equipment+480_33926b4c1b4868a75b8e11751faa3f56.png"
   },
   {
+    "modid": 3693,
     "modidstrs": [
       "electricalprogressiveqol"
     ],
@@ -4872,6 +5478,7 @@
     "logo": "https://moddbcdn.vintagestory.at/QOL+480_fb229c210eb2527adec5ae6bf43251f6.png"
   },
   {
+    "modid": 3692,
     "modidstrs": [
       "electricalprogressivebasics"
     ],
@@ -4880,6 +5487,7 @@
     "logo": "https://moddbcdn.vintagestory.at/basics+480_5931a1f33198dcce71d34ef76416f43b.png"
   },
   {
+    "modid": 3691,
     "modidstrs": [
       "electricalprogressivecore"
     ],
@@ -4888,6 +5496,7 @@
     "logo": "https://moddbcdn.vintagestory.at/electricalprogressiv_58bf1db36fd502f8bbfa160c50ee75e1.png"
   },
   {
+    "modid": 3614,
     "modidstrs": [
       "riftworks"
     ],
@@ -4896,6 +5505,7 @@
     "logo": "https://moddbcdn.vintagestory.at/riftworks_filter_480_db6a5c4e8aa0c0214d477c705ec08898.jpg"
   },
   {
+    "modid": 3586,
     "modidstrs": [
       "translocatormap"
     ],
@@ -4904,6 +5514,7 @@
     "logo": "https://moddbcdn.vintagestory.at/translocatormap_2744fe4fc9a2be433580bbed572345ec.png"
   },
   {
+    "modid": 3576,
     "modidstrs": [
       "extendedcreation"
     ],
@@ -4912,6 +5523,7 @@
     "logo": "https://moddbcdn.vintagestory.at/fence+480_3af5e2942cedbc785111309137047e25_480_320.png"
   },
   {
+    "modid": 3539,
     "modidstrs": [
       "cartwrightscaravan"
     ],
@@ -4920,6 +5532,7 @@
     "logo": "https://moddbcdn.vintagestory.at/320xicon_487860d185350c25dc091c4a32ced769.png"
   },
   {
+    "modid": 3475,
     "modidstrs": [
       "sprintmomentum"
     ],
@@ -4928,6 +5541,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%28480+x+320+_3f91a5126fbaedfd37c5ef8d3b68100f.png"
   },
   {
+    "modid": 3442,
     "modidstrs": [
       "moreblueclay"
     ],
@@ -4936,6 +5550,7 @@
     "logo": null
   },
   {
+    "modid": 3429,
     "modidstrs": [
       "ndlvillagers"
     ],
@@ -4944,6 +5559,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NDLVillagers%28480x320_5622d418a37461f092c7bbc048bd3fda.png"
   },
   {
+    "modid": 3423,
     "modidstrs": [
       "manualshingle"
     ],
@@ -4952,6 +5568,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Manual_6ab9e0734c6750489afe974d7c468db8.png"
   },
   {
+    "modid": 3386,
     "modidstrs": [
       "forlornheavyarmor",
       "heavyforlonarmor"
@@ -4961,6 +5578,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logonew_c5e81fac082a70ae9f8b3ff939527d15.png"
   },
   {
+    "modid": 3380,
     "modidstrs": [
       "vsairshipmod"
     ],
@@ -4969,6 +5587,7 @@
     "logo": "https://moddbcdn.vintagestory.at/vs_564798fca8399dab1865032e9f4e0ec1.png"
   },
   {
+    "modid": 3369,
     "modidstrs": [
       "envelopes"
     ],
@@ -4977,6 +5596,7 @@
     "logo": "https://moddbcdn.vintagestory.at/envelopesthumblove_30e55b1274c7b62fae77d6ae9a1e23d4.png"
   },
   {
+    "modid": 3356,
     "modidstrs": [
       "logicalclothingwarmth"
     ],
@@ -4985,6 +5605,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ModDB+logo+image_8367862afa1792bc60d1212652d734bf.png"
   },
   {
+    "modid": 3338,
     "modidstrs": [
       "wwaymarkers"
     ],
@@ -4993,6 +5614,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Waymarke_0d51f6e7d5ad91f668eb02b8f2aeafe0.png"
   },
   {
+    "modid": 3330,
     "modidstrs": [
       "autolootreforged"
     ],
@@ -5001,6 +5623,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumb_01066f496b62dc_315f7ecf88332b7d7711d3e7667ce6e1_480_320.png"
   },
   {
+    "modid": 3329,
     "modidstrs": [
       "fixenfontmod"
     ],
@@ -5009,6 +5632,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnail_2e42445a9636dbcdaca9fb55bbc4435f.png"
   },
   {
+    "modid": 3323,
     "modidstrs": [
       "moremeadoptions"
     ],
@@ -5017,6 +5641,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+%281%29+%281%29_d52f8347c65b85dbccc9c7eaccf972c3.png"
   },
   {
+    "modid": 3314,
     "modidstrs": [
       "weaponpackalphareb"
     ],
@@ -5025,6 +5650,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Mod+thumbnail2_9dc131c5dc116252a7d8fdf06e960d95.png"
   },
   {
+    "modid": 3312,
     "modidstrs": [
       "shuffle"
     ],
@@ -5033,6 +5659,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Shuffle_Thumbnail_cd875691e5edbe291d37baa7e993fc27.png"
   },
   {
+    "modid": 3290,
     "modidstrs": [
       "easybuilding",
       "infrastructureextension"
@@ -5042,6 +5669,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnail2_75ded3367fb579294b4d3a8dde26f316.png"
   },
   {
+    "modid": 3223,
     "modidstrs": [
       "remotetradercheckmod"
     ],
@@ -5050,6 +5678,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnail_23962f9f1d934ff0b480cafad4555eb5.png"
   },
   {
+    "modid": 3204,
     "modidstrs": [
       "edeninstinct"
     ],
@@ -5058,6 +5687,7 @@
     "logo": null
   },
   {
+    "modid": 3198,
     "modidstrs": [
       "woodlogstack64"
     ],
@@ -5066,6 +5696,7 @@
     "logo": "https://moddbcdn.vintagestory.at/log-1_6a64e1f665b474d4e7ee94013d114bb3.png"
   },
   {
+    "modid": 3174,
     "modidstrs": [
       "blobcatmod"
     ],
@@ -5074,6 +5705,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnail_161cf8f38b84a312f14bc6e4f8a0b64d.png"
   },
   {
+    "modid": 3126,
     "modidstrs": [
       "workbenchexpansionpatch"
     ],
@@ -5082,6 +5714,7 @@
     "logo": "https://moddbcdn.vintagestory.at/scaffolding_b73635e1d49b022d9b855eb768dd5dad.png"
   },
   {
+    "modid": 3100,
     "modidstrs": [
       "ndltimetracker"
     ],
@@ -5090,6 +5723,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NDLTimeTrackerBackgr_a8f2f077bcdcf9a5ea8a2167fceab9e8.png"
   },
   {
+    "modid": 3089,
     "modidstrs": [
       "medievalexpansionpatch"
     ],
@@ -5098,6 +5732,7 @@
     "logo": "https://moddbcdn.vintagestory.at/grafik1_3ca1e323370982323f73303f3a5ea437.png"
   },
   {
+    "modid": 3086,
     "modidstrs": [
       "wdepositscarcity"
     ],
@@ -5106,6 +5741,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Deposit+_f2eef340d5ecd53373eade4057b3ce84.png"
   },
   {
+    "modid": 3070,
     "modidstrs": [
       "wblockadj"
     ],
@@ -5114,6 +5750,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Block+Ad_399a9847d73efb20a1e78aa485063f7a.png"
   },
   {
+    "modid": 3066,
     "modidstrs": [
       "akarisimpletweaks"
     ],
@@ -5122,6 +5759,7 @@
     "logo": null
   },
   {
+    "modid": 3040,
     "modidstrs": [
       "wforests"
     ],
@@ -5130,6 +5768,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Forests+_cfbdb3a22c1ecd81764775b90ce57693.png"
   },
   {
+    "modid": 3022,
     "modidstrs": [
       "betterdeathmessages"
     ],
@@ -5138,6 +5777,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_ed77bb9dd383fc8b4eb80f9d5aaa7e5f_480_320.png"
   },
   {
+    "modid": 3007,
     "modidstrs": [
       "wtweaks"
     ],
@@ -5146,6 +5786,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Tweaks+L_3b8f2777f953c0529d0d85369821e6c9.png"
   },
   {
+    "modid": 3006,
     "modidstrs": [
       "wethology"
     ],
@@ -5154,6 +5795,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Ethology_e1c63b1aadbedd1d880665858b9634f7.png"
   },
   {
+    "modid": 3005,
     "modidstrs": [
       "wpanning"
     ],
@@ -5162,6 +5804,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Panning+_5718002ddd5ebea8ffd491a73b5b097d.png"
   },
   {
+    "modid": 3004,
     "modidstrs": [
       "wrustbound"
     ],
@@ -5170,6 +5813,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Rustboun_5bdc488c81a6551e13dc499e7956e960.png"
   },
   {
+    "modid": 2990,
     "modidstrs": [
       "Beamium"
     ],
@@ -5178,6 +5822,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2025-03-03_14-24-08_d0833d932fe73e54c4727ea1bbe64a82_480_320.png"
   },
   {
+    "modid": 2979,
     "modidstrs": [
       "ndlwoodentorchholder"
     ],
@@ -5186,6 +5831,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NDLWoodenTorchHolder_e30c6fe66de4465bf815527c7d9a95a7.png"
   },
   {
+    "modid": 2961,
     "modidstrs": [
       "thievery"
     ],
@@ -5194,6 +5840,7 @@
     "logo": "https://moddbcdn.vintagestory.at/locklogo_3b5ce154b5e1319c481ea35104733581.png"
   },
   {
+    "modid": 2953,
     "modidstrs": [
       "noscreenshotmessagemod"
     ],
@@ -5202,6 +5849,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnail_1aa4a254684fa031ab577e06a865bb91.png"
   },
   {
+    "modid": 2951,
     "modidstrs": [
       "alarmtimermod"
     ],
@@ -5210,6 +5858,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2025-01-08_20-50-44_441aa2b2628cf11f0ef8aaf635cffefe.png"
   },
   {
+    "modid": 2947,
     "modidstrs": [
       "autoconfiglib"
     ],
@@ -5218,6 +5867,7 @@
     "logo": "https://moddbcdn.vintagestory.at/AutoConfigVersion2_1_81465e2fabfb518b9ad2bb18f03a3caf.png"
   },
   {
+    "modid": 2942,
     "modidstrs": [
       "nomonsters"
     ],
@@ -5226,6 +5876,7 @@
     "logo": null
   },
   {
+    "modid": 2919,
     "modidstrs": [
       "firestarters"
     ],
@@ -5234,6 +5885,7 @@
     "logo": null
   },
   {
+    "modid": 2885,
     "modidstrs": [
       "swifttime"
     ],
@@ -5242,6 +5894,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s_62ec8e165d0cbbf05d86a2f06fa8952f.png"
   },
   {
+    "modid": 2882,
     "modidstrs": [
       "eggpiemod"
     ],
@@ -5250,6 +5903,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnail_107dcf33edd113030c87bafd986bcc8e.png"
   },
   {
+    "modid": 2864,
     "modidstrs": [
       "usefulshears"
     ],
@@ -5258,6 +5912,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Useful+Shears+Market_d2c0f058097e6fe8c62780ad89e690a5.jpg"
   },
   {
+    "modid": 2859,
     "modidstrs": [
       "airthermomod"
     ],
@@ -5266,6 +5921,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thermometer1_480_e4b9d8f913c36ff814ad6ce7eb708ed3.png"
   },
   {
+    "modid": 2856,
     "modidstrs": [
       "stepfixelk"
     ],
@@ -5274,6 +5930,7 @@
     "logo": "https://moddbcdn.vintagestory.at/stepfixelk+logo_7b7cc84511abbef9ca9feffd2604f375.png"
   },
   {
+    "modid": 2837,
     "modidstrs": [
       "traderssellcrowbars"
     ],
@@ -5282,6 +5939,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo3_29cb5a048288ae107ef4a7ef8aea90e9.png"
   },
   {
+    "modid": 2830,
     "modidstrs": [
       "rivergen"
     ],
@@ -5290,6 +5948,7 @@
     "logo": "https://moddbcdn.vintagestory.at/rivergen-preview_f559701f1015e34754ac0c4ead966423.png"
   },
   {
+    "modid": 2818,
     "modidstrs": [
       "handtohand"
     ],
@@ -5298,6 +5957,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Hand_0670d8b0097cd0c5350a3112787f825a.png"
   },
   {
+    "modid": 2813,
     "modidstrs": [
       "firewoodtosticks"
     ],
@@ -5306,6 +5966,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_08527554920a64fed0e28fba64479b45.png"
   },
   {
+    "modid": 2800,
     "modidstrs": [
       "czechpatch"
     ],
@@ -5314,6 +5975,7 @@
     "logo": "https://moddbcdn.vintagestory.at/czp_prime_edbac8155d125937546f6f7177a4f204.png"
   },
   {
+    "modid": 2791,
     "modidstrs": [
       "barkbeetle"
     ],
@@ -5322,6 +5984,7 @@
     "logo": null
   },
   {
+    "modid": 2789,
     "modidstrs": [
       "altmapiconrenderercontinued",
       "altmapiconrendererpatch"
@@ -5331,6 +5994,7 @@
     "logo": "https://moddbcdn.vintagestory.at/01_Main_aaa70454b189bfea71969351806f5d93.png"
   },
   {
+    "modid": 2788,
     "modidstrs": [
       "hudclockpatch"
     ],
@@ -5339,6 +6003,7 @@
     "logo": "https://moddbcdn.vintagestory.at/_HudClock_Info_605d15cea02ced4532c83a6c6cc25c70.png"
   },
   {
+    "modid": 2786,
     "modidstrs": [
       "stepupadvanced"
     ],
@@ -5347,6 +6012,7 @@
     "logo": "https://moddbcdn.vintagestory.at/StepUpAdvanced_Main_6cda36e44a23e5d26c6803cec287b9f8.jpg"
   },
   {
+    "modid": 2770,
     "modidstrs": [
       "bradycrudebuilding"
     ],
@@ -5355,6 +6021,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo2%2B%2B_b58058833701c320ffefb4a8aa09931e.png"
   },
   {
+    "modid": 2769,
     "modidstrs": [
       "bradycrackedrock",
       "bradyrockyextraction"
@@ -5364,6 +6031,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo2_7f24aad94a6f0a59eb317f17f7b1e119.png"
   },
   {
+    "modid": 2767,
     "modidstrs": [
       "bradyladder"
     ],
@@ -5372,6 +6040,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo2_5f522f7601643c8117c250e40220ce45.png"
   },
   {
+    "modid": 2754,
     "modidstrs": [
       "viewdistancetoggler"
     ],
@@ -5380,6 +6049,7 @@
     "logo": null
   },
   {
+    "modid": 2738,
     "modidstrs": [
       "c4b_traducciones-es_juego",
       "c4btraduccionesjuego"
@@ -5389,6 +6059,7 @@
     "logo": "https://moddbcdn.vintagestory.at/C4B+Traducciones-ES+_ccb5e237b5f66d4c410d9225ddb3f2a7.png"
   },
   {
+    "modid": 2671,
     "modidstrs": [
       "chuteblockplacer"
     ],
@@ -5397,6 +6068,7 @@
     "logo": "https://moddbcdn.vintagestory.at/filling_a_hole_chute_0afce138c9ce2d871d58b7c645970727.png"
   },
   {
+    "modid": 2669,
     "modidstrs": [
       "manualtoolcrafting"
     ],
@@ -5405,6 +6077,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s_61123b488a76757ffe66ae755eed9521.png"
   },
   {
+    "modid": 2668,
     "modidstrs": [
       "ksrealisticfarming"
     ],
@@ -5413,6 +6086,7 @@
     "logo": "https://moddbcdn.vintagestory.at/KsRealisticFarmingCo_da3b40a5631851d3f7489af6660ca321.png"
   },
   {
+    "modid": 2662,
     "modidstrs": [
       "dodgemaster"
     ],
@@ -5421,6 +6095,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Design+sem+nome_2be49abc5ce06bab190d70e7df1a45b6.png"
   },
   {
+    "modid": 2650,
     "modidstrs": [
       "stoneharvesting"
     ],
@@ -5429,6 +6104,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s_abf1e9e0585328223f758833dd094b74.png"
   },
   {
+    "modid": 2610,
     "modidstrs": [
       "instantpickup"
     ],
@@ -5437,6 +6113,7 @@
     "logo": "https://moddbcdn.vintagestory.at/11_9824950c3ff190ea5a784eaa4c4f3666.png"
   },
   {
+    "modid": 2606,
     "modidstrs": [
       "wildcabbagepumpkin"
     ],
@@ -5445,6 +6122,7 @@
     "logo": "https://moddbcdn.vintagestory.at/wildcabbage_pumpkin_b415b9e67d5309f4e017ba049e5b77fa.png"
   },
   {
+    "modid": 2581,
     "modidstrs": [
       "sfanimationlibrary"
     ],
@@ -5453,6 +6131,7 @@
     "logo": null
   },
   {
+    "modid": 2577,
     "modidstrs": [
       "manualdough"
     ],
@@ -5461,6 +6140,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s_9c4ebb3657bd467fdf0a23b441f08f8f.png"
   },
   {
+    "modid": 2553,
     "modidstrs": [
       "ndlchiselpick"
     ],
@@ -5469,6 +6149,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NDLChiselPickBackgro_e31d09e520b1ab32754877665bca43ea.png"
   },
   {
+    "modid": 2546,
     "modidstrs": [
       "chargedjump"
     ],
@@ -5477,6 +6158,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Salty%C2%B4s+%281%29_b5da8aa2e4286be4a3c5261ec4cc8dc6.png"
   },
   {
+    "modid": 2544,
     "modidstrs": [
       "immersiveorecrush"
     ],
@@ -5485,6 +6167,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ManualOreCrush2_resi_564938d9d482bfaef2028d08949ae9a5.png"
   },
   {
+    "modid": 2532,
     "modidstrs": [
       "clicktopick"
     ],
@@ -5493,6 +6176,7 @@
     "logo": "https://moddbcdn.vintagestory.at/8_71af28e48e2ee29b8beac18f4db3375e.png"
   },
   {
+    "modid": 2527,
     "modidstrs": [
       "shearlib"
     ],
@@ -5501,6 +6185,7 @@
     "logo": "https://moddbcdn.vintagestory.at/shear_title_card_49e05aaf2e36e47e52e032fd50ae5c3c.png"
   },
   {
+    "modid": 2517,
     "modidstrs": [
       "clickuptorches"
     ],
@@ -5509,6 +6194,7 @@
     "logo": "https://moddbcdn.vintagestory.at/10_90ae42389cf19575d20ad6d352c95218.png"
   },
   {
+    "modid": 2516,
     "modidstrs": [
       "stepupcontinued"
     ],
@@ -5517,6 +6203,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumb_2c0f3762c78f65385ed90b9ca11e74e3.png"
   },
   {
+    "modid": 2498,
     "modidstrs": [
       "noticeboard"
     ],
@@ -5525,6 +6212,7 @@
     "logo": "https://moddbcdn.vintagestory.at/photo_2024-09-16_16-_57710c22120284ecc7c0cecc35870411.jpg"
   },
   {
+    "modid": 2497,
     "modidstrs": [
       "slowwalkmod"
     ],
@@ -5533,6 +6221,7 @@
     "logo": "https://moddbcdn.vintagestory.at/7_dd7d58ea108f098eec2ec5cdac667a89.png"
   },
   {
+    "modid": 2492,
     "modidstrs": [
       "vintagercon"
     ],
@@ -5541,6 +6230,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modiconV2_145c0a484328c20b1f4c5b070c1dd593.png"
   },
   {
+    "modid": 2486,
     "modidstrs": [
       "danacancook"
     ],
@@ -5549,6 +6239,7 @@
     "logo": "https://moddbcdn.vintagestory.at/DanaCanCook_7b6b31631dec3360b643f53788401f51.png"
   },
   {
+    "modid": 2450,
     "modidstrs": [
       "mapwaypointcolors"
     ],
@@ -5557,6 +6248,7 @@
     "logo": "https://moddbcdn.vintagestory.at/01_6e91b57aea31922b446c251f57800f4a.png"
   },
   {
+    "modid": 2424,
     "modidstrs": [
       "ripenedwildcrops"
     ],
@@ -5565,6 +6257,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ripenedwildcrops_703b8c9fe187715faeb654bc6effe334.png"
   },
   {
+    "modid": 2383,
     "modidstrs": [
       "foodshelves"
     ],
@@ -5573,6 +6266,7 @@
     "logo": "https://moddbcdn.vintagestory.at/thumbnailsmallnew_b2ff8d7ef92ea2060f7acb49a35f4ab2.png"
   },
   {
+    "modid": 2375,
     "modidstrs": [
       "AbsoluteProspecting"
     ],
@@ -5581,6 +6275,7 @@
     "logo": null
   },
   {
+    "modid": 2374,
     "modidstrs": [
       "long-term_food",
       "longtermfood"
@@ -5590,6 +6285,7 @@
     "logo": "https://moddbcdn.vintagestory.at/%D0%91%D0%B5%D0%B7+%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_1136b84e4a26bd6527ce6a4a779121c1.jpg"
   },
   {
+    "modid": 2373,
     "modidstrs": [
       "morefuel"
     ],
@@ -5598,6 +6294,7 @@
     "logo": "https://moddbcdn.vintagestory.at/121212_3388a6d40edc9464de8f0aee98923d66.jpg"
   },
   {
+    "modid": 2362,
     "modidstrs": [
       "explosive"
     ],
@@ -5606,6 +6303,7 @@
     "logo": "https://moddbcdn.vintagestory.at/dfgdfgdfg_1d7b862221cba0e4bbaf4af053328492.jpg"
   },
   {
+    "modid": 2356,
     "modidstrs": [
       "molds"
     ],
@@ -5614,6 +6312,7 @@
     "logo": "https://moddbcdn.vintagestory.at/%D0%91%D0%B5%D0%B7+%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-22_4cb222ad062b72fd8b11c873cf89524c.jpg"
   },
   {
+    "modid": 2355,
     "modidstrs": [
       "libatex"
     ],
@@ -5622,6 +6321,7 @@
     "logo": "https://moddbcdn.vintagestory.at/libatexpreview_0a4e7dd756e08482896582b4106948ae.png"
   },
   {
+    "modid": 2353,
     "modidstrs": [
       "kscartographytable"
     ],
@@ -5630,6 +6330,7 @@
     "logo": "https://moddbcdn.vintagestory.at/k_68112f1c3cefcf3bc142db069ba9d43c.jpg"
   },
   {
+    "modid": 2288,
     "modidstrs": [
       "ashes"
     ],
@@ -5638,6 +6339,7 @@
     "logo": "https://moddbcdn.vintagestory.at/valley_of_ashes_modd_b99d7a5ab71ae5ba63eb46a4572563c8.jpg"
   },
   {
+    "modid": 2282,
     "modidstrs": [
       "hydrateordiedrate"
     ],
@@ -5646,6 +6348,7 @@
     "logo": "https://moddbcdn.vintagestory.at/hodlogo480x480_65caad9aa5f4b7e5f1b3bed810e1282e.png"
   },
   {
+    "modid": 2278,
     "modidstrs": [
       "FendragonBCS"
     ],
@@ -5654,6 +6357,7 @@
     "logo": "https://moddbcdn.vintagestory.at/TitulkaOsnova_6be349551833c641551a2ef5cd68a975.jpg"
   },
   {
+    "modid": 2270,
     "modidstrs": [
       "DrystoneParity"
     ],
@@ -5662,6 +6366,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2024-06-19_12-21-28_886fbe2634e1dbcb5ac21b765481f610.png"
   },
   {
+    "modid": 2268,
     "modidstrs": [
       "CutTheFat"
     ],
@@ -5670,6 +6375,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cutthefat_logo_9f52890ed88112e89c7130a2c0d12a72.png"
   },
   {
+    "modid": 2228,
     "modidstrs": [
       "particlesplus"
     ],
@@ -5678,6 +6384,7 @@
     "logo": "https://moddbcdn.vintagestory.at/resin_134c088e359a347081c59346b5ffdb3e.png"
   },
   {
+    "modid": 2217,
     "modidstrs": [
       "krpgwands"
     ],
@@ -5686,6 +6393,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Wand480x480_b97712c8591dfa9d1ecfdf910c0419fe.png"
   },
   {
+    "modid": 2216,
     "modidstrs": [
       "krpgenchantment"
     ],
@@ -5694,6 +6402,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NewGui3-Square_57c124accca68ddf9c5ced0108d5899a.png"
   },
   {
+    "modid": 2160,
     "modidstrs": [
       "vichnybackpack"
     ],
@@ -5702,6 +6411,7 @@
     "logo": "https://moddbcdn.vintagestory.at/esbpcover_047a4ff94abe689cae0ccd4ea1f0e89d_480_320.png"
   },
   {
+    "modid": 2115,
     "modidstrs": [
       "vsserverpanel"
     ],
@@ -5710,6 +6420,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+x480_ac47eecfdfdcf0c8075760ec0e84f9e3.png"
   },
   {
+    "modid": 2093,
     "modidstrs": [
       "augplantlib"
     ],
@@ -5718,6 +6429,7 @@
     "logo": null
   },
   {
+    "modid": 2091,
     "modidstrs": [
       "newworldcrops"
     ],
@@ -5726,6 +6438,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon480_39bc1dd8c5b2f12d593a9dce9b585785.png"
   },
   {
+    "modid": 2087,
     "modidstrs": [
       "rockstratavariety"
     ],
@@ -5734,6 +6447,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_updated_09d5eaee9ebe25038aadcbd5c94f873c.png"
   },
   {
+    "modid": 2080,
     "modidstrs": [
       "caneconomy"
     ],
@@ -5742,6 +6456,7 @@
     "logo": null
   },
   {
+    "modid": 2038,
     "modidstrs": [
       "maltiezswords"
     ],
@@ -5750,6 +6465,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-b_5545ff61db53f1524bc31f65c0a626da.png"
   },
   {
+    "modid": 2033,
     "modidstrs": [
       "projectiletracker"
     ],
@@ -5758,6 +6474,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ProjectileTrackerLog_530917f6fae99cfa74abb68c8b9eb9cd.png"
   },
   {
+    "modid": 1997,
     "modidstrs": [
       "craftingjonas"
     ],
@@ -5766,6 +6483,7 @@
     "logo": "https://moddbcdn.vintagestory.at/JonasCraftingTitle_a829ebee28d2d8a370c05866e155cc76.png"
   },
   {
+    "modid": 1978,
     "modidstrs": [
       "vintageengineering"
     ],
@@ -5774,6 +6492,7 @@
     "logo": "https://moddbcdn.vintagestory.at/vethumb_9c74e0dd7ee069e8e028a548c3f0a14b.jpg"
   },
   {
+    "modid": 1938,
     "modidstrs": [
       "ctom"
     ],
@@ -5782,6 +6501,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon+-+480X_f76ed453f937ff4eceea17271942d14d.png"
   },
   {
+    "modid": 1936,
     "modidstrs": [
       "worldgenfixremix"
     ],
@@ -5790,6 +6510,7 @@
     "logo": "https://moddbcdn.vintagestory.at/worldgenfixremix_log_0164dc7dc794d508bb5cbe8dd991be89.png"
   },
   {
+    "modid": 1915,
     "modidstrs": [
       "configureeverything"
     ],
@@ -5798,6 +6519,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ConfigureEverything_410971bb070f18d77d615218246b085b.png"
   },
   {
+    "modid": 1871,
     "modidstrs": [
       "dirtyoldsack"
     ],
@@ -5806,6 +6528,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Screenshot+2024-01-1_5824c5cd16aad5332456c4d36f4ef4bd.png"
   },
   {
+    "modid": 1841,
     "modidstrs": [
       "statushudcont"
     ],
@@ -5814,6 +6537,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_3489a5fef4022c00d26f960aed2d9f92.png"
   },
   {
+    "modid": 1806,
     "modidstrs": [
       "helfavorite"
     ],
@@ -5822,6 +6546,7 @@
     "logo": null
   },
   {
+    "modid": 1791,
     "modidstrs": [
       "temporalog"
     ],
@@ -5830,6 +6555,7 @@
     "logo": "https://moddbcdn.vintagestory.at/temporlalog_ff115d3cb138416de228d5ddeea8a6dd.png"
   },
   {
+    "modid": 1783,
     "modidstrs": [
       "configlib"
     ],
@@ -5838,6 +6564,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_2c589ebdcff69be25dd6b36f34f32ccd.png"
   },
   {
+    "modid": 1779,
     "modidstrs": [
       "helquickstack"
     ],
@@ -5846,6 +6573,7 @@
     "logo": null
   },
   {
+    "modid": 1757,
     "modidstrs": [
       "ageofconfession"
     ],
@@ -5854,6 +6582,7 @@
     "logo": "https://moddbcdn.vintagestory.at/confession_thumbnail_9cc1402c65ecca32e0dad182b1edfaf0.png"
   },
   {
+    "modid": 1745,
     "modidstrs": [
       "vsimgui"
     ],
@@ -5862,6 +6591,7 @@
     "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_d50fe7ddf76686e47218afea83296f8e.png"
   },
   {
+    "modid": 1707,
     "modidstrs": [
       "storagecontroller"
     ],
@@ -5870,6 +6600,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_23e92c77d6320f03a61595e23d3715c1.png"
   },
   {
+    "modid": 1640,
     "modidstrs": [
       "chattranslator"
     ],
@@ -5878,6 +6609,7 @@
     "logo": "https://moddbcdn.vintagestory.at/demo_1dee264cefb980784d42abcf5a8923b5.png"
   },
   {
+    "modid": 1607,
     "modidstrs": [
       "OfflineFoodNoSpoil"
     ],
@@ -5886,6 +6618,7 @@
     "logo": "https://moddbcdn.vintagestory.at/NoOfflineFoodSpoil%284_af780f48e35853879244f4eb28624cfc.png"
   },
   {
+    "modid": 1602,
     "modidstrs": [
       "herbarium"
     ],
@@ -5894,6 +6627,7 @@
     "logo": "https://moddbcdn.vintagestory.at/herbarium_smallest_9b8bfc855aa0c7ad2fd72d3eb2e4bec4.png"
   },
   {
+    "modid": 1595,
     "modidstrs": [
       "NavarlioClasses"
     ],
@@ -5902,6 +6636,7 @@
     "logo": "https://moddbcdn.vintagestory.at/classes_e5d91c7efae8_4ba0ff21ff82604daaacd21ede3684ad.png"
   },
   {
+    "modid": 1580,
     "modidstrs": [
       "vinconomy"
     ],
@@ -5910,6 +6645,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Vinconomy-ModDBLogo2_aeba5d3e4663861032893d1cb56bf714.jpg"
   },
   {
+    "modid": 1543,
     "modidstrs": [
       "undergroundmines"
     ],
@@ -5918,6 +6654,7 @@
     "logo": "https://moddbcdn.vintagestory.at/UndergroundMines_Log_c59e8d8acdbdcadc5c2b06000695810c.png"
   },
   {
+    "modid": 1522,
     "modidstrs": [
       "NavarlioCustoms"
     ],
@@ -5926,6 +6663,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2025-03-21_00-46-13_a7c0f89e93ae602bdf9493d0c0e0ceb1.png"
   },
   {
+    "modid": 1447,
     "modidstrs": [
       "conquestgeology",
       "conquestnaturepack"
@@ -5935,6 +6673,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Nature+Pack_64891da4dcb8edf5f41da72aa2054165.png"
   },
   {
+    "modid": 1434,
     "modidstrs": [
       "resingluetools"
     ],
@@ -5943,6 +6682,7 @@
     "logo": "https://moddbcdn.vintagestory.at/comparison_2d15a39deaa190908a96c42190e1af65.png"
   },
   {
+    "modid": 1414,
     "modidstrs": [
       "resinglue"
     ],
@@ -5951,6 +6691,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Unbenannt_0aa39239523aeda3dfd99b5dba2f4462.png"
   },
   {
+    "modid": 1407,
     "modidstrs": [
       "temporal_gears_stack"
     ],
@@ -5959,6 +6700,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_11768bb7772e23c06b87b7587958f132.png"
   },
   {
+    "modid": 1381,
     "modidstrs": [
       "extrainfo"
     ],
@@ -5967,6 +6709,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ExtraInfo_f7224d1c10aea1334b91dfee8bc998df.png"
   },
   {
+    "modid": 1371,
     "modidstrs": [
       "rpvoicechat"
     ],
@@ -5975,6 +6718,7 @@
     "logo": null
   },
   {
+    "modid": 1344,
     "modidstrs": [
       "millwright"
     ],
@@ -5983,6 +6727,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo3_24b54abedee379b6b3825fc526025328.png"
   },
   {
+    "modid": 1324,
     "modidstrs": [
       "prospecttogether"
     ],
@@ -5991,6 +6736,7 @@
     "logo": null
   },
   {
+    "modid": 1288,
     "modidstrs": [
       "notenoughsand"
     ],
@@ -5999,6 +6745,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2023-05-19_22-48-34_eb250e4b65ac4280a9c1bc12200c8769.png"
   },
   {
+    "modid": 1279,
     "modidstrs": [
       "immersivecorpsedrop"
     ],
@@ -6007,6 +6754,7 @@
     "logo": "https://moddbcdn.vintagestory.at/immersive_corpse_dro_e226ff38cf7464ced364fa2d3f89d931.png"
   },
   {
+    "modid": 1257,
     "modidstrs": [
       "ClaimsRadar"
     ],
@@ -6015,6 +6763,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2023-10-15_01-45-04_6552ee091f50071571cfb1d85ba8aa32.png"
   },
   {
+    "modid": 1236,
     "modidstrs": [
       "weaponpackalphaunoff"
     ],
@@ -6023,6 +6772,7 @@
     "logo": "https://moddbcdn.vintagestory.at/WeaponPackAlphaUnoff_5ebcd76430ccbb24838cca7cd8fa3a18.jpg"
   },
   {
+    "modid": 1213,
     "modidstrs": [
       "fairplayguardian"
     ],
@@ -6031,6 +6781,7 @@
     "logo": null
   },
   {
+    "modid": 1189,
     "modidstrs": [
       "worldgenfix"
     ],
@@ -6039,6 +6790,7 @@
     "logo": "https://moddbcdn.vintagestory.at/ss2+logo_03393762d52dab75f1d31a22a4c28fe4.jpg"
   },
   {
+    "modid": 1186,
     "modidstrs": [
       "blocksoverlay"
     ],
@@ -6047,6 +6799,7 @@
     "logo": "https://moddbcdn.vintagestory.at/titlecard2-01_8c986d8da3a4985376f47ccc71267abf.png"
   },
   {
+    "modid": 1183,
     "modidstrs": [
       "bettertraders"
     ],
@@ -6055,6 +6808,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modiconformoddbNEW_dd8c17dece1bf0dc3c96de188d3cbadf_480_320.png"
   },
   {
+    "modid": 1163,
     "modidstrs": [
       "stonebakeoven"
     ],
@@ -6063,6 +6817,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Stone+Bake+Oven+Main_47d83533cb9af04ac2ee000e3bdea3b2.png"
   },
   {
+    "modid": 1127,
     "modidstrs": [
       "rifteye"
     ],
@@ -6071,6 +6826,7 @@
     "logo": "https://moddbcdn.vintagestory.at/crop_705d296041fa5be10f721c50280445a6.png"
   },
   {
+    "modid": 1104,
     "modidstrs": [
       "tablet"
     ],
@@ -6079,6 +6835,16 @@
     "logo": "https://moddbcdn.vintagestory.at/Logo_b74996aaef26df96c299653cde50f706.png"
   },
   {
+    "modid": 1081,
+    "modidstrs": [
+      "cancrops"
+    ],
+    "name": "CAN Crops",
+    "lastreleased": "2026-04-27 18:41:20",
+    "logo": "https://moddbcdn.vintagestory.at/cancrops320_13dd9e7b203eae5c1c9774dfc23b3194.png"
+  },
+  {
+    "modid": 1062,
     "modidstrs": [
       "creativehotbar"
     ],
@@ -6087,6 +6853,7 @@
     "logo": null
   },
   {
+    "modid": 1051,
     "modidstrs": [
       "webcartographer"
     ],
@@ -6095,6 +6862,7 @@
     "logo": "https://moddbcdn.vintagestory.at/wc_480_6b231b4778e6db9793d363ca88b259fe.png"
   },
   {
+    "modid": 1049,
     "modidstrs": [
       "scarecrow"
     ],
@@ -6103,6 +6871,7 @@
     "logo": "https://moddbcdn.vintagestory.at/scarecrow_all_a9fc9dc98cf79d65c4a7c08d6248c766.png"
   },
   {
+    "modid": 1041,
     "modidstrs": [
       "webcartographercolorexporter"
     ],
@@ -6111,6 +6880,7 @@
     "logo": "https://moddbcdn.vintagestory.at/wcc_480_2cb66c75b00f4522e655d65f3387e22b.png"
   },
   {
+    "modid": 1036,
     "modidstrs": [
       "awearablelight"
     ],
@@ -6119,6 +6889,7 @@
     "logo": "https://moddbcdn.vintagestory.at/icon-mod_f89e3c6e8dd6442c816218948ab33b21.png"
   },
   {
+    "modid": 1010,
     "modidstrs": [
       "steadycam"
     ],
@@ -6127,6 +6898,7 @@
     "logo": "https://moddbcdn.vintagestory.at/SteadyCam+%28Thumbnail_40495b47533410c034f61d8a6db596f2.png"
   },
   {
+    "modid": 950,
     "modidstrs": [
       "canmarket"
     ],
@@ -6135,6 +6907,7 @@
     "logo": "https://moddbcdn.vintagestory.at/480320_7238788b823bba869bf45667bb5ad986.png"
   },
   {
+    "modid": 937,
     "modidstrs": [
       "veganmilksimplified"
     ],
@@ -6143,6 +6916,7 @@
     "logo": "https://moddbcdn.vintagestory.at/2022-11-29_17-10-01_7d08dc36fdc1189a70ee5ef5971e1f90.png"
   },
   {
+    "modid": 890,
     "modidstrs": [
       "carryon"
     ],
@@ -6151,6 +6925,7 @@
     "logo": "https://moddbcdn.vintagestory.at/CarryOnLogo_aef8a4cbdf80f8b3851b5dc3b23e1a28.png"
   },
   {
+    "modid": 887,
     "modidstrs": [
       "sticksarefirewood"
     ],
@@ -6159,6 +6934,7 @@
     "logo": null
   },
   {
+    "modid": 886,
     "modidstrs": [
       "arrowheadsrecovery"
     ],
@@ -6167,6 +6943,7 @@
     "logo": null
   },
   {
+    "modid": 876,
     "modidstrs": [
       "tabletopgames"
     ],
@@ -6175,6 +6952,7 @@
     "logo": "https://moddbcdn.vintagestory.at/TabletopGames_093c1a9fb8325675e29f8e88f29474fc.png"
   },
   {
+    "modid": 858,
     "modidstrs": [
       "dreamcatchers"
     ],
@@ -6183,6 +6961,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_af3f0d935fe3153ecd9b4558be622924.png"
   },
   {
+    "modid": 852,
     "modidstrs": [
       "temporalstormgear"
     ],
@@ -6191,6 +6970,7 @@
     "logo": "https://moddbcdn.vintagestory.at/4_5382ce7cef2fa4577de08cefc54a44b9.png"
   },
   {
+    "modid": 821,
     "modidstrs": [
       "knapster"
     ],
@@ -6199,6 +6979,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Knapster+%28Thumbnail%29_6a182e70489bc2ad1eeda4985d12f283.png"
   },
   {
+    "modid": 804,
     "modidstrs": [
       "signals"
     ],
@@ -6207,6 +6988,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo_0339696d9d15e14e9ffde2e6517e9d33.png"
   },
   {
+    "modid": 792,
     "modidstrs": [
       "betterruins"
     ],
@@ -6215,6 +6997,7 @@
     "logo": "https://moddbcdn.vintagestory.at/BetterRuinsmoddbicon_021a6a8838be7058c2ab618ce0097224_480_320.png"
   },
   {
+    "modid": 731,
     "modidstrs": [
       "th3serverstats"
     ],
@@ -6223,6 +7006,7 @@
     "logo": null
   },
   {
+    "modid": 686,
     "modidstrs": [
       "buzzwords"
     ],
@@ -6231,6 +7015,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo3_aa91decfe38daeef2803c96ffa7dce6c.png"
   },
   {
+    "modid": 673,
     "modidstrs": [
       "translocatorengineeringredux"
     ],
@@ -6239,6 +7024,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo3_046da4db919f4ed777a335635f21d98f.png"
   },
   {
+    "modid": 656,
     "modidstrs": [
       "FlexibleTools"
     ],
@@ -6247,6 +7033,7 @@
     "logo": "https://moddbcdn.vintagestory.at/veinminethumb_34febca1d15e8a47a16651ff9c99c8c0.jpg"
   },
   {
+    "modid": 647,
     "modidstrs": [
       "MoreTorchHolders"
     ],
@@ -6255,6 +7042,7 @@
     "logo": null
   },
   {
+    "modid": 641,
     "modidstrs": [
       "coinage"
     ],
@@ -6263,6 +7051,7 @@
     "logo": "https://moddbcdn.vintagestory.at/titlecard-01_b7591639651e25548657bdcd5b76ff5c.png"
   },
   {
+    "modid": 636,
     "modidstrs": [
       "sortablestorage"
     ],
@@ -6271,6 +7060,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo3_64d95975ac75950279208cd595e7f1e4.png"
   },
   {
+    "modid": 604,
     "modidstrs": [
       "chiseltools"
     ],
@@ -6279,6 +7069,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modicon_910cef72d741fec6c488e5c5cf99f84f.png"
   },
   {
+    "modid": 589,
     "modidstrs": [
       "claims"
     ],
@@ -6287,6 +7078,7 @@
     "logo": "https://moddbcdn.vintagestory.at/claims_24a1145d0d2de06a3cf5366e65fb0587.png"
   },
   {
+    "modid": 586,
     "modidstrs": [
       "vsvillage"
     ],
@@ -6295,6 +7087,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Thumbnail_05b0a43a15a2ad3c9900202f2e4d8b84.png"
   },
   {
+    "modid": 567,
     "modidstrs": [
       "RelightTorches"
     ],
@@ -6303,6 +7096,7 @@
     "logo": null
   },
   {
+    "modid": 566,
     "modidstrs": [
       "CropsGrowHalfSpeed"
     ],
@@ -6311,6 +7105,7 @@
     "logo": null
   },
   {
+    "modid": 562,
     "modidstrs": [
       "cralutweaks",
       "danatweaks"
@@ -6320,6 +7115,7 @@
     "logo": "https://moddbcdn.vintagestory.at/DanaTweaks_56ef5105dc6282e1fd60dc520bed3808.png"
   },
   {
+    "modid": 541,
     "modidstrs": [
       "MoreStoneDrops"
     ],
@@ -6328,6 +7124,7 @@
     "logo": null
   },
   {
+    "modid": 496,
     "modidstrs": [
       "em"
     ],
@@ -6336,6 +7133,7 @@
     "logo": "https://moddbcdn.vintagestory.at/modlogo_metal_ac45ddc317aa440d44cf92a17505b5a7.png"
   },
   {
+    "modid": 476,
     "modidstrs": [
       "weightmod"
     ],
@@ -6344,6 +7142,7 @@
     "logo": null
   },
   {
+    "modid": 468,
     "modidstrs": [
       "conquest"
     ],
@@ -6352,6 +7151,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Resourcepack_11760a4e0b109f7aed085458c22cee42.png"
   },
   {
+    "modid": 443,
     "modidstrs": [
       "zoombuttonreborn"
     ],
@@ -6360,6 +7160,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo3_bfe2de101144731aea5fa78b0d97179c.png"
   },
   {
+    "modid": 400,
     "modidstrs": [
       "cats"
     ],
@@ -6368,6 +7169,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Thumbnail_571df89bed2fa54c2caacb0cf8e4ac9a.png"
   },
   {
+    "modid": 399,
     "modidstrs": [
       "petai"
     ],
@@ -6376,6 +7178,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Thumbnail_903b0cf5504c5bd86f2c7792d417f847.png"
   },
   {
+    "modid": 396,
     "modidstrs": [
       "nightwatcher"
     ],
@@ -6384,6 +7187,7 @@
     "logo": "https://moddbcdn.vintagestory.at/nightwatcher_a96683eb915bf192e9d9a76d43ac766a.jpg"
   },
   {
+    "modid": 391,
     "modidstrs": [
       "angelbelt"
     ],
@@ -6392,6 +7196,7 @@
     "logo": "https://moddbcdn.vintagestory.at/angelbeltrecipe_48c77ef2916cdd9ab0330f1ab67899b3.jpg"
   },
   {
+    "modid": 383,
     "modidstrs": [
       "wolftaming"
     ],
@@ -6400,6 +7205,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Thumbnail_ecf50a17fead0ae9ca29e692337b2bcd.png"
   },
   {
+    "modid": 350,
     "modidstrs": [
       "iwpei",
       "peca",
@@ -6414,6 +7220,7 @@
     "logo": "https://moddbcdn.vintagestory.at/PlaceEveryItem_1ef9fc135e3ad1415b634b5b8da1e9c0.png"
   },
   {
+    "modid": 334,
     "modidstrs": [
       "Th3Essentials"
     ],
@@ -6422,6 +7229,7 @@
     "logo": "https://moddbcdn.vintagestory.at/th3essentials_crop_c1409de25691f7a0a88b802cf67457a1.png"
   },
   {
+    "modid": 322,
     "modidstrs": [
       "primitivesurvival"
     ],
@@ -6430,6 +7238,7 @@
     "logo": "https://moddbcdn.vintagestory.at/logo3_dd03713f749ef0cf43fa5a03bf7991fa.png"
   },
   {
+    "modid": 318,
     "modidstrs": [
       "th3restock"
     ],
@@ -6438,6 +7247,7 @@
     "logo": null
   },
   {
+    "modid": 306,
     "modidstrs": [
       "animalcages"
     ],
@@ -6446,6 +7256,7 @@
     "logo": "https://moddbcdn.vintagestory.at/Thumbnail_acab2cc868cca39a12ce4d24cbf98096.png"
   },
   {
+    "modid": 265,
     "modidstrs": [
       "morepiles"
     ],
@@ -6454,6 +7265,7 @@
     "logo": "https://moddbcdn.vintagestory.at/MorePiles_e214030ba24475ca9b05f69cb7c6f526.png"
   },
   {
+    "modid": 253,
     "modidstrs": [
       "egocaribautomapmarkers",
       "egocaribresinmapmarkers"
@@ -6463,6 +7275,7 @@
     "logo": "https://moddbcdn.vintagestory.at/cover-image_5325552d8de398f4a1ca786e25cc5864.png"
   },
   {
+    "modid": 210,
     "modidstrs": [
       "accessibilitytweaks"
     ],
@@ -6471,6 +7284,7 @@
     "logo": "https://moddbcdn.vintagestory.at/AccessibilityTweaks__7f3a7a6c42c31d2b3b4e6549c8d919b8.png"
   },
   {
+    "modid": 175,
     "modidstrs": [
       "alchemy"
     ],
@@ -6479,6 +7293,7 @@
     "logo": "https://moddbcdn.vintagestory.at/The_Alchemy_mod_logo_2873c5c666ad117a13ef58a1d15433f2.png"
   },
   {
+    "modid": 117,
     "modidstrs": [
       "bricklayers"
     ],
@@ -6487,6 +7302,7 @@
     "logo": "https://moddbcdn.vintagestory.at/terasses_480_d0aa03edcbbc5f185d58aa24de276660.jpg"
   },
   {
+    "modid": 18,
     "modidstrs": [
       "th3expansion"
     ],
