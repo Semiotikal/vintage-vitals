@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vintage-Vitals: Mod Compatibility Checker</title>
+    <title>🩺 Vintage-Vitals: Mod Compatibility Checker</title>
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
-    <style>
-        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
-        button { padding: 10px 20px; background: #2b5d2b; color: white; border: none; cursor: pointer; border-radius: 4px; }
-        button:disabled { background: #666; cursor: not-allowed; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-        th { background-color: #f4f4f4; }
-        .yes { color: green; font-weight: bold; }
-        #loadingArea { margin-top: 20px; padding: 15px; background: #f9f9f9; border-radius: 4px; border: 1px solid #eee; }
-        progress { width: 100%; height: 20px; appearance: none; margin-top: 10px; }
-        progress::-webkit-progress-bar { background-color: #eee; border-radius: 4px; }
-        progress::-webkit-progress-value { background-color: #2b5d2b; border-radius: 4px; }
-    </style>
+<style>
+    body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; background-color: #fcfcfc; }
+    button { padding: 10px 20px; background: #2b5d2b; color: white; border: none; cursor: pointer; border-radius: 4px; font-weight: bold; }
+    button:disabled { background: #666; cursor: not-allowed; }
+    
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; font-size: 0.9em; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+    th { background-color: #f4f4f4; }
+    
+    .mod-logo { width: 50px; height: 50px; object-fit: cover; border-radius: 4px; display: block; border: 1px solid #eee; }
+    .status-tag { padding: 4px 8px; border-radius: 4px; font-size: 0.85em; font-weight: bold; }
+    .yes { background-color: #d4edda; color: #155724; }
+    .no { background-color: #fff3cd; color: #856404; }
+    
+    #loadingArea { margin: 20px 0; padding: 15px; border: 1px solid #ccc; border-radius: 4px; background: #fff; }
+    progress { width: 100%; height: 20px; }
+</style>
 </head>
 <body>
     <h1>Vintage-Vitals: VS Mod Compatibility Checker</h1>
@@ -52,22 +56,37 @@
         # Leaving this blank defaults to the stable Pyodide interpreter
     </py-config>
 
-    <py-script>
+<table id="resultsTable" style="display: none;">
+    <thead>
+        <tr>
+            <th>Logo</th>
+            <th>Mod Name (ID)</th>
+            <th>Last Released</th>
+            <th>Compatibility</th>
+        </tr>
+    </thead>
+    <tbody id="resultsBody"></tbody>
+</table>
+
+<py-script>
 from js import document, console, fetch
 import json
 import asyncio
+from pyodide.ffi import create_proxy
 
 api_mods = {}
 
 async def load_api_data():
     global api_mods
     try:
-        # Pulling from the mods.json you generated in your GitHub Action
         response = await fetch("mods.json")
         data = await response.text()
         list_data = json.loads(data)
-        api_mods = {m['modidstrs'][0] if isinstance(m['modidstrs'], list) else m['modidstrs']: m['name'] for m in list_data}
-        console.log("API Data loaded successfully.")
+        # Store full mod object for rich display
+        for m in list_data:
+            mid = m['modidstrs'][0] if isinstance(m['modidstrs'], list) else m['modidstrs']
+            api_mods[mid] = m
+        console.log("API Data loaded.")
     except Exception as e:
         console.log(f"Error loading mods.json: {e}")
 
@@ -83,31 +102,25 @@ async def scan_folder(event):
     btn.disabled = True
     loading_area.style.display = "block"
     document.getElementById("resultsTable").style.display = "none"
-
+    
     total = len(files)
     found_mods = {}
 
     for i, file in enumerate(files):
-        # Update UI every 100 files
         if i % 100 == 0:
-            percent = int((i / total) * 100)
-            progress_bar.value = percent
-            label.textContent = f"Processing {i} of {total} files..."
+            progress_bar.value = int((i / total) * 100)
+            label.textContent = f"Scanning {i} of {total} files..."
             await asyncio.sleep(0)
 
         if file.name == "modinfo.json":
             try:
                 content = await file.text()
-                # Clean up those common trailing comma JSON errors
-                cleaned = content.replace(",}", "}").replace(",]", "]")
-                data = json.loads(cleaned)
+                data = json.loads(content.replace(",}", "}").replace(",]", "]"))
                 mid = data.get("modid")
                 if mid:
                     found_mods[mid] = data.get("name", mid)
-            except:
-                continue
+            except: continue
 
-    progress_bar.value = 100
     display_results(found_mods)
     loading_area.style.display = "none"
     btn.disabled = False
@@ -115,36 +128,49 @@ async def scan_folder(event):
 def display_results(found_mods):
     body = document.getElementById("resultsBody")
     body.innerHTML = ""
-
-    for mid, name in found_mods.items():
+    
+    for mid, local_name in found_mods.items():
         row = document.createElement("tr")
+        mod_info = api_mods.get(mid, {})
         is_compat = mid in api_mods
         
-        id_td = document.createElement("td")
-        id_td.textContent = f"{name} ({mid})"
-        
-        status_td = document.createElement("td")
+        # 1. Logo Cell
+        logo_td = document.createElement("td")
+        img_src = mod_info.get("logo") or "https://mods.vintagestory.at/img/mod-default.png"
+        logo_html = f'<img src="{img_src}" class="mod-logo">'
         if is_compat:
-            status_td.textContent = "✅ Compatible"
-            status_td.className = "yes"
+            logo_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank">{logo_html}</a>'
         else:
-            status_td.textContent = "❓ Unknown / Incompatible"
-            status_td.style.color = "orange"
-
-        row.appendChild(id_td)
-        row.appendChild(status_td)
+            logo_td.innerHTML = logo_html
+            
+        # 2. Name Cell
+        name_td = document.createElement("td")
+        display_name = mod_info.get("name", local_name)
+        if is_compat:
+            name_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{mid}</small>'
+        else:
+            name_td.innerHTML = f'<strong>{display_name}</strong><br><small>{mid}</small>'
+            
+        # 3. Release Date Cell
+        date_td = document.createElement("td")
+        date_td.textContent = mod_info.get("lastreleased", "N/A")
+        
+        # 4. Status Cell
+        status_td = document.createElement("td")
+        status_td.innerHTML = f'<span class="status-tag {"yes" if is_compat else "no"}">{"✅ Compatible" if is_compat else "❓ Unknown"}</span>'
+            
+        for td in [logo_td, name_td, date_td, status_td]:
+            row.appendChild(td)
         body.appendChild(row)
 
     document.getElementById("resultsTable").style.display = "table"
 
-async def main():
+async def setup():
     await load_api_data()
-    # In Pyodide-based PyScript, ffi comes from the pyodide package
-    from pyodide.ffi import create_proxy
+    # Fixed binding for Pyodide engine
     document.getElementById("scanFolder").onclick = create_proxy(scan_folder)
 
-# Start app
-asyncio.ensure_future(main())
-    </py-script>
+asyncio.ensure_future(setup())
+</py-script>
 </body>
 </html>
