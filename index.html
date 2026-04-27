@@ -141,7 +141,7 @@ def display_results(found_mods):
     # --- SORTING LOGIC END ---
 
     for mid, local_name in sorted_items:
-        semver = document.getElementById("gameVersion").textContent
+        semver = document.getElementById("gameVersion").textContent.split('.x')[0].strip()
         row = document.createElement("tr")
         mod_info = api_mods.get(mid)
         is_compat = mod_info is not None
