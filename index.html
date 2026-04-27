@@ -30,8 +30,8 @@
         Database last updated: <span id="syncDate">...</span>
     </div>
 
-    <p>Check your locally installed Vintage Story mods against the ModDB database.</p>
-    <p>All searches are conducted locally (clientside).</p>
+    <p>Check your locally installed Vintage Story mods against the latest releases in ModDB database.</p>
+    <p>All searches are conducted locally (clientside). This searches your mods in the ModDB for updates to the same Major.Minor release (e.g. 1.22.x) </p>
     <h2> Instructions </h2>
     <ul> Click 'Choose Files' and select your mod cache folder ('unpack'). For windows, copy paste this to find it: <code>%APPDATA%\VintagestoryData\Cache</code></ul>
     <ul> Ignore warning about "uploading" files (nothing leaves your computer, its just uploading them into the browser). </ul>
@@ -73,7 +73,7 @@ async def load_api_data():
         
         # Update Game Version UI
         vs_version = json_obj.get("version", "Unknown")
-        document.getElementById("gameVersion").textContent = f"Targeting v{vs_version}"
+        document.getElementById("gameVersion").textContent = f"{vs_version}"
         
         # Update Sync Date UI
         sync_date = json_obj.get("last_updated", "Unknown")
@@ -141,6 +141,7 @@ def display_results(found_mods):
     # --- SORTING LOGIC END ---
 
     for mid, local_name in sorted_items:
+        semver = document.getElementById("gameVersion").textContent
         row = document.createElement("tr")
         mod_info = api_mods.get(mid)
         is_compat = mod_info is not None
@@ -152,8 +153,8 @@ def display_results(found_mods):
             img_src = "https://mods.vintagestory.at/web/img/mod-default.png"
             
         logo_html = f'<img src="{img_src}" class="mod-logo">'
-        # Always link to the mod page if we have an ID
-        logo_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank">{logo_html}</a>'
+        # Just run a search instead. URLs arent consisting enough to build.
+        logo_td.innerHTML = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={mid}&mv={semver}" target="_blank">{logo_html}</a>'
             
         # 2. Name Cell
         name_td = document.createElement("td")
@@ -161,8 +162,8 @@ def display_results(found_mods):
         
         # If compat, we use the modid from API, otherwise use local ID
         sub_name = mid
-        moddb_row = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
-        local_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={display_name}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
+        moddb_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={mid}&mv={semver}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
+        local_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={mid}&mv={semver}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
         
         if is_compat:
             name_td.innerHTML = moddb_row
@@ -177,7 +178,7 @@ def display_results(found_mods):
         # 4. Status Cell
         status_td = document.createElement("td")
         # Get the version string from the header we already set
-        vs_label = document.getElementById("gameVersion").textContent.split('v')[-1]
+        vs_label = document.getElementById("gameVersion").textContent
         status_class = 'yes' if is_compat else 'no'
         status_text = f"✅ v{vs_label} Compatible" if is_compat else f"❌ v{vs_label} Not Found"
 
