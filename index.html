@@ -127,7 +127,7 @@ def display_results(found_mods):
         if is_compat:
             logo_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank">{logo_html}</a>'
         else:
-            logo_td.innerHTML = logo_html
+            logo_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank">{logo_html}</a>'
             
         # 2. Name Cell
         name_td = document.createElement("td")
@@ -135,7 +135,7 @@ def display_results(found_mods):
         if is_compat:
             name_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{mid}</small>'
         else:
-            name_td.innerHTML = f'<strong>{display_name}</strong><br><small>{mid}</small>'
+            name_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{mid}</small>'
             
         # 3. Release Date Cell
         date_td = document.createElement("td")
