@@ -5558,6 +5558,14 @@
   },
   {
     "modidstrs": [
+      "foodshelves"
+    ],
+    "name": "Food Shelves",
+    "lastreleased": "2026-04-27 18:09:12",
+    "logo": "https://moddbcdn.vintagestory.at/thumbnailsmallnew_b2ff8d7ef92ea2060f7acb49a35f4ab2.png"
+  },
+  {
+    "modidstrs": [
       "AbsoluteProspecting"
     ],
     "name": "Absolute Prospecting",
