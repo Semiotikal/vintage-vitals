@@ -20,8 +20,8 @@ jobs:
       - name: Fetch Latest Game Version TagID
         id: fetch_tagid
         run: |
-          # Fetch the latest active tagid and set it as a step output
-          TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions | map(select(.active == true)) | last | .tagid')
+          # Simplified: Just grab the tagid of the very last entry in the gameversions list
+          TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions[-1].tagid')
           echo "tagid=$TAGID" >> $GITHUB_OUTPUT
 
       - name: Fetch Mods Data
