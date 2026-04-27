@@ -35,9 +35,10 @@
 
     <h2> Instructions </h2>
     <ul> Click 'Choose Files' and select your mod cache folder ('unpack'). For windows, copy paste this to find it: <code>%APPDATA%\VintagestoryData\Cache</code></ul>
-    <ul> Ignore warning about "uploading" files (nothing leaves your computer, its just uploading them into the browser). Click on 'Scan Folder' to check ModDB </ul>
-    <li><input type="file" id="folderPicker" webkitdirectory directory multiple><li>
-    <li><button id="scanFolder">🔎Scan Mods</button></li>
+    <ul> Ignore warning about "uploading" files (nothing leaves your computer, its just uploading them into the browser). </ul>ul>
+    <ul>Click on 'Scan Folder' to check ModDB </ul>
+    <ul><input type="file" id="folderPicker" webkitdirectory directory multiple><ul>
+    <ul><button id="scanFolder">🔎Scan Mods</button></ul>
 
     <div id="loadingArea" style="display: none;">
         <label id="progressLabel">⌛ Initializing scan...</label>
@@ -74,7 +75,7 @@ async def load_api_data():
         
         # Update Game Version UI
         vs_version = json_obj.get("version", "Unknown")
-        document.getElementById("gameVersion").textContent = f"Targeting Vintage Story v{vs_version}"
+        document.getElementById("gameVersion").textContent = f"Targeting v{vs_version}"
         
         # Update Sync Date UI
         sync_date = json_obj.get("last_updated", "Unknown")
@@ -156,7 +157,7 @@ def display_results(found_mods):
         # If compat, we use the modid from API, otherwise use local ID
         sub_name = mid
         moddb_row = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
-        local_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
+        local_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={display_name}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
         
         if is_compat:
             name_td.innerHTML = moddb_row
