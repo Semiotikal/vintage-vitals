@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🩺 Vintage-Vitals: Mod Compatibility Checker</title>
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.date.min.js"></script>
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <style>
         body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; background-color: #fcfcfc; }
@@ -48,12 +50,12 @@
     <table id="resultsTable" style="display: none;">
         <thead>
             <tr>
-                <th>Logo</th>
-                <th>Mod Name (ID)</th>
-                <th>Last Released</th>
-                <th>Compatibility</th>
+                <th role="columnheader">Logo</th>
+                <th role="columnheader">Mod Name (ID)</th>
+                <th role="columnheader">Last Released</th>
+                <th role="columnheader">Compatibility</th>
             </tr>
-        </thead>
+        </thead>    
         <tbody id="resultsBody"></tbody>
     </table>
 
@@ -171,10 +173,8 @@ def display_results(found_mods):
         
         # 4. Status Cell
         status_td = document.createElement("td")
-        status_class = 'yes' if is_compat else 'no'
         # Get the version string from the header we already set
         vs_label = document.getElementById("gameVersion").textContent.split('v')[-1]
-
         status_class = 'yes' if is_compat else 'no'
         status_text = f"✅ v{vs_label} Compatible" if is_compat else f"❌ v{vs_label} Not Found"
 
@@ -185,6 +185,8 @@ def display_results(found_mods):
             body.appendChild(row)
 
     document.getElementById("resultsTable").style.display = "table"
+    from js import Tablesort
+    Tablesort.new(document.getElementById('resultsTable'))
 
 async def setup():
     await load_api_data()
