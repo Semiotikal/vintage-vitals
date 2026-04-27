@@ -54,7 +54,7 @@
     interpreter = "https://pyscript.net/releases/2024.1.1/micropython.mjs"
 </py-config>
 
-    <py-script>
+<py-script>
 from js import document, console, fetch
 import ujson as json
 import asyncio
@@ -144,12 +144,11 @@ def display_results(found_mods):
 
 async def main():
     await load_api_data()
-    from pyodide.ffi import create_proxy
-    # Use direct assignment for MicroPython reliability
-    document.getElementById("scanFolder").onclick = create_proxy(scan_folder)
+    # Use the 'pyscript' module instead of 'pyodide' to avoid the 404 trigger
+    from pyscript import ffi
+    document.getElementById("scanFolder").onclick = ffi.create_proxy(scan_folder)
 
-# Start app
 asyncio.ensure_future(main())
-    </py-script>
+</py-script>
 </body>
 </html>
