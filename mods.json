@@ -1,6 +1,6 @@
 {
   "version": "1.22.0",
-  "last_updated": "2026-04-27 21:01 UTC",
+  "last_updated": "2026-04-27 21:13 UTC",
   "mods": [
     {
       "modidstrs": [
@@ -748,15 +748,6 @@
       "name": "HoR Performance Optimizer",
       "lastreleased": "2026-04-24 05:10:50",
       "logo": "https://moddbcdn.vintagestory.at/HoR_2bd9c4e3d7a666571831e2c479ba598e.png"
-    },
-    {
-      "modidstrs": [
-        "continentalworlds"
-      ],
-      "modid": 8237,
-      "name": "Continental World 1.22",
-      "lastreleased": "2026-04-22 23:13:08",
-      "logo": null
     },
     {
       "modidstrs": [
