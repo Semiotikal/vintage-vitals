@@ -37,7 +37,7 @@ jobs:
             exit 1
           fi
           
-          curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=$TAGID" | jq '[.mods[] | {modidstrs, name, lastreleased, logo}]' > mods.json
+          curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=$TAGID" | jq '[.mods[] | {modid, modidstrs, name, lastreleased, logo}]' > mods.json
           
       - name: Commit and Push mods.json
         run: |
