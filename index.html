@@ -163,7 +163,7 @@ def display_results(found_mods):
         # If compat, we use the modid from API, otherwise use local ID
         sub_name = mid
         moddb_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={mid}&mv={semver}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
-        local_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={mid}&mv={semver}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
+        local_row = f'<a href="https://mods.vintagestory.at/list/mod?sortby=lastReleased&sortdir=d&text={display_name}" target="_blank"><strong>{display_name}</strong></a><br><small>{sub_name}</small>'
         
         if is_compat:
             name_td.innerHTML = moddb_row
