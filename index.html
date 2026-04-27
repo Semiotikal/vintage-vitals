@@ -42,20 +42,6 @@
         <progress id="scanProgress" value="0" max="100"></progress>
     </div>
 
-    <table id="resultsTable" style="display: none;">
-        <thead>
-            <tr>
-                <th>Mod ID</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody id="resultsBody"></tbody>
-    </table>
-
-    <py-config>
-        # Leaving this blank defaults to the stable Pyodide interpreter
-    </py-config>
-
 <table id="resultsTable" style="display: none;">
     <thead>
         <tr>
@@ -157,7 +143,10 @@ def display_results(found_mods):
         
         # 4. Status Cell
         status_td = document.createElement("td")
-        status_td.innerHTML = f'<span class="status-tag {"yes" if is_compat else "no"}">{"✅ Compatible" if is_compat else "❓ Unknown"}</span>'
+        # FIX: Using single quotes inside the curly braces to avoid SyntaxError
+        status_class = 'yes' if is_compat else 'no'
+        status_text = "✅ Compatible" if is_compat else "❓Unknown"
+        status_td.innerHTML = f'<span class="status-tag {status_class}">{status_text}</span>'
             
         for td in [logo_td, name_td, date_td, status_td]:
             row.appendChild(td)
