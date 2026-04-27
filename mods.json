@@ -113,7 +113,7 @@
       "chiselingqolpatches"
     ],
     "name": "Chiseling QoL Patches",
-    "lastreleased": "2026-04-26 20:18:23",
+    "lastreleased": "2026-04-27 19:24:46",
     "logo": "https://moddbcdn.vintagestory.at/ChiselingQoLPatchesT_e090c267a0ce866e87f7951a50f3ada7.png"
   },
   {
@@ -6607,6 +6607,15 @@
     "name": "Chat Translator",
     "lastreleased": "2026-04-21 20:09:20",
     "logo": "https://moddbcdn.vintagestory.at/demo_1dee264cefb980784d42abcf5a8923b5.png"
+  },
+  {
+    "modid": 1639,
+    "modidstrs": [
+      "maltiezbows"
+    ],
+    "name": "Bows",
+    "lastreleased": "2026-04-27 19:31:42",
+    "logo": "https://moddbcdn.vintagestory.at/0_logo_f921a9513f6c3_974a561616e9d39a8848d60c21643fce.png"
   },
   {
     "modid": 1607,
