@@ -50,16 +50,17 @@
     </table>
 
 <py-config>
-    [experimental]
-    interpreter = "https://pyscript.net/releases/2024.1.1/micropython.mjs"
+    # This is the modern, non-experimental way to force MicroPython
+    type = "micropython"
 </py-config>
 
 <py-script>
 from js import document, console, fetch
-import ujson as json
+# Use standard json - both engines support this now, 
+# which prevents the 'ModuleNotFoundError' if Pyodide ever takes over
+import json 
 import asyncio
 
-# Global storage for the API data
 api_mods = {}
 
 async def load_api_data():
@@ -68,7 +69,6 @@ async def load_api_data():
         response = await fetch("mods.json")
         data = await response.text()
         list_data = json.loads(data)
-        # Map modid -> name
         api_mods = {m['modidstrs'][0] if isinstance(m['modidstrs'], list) else m['modidstrs']: m['name'] for m in list_data}
         console.log("Loaded API data.")
     except Exception as e:
@@ -80,7 +80,6 @@ async def scan_folder(event):
     progress_bar = document.getElementById("scanProgress")
     progress_label = document.getElementById("progressLabel")
     
-    # UI Setup
     btn.disabled = True
     loading_area.style.display = "block"
     document.getElementById("resultsTable").style.display = "none"
@@ -90,17 +89,16 @@ async def scan_folder(event):
     found_mods = {}
 
     for i, file in enumerate(files):
-        # Update progress bar every 100 files for performance
         if i % 100 == 0:
             percent = int((i / total_files) * 100)
             progress_bar.value = percent
             progress_label.textContent = f"Processing file {i} of {total_files}..."
-            await asyncio.sleep(0) # Yield to allow UI to redraw
+            await asyncio.sleep(0) 
 
         if file.name == "modinfo.json":
             try:
                 raw_text = await file.text()
-                # Basic cleanup for trailing commas
+                # Clean trailing commas
                 cleaned_json = raw_text.replace(",}", "}").replace(",]", "]")
                 moddata = json.loads(cleaned_json)
                 mid = moddata.get("modid")
@@ -109,25 +107,20 @@ async def scan_folder(event):
             except:
                 continue
 
-    # Finalize UI
     progress_bar.value = 100
     display_results(found_mods)
     loading_area.style.display = "none"
     btn.disabled = False
 
 def display_results(found_mods):
-    results_table = document.getElementById("resultsTable")
     results_body = document.getElementById("resultsBody")
     results_body.innerHTML = ""
 
     for mid, name in found_mods.items():
         row = document.createElement("tr")
-        
-        # Name and ID
         id_cell = document.createElement("td")
         id_cell.textContent = f"{name} ({mid})"
         
-        # Compatibility Status
         status_cell = document.createElement("td")
         if mid in api_mods:
             status_cell.textContent = "✅ Compatible"
@@ -140,11 +133,11 @@ def display_results(found_mods):
         row.appendChild(status_cell)
         results_body.appendChild(row)
 
-    results_table.style.display = "table"
+    document.getElementById("resultsTable").style.display = "table"
 
 async def main():
     await load_api_data()
-    # Use the 'pyscript' module instead of 'pyodide' to avoid the 404 trigger
+    # Using 'pyscript' ffi is the safest way to avoid triggering the Pyodide loader
     from pyscript import ffi
     document.getElementById("scanFolder").onclick = ffi.create_proxy(scan_folder)
 
