@@ -7,43 +7,261 @@
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <style>
-        body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; background-color: #fcfcfc; }
-        button { padding: 10px 20px; background: #2b5d2b; color: white; border: none; cursor: pointer; border-radius: 4px; font-weight: bold; }
-        button:disabled { background: #666; cursor: not-allowed; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; font-size: 0.9em; }
-        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-        th { background-color: #f4f4f4; }
-        .mod-logo { width: 50px; height: 50px; object-fit: cover; border-radius: 4px; display: block; border: 1px solid #eee; }
-        .status-tag { padding: 4px 8px; border-radius: 4px; font-size: 0.85em; font-weight: bold; }
-        .yes { background-color: #d4edda; color: #155724; }
-        .no { background-color: #fff3cd; color: #856404; }
-        #loadingArea { margin: 20px 0; padding: 15px; border: 1px solid #ccc; border-radius: 4px; background: #fff; }
-        progress { width: 100%; height: 20px; }
-        .version-info { font-size: 0.9em; color: #666; margin-bottom: 20px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            line-height: 1.6; 
+            background: linear-gradient(135deg, #f5f5f5 0%, #fafafa 100%);
+            color: #333;
+        }
+        
+        h1 { 
+            font-size: 2em; 
+            margin-bottom: 8px; 
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+        
+        .header-section {
+            margin-bottom: 32px;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 24px;
+            font-size: 0.95em;
+            color: #666;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .meta-info strong {
+            color: #2b5d2b;
+            font-weight: 600;
+        }
+        
+        .description {
+            color: #555;
+            margin-bottom: 24px;
+            font-size: 0.95em;
+            max-width: 700px;
+        }
+        
+        .input-section {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border: 1px solid #e5e5e5;
+        }
+        
+        .input-group {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        input[type="file"] {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 0.9em;
+            background: #f9f9f9;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        input[type="file"]:hover {
+            border-color: #2b5d2b;
+            background: #fafafa;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background: #2b5d2b;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95em;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        
+        button:hover:not(:disabled) {
+            background: #1f4620;
+            box-shadow: 0 2px 8px rgba(43, 93, 43, 0.2);
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .info-box {
+            background: #f0f7f0;
+            border-left: 3px solid #2b5d2b;
+            padding: 12px 16px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #2b5d2b;
+            margin-top: 16px;
+            display: none;
+        }
+        
+        .info-box.show {
+            display: block;
+        }
+        
+        .info-box code {
+            background: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+        }
+        
+        #loadingArea {
+            margin-top: 24px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e5e5e5;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            display: none;
+        }
+        
+        #loadingArea.show {
+            display: block;
+        }
+        
+        #progressLabel {
+            display: block;
+            margin-bottom: 12px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        progress {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            border: none;
+            background: #e5e5e5;
+        }
+        
+        progress::-webkit-progress-bar {
+            background: #e5e5e5;
+            border-radius: 3px;
+        }
+        
+        progress::-webkit-progress-value {
+            background: #2b5d2b;
+            border-radius: 3px;
+        }
+        
+        progress::-moz-progress-bar {
+            background: #2b5d2b;
+            border-radius: 3px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 32px;
+            background: white;
+            font-size: 0.9em;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border: 1px solid #e5e5e5;
+            display: none;
+        }
+        
+        table.show {
+            display: table;
+        }
+        
+        th, td {
+            border: none;
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        th {
+            background-color: #f8f8f8;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        tr:hover td {
+            background: #fafafa;
+        }
+        
+        .mod-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 4px;
+            display: block;
+            border: 1px solid #eee;
+        }
+        
+        .status-tag {
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 600;
+            display: inline-block;
+        }
+        
+        .yes {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .no {
+            background-color: #fff3cd;
+            color: #856404;
+        }
     </style>
 </head>
 <body>
-    <h1>Vintage-Vitals: VS Mod Compatibility Checker</h1>
-    
-    <div class="version-info">
-        <strong id="gameVersion">Detecting version...</strong><br>
-        Database last updated: <span id="syncDate">...</span>
+    <div class="header-section">
+        <h1>🩺 Vintage-Vitals</h1>
+        
+        <div class="meta-info">
+            <div>Game Version: <strong id="gameVersion">Detecting...</strong></div>
+            <div>Updated: <strong id="syncDate">...</strong></div>
+        </div>
+        
+        <p class="description">Check your locally installed Vintage Story mods against the latest releases in the ModDB database. All scanning is done locally in your browser—nothing is uploaded.</p>
     </div>
 
-    <p>Check your locally installed Vintage Story mods against the latest releases in ModDB database.</p>
-    <p>All searches are conducted locally (clientside). This searches your mods in the ModDB for updates to the same Major.Minor release (e.g. 1.22.x) </p>
-    <h2> Instructions </h2>
-    <ul> Click 'Choose Files' and select your mod cache folder ('unpack'). For windows, copy paste this to find it: <code>%APPDATA%\VintagestoryData\Cache</code></ul>
-    <ul> Ignore warning about "uploading" files (nothing leaves your computer, its just uploading them into the browser). </ul>
-    <ul>Click on 'Scan Folder' to check ModDB</ul>
-    <ul><input type="file" id="folderPicker" webkitdirectory directory multiple></ul>
-    <ul><button id="scanFolder">🔎Scan Mods</button></ul>
-    <div id="loadingArea" style="display: none;">
+    <div class="input-section">
+        <div class="input-group">
+            <input type="file" id="folderPicker" webkitdirectory directory multiple title="Select your mod cache folder (unpack)">
+            <button id="scanFolder">🔎 Scan Mods</button>
+        </div>
+        <div class="info-box show">
+            <strong>📁 Windows:</strong> Copy and paste this path into File Explorer to find your mods folder: <code>%APPDATA%\VintagestoryData\Cache</code>
+        </div>
+    </div>
+
+    <div id="loadingArea">
         <label id="progressLabel">⌛ Initializing scan...</label>
         <progress id="scanProgress" value="0" max="100"></progress>
     </div>
 
-    <table id="resultsTable" style="display: none;">
+    <table id="resultsTable">
         <thead>
             <tr>
                 <th role="columnheader">Logo</th>
@@ -101,8 +319,8 @@ async def scan_folder(event):
     if not files: return
 
     btn.disabled = True
-    loading_area.style.display = "block"
-    document.getElementById("resultsTable").style.display = "none"
+    loading_area.classList.add("show")
+    document.getElementById("resultsTable").classList.remove("show")
     
     total = len(files)
     found_mods = {} # local_modid: local_name
@@ -124,7 +342,7 @@ async def scan_folder(event):
             except: continue
 
     display_results(found_mods)
-    loading_area.style.display = "none"
+    loading_area.classList.remove("show")
     btn.disabled = False
 
 def display_results(found_mods):
@@ -188,7 +406,7 @@ def display_results(found_mods):
             row.appendChild(td)
             body.appendChild(row)
 
-    document.getElementById("resultsTable").style.display = "table"
+    document.getElementById("resultsTable").classList.add("show")
     from js import Tablesort
     Tablesort.new(document.getElementById('resultsTable'))
 
