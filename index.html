@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage-Vitals: Mod Compatibility Checker</title>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <style>
         body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
         button { padding: 10px 20px; background: #2b5d2b; color: white; border: none; cursor: pointer; border-radius: 4px; }
@@ -36,11 +36,9 @@
     </table>
 
     <!-- Specify the MicroPython runtime -->
-    <py-env>
-        {
-            "runtime": "micropython"
-        }
-    </py-env>
+<py-config>
+    interpreter = "micropython"
+</py-config>
 
     <py-script>
         from js import document, console
