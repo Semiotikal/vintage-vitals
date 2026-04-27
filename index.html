@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage-Vitals: Mod Compatibility Checker</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+        button { padding: 10px 20px; background: #2b5d2b; color: white; border: none; cursor: pointer; border-radius: 4px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        .yes { color: green; font-weight: bold; }
+        img { max-width: 50px; max-height: 50px; }
+    </style>
+</head>
+<body>
+    <h1>Vintage-Vitals: VS Mod Compatibility Checker</h1>
+    <p>
+        Please select your <code>vintagestorydata/cache/unpack</code> folder. 
+        On Windows, you can copy-paste the following path into the folder picker to get it:
+        <br>
+        <code>C:\Users\%USERNAME%\AppData\Roaming\VintagestoryData\cache\unpack</code>
+    </p>
+    <input type="file" id="folderPicker" webkitdirectory directory multiple>
+    <button id="scanFolder">Scan Folder</button>
+    <table id="resultsTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Mod ID</th>
+            </tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+    </table>
+
+    <!-- Specify the MicroPython runtime -->
+    <py-env>
+        {
+            "runtime": "micropython"
+        }
+    </py-env>
+
+    <py-script>
+        from js import document, console
+        import ujson as json  # MicroPython uses `ujson` for JSON parsing
+
+        def scan_folder(event):
+            """Scan the selected folder for modinfo.json files and extract modids."""
+            folder_picker = document.getElementById("folderPicker")
+            files = folder_picker.files
+            modids = set()  # Use a set to deduplicate modids
+
+            # Iterate through all files in the selected folder
+            for file in files:
+                # Check if the file is a modinfo.json file
+                if file.name.endswith("modinfo.json"):
+                    try:
+                        # Read the modinfo.json file
+                        raw_json = file.text()
+                        cleaned_json = raw_json.replace(",}", "}").replace(",]", "]")  # Remove trailing commas
+                        modinfo = json.loads(cleaned_json)
+                        modid = modinfo.get("modid")
+                        if modid:
+                            modids.add(modid)  # Add modid to the set
+                    except Exception as e:
+                        console.log(f"Error reading {file.name}: {e}")
+
+            # Display the results
+            display_results(modids)
+
+        def display_results(modids):
+            """Display the extracted modids in the results table."""
+            results_table = document.getElementById("resultsTable")
+            results_body = document.getElementById("resultsBody")
+            results_body.innerHTML = ""  # Clear previous results
+
+            for modid in modids:
+                row = document.createElement("tr")
+                modid_cell = document.createElement("td")
+                modid_cell.textContent = modid
+                row.appendChild(modid_cell)
+                results_body.appendChild(row)
+
+            results_table.style.display = "table"
+
+        # Attach event listener to the Scan Folder button
+        document.getElementById("scanFolder").addEventListener("click", scan_folder)
+    </py-script>
+</body>
+</html>
