@@ -243,7 +243,8 @@
             <div>Updated: <strong id="syncDate">...</strong></div>
         </div>
         
-        <p class="description">Check your locally installed Vintage Story mods against the latest releases in the ModDB database. All scanning is done locally in your browser—nothing is uploaded.</p>
+        <p class="description">Check whether installed Vintage Story mods have support against the latest releases in the ModDB database. All scanning is done locally in your browser—nothing is uploaded.</p>
+        <p> Updates daily. Uses local cache files so you need to have loaded your mods at least once.</p>
     </div>
 
     <div class="input-section">
@@ -252,7 +253,7 @@
             <button id="scanFolder">🔎 Scan Mods</button>
         </div>
         <div class="info-box show">
-            <strong>📁 Windows:</strong> Copy and paste this path into File Explorer to find your mods folder: <code>%APPDATA%\VintagestoryData\Cache</code>
+            <strong>📁 Windows:</strong> Copy and paste this path into File Explorer to select your "unpack" folder: <code>%APPDATA%\VintagestoryData\Cache</code>
         </div>
     </div>
 
@@ -322,14 +323,21 @@ async def scan_folder(event):
     loading_area.classList.add("show")
     document.getElementById("resultsTable").classList.remove("show")
     
-    total = len(files)
-    found_mods = {} # local_modid: local_name
+    all_files = document.getElementById("folderPicker").files
+    mod_files = [f for f in all_files if f.name == "modinfo.json"]
+    
+    total = len(mod_files)
+    found_mods = {}
 
-    for i, file in enumerate(files):
-        if i % 100 == 0:
-            progress_bar.value = int((i / total) * 100)
-            label.textContent = f"Scanning {i} of {total} files..."
-            await asyncio.sleep(0)
+    if total == 0:
+        label.textContent = "No mods found in this folder."
+        btn.disabled = False
+        return
+
+    for i, file in enumerate(mod_files):
+        # This will now scale 0-100% based ONLY on mod files
+        progress_bar.value = int(((i + 1) / total) * 100)
+        label.textContent = f"Processing mod {i + 1} of {total}..."
 
         if file.name == "modinfo.json":
             try:
@@ -340,6 +348,7 @@ async def scan_folder(event):
                 if mid:
                     found_mods[mid] = name
             except: continue
+        await asyncio.sleep(0)
 
     display_results(found_mods)
     loading_area.classList.remove("show")
