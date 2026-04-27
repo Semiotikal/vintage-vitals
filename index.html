@@ -70,7 +70,7 @@ async def load_api_data():
         list_data = json.loads(data)
         # Store full mod object for rich display
         for m in list_data:
-            mid = m['modidstrs'][0] if isinstance(m['modidstrs'], list) else m['modidstrs']
+            mid = m['modid'][0] if isinstance(m['modid'], list) else m['modidstrs']
             api_mods[mid] = m
         console.log("API Data loaded.")
     except Exception as e:
@@ -104,7 +104,7 @@ async def scan_folder(event):
                 data = json.loads(content.replace(",}", "}").replace(",]", "]"))
                 mid = data.get("modid")
                 if mid:
-                    found_mods[mid] = data.get("name", mid)
+                    found_mods[mid] = mid
             except: continue
 
     display_results(found_mods)
