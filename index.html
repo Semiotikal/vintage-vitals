@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🩺 Vintage-Vitals: Mod Compatibility Checker</title>
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.date.min.js"></script>
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <style>
         body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; background-color: #fcfcfc; }
@@ -34,14 +32,12 @@
 
     <p>Check your locally installed Vintage Story mods against the ModDB database.</p>
     <p>All searches are conducted locally (clientside).</p>
-
     <h2> Instructions </h2>
     <ul> Click 'Choose Files' and select your mod cache folder ('unpack'). For windows, copy paste this to find it: <code>%APPDATA%\VintagestoryData\Cache</code></ul>
     <ul> Ignore warning about "uploading" files (nothing leaves your computer, its just uploading them into the browser). </ul>
-    <ul>Click on 'Scan Folder' to check ModDB </ul>
-    <ul><input type="file" id="folderPicker" webkitdirectory directory multiple><ul>
+    <ul>Click on 'Scan Folder' to check ModDB</ul>
+    <ul><input type="file" id="folderPicker" webkitdirectory directory multiple></ul>
     <ul><button id="scanFolder">🔎Scan Mods</button></ul>
-    <br>
     <div id="loadingArea" style="display: none;">
         <label id="progressLabel">⌛ Initializing scan...</label>
         <progress id="scanProgress" value="0" max="100"></progress>
@@ -135,10 +131,17 @@ def display_results(found_mods):
     body = document.getElementById("resultsBody")
     body.innerHTML = ""
     
-    for mid, local_name in found_mods.items():
+    # --- SORTING LOGIC START ---
+    # Sort the items: (True/False, Name) 
+    # This puts True (Compatible) first, then sorts alphabetically by name
+    sorted_items = sorted(
+        found_mods.items(), 
+        key=lambda item: (item[0] not in api_mods, item[1].lower())
+    )
+    # --- SORTING LOGIC END ---
+
+    for mid, local_name in sorted_items:
         row = document.createElement("tr")
-        
-        # Check if the local mod ID exists in our API dictionary
         mod_info = api_mods.get(mid)
         is_compat = mod_info is not None
         
