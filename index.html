@@ -139,11 +139,11 @@ def display_results(found_mods):
 
 async def main():
     await load_api_data()
-    # Binding the button using standard PyScript FFI
-    from pyscript import ffi
-    document.getElementById("scanFolder").onclick = ffi.create_proxy(scan_folder)
+    # In Pyodide-based PyScript, ffi comes from the pyodide package
+    from pyodide.ffi import create_proxy
+    document.getElementById("scanFolder").onclick = create_proxy(scan_folder)
 
-# Use standard asyncio to run the main loop
+# Start app
 asyncio.ensure_future(main())
     </py-script>
 </body>
