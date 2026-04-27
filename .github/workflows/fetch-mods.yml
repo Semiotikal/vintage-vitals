@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *' # Updates once a day automatically
+    - cron: '0 0 * * *'
 
 jobs:
   fetch-and-deploy:
@@ -20,21 +20,28 @@ jobs:
       - name: Fetch Latest Game Version TagID
         id: fetch_tagid
         run: |
-          # The API returns a list; we want the last stable version's tagid
+          # Fetch the latest active tagid and set it as a step output
           TAGID=$(curl -s "https://mods.vintagestory.at/api/gameversions" | jq -r '.gameversions | map(select(.active == true)) | last | .tagid')
-          echo "tagid=$TAGID" >> $GITHUB_ENV
+          echo "tagid=$TAGID" >> $GITHUB_OUTPUT
 
       - name: Fetch Mods Data
         run: |
-          # Fetch mods for that version and save to mods.json
-          curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=${{ env.tagid }}" | jq '[.mods[] | {modidstrs, name, lastreleased, logo}]' > mods.json
+          # Use the output from the previous step
+          # We add a check to make sure TAGID isn't empty or null
+          TAGID="${{ steps.fetch_tagid.outputs.tagid }}"
+          if [ "$TAGID" = "null" ] || [ -z "$TAGID" ]; then
+            echo "Error: Could not retrieve a valid TagID"
+            exit 1
+          fi
+          
+          curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=$TAGID" | jq '[.mods[] | {modidstrs, name, lastreleased, logo}]' > mods.json
           
       - name: Commit and Push mods.json
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add mods.json
-          git commit -m "Update mods.json for game version ${{ env.tagid }}" || echo "No changes to commit"
+          git commit -m "Update mods.json for game version ${{ steps.fetch_tagid.outputs.tagid }}" || echo "No changes to commit"
           git push
 
       - name: Deploy to GitHub Pages
