@@ -67,12 +67,24 @@ async def load_api_data():
     try:
         response = await fetch("mods.json")
         data = await response.text()
-        list_data = json.loads(data)
+        json_obj = json.loads(data)
+    
+        # Update Game Version
+        vs_version = json_obj.get("version", "Unknown")
+        document.getElementById("gameVersion").textContent = f"(v{vs_version})"  
+
+        # Update Sync Date (New)
+        sync_date = json_obj.get("last_updated", "Unknown")
+        document.getElementById("syncDate").textContent = sync_date
+    
         # Store full mod object for rich display
+        list_data = json_obj.get("mods", [])
         for m in list_data:
-            mid = m['modid'][0] if isinstance(m['modid'], list) else m['modidstrs']
+            mid = m['modid']
+            moidstr = m['modidstrs'][0] if isinstance(m['modidstrs'], list) else m['modidstrs']
+            api_mods[moidstr] = moidstr
             api_mods[mid] = m
-        console.log("API Data loaded.")
+        console.log(f"API Data loaded. Version: {vs_version}, Updated: {sync_date}")
     except Exception as e:
         console.log(f"Error loading mods.json: {e}")
 
@@ -122,7 +134,7 @@ def display_results(found_mods):
         
         # 1. Logo Cell
         logo_td = document.createElement("td")
-        img_src = mod_info.get("logo") or "https://mods.vintagestory.at/img/mod-default.png"
+        img_src = mod_info.get("logo") or "https://mods.vintagestory.at/web/img/mod-default.png"
         logo_html = f'<img src="{img_src}" class="mod-logo">'
         if is_compat:
             logo_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank">{logo_html}</a>'
@@ -132,10 +144,11 @@ def display_results(found_mods):
         # 2. Name Cell
         name_td = document.createElement("td")
         display_name = mod_info.get("name", local_name)
+        small_name = mod_info.get("moidstr")
         if is_compat:
-            name_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{mid}</small>'
+            name_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{small_name}</small>'
         else:
-            name_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{mid}</small>'
+            name_td.innerHTML = f'<a href="https://mods.vintagestory.at/show/mod/{mid}" target="_blank"><strong>{display_name}</strong></a><br><small>{small_name}</small>'
             
         # 3. Release Date Cell
         date_td = document.createElement("td")
