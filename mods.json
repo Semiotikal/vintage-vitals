@@ -1,6 +1,6 @@
 {
   "version": "1.22.x",
-  "last_updated": "2026-04-27 22:38 UTC",
+  "last_updated": "2026-04-27 23:31 UTC",
   "mods": [
     {
       "modidstrs": [
@@ -71,7 +71,7 @@
       ],
       "modid": 8332,
       "name": "Aquaponics and Fish Breeding",
-      "lastreleased": "2026-04-27 21:26:10",
+      "lastreleased": "2026-04-27 23:05:45",
       "logo": "https://moddbcdn.vintagestory.at/Poster+Image_5c302de42f25953224a1d32e92d41aa0_480_320.png"
     },
     {
@@ -8403,6 +8403,15 @@
       "name": "FairyWren",
       "lastreleased": "2026-04-24 04:02:43",
       "logo": "https://moddbcdn.vintagestory.at/fairywrenlogo03bg_ef710377902010f9559a352e85cb60cc.jpg"
+    },
+    {
+      "modidstrs": [
+        "jonastools"
+      ],
+      "modid": 4284,
+      "name": "Jonas Tools",
+      "lastreleased": "2026-04-27 22:48:46",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_480x320_0551c912b4da3ce346b0bbfc6bebed80.jpg"
     },
     {
       "modidstrs": [
