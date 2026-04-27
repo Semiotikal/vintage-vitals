@@ -1,6 +1,6 @@
 {
   "version": "1.22.0",
-  "last_updated": "2026-04-27 20:13 UTC",
+  "last_updated": "2026-04-27 20:20 UTC",
   "mods": [
     {
       "modidstrs": [
@@ -5506,6 +5506,15 @@
       "name": "Movable as first option in GUI",
       "lastreleased": "2026-04-24 11:54:59",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "continentalworld"
+      ],
+      "modid": 3700,
+      "name": "Continental World",
+      "lastreleased": "2026-04-27 20:17:52",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_95c7f30d0a28e494deea4aa38d252ebe.png"
     },
     {
       "modidstrs": [
