@@ -36,9 +36,14 @@ jobs:
             echo "Error: Could not retrieve a valid TagID"
             exit 1
           fi
+          # Get current timestamp
+          FRESHDATE=$(date -u +"%Y-%m-%d %H:%M UTC")
           
-          curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=$TAGID" | jq '[.mods[] | {modid, modidstrs, name, lastreleased, logo}]' > mods.json
-          
+          # Create a JSON object that contains the version, the fresh date, and the mod list
+          curl -s "https://mods.vintagestory.at/api/mods?gameversions[]=$TAGID" | \
+          jq --arg vsver "${{ steps.fetch_tagid.outputs.vssemvers }}" \
+             --arg fresh "$FRESHDATE" \
+          '{version: $vsver, last_updated: $fresh, mods: [.mods[] | {modidstrs, name, lastreleased, logo}]}' > mods.json
       - name: Commit and Push mods.json
         run: |
           git config --local user.email "action@github.com"
