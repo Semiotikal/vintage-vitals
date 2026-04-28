@@ -1,7 +1,16 @@
 {
   "version": "1.22.x",
-  "last_updated": "2026-04-28 00:07 UTC",
+  "last_updated": "2026-04-28 00:19 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "packedglacier"
+      ],
+      "modid": 8349,
+      "name": "Pack Your Ice",
+      "lastreleased": "2026-04-28 00:06:14",
+      "logo": null
+    },
     {
       "modidstrs": [
         "delsfestivedrifters"
@@ -7298,6 +7307,15 @@
       "name": "Gladiolus Random Features Lite",
       "lastreleased": "2026-04-14 16:26:26",
       "logo": "https://moddbcdn.vintagestory.at/Fire_bricks_craft_1688b24dc39674b3a8698fc3c2a26982.png"
+    },
+    {
+      "modidstrs": [
+        "bcbonebark"
+      ],
+      "modid": 5393,
+      "name": "Bone and Bark",
+      "lastreleased": "2026-04-28 00:19:24",
+      "logo": null
     },
     {
       "modidstrs": [
