@@ -1,7 +1,7 @@
 {
   "app_version": "main",
   "version": "1.22.x",
-  "last_updated": "2026-04-28 00:45 UTC",
+  "last_updated": "2026-04-28 01:02 UTC",
   "mods": [
     {
       "modidstrs": [
@@ -5317,7 +5317,7 @@
       ],
       "modid": 6895,
       "name": "Bacon Bacon Bacon",
-      "lastreleased": "2026-04-25 19:14:25",
+      "lastreleased": "2026-04-28 01:01:57",
       "logo": "https://moddbcdn.vintagestory.at/icon_327caf35025728cc4254a1c1b62cfd6d.png"
     },
     {
@@ -8443,6 +8443,15 @@
     },
     {
       "modidstrs": [
+        "forlornremenants"
+      ],
+      "modid": 4272,
+      "name": "Forlorn Remnants",
+      "lastreleased": "2026-04-28 00:52:03",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "chiseltoolslite"
       ],
       "modid": 4260,
@@ -10509,7 +10518,7 @@
       ],
       "modid": 1662,
       "name": "Better Sticks",
-      "lastreleased": "2026-02-11 03:01:49",
+      "lastreleased": "2026-04-28 00:47:43",
       "logo": null
     },
     {
