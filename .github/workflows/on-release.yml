@@ -11,10 +11,11 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          ref: main # <--- Add this! This ensures we are on the branch, not the tag.
 
       - name: Write Version to File
         run: |
-          # Grabs the tag name (e.g., v0.5.0-alpha) from the release
           echo "${{ github.event.release.tag_name }}" > VERSION
 
       - name: Commit and Push VERSION
@@ -23,4 +24,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add VERSION
           git commit -m "chore: update VERSION to ${{ github.event.release.tag_name }}"
-          git push
+          # Explicitly push to main to avoid the detached HEAD error
+          git push origin main
