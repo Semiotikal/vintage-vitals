@@ -1,6 +1,7 @@
 {
+  "app_version": "main",
   "version": "1.22.x",
-  "last_updated": "2026-04-28 00:19 UTC",
+  "last_updated": "2026-04-28 00:40 UTC",
   "mods": [
     {
       "modidstrs": [
@@ -8,7 +9,7 @@
       ],
       "modid": 8349,
       "name": "Pack Your Ice",
-      "lastreleased": "2026-04-28 00:06:14",
+      "lastreleased": "2026-04-28 00:38:14",
       "logo": null
     },
     {
@@ -2493,7 +2494,7 @@
       ],
       "modid": 7859,
       "name": "slt vival masq",
-      "lastreleased": "2026-04-27 03:21:00",
+      "lastreleased": "2026-04-28 00:35:00",
       "logo": null
     },
     {
@@ -9300,7 +9301,7 @@
       ],
       "modid": 3089,
       "name": "Medieval expansion patch ",
-      "lastreleased": "2026-04-27 09:15:14",
+      "lastreleased": "2026-04-28 00:23:20",
       "logo": "https://moddbcdn.vintagestory.at/grafik1_3ca1e323370982323f73303f3a5ea437.png"
     },
     {
