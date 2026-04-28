@@ -1,8 +1,35 @@
 {
   "app_version": "v0.6.1-alpha",
   "version": "1.22.x",
-  "last_updated": "2026-04-28 01:12 UTC",
+  "last_updated": "2026-04-28 03:29 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "oneseedplzupdated"
+      ],
+      "modid": 8354,
+      "name": "Gimme One Seed Plz - Updated",
+      "lastreleased": "2026-04-28 02:17:35",
+      "logo": "https://moddbcdn.vintagestory.at/output_19d275c07913394130e5e3074e15974b.png"
+    },
+    {
+      "modidstrs": [
+        "fm"
+      ],
+      "modid": 8353,
+      "name": "Fantasy Metals",
+      "lastreleased": "2026-04-28 03:19:30",
+      "logo": "https://moddbcdn.vintagestory.at/titlecard_0e1fc0851ad20912d6e9c27fa8b96192.png"
+    },
+    {
+      "modidstrs": [
+        "wokfordcraftingtweaks"
+      ],
+      "modid": 8352,
+      "name": "Wokford Industries QoL Crafting Tweaks",
+      "lastreleased": "2026-04-28 02:04:15",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_1ba439c96f4832c0f01bd585056aff32.png"
+    },
     {
       "modidstrs": [
         "packedglacier"
@@ -63,7 +90,7 @@
       ],
       "modid": 8335,
       "name": "KCs Dragon Traits!",
-      "lastreleased": "2026-04-27 01:57:12",
+      "lastreleased": "2026-04-28 02:23:30",
       "logo": "https://moddbcdn.vintagestory.at/modicon-kcsdragontra_28b6996af6a8ee7b55613b7604b0ca60_480_320.png"
     },
     {
@@ -225,7 +252,7 @@
       ],
       "modid": 8312,
       "name": "Improved Metallurgy",
-      "lastreleased": "2026-04-26 19:04:53",
+      "lastreleased": "2026-04-28 03:18:29",
       "logo": "https://moddbcdn.vintagestory.at/IM+Preview_5b589b2effd5cec901f1bbd8ef713a8b.png"
     },
     {
@@ -684,7 +711,7 @@
       ],
       "modid": 8248,
       "name": "Kyatto's Personal Server Patches",
-      "lastreleased": "2026-04-23 21:35:45",
+      "lastreleased": "2026-04-28 03:08:53",
       "logo": null
     },
     {
@@ -4097,7 +4124,7 @@
       ],
       "modid": 7421,
       "name": "No Switch To General On Player Death",
-      "lastreleased": "2026-04-23 20:55:50",
+      "lastreleased": "2026-04-28 02:49:16",
       "logo": null
     },
     {
@@ -4142,7 +4169,7 @@
       ],
       "modid": 7406,
       "name": "Ithania Canned Goods",
-      "lastreleased": "2026-04-25 05:02:41",
+      "lastreleased": "2026-04-28 01:56:46",
       "logo": "https://moddbcdn.vintagestory.at/IthaniaCannedGoodsLo_8492b6da224f0e1909a57c090c2574de.png"
     },
     {
@@ -4389,15 +4416,6 @@
       "name": "War Scythe",
       "lastreleased": "2026-04-23 19:54:50",
       "logo": "https://moddbcdn.vintagestory.at/WS_2fb4f8c61459c622524165de915eda6d.png"
-    },
-    {
-      "modidstrs": [
-        "felk4sale"
-      ],
-      "modid": 7307,
-      "name": "Buyable Female Elk",
-      "lastreleased": "2026-04-26 23:43:21",
-      "logo": "https://moddbcdn.vintagestory.at/treasurehuntersellsf_1e352f36dc9d7ff420a4f6d65124093b.png"
     },
     {
       "modidstrs": [
@@ -7342,7 +7360,7 @@
       ],
       "modid": 5356,
       "name": "Wilderlands Cave Systems",
-      "lastreleased": "2026-04-22 01:37:36",
+      "lastreleased": "2026-04-28 02:35:34",
       "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Caves+Lo_72a27f4f7985375432eb31372db717ad.png"
     },
     {
@@ -8447,7 +8465,7 @@
       ],
       "modid": 4272,
       "name": "Forlorn Remnants",
-      "lastreleased": "2026-04-28 00:52:03",
+      "lastreleased": "2026-04-28 02:59:13",
       "logo": null
     },
     {
@@ -9655,7 +9673,7 @@
       ],
       "modid": 2789,
       "name": "Alternative Map Icon Renderer Continued",
-      "lastreleased": "2026-04-27 08:05:44",
+      "lastreleased": "2026-04-28 01:22:14",
       "logo": "https://moddbcdn.vintagestory.at/01_Main_aaa70454b189bfea71969351806f5d93.png"
     },
     {
@@ -11450,7 +11468,7 @@
       ],
       "modid": 175,
       "name": "Alchemy",
-      "lastreleased": "2026-04-27 04:54:49",
+      "lastreleased": "2026-04-28 01:44:55",
       "logo": "https://moddbcdn.vintagestory.at/The_Alchemy_mod_logo_2873c5c666ad117a13ef58a1d15433f2.png"
     },
     {
