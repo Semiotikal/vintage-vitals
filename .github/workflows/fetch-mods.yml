@@ -50,12 +50,13 @@ jobs:
 
           # Get current timestamp
           FRESHDATE=$(date -u +"%Y-%m-%d %H:%M UTC")
-
+          APP_VERSION="${{ github.ref_name }}"
+          
           # Call the API using the constructed query string
           curl -s "https://mods.vintagestory.at/api/mods?$QUERY" | \
           jq --arg vsver "${{ steps.fetch_tagid.outputs.vssemvers }}" \
-             --arg fresh "$FRESHDATE" \
-          '{version: $vsver, last_updated: $fresh, mods: [.mods[] | {modidstrs, modid, name, lastreleased, logo}]}' > mods.json
+             --arg appver "$APP_VERSION" \
+             '{app_version: $appver, version: $vsver, last_updated: $fresh, mods: [.mods[] | {modidstrs, modid, name, lastreleased, logo}]}' > mods.json
 
       - name: Commit and Push mods.json
         run: |
