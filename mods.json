@@ -1,7 +1,7 @@
 {
-  "app_version": "main",
+  "app_version": "v0.6.1-alpha",
   "version": "1.22.x",
-  "last_updated": "2026-04-28 01:07 UTC",
+  "last_updated": "2026-04-28 01:09 UTC",
   "mods": [
     {
       "modidstrs": [
@@ -10519,7 +10519,7 @@
       "modid": 1662,
       "name": "Better Sticks",
       "lastreleased": "2026-04-28 00:47:43",
-      "logo": null
+      "logo": "https://moddbcdn.vintagestory.at/External+Preview_858575c36e5cf6911d0f999de7b6b6eb.png"
     },
     {
       "modidstrs": [
