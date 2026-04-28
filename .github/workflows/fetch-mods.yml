@@ -24,7 +24,7 @@ jobs:
           # 1. Get the full list from API
           RESPONSE=$(curl -s "https://mods.vintagestory.at/api/gameversions")
           
-          # 2. Identify the very latest version name (e.g., "1.22.0")
+          # 2. Identify the very latest game version name (e.g., "1.22.0")
           LATEST_NAME=$(echo "$RESPONSE" | jq -r '.gameversions[-1].name')
           
           # 3. Extract the Major.Minor prefix (e.g., "1.22")
