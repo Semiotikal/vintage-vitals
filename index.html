@@ -268,22 +268,21 @@
     </div>
 
     <div class="input-section">
-        <div class="security-note">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-            <div>
-                <strong>Privacy & Security:</strong> Browsers show a warning when selecting folders to prevent unauthorized uploads. 
-                Vintage-Vitals scans your <code>modinfo.json</code> files <strong>entirely in your local RAM</strong>. 
-                No data is ever sent to a server, and file access is revoked as soon as the scan finishes.
-            </div>
-        </div>
+        <div class="security-note">...</div> 
+        
         <div class="input-group">
             <input type="file" id="folderPicker" webkitdirectory directory multiple>
-            <span id="fileCountLabel" style="font-size: 0.9em; color: #666;"></span> 
-            <button id="scanFolder">🔎 Scan Mods</button>
+            <span id="fileCountLabel" style="font-size: 0.9em; color: #666;"></span>
+            <button id="scanFolder">🔎 1. Find Local Mods</button>
         </div>
-        <div class="info-box show">
-            <strong>📁 Windows:</strong> Copy and paste this path into File Explorer to select your "unpack" folder: <code>%APPDATA%\VintagestoryData\Cache</code>
+    
+        <div id="reviewSection" style="display: none; margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">
+            <label style="display: block; margin-bottom: 8px; font-weight: 600;">Edit or Add Mod IDs (one per line):</label>
+            <textarea id="modIdEditor" style="width: 100%; height: 150px; padding: 12px; border-radius: 6px; border: 1px solid #ddd; font-family: monospace; margin-bottom: 12px;"></textarea>
+            <button id="runCompatibilityCheck" style="background: #2b5d2b;">🚀 2. Check Compatibility</button>
         </div>
+    
+        <div class="info-box show">...</div>
     </div>
 
     <div id="loadingArea">
@@ -353,44 +352,56 @@ async def load_api_data():
         console.log(f"Error loading mods.json: {e}")
 
 async def scan_folder(event):
-    btn = document.getElementById("scanFolder")
+    all_files = document.getElementById("folderPicker").files
+    if not all_files: return
+    
+    mod_files = [f for f in all_files if f.name == "modinfo.json"]
+    found_ids = []
+
+    for file in mod_files:
+        try:
+            content = await file.text()
+            data = json.loads(content.replace(",}", "}").replace(",]", "]"))
+            mid = data.get("modid")
+            if mid: found_ids.append(mid)
+        except: continue
+
+    # Show the editor and populate it
+    editor = document.getElementById("modIdEditor")
+    # Sort and join with newlines
+    editor.value = "\n".join(sorted(list(set(found_ids))))
+    
+    document.getElementById("reviewSection").style.display = "block"
+    document.getElementById("folderPicker").value = "" # Clear file handles
+    document.getElementById("fileCountLabel").textContent = "Discovery complete. List ready for review."
+
+async def run_final_check(event):
+    btn = document.getElementById("runCompatibilityCheck")
     loading_area = document.getElementById("loadingArea")
     progress_bar = document.getElementById("scanProgress")
     label = document.getElementById("progressLabel")
     
-    files = document.getElementById("folderPicker").files
-    if not files: return
+    # Get IDs from the text area
+    raw_text = document.getElementById("modIdEditor").value
+    mod_ids = [line.strip() for line in raw_text.split('\n') if line.strip()]
+    
+    if not mod_ids: return
 
     btn.disabled = True
     loading_area.classList.add("show")
-    document.getElementById("resultsTable").classList.remove("show")
     
-    all_files = document.getElementById("folderPicker").files
-    mod_files = [f for f in all_files if f.name == "modinfo.json"]
-    
-    total = len(mod_files)
+    # Process the list
     found_mods = {}
-
-    if total == 0:
-        label.textContent = "No mods found in this folder."
-        btn.disabled = False
-        return
-
-    for i, file in enumerate(mod_files):
-        # This will now scale 0-100% based ONLY on mod files
+    total = len(mod_ids)
+    
+    for i, mid in enumerate(mod_ids):
         progress_bar.value = int(((i + 1) / total) * 100)
-        label.textContent = f"Processing mod {i + 1} of {total}..."
-
-        if file.name == "modinfo.json":
-            try:
-                content = await file.text()
-                data = json.loads(content.replace(",}", "}").replace(",]", "]"))
-                mid = data.get("modid")
-                name = data.get("name", mid)
-                if mid:
-                    found_mods[mid] = name
-            except: continue
-        await asyncio.sleep(0)
+        label.textContent = f"Checking {mid}..."
+        
+        # We don't have local names anymore since we are just using IDs, 
+        # so we default the name to the ID. display_results will try to find better names.
+        found_mods[mid] = mid
+        await asyncio.sleep(0.01) # Small delay for visual feedback
 
     display_results(found_mods)
     loading_area.classList.remove("show")
@@ -463,11 +474,16 @@ def display_results(found_mods):
 
 async def setup():
     await load_api_data()
-    # This triggers the moment they finish picking the folder
-    picker = document.getElementById("folderPicker")
-    picker.onchange = create_proxy(update_mod_count) 
     
+    picker = document.getElementById("folderPicker")
+    picker.onchange = create_proxy(update_mod_count)
+    
+    # Step 1: Scan
     document.getElementById("scanFolder").onclick = create_proxy(scan_folder)
+    
+    # Step 2: Final Check
+    document.getElementById("runCompatibilityCheck").onclick = create_proxy(run_final_check)
+    
     asyncio.ensure_future(setup())
 
 asyncio.ensure_future(setup())
