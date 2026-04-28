@@ -52,7 +52,7 @@ jobs:
           FRESHDATE=$(date -u +"%Y-%m-%d %H:%M UTC")
           APP_VERSION="${{ github.ref_name }}"
           
-          # Call the API using the constructed query string
+          # Call the API using the constructed query string and grab info.
           curl -s "https://mods.vintagestory.at/api/mods?$QUERY" | \
           jq --arg vsver "${{ steps.fetch_tagid.outputs.vssemvers }}" \
              --arg fresh "$FRESHDATE" \
