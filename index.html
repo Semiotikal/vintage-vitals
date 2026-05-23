@@ -268,20 +268,11 @@
         </div>
         
         <p class="description">Check whether installed Vintage Story mods have support against the latest releases in the ModDB database. All scanning is done locally in your browser—nothing is uploaded.</p>
-        <p> Updates daily. Uses local cache files so you need to have loaded your mods at least once.</p>
+        <p> Updates daily. Uses local log files so you need to have loaded your mods in your latest session.</p>
     </div>
 
-    <div class="input-section">
-        <div class="security-note">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-            <div>
-                <strong>Privacy & Security:</strong> Browsers show a warning when selecting folders to prevent unauthorized uploads. 
-                Vintage-Vitals scans <code>modinfo.json</code> entirely in your browser. Access is revoked immediately after and no data leaves your browser. 
-            </div>
-        </div> 
-        
         <div class="input-group">
-            <input type="file" id="folderPicker" webkitdirectory directory multiple>
+            <input type="file" id="folderPicker" accept=".txt,.log">
             <span id="fileCountLabel" style="font-size: 0.9em; color: #666;"></span>
             <button id="scanFolder">🔎 1. Find Local Mods</button>
         </div>
@@ -292,8 +283,8 @@
             <button id="runCompatibilityCheck" style="background: #2b5d2b;">🚀 2. Check Compatibility</button>
         </div>
     
-        <div class="info-box show"><strong>📁 Windows:</strong> Copy and paste this path and select your <code>/unpack</code> folder: 
-            <code>%APPDATA%\VintagestoryData\Cache</code>
+        <div class="info-box show"><strong>📁 Windows:</strong> Copy and paste this path and select the <code>client-main.log</code> file: 
+            <code>%APPDATA%\VintagestoryData\Logs</code>
         </div>
     </div>
 
@@ -323,15 +314,11 @@ from pyodide.ffi import create_proxy
 
 def update_mod_count(event):
     all_files = document.getElementById("folderPicker").files
-    # Filter for mods immediately
-    mod_files = [f for f in all_files if f.name == "modinfo.json"]
-    count = len(mod_files)
-    
     label = document.getElementById("fileCountLabel")
-    if count > 0:
-        label.textContent = f"{count} mods detected"
+    if len(all_files) > 0:
+        label.textContent = f"Log file '{all_files.item(0).name}' selected"
     else:
-        label.textContent = "No mods found"
+        label.textContent = "No file selected"
 
 # api_mods will store: "modidstr": {full_mod_data_object}
 api_mods = {}
@@ -369,27 +356,40 @@ async def load_api_data():
 
 async def scan_folder(event):
     all_files = document.getElementById("folderPicker").files
-    if not all_files: return
-    
-    mod_files = [f for f in all_files if f.name == "modinfo.json"]
+    if not all_files:
+        return
+
+    log_file = all_files.item(0)
     found_ids = []
 
-    for file in mod_files:
-        try:
-            content = await file.text()
-            data = json.loads(content.replace(",}", "}").replace(",]", "]"))
-            mid = data.get("modid")
-            if mid: found_ids.append(mid)
-        except: continue
+    try:
+        # Read the single log file directly into memory
+        content = await log_file.text()
+        
+        # Look for the specific line pattern
+        target_phrase = "Mods, sorted by dependency:"
+        
+        for line in content.splitlines():
+            if target_phrase in line:
+                # Extract everything after the phrase
+                parts = line.split(target_phrase)
+                if len(parts) > 1:
+                    # Split the mod names by comma and strip extra whitespaces
+                    mods_list_str = parts[1].strip()
+                    raw_mods = mods_list_str.split(",")
+                    found_ids = [m.strip() for m in raw_mods if m.strip()]
+                break # Found the line, no need to keep reading
+                
+    except Exception as e:
+        console.log(f"Error reading log file: {e}")
 
-    # Show the editor and populate it
+    # Show the editor and populate it with the parsed mod IDs
     editor = document.getElementById("modIdEditor")
-    # Sort and join with newlines
     editor.value = "\n".join(sorted(list(set(found_ids))))
     
     document.getElementById("reviewSection").style.display = "block"
-    document.getElementById("folderPicker").value = "" # Clear file handles
-    document.getElementById("fileCountLabel").textContent = "Discovery complete. List ready for review."
+    document.getElementById("folderPicker").value = ""  # Clear file handles
+    document.getElementById("fileCountLabel").textContent = f"Scan complete. Found {len(found_ids)} mods."
 
 async def run_final_check(event):
     btn = document.getElementById("runCompatibilityCheck")
