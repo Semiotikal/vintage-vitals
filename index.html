@@ -281,7 +281,7 @@
         </div> 
         
         <div class="input-group">
-            <input type="file" id="folderPicker" webkitdirectory directory multiple>
+            <input type="file" id="folderPicker" accept=".txt,.log">
             <span id="fileCountLabel" style="font-size: 0.9em; color: #666;"></span>
             <button id="scanFolder">🔎 1. Find Local Mods</button>
         </div>
@@ -323,15 +323,11 @@ from pyodide.ffi import create_proxy
 
 def update_mod_count(event):
     all_files = document.getElementById("folderPicker").files
-    # Filter for mods immediately
-    mod_files = [f for f in all_files if f.name == "modinfo.json"]
-    count = len(mod_files)
-    
     label = document.getElementById("fileCountLabel")
-    if count > 0:
-        label.textContent = f"{count} mods detected"
+    if len(all_files) > 0:
+        label.textContent = f"Log file '{all_files.item(0).name}' selected"
     else:
-        label.textContent = "No mods found"
+        label.textContent = "No file selected"
 
 # api_mods will store: "modidstr": {full_mod_data_object}
 api_mods = {}
@@ -369,27 +365,40 @@ async def load_api_data():
 
 async def scan_folder(event):
     all_files = document.getElementById("folderPicker").files
-    if not all_files: return
-    
-    mod_files = [f for f in all_files if f.name == "modinfo.json"]
+    if not all_files:
+        return
+
+    log_file = all_files.item(0)
     found_ids = []
 
-    for file in mod_files:
-        try:
-            content = await file.text()
-            data = json.loads(content.replace(",}", "}").replace(",]", "]"))
-            mid = data.get("modid")
-            if mid: found_ids.append(mid)
-        except: continue
+    try:
+        # Read the single log file directly into memory
+        content = await log_file.text()
+        
+        # Look for the specific line pattern
+        target_phrase = "Mods, sorted by dependency:"
+        
+        for line in content.splitlines():
+            if target_phrase in line:
+                # Extract everything after the phrase
+                parts = line.split(target_phrase)
+                if len(parts) > 1:
+                    # Split the mod names by comma and strip extra whitespaces
+                    mods_list_str = parts[1].strip()
+                    raw_mods = mods_list_str.split(",")
+                    found_ids = [m.strip() for m in raw_mods if m.strip()]
+                break # Found the line, no need to keep reading
+                
+    except Exception as e:
+        console.log(f"Error reading log file: {e}")
 
-    # Show the editor and populate it
+    # Show the editor and populate it with the parsed mod IDs
     editor = document.getElementById("modIdEditor")
-    # Sort and join with newlines
     editor.value = "\n".join(sorted(list(set(found_ids))))
     
     document.getElementById("reviewSection").style.display = "block"
-    document.getElementById("folderPicker").value = "" # Clear file handles
-    document.getElementById("fileCountLabel").textContent = "Discovery complete. List ready for review."
+    document.getElementById("folderPicker").value = ""  # Clear file handles
+    document.getElementById("fileCountLabel").textContent = f"Scan complete. Found {len(found_ids)} mods."
 
 async def run_final_check(event):
     btn = document.getElementById("runCompatibilityCheck")
