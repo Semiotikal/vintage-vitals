@@ -1,8 +1,17 @@
 {
-  "app_version": "v0.6.1-alpha",
+  "app_version": "v1.0.0-alpha",
   "version": "1.22.x",
-  "last_updated": "2026-05-23 03:39 UTC",
+  "last_updated": "2026-05-23 04:06 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "forgetfulseeds"
+      ],
+      "modid": 8993,
+      "name": "Forgetful Seeds",
+      "lastreleased": "2026-05-23 03:57:11",
+      "logo": null
+    },
     {
       "modidstrs": [
         "removeableframes"
