@@ -268,18 +268,9 @@
         </div>
         
         <p class="description">Check whether installed Vintage Story mods have support against the latest releases in the ModDB database. All scanning is done locally in your browser—nothing is uploaded.</p>
-        <p> Updates daily. Uses local cache files so you need to have loaded your mods at least once.</p>
+        <p> Updates daily. Uses local log files so you need to have loaded your mods in your latest session.</p>
     </div>
 
-    <div class="input-section">
-        <div class="security-note">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-            <div>
-                <strong>Privacy & Security:</strong> Browsers show a warning when selecting folders to prevent unauthorized uploads. 
-                Vintage-Vitals scans <code>modinfo.json</code> entirely in your browser. Access is revoked immediately after and no data leaves your browser. 
-            </div>
-        </div> 
-        
         <div class="input-group">
             <input type="file" id="folderPicker" accept=".txt,.log">
             <span id="fileCountLabel" style="font-size: 0.9em; color: #666;"></span>
@@ -292,8 +283,8 @@
             <button id="runCompatibilityCheck" style="background: #2b5d2b;">🚀 2. Check Compatibility</button>
         </div>
     
-        <div class="info-box show"><strong>📁 Windows:</strong> Copy and paste this path and select your <code>/unpack</code> folder: 
-            <code>%APPDATA%\VintagestoryData\Cache</code>
+        <div class="info-box show"><strong>📁 Windows:</strong> Copy and paste this path and select the <code>client-main.log</code> file: 
+            <code>%APPDATA%\VintagestoryData\Logs</code>
         </div>
     </div>
 
