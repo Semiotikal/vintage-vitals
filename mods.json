@@ -1,8 +1,188 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.22.x",
-  "last_updated": "2026-06-20 03:55 UTC",
+  "last_updated": "2026-06-21 04:26 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "hidenameaddon"
+      ],
+      "modid": 9770,
+      "name": "YAHNM",
+      "lastreleased": "2026-06-21 03:08:43",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "handwarming"
+      ],
+      "modid": 9769,
+      "name": "Immersive Hand Warming",
+      "lastreleased": "2026-06-21 03:13:41",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "starfruitpatches"
+      ],
+      "modid": 9767,
+      "name": "StarFruit Server Patches",
+      "lastreleased": "2026-06-21 00:14:33",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "boatspeedtweaks"
+      ],
+      "modid": 9766,
+      "name": "BoatSpeedTweaks",
+      "lastreleased": "2026-06-20 23:44:30",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "tabletopgamescardbacks"
+      ],
+      "modid": 9765,
+      "name": "Tabletop Games - Cardbacks",
+      "lastreleased": "2026-06-20 22:35:27",
+      "logo": "https://moddbcdn.vintagestory.at/Card+Backs+Logo+v2_78d171f881b13fd36d3667c3cb74a2d0.png"
+    },
+    {
+      "modidstrs": [
+        "jauntspeedpatch"
+      ],
+      "modid": 9764,
+      "name": "JauntSpeedPatch",
+      "lastreleased": "2026-06-20 22:33:11",
+      "logo": "https://moddbcdn.vintagestory.at/JauntSpeedPatch_98e426da58ef52b62502a5ee8723f62a.png"
+    },
+    {
+      "modidstrs": [
+        "aumtservertweaks"
+      ],
+      "modid": 9763,
+      "name": "AUMT Server Tweaks",
+      "lastreleased": "2026-06-20 22:12:12",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "ppex4x"
+      ],
+      "modid": 9762,
+      "name": "Pipes and Power Expanded : 4x tweak",
+      "lastreleased": "2026-06-20 22:07:47",
+      "logo": "https://moddbcdn.vintagestory.at/pipelogo_3536b45af8340cbd8646fc0c06933466.png"
+    },
+    {
+      "modidstrs": [
+        "panserbjornrebjorn"
+      ],
+      "modid": 9761,
+      "name": "A Panserbjørn Story: Rebjørn",
+      "lastreleased": "2026-06-20 21:24:32",
+      "logo": "https://moddbcdn.vintagestory.at/bjorn_e55ac72e605d3ed27aebb8877e8e309b.png"
+    },
+    {
+      "modidstrs": [
+        "wildcraftfruitfork"
+      ],
+      "modid": 9759,
+      "name": "WildcraftFork",
+      "lastreleased": "2026-06-20 19:08:44",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "herbariumfork"
+      ],
+      "modid": 9758,
+      "name": "Herbarium-VanillaFORK",
+      "lastreleased": "2026-06-20 18:41:36",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "pinkandgold"
+      ],
+      "modid": 9757,
+      "name": "Pink and Gold",
+      "lastreleased": "2026-06-20 17:37:48",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_010ddb806946bf755b87df8fbf17caed.png"
+    },
+    {
+      "modidstrs": [
+        "savetheelks"
+      ],
+      "modid": 9756,
+      "name": "Save the Elks",
+      "lastreleased": "2026-06-20 16:48:29",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "wildvinegrow"
+      ],
+      "modid": 9755,
+      "name": "Wild Vine Grow",
+      "lastreleased": "2026-06-20 21:13:24",
+      "logo": "https://moddbcdn.vintagestory.at/thumbnail_b0e4753d09d3df976252b5fce1f07257.png"
+    },
+    {
+      "modidstrs": [
+        "moretools"
+      ],
+      "modid": 9754,
+      "name": "More Tools",
+      "lastreleased": "2026-06-20 15:20:09",
+      "logo": "https://moddbcdn.vintagestory.at/thumbnail_88ad4e12f5526869e13f656f1d7b1e4c.png"
+    },
+    {
+      "modidstrs": [
+        "dteeyesserv"
+      ],
+      "modid": 9753,
+      "name": "Server Side - Down To Earth II - Natural Seraph Eye Colors",
+      "lastreleased": "2026-06-20 15:48:40",
+      "logo": "https://moddbcdn.vintagestory.at/dte2serv_7a26ef9474625203af241100629e61aa.png"
+    },
+    {
+      "modidstrs": [
+        "dteskinsserv"
+      ],
+      "modid": 9752,
+      "name": "Server Side - Down To Earth I - Natural Seraph Skin Colors",
+      "lastreleased": "2026-06-20 15:46:00",
+      "logo": "https://moddbcdn.vintagestory.at/dte1serv_ac6740cc171630cf3459fe81981434fa.png"
+    },
+    {
+      "modidstrs": [
+        "dteeyes"
+      ],
+      "modid": 9750,
+      "name": "Down To Earth II - Natural Seraph Eye Colors",
+      "lastreleased": "2026-06-20 12:59:43",
+      "logo": "https://moddbcdn.vintagestory.at/dte2_c207504f4bfb6007bbc95eb84489a155.png"
+    },
+    {
+      "modidstrs": [
+        "aletraders"
+      ],
+      "modid": 9745,
+      "name": "Ale Traders",
+      "lastreleased": "2026-06-20 06:23:53",
+      "logo": "https://moddbcdn.vintagestory.at/moddb_4f3c4dc481902fdacf96c7573a739d4c.png"
+    },
+    {
+      "modidstrs": [
+        "billpostingextra"
+      ],
+      "modid": 9744,
+      "name": "Billposting Extra - Billposting Addon",
+      "lastreleased": "2026-06-20 10:41:53",
+      "logo": "https://moddbcdn.vintagestory.at/Billposting+Extra+Ma_e553efa41417e12c04abe8b8635b25c6.png"
+    },
     {
       "modidstrs": [
         "oresrerebalanced"
@@ -18,7 +198,7 @@
       ],
       "modid": 9741,
       "name": "Vintage Stuff Classes",
-      "lastreleased": "2026-06-19 16:16:50",
+      "lastreleased": "2026-06-20 18:25:24",
       "logo": null
     },
     {
@@ -26,8 +206,8 @@
         "ghaelentweaks"
       ],
       "modid": 9740,
-      "name": "Gaelen's Tweaks",
-      "lastreleased": "2026-06-19 19:02:05",
+      "name": "Ghaelen's Tweaks",
+      "lastreleased": "2026-06-20 17:00:17",
       "logo": null
     },
     {
@@ -77,12 +257,21 @@
     },
     {
       "modidstrs": [
+        "eatyourworms"
+      ],
+      "modid": 9734,
+      "name": "Eat Your Worms",
+      "lastreleased": "2026-06-21 04:00:44",
+      "logo": "https://moddbcdn.vintagestory.at/wormsbackgroundguyIC_b55816c929662642a6c21ac3ce0932a6.png"
+    },
+    {
+      "modidstrs": [
         "vermicomposting"
       ],
       "modid": 9733,
       "name": "Vermicomposting",
       "lastreleased": "2026-06-19 09:40:32",
-      "logo": null
+      "logo": "https://moddbcdn.vintagestory.at/Vermicomposting+Cove_586c6beb71225e34cb10670b3959b948.jpg"
     },
     {
       "modidstrs": [
@@ -117,8 +306,8 @@
       ],
       "modid": 9720,
       "name": "Rust Girls",
-      "lastreleased": "2026-06-19 08:19:09",
-      "logo": "https://moddbcdn.vintagestory.at/Vintagestory_NJ2Ge9I_c704004cbf6e58d3ea9b915994304320.png"
+      "lastreleased": "2026-06-21 02:18:51",
+      "logo": "https://moddbcdn.vintagestory.at/mod-cover2_c3b537a38fe23d812c1fe63bc252e3d5.png"
     },
     {
       "modidstrs": [
@@ -153,7 +342,7 @@
       ],
       "modid": 9714,
       "name": "VS Backrooms",
-      "lastreleased": "2026-06-18 14:54:04",
+      "lastreleased": "2026-06-20 21:03:37",
       "logo": "https://moddbcdn.vintagestory.at/PageIcon_e1e18780f2ae218ab2b48522e7c08be9.png"
     },
     {
@@ -243,8 +432,17 @@
       ],
       "modid": 9700,
       "name": "Amphorae",
-      "lastreleased": "2026-06-17 23:51:35",
+      "lastreleased": "2026-06-20 23:18:00",
       "logo": "https://moddbcdn.vintagestory.at/logo6_8348a772cdfbd7033d2d39a44e16af2d.png"
+    },
+    {
+      "modidstrs": [
+        "dteskins"
+      ],
+      "modid": 9699,
+      "name": "Down To Earth I - Natural Seraph Skin Colors",
+      "lastreleased": "2026-06-20 10:24:01",
+      "logo": "https://moddbcdn.vintagestory.at/dte1_509709da927d5d5b4c515f9900b15f60.png"
     },
     {
       "modidstrs": [
@@ -297,7 +495,7 @@
       ],
       "modid": 9688,
       "name": "Bear's Shifty Earth",
-      "lastreleased": "2026-06-17 20:57:47",
+      "lastreleased": "2026-06-20 21:20:11",
       "logo": "https://moddbcdn.vintagestory.at/__PreviewImage_fabb61cc50480f3becccd8defc92c73e.png"
     },
     {
@@ -333,7 +531,7 @@
       ],
       "modid": 9684,
       "name": "bloclasses",
-      "lastreleased": "2026-06-19 21:01:50",
+      "lastreleased": "2026-06-20 14:36:14",
       "logo": null
     },
     {
@@ -423,7 +621,7 @@
       ],
       "modid": 9655,
       "name": "Desire Paths",
-      "lastreleased": "2026-06-19 10:07:17",
+      "lastreleased": "2026-06-20 03:58:36",
       "logo": "https://moddbcdn.vintagestory.at/main-480_a47de84e5ef9ab98c010ac5d5b95513d.png"
     },
     {
@@ -441,7 +639,7 @@
       ],
       "modid": 9653,
       "name": "ReelMower",
-      "lastreleased": "2026-06-19 09:28:35",
+      "lastreleased": "2026-06-21 04:07:50",
       "logo": "https://moddbcdn.vintagestory.at/480_e53e726d9fb3cfedc057068c6e042383_480_320.png"
     },
     {
@@ -540,7 +738,7 @@
       ],
       "modid": 9635,
       "name": "The Crown & The Coalition Server Tweaks",
-      "lastreleased": "2026-06-19 20:28:51",
+      "lastreleased": "2026-06-21 02:00:29",
       "logo": null
     },
     {
@@ -711,8 +909,8 @@
       ],
       "modid": 9605,
       "name": "Logging Expanded",
-      "lastreleased": "2026-06-17 16:44:20",
-      "logo": null
+      "lastreleased": "2026-06-20 20:33:02",
+      "logo": "https://moddbcdn.vintagestory.at/Cover_67c06d2eb921168673e348338f7fb1cd_480_320.png"
     },
     {
       "modidstrs": [
@@ -864,7 +1062,7 @@
       ],
       "modid": 9586,
       "name": "CB Guilds",
-      "lastreleased": "2026-06-18 01:03:47",
+      "lastreleased": "2026-06-20 18:33:47",
       "logo": null
     },
     {
@@ -945,7 +1143,7 @@
       ],
       "modid": 9573,
       "name": "Configurable Night Vision",
-      "lastreleased": "2026-06-18 08:49:00",
+      "lastreleased": "2026-06-20 15:25:43",
       "logo": "https://moddbcdn.vintagestory.at/modicon_02797ad1358e8954efc27677af37a030.png"
     },
     {
@@ -982,7 +1180,7 @@
       ],
       "modid": 9568,
       "name": "Pipes and Power Expanded",
-      "lastreleased": "2026-06-18 09:34:54",
+      "lastreleased": "2026-06-20 21:50:20",
       "logo": "https://moddbcdn.vintagestory.at/ppex_logo_mini_e1286fcfc7e8060e5ed330a28262189f.jpg"
     },
     {
@@ -1009,7 +1207,7 @@
       ],
       "modid": 9564,
       "name": "Expanded Library",
-      "lastreleased": "2026-06-16 01:11:57",
+      "lastreleased": "2026-06-20 21:49:07",
       "logo": "https://moddbcdn.vintagestory.at/exlib_logo_mini_315d1b4808fc51020b69df1078363a1d.jpg"
     },
     {
@@ -1200,7 +1398,7 @@
       ],
       "modid": 9530,
       "name": "The Monsterpack",
-      "lastreleased": "2026-06-18 23:42:07",
+      "lastreleased": "2026-06-20 22:42:17",
       "logo": "https://moddbcdn.vintagestory.at/skeletonthumb_402525fc6a912cc66beeb1f3a43315cc.png"
     },
     {
@@ -1245,7 +1443,7 @@
       ],
       "modid": 9525,
       "name": "Pepper's Clutter and Decor",
-      "lastreleased": "2026-06-20 03:41:44",
+      "lastreleased": "2026-06-20 22:07:51",
       "logo": null
     },
     {
@@ -1569,7 +1767,7 @@
       ],
       "modid": 9470,
       "name": "Plumb And Cube Fork",
-      "lastreleased": "2026-06-08 17:38:18",
+      "lastreleased": "2026-06-20 15:21:49",
       "logo": "https://moddbcdn.vintagestory.at/2024-09-27_16-30-19__5b8a78337804f95ece8184d04ab11501.png"
     },
     {
@@ -1578,7 +1776,7 @@
       ],
       "modid": 9469,
       "name": "Snowshoes - FORKED",
-      "lastreleased": "2026-06-15 17:30:15",
+      "lastreleased": "2026-06-20 17:28:39",
       "logo": "https://moddbcdn.vintagestory.at/moddbicon_30bf75af53_81ad12ebe3c06386358ae4e18d153e54.png"
     },
     {
@@ -1796,7 +1994,7 @@
       ],
       "modid": 9431,
       "name": "Deciduous Trees",
-      "lastreleased": "2026-06-18 18:05:24",
+      "lastreleased": "2026-06-20 21:40:48",
       "logo": "https://moddbcdn.vintagestory.at/Logo2_1ca23bf51479236d4fe08fa2de26ca08.png"
     },
     {
@@ -1958,7 +2156,7 @@
       ],
       "modid": 9406,
       "name": "Vintage Canvas",
-      "lastreleased": "2026-06-16 13:19:58",
+      "lastreleased": "2026-06-20 20:36:22",
       "logo": "https://moddbcdn.vintagestory.at/Thumbnail_9166b985d03d0e40ff0796db6ad6bf9c.png"
     },
     {
@@ -2337,7 +2535,7 @@
       ],
       "modid": 9337,
       "name": "Champions and Unique Monsters - lite",
-      "lastreleased": "2026-06-12 09:32:51",
+      "lastreleased": "2026-06-21 01:12:28",
       "logo": "https://moddbcdn.vintagestory.at/champion+and+unique+_2fb16bbfb483f729021babec08df34e9.png"
     },
     {
@@ -2824,7 +3022,7 @@
       ],
       "modid": 9254,
       "name": "Steelmaking Expanded",
-      "lastreleased": "2026-06-16 01:17:07",
+      "lastreleased": "2026-06-21 00:34:00",
       "logo": "https://moddbcdn.vintagestory.at/SE+logo+mini_20b7dbce85d1c222a9d262b0de24e265.jpg"
     },
     {
@@ -2943,6 +3141,15 @@
       "name": "Steinbrecher",
       "lastreleased": "2026-05-31 19:43:49",
       "logo": "https://moddbcdn.vintagestory.at/logo_vs_ext_54c40ae0228c402f6379586c89fb75c8.png"
+    },
+    {
+      "modidstrs": [
+        "teleportstone"
+      ],
+      "modid": 9233,
+      "name": "Ambien's Rust Teleporter",
+      "lastreleased": "2026-06-20 22:09:06",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -3742,7 +3949,7 @@
       ],
       "modid": 9120,
       "name": "CustomTableau",
-      "lastreleased": "2026-06-18 15:16:33",
+      "lastreleased": "2026-06-20 10:39:07",
       "logo": "https://moddbcdn.vintagestory.at/Illustration_ebec1462dc0efaf2181f548022eb9793_480_320.jpg"
     },
     {
@@ -3778,7 +3985,7 @@
       ],
       "modid": 9115,
       "name": "VSA - Replica",
-      "lastreleased": "2026-06-19 10:30:52",
+      "lastreleased": "2026-06-20 22:28:13",
       "logo": "https://moddbcdn.vintagestory.at/resized-VSA_Replica__944fd1cc341aeb6736eab59d03acc506.jpg"
     },
     {
@@ -4139,7 +4346,7 @@
       ],
       "modid": 9063,
       "name": "Caeloria: Content",
-      "lastreleased": "2026-06-14 18:55:02",
+      "lastreleased": "2026-06-20 05:39:29",
       "logo": "https://moddbcdn.vintagestory.at/Caeloria+Content_51de5351bb1580104295f5101f37ca94_480_320.png"
     },
     {
@@ -4193,7 +4400,7 @@
       ],
       "modid": 9053,
       "name": "Ecosystem - Flora",
-      "lastreleased": "2026-06-19 23:17:26",
+      "lastreleased": "2026-06-21 03:48:31",
       "logo": "https://moddbcdn.vintagestory.at/cr_222896fc910259546bcbd6deb6bd0657.png"
     },
     {
@@ -5393,7 +5600,7 @@
       ],
       "modid": 8873,
       "name": "storylocationsreset",
-      "lastreleased": "2026-06-18 17:17:03",
+      "lastreleased": "2026-06-20 21:35:22",
       "logo": "https://moddbcdn.vintagestory.at/StoryLocationsReset__d4f0fc1b0f6c617218f2f50b5a13fb29.jpg"
     },
     {
@@ -5825,7 +6032,7 @@
       ],
       "modid": 8804,
       "name": "ChatLink",
-      "lastreleased": "2026-06-11 20:08:17",
+      "lastreleased": "2026-06-20 16:30:46",
       "logo": "https://moddbcdn.vintagestory.at/thumbnail_26a8d0ac411784af3e48d2c95735b271.png"
     },
     {
@@ -6763,7 +6970,7 @@
       ],
       "modid": 8669,
       "name": "GamepadCompanionVS",
-      "lastreleased": "2026-05-19 23:03:50",
+      "lastreleased": "2026-06-20 21:46:00",
       "logo": null
     },
     {
@@ -7431,7 +7638,7 @@
       ],
       "modid": 8569,
       "name": "Variations on a Meal - Revaried",
-      "lastreleased": "2026-06-15 01:48:24",
+      "lastreleased": "2026-06-20 05:10:28",
       "logo": "https://moddbcdn.vintagestory.at/modicon_a0858fccbf57c850a3265016bce45c8d.png"
     },
     {
@@ -8598,7 +8805,7 @@
       ],
       "modid": 8401,
       "name": "Overhaul lib legacy compatibility",
-      "lastreleased": "2026-06-19 19:18:30",
+      "lastreleased": "2026-06-20 16:32:44",
       "logo": null
     },
     {
@@ -8799,7 +9006,7 @@
       ],
       "modid": 8372,
       "name": "VS Expanded modpack",
-      "lastreleased": "2026-06-18 18:08:08",
+      "lastreleased": "2026-06-20 11:00:20",
       "logo": "https://moddbcdn.vintagestory.at/vsexpanded_485a25ca7cc026cd69404291cc2a77b8.png"
     },
     {
@@ -9016,7 +9223,7 @@
       ],
       "modid": 8336,
       "name": "VSNH Tweaks",
-      "lastreleased": "2026-06-15 23:10:54",
+      "lastreleased": "2026-06-20 05:55:03",
       "logo": "https://moddbcdn.vintagestory.at/modicon_319d76a85be2026648ad08931e3eaeae.png"
     },
     {
@@ -10626,7 +10833,7 @@
       ],
       "modid": 8079,
       "name": "Dragons of Land and Sea",
-      "lastreleased": "2026-06-16 16:41:07",
+      "lastreleased": "2026-06-20 17:30:43",
       "logo": "https://moddbcdn.vintagestory.at/Screenshot+2026-04-1_8af69ea67e2d8e1f087387fb0148a4b6_480_320.png"
     },
     {
@@ -10961,7 +11168,7 @@
       ],
       "modid": 8019,
       "name": "Featherborn (Beta) (Bird, Harpy player)",
-      "lastreleased": "2026-06-19 21:02:03",
+      "lastreleased": "2026-06-20 17:43:29",
       "logo": "https://moddbcdn.vintagestory.at/featherborn_88316ea6802e1529d7e9c214b68ab7e5.png"
     },
     {
@@ -11345,6 +11552,15 @@
     },
     {
       "modidstrs": [
+        "hideplayerbyshift"
+      ],
+      "modid": 7940,
+      "name": "Hide players by shift",
+      "lastreleased": "2026-06-20 12:01:43",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "runemacuahuitl"
       ],
       "modid": 7939,
@@ -11721,7 +11937,7 @@
       ],
       "modid": 7871,
       "name": "Champions and Unique Monsters",
-      "lastreleased": "2026-06-12 09:18:18",
+      "lastreleased": "2026-06-20 23:23:14",
       "logo": "https://moddbcdn.vintagestory.at/champion+and+unique+_457aade21a6f2d23bd8a06c74bcfe6d3.png"
     },
     {
@@ -12064,7 +12280,7 @@
       ],
       "modid": 7807,
       "name": "Storage Tweaks",
-      "lastreleased": "2026-06-11 23:22:13",
+      "lastreleased": "2026-06-21 02:58:59",
       "logo": "https://moddbcdn.vintagestory.at/logo_9ff8654de34ecdadcf9d451855374075.png"
     },
     {
@@ -15331,7 +15547,7 @@
       ],
       "modid": 6934,
       "name": "Fishman's Tweaks",
-      "lastreleased": "2026-02-18 16:15:18",
+      "lastreleased": "2026-06-21 02:00:34",
       "logo": null
     },
     {
@@ -15591,6 +15807,15 @@
     },
     {
       "modidstrs": [
+        "veinminer"
+      ],
+      "modid": 6845,
+      "name": "Vein Miner",
+      "lastreleased": "2026-06-20 19:55:50",
+      "logo": "https://moddbcdn.vintagestory.at/VeinMiner_a9e2201c5866402d2a516be88327f587.jpg"
+    },
+    {
+      "modidstrs": [
         "safezone"
       ],
       "modid": 6840,
@@ -15805,6 +16030,16 @@
       "name": "Craftable Texture Flipper",
       "lastreleased": "2026-05-11 09:40:08",
       "logo": "https://moddbcdn.vintagestory.at/CraftableTextureFlip_54e737761f1607ab98fd96827ff1c53a.png"
+    },
+    {
+      "modidstrs": [
+        "disableinsectoidclasses",
+        "dragonnipclasstraits"
+      ],
+      "modid": 6768,
+      "name": "Disable insectoid custom classes",
+      "lastreleased": "2026-06-20 21:27:04",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -16067,6 +16302,16 @@
       "name": "FendragonPlayerTimeReward",
       "lastreleased": "2026-05-04 15:57:56",
       "logo": "https://moddbcdn.vintagestory.at/Tittle01_ba5d4466ac9cbcc841a3ad8a3dd2de6b.jpg"
+    },
+    {
+      "modidstrs": [
+        "aldiclassesshadowrealmpatch",
+        "aldiclassessoapatch"
+      ],
+      "modid": 6622,
+      "name": "SOA Fantasy Patch",
+      "lastreleased": "2026-06-20 08:35:55",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -16893,7 +17138,7 @@
       ],
       "modid": 6266,
       "name": "Trait Acquirer Modded Class Support",
-      "lastreleased": "2026-06-18 19:14:59",
+      "lastreleased": "2026-06-20 18:58:59",
       "logo": null
     },
     {
@@ -17038,7 +17283,7 @@
       ],
       "modid": 6206,
       "name": "Window Storage",
-      "lastreleased": "2026-06-12 21:44:31",
+      "lastreleased": "2026-06-20 19:00:40",
       "logo": "https://moddbcdn.vintagestory.at/Window+Storage+Lates_e26c97348ebe47b1eded56ad0a8fc4fe.png"
     },
     {
@@ -18283,7 +18528,7 @@
       ],
       "modid": 5642,
       "name": "Censership",
-      "lastreleased": "2026-06-19 01:03:13",
+      "lastreleased": "2026-06-20 10:08:46",
       "logo": "https://moddbcdn.vintagestory.at/thumbnail_633a1bf0574d176b53f4bceb235b83b9.png"
     },
     {
@@ -18383,7 +18628,7 @@
       ],
       "modid": 5577,
       "name": "Boric Alchemy",
-      "lastreleased": "2026-06-19 21:12:53",
+      "lastreleased": "2026-06-20 15:22:17",
       "logo": "https://moddbcdn.vintagestory.at/untitled_9ff4bcda82a25b21723cdceac74dfa5f.png"
     },
     {
@@ -18804,6 +19049,15 @@
       "name": "Medieval Architecture",
       "lastreleased": "2026-04-27 10:17:44",
       "logo": "https://moddbcdn.vintagestory.at/icon_8d303362b7fb9683efbbf5a8a540c01f.jpg"
+    },
+    {
+      "modidstrs": [
+        "murlokserverpath"
+      ],
+      "modid": 5307,
+      "name": "Murlok Vintage Server Patch",
+      "lastreleased": "2026-06-20 21:56:55",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -21328,7 +21582,7 @@
       ],
       "modid": 3905,
       "name": "Tankards, Goblets and More!",
-      "lastreleased": "2026-05-04 07:08:44",
+      "lastreleased": "2026-06-20 11:50:02",
       "logo": "https://moddbcdn.vintagestory.at/t%26g+logo_09ec6a8bad086a1fdb694d8e0921ab1b.png"
     },
     {
@@ -21384,7 +21638,7 @@
       ],
       "modid": 3845,
       "name": "Waterfall: SomeLiquidSourceTransport",
-      "lastreleased": "2026-05-31 08:14:04",
+      "lastreleased": "2026-06-20 19:48:31",
       "logo": "https://moddbcdn.vintagestory.at/modicon_d23cfc36e9e99e6bc6b58103ce3cd059_480_320.png"
     },
     {
@@ -21485,7 +21739,7 @@
       ],
       "modid": 3779,
       "name": "Cuniculture",
-      "lastreleased": "2026-06-20 02:35:21",
+      "lastreleased": "2026-06-20 11:55:41",
       "logo": "https://moddbcdn.vintagestory.at/cuniculture_f6f571235218ebfceb181188a9f64c46.png"
     },
     {
@@ -21512,7 +21766,7 @@
       ],
       "modid": 3754,
       "name": "Some Disassembly Required (WIP)",
-      "lastreleased": "2026-05-02 02:26:28",
+      "lastreleased": "2026-06-20 16:33:50",
       "logo": "https://moddbcdn.vintagestory.at/gonblow_d750268f5fc5090a19906f48943640c1.png"
     },
     {
@@ -22938,7 +23192,7 @@
       ],
       "modid": 2764,
       "name": "Wear And Tear",
-      "lastreleased": "2026-06-04 22:32:09",
+      "lastreleased": "2026-06-20 09:26:33",
       "logo": "https://moddbcdn.vintagestory.at/modicon_70d7af7d3038fe3df2496f7c604a4f99.png"
     },
     {
@@ -23486,7 +23740,7 @@
       ],
       "modid": 2455,
       "name": "Eternal Seraph Patch",
-      "lastreleased": "2026-06-18 11:10:19",
+      "lastreleased": "2026-06-21 01:04:29",
       "logo": "https://moddbcdn.vintagestory.at/logogearlcover2_efd7fdf85991a6d454731d8e70dfd19d.png"
     },
     {
@@ -23504,7 +23758,7 @@
       ],
       "modid": 2447,
       "name": "Wool 🙵 More",
-      "lastreleased": "2026-06-03 14:08:47",
+      "lastreleased": "2026-06-20 11:41:45",
       "logo": "https://moddbcdn.vintagestory.at/wool_title_card_modd_2b2a76da47e1347ba821d188eaeb061c.png"
     },
     {
@@ -23761,7 +24015,7 @@
       ],
       "modid": 2282,
       "name": "Hydrate or Diedrate",
-      "lastreleased": "2026-06-15 22:54:21",
+      "lastreleased": "2026-06-20 14:03:03",
       "logo": "https://moddbcdn.vintagestory.at/hodlogo480x480_65caad9aa5f4b7e5f1b3bed810e1282e.png"
     },
     {
@@ -24356,7 +24610,7 @@
       ],
       "modid": 1749,
       "name": "Rivers",
-      "lastreleased": "2026-05-27 23:56:40",
+      "lastreleased": "2026-06-21 03:35:13",
       "logo": "https://moddbcdn.vintagestory.at/Untitled_4ad229b80cec18766210d55761c9e3da_480_320.png"
     },
     {
@@ -24455,7 +24709,7 @@
       ],
       "modid": 1654,
       "name": "Biomes",
-      "lastreleased": "2026-06-12 08:20:05",
+      "lastreleased": "2026-06-20 20:10:48",
       "logo": "https://moddbcdn.vintagestory.at/thumb_d00df356169db639e8a686cadaf56c43.png"
     },
     {
@@ -24527,7 +24781,7 @@
       ],
       "modid": 1606,
       "name": "Wildcraft: Fruits and Nuts",
-      "lastreleased": "2026-06-13 22:21:27",
+      "lastreleased": "2026-06-20 20:24:03",
       "logo": "https://moddbcdn.vintagestory.at/logo1_8b877e61f4d4c5f550ebeeec35ca0ecb.png"
     },
     {
@@ -25533,7 +25787,7 @@
       ],
       "modid": 589,
       "name": "C&N Claims",
-      "lastreleased": "2026-06-17 19:45:13",
+      "lastreleased": "2026-06-20 17:41:12",
       "logo": "https://moddbcdn.vintagestory.at/claims_24a1145d0d2de06a3cf5366e65fb0587.png"
     },
     {
@@ -25928,7 +26182,7 @@
       ],
       "modid": 175,
       "name": "Alchemy",
-      "lastreleased": "2026-06-19 17:06:55",
+      "lastreleased": "2026-06-20 09:14:41",
       "logo": "https://moddbcdn.vintagestory.at/The_Alchemy_mod_logo_2873c5c666ad117a13ef58a1d15433f2.png"
     },
     {
