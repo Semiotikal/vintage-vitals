@@ -1,16 +1,106 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.22.x",
-  "last_updated": "2026-10-17 03:28 UTC",
+  "last_updated": "2026-10-18 03:35 UTC",
   "mods": [
     {
       "modidstrs": [
-        "handbookopt"
+        "thestonecoreadmincontrol"
       ],
-      "modid": 12626,
-      "name": "Handbook & Craft Optimizer.",
-      "lastreleased": "2026-10-17 03:24:10",
-      "logo": "https://moddbcdn.vintagestory.at/modicon_f38886edb17b41781ee999ec05a55bed.png"
+      "modid": 12643,
+      "name": "TheStoneCoreAdminControl",
+      "lastreleased": "2026-10-17 22:40:36",
+      "logo": "https://moddbcdn.vintagestory.at/TheStoneCoreAdminCon_d4d014f2381e5b159a8f2ef0e238f0f3.jpg"
+    },
+    {
+      "modidstrs": [
+        "chiseledhat"
+      ],
+      "modid": 12642,
+      "name": "Chiseled Hats",
+      "lastreleased": "2026-10-17 22:08:22",
+      "logo": "https://moddbcdn.vintagestory.at/chiseled+hats+thumbn_0120803eee09844d347e9c908a4fa215.png"
+    },
+    {
+      "modidstrs": [
+        "evocation"
+      ],
+      "modid": 12641,
+      "name": "Evocation",
+      "lastreleased": "2026-10-17 21:31:10",
+      "logo": "https://moddbcdn.vintagestory.at/ssicon_1bae01aadb4f667682ee76b2fbab424a_480_320.png"
+    },
+    {
+      "modidstrs": [
+        "slingrenderfix"
+      ],
+      "modid": 12640,
+      "name": "QaSSlingRendererFix",
+      "lastreleased": "2026-10-17 20:17:26",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "bamboocharcoal"
+      ],
+      "modid": 12639,
+      "name": "Charcoal From Bamboo",
+      "lastreleased": "2026-10-17 19:44:10",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "fixmightybamboo"
+      ],
+      "modid": 12638,
+      "name": "Fix for Mighty Bamboo",
+      "lastreleased": "2026-10-17 19:10:15",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "roughseas"
+      ],
+      "modid": 12633,
+      "name": "Rough Seas",
+      "lastreleased": "2026-10-17 19:15:56",
+      "logo": "https://moddbcdn.vintagestory.at/rough-seas-logo-modd_a97e8297f35a8549b2e6de8f8af14405.png"
+    },
+    {
+      "modidstrs": [
+        "canfireworks"
+      ],
+      "modid": 12632,
+      "name": "C&N Fireworks",
+      "lastreleased": "2026-10-17 21:10:41",
+      "logo": "https://moddbcdn.vintagestory.at/f3_e5af91571248fa78d574abf8a6fdef40.png"
+    },
+    {
+      "modidstrs": [
+        "allbitsandingotscasting"
+      ],
+      "modid": 12630,
+      "name": "All Bits and Ingots Casting",
+      "lastreleased": "2026-10-17 12:50:39",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "rustboundexpansion"
+      ],
+      "modid": 12628,
+      "name": "Rustbound Magic: Craditz’s Crooked Codex",
+      "lastreleased": "2026-10-17 18:02:40",
+      "logo": "https://moddbcdn.vintagestory.at/covers_d3977a5fa439980a56a54cb6c98ea202.png"
+    },
+    {
+      "modidstrs": [
+        "keylatcher"
+      ],
+      "modid": 12627,
+      "name": "Key latcher",
+      "lastreleased": "2026-10-17 04:04:33",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -18,7 +108,7 @@
       ],
       "modid": 12623,
       "name": "Flocks",
-      "lastreleased": "2026-10-17 02:58:29",
+      "lastreleased": "2026-10-17 04:43:23",
       "logo": "https://moddbcdn.vintagestory.at/Flocks_d4f9dd9d9540dbf36233a8e3899612aa.png"
     },
     {
@@ -36,7 +126,7 @@
       ],
       "modid": 12621,
       "name": "Sign Fonts",
-      "lastreleased": "2026-10-17 00:27:07",
+      "lastreleased": "2026-10-17 20:39:55",
       "logo": null
     },
     {
@@ -45,8 +135,8 @@
       ],
       "modid": 12620,
       "name": "Parrots",
-      "lastreleased": "2026-10-17 00:28:54",
-      "logo": "https://moddbcdn.vintagestory.at/480bitb_555ba5a4a868fd60a1fa084d6bede182.png"
+      "lastreleased": "2026-10-17 14:19:56",
+      "logo": "https://moddbcdn.vintagestory.at/parrot_02c24a05bc6939eee2b6be426f565755.png"
     },
     {
       "modidstrs": [
@@ -72,8 +162,8 @@
       ],
       "modid": 12615,
       "name": "Cigarettes",
-      "lastreleased": "2026-10-16 22:27:54",
-      "logo": null
+      "lastreleased": "2026-10-17 21:05:21",
+      "logo": "https://moddbcdn.vintagestory.at/cigarette-packs-480x_e1911a1f3cff3d43fe65ebee4d39e876.png"
     },
     {
       "modidstrs": [
@@ -117,7 +207,7 @@
       ],
       "modid": 12603,
       "name": "C&N Claims Extended",
-      "lastreleased": "2026-10-16 15:36:14",
+      "lastreleased": "2026-10-17 09:17:50",
       "logo": null
     },
     {
@@ -126,7 +216,7 @@
       ],
       "modid": 12602,
       "name": "𝓦𝓻𝓲𝓽𝓽𝓮𝓷 𝓦𝓸𝓻𝓭 - parchment and book overhaul",
-      "lastreleased": "2026-10-17 00:46:45",
+      "lastreleased": "2026-10-17 19:27:32",
       "logo": "https://moddbcdn.vintagestory.at/thumbnail_ce78acc903eff572477f2fa508f5b60a.png"
     },
     {
@@ -144,7 +234,7 @@
       ],
       "modid": 12598,
       "name": "Reinforced Tool Belt",
-      "lastreleased": "2026-10-16 15:13:11",
+      "lastreleased": "2026-10-17 04:33:07",
       "logo": "https://moddbcdn.vintagestory.at/Reinforced-Tool-Belt_eeba5568293c52b5a622a1cd052d8081.png"
     },
     {
@@ -189,7 +279,7 @@
       ],
       "modid": 12592,
       "name": "Seraph's Fortune",
-      "lastreleased": "2026-10-16 06:24:30",
+      "lastreleased": "2026-10-18 02:22:48",
       "logo": "https://moddbcdn.vintagestory.at/download_f4995a0470b194d3832483e513babaaa.png"
     },
     {
@@ -207,7 +297,7 @@
       ],
       "modid": 12590,
       "name": "Wooden Spoon",
-      "lastreleased": "2026-10-16 17:50:38",
+      "lastreleased": "2026-10-17 09:25:10",
       "logo": null
     },
     {
@@ -225,7 +315,7 @@
       ],
       "modid": 12586,
       "name": "Ahoy! - A Simple Sailing Mod",
-      "lastreleased": "2026-10-16 10:41:21",
+      "lastreleased": "2026-10-17 23:30:14",
       "logo": "https://moddbcdn.vintagestory.at/modicon+2_1929b28e5bc6e332521788a43c16d5f0.png"
     },
     {
@@ -387,7 +477,7 @@
       ],
       "modid": 12553,
       "name": "Shipworks",
-      "lastreleased": "2026-10-17 01:02:36",
+      "lastreleased": "2026-10-17 03:58:33",
       "logo": "https://moddbcdn.vintagestory.at/Shipworks_+A+Galleon_b940ee0da5e6624448d41b9146c05a08.png"
     },
     {
@@ -468,7 +558,7 @@
       ],
       "modid": 12540,
       "name": "Steel Bits Bloomery",
-      "lastreleased": "2026-10-14 16:31:22",
+      "lastreleased": "2026-10-17 11:35:33",
       "logo": null
     },
     {
@@ -488,6 +578,15 @@
       "name": "More Crafting Recipes",
       "lastreleased": "2026-10-15 10:54:53",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "dragonology"
+      ],
+      "modid": 12537,
+      "name": "Dragonology",
+      "lastreleased": "2026-10-17 14:09:33",
+      "logo": "https://moddbcdn.vintagestory.at/Dragonology_60b9d1b5fc00fd73f5c874c73f39b8f7.png"
     },
     {
       "modidstrs": [
@@ -522,7 +621,7 @@
       ],
       "modid": 12523,
       "name": "Smooth Stone Paths",
-      "lastreleased": "2026-10-14 15:01:24",
+      "lastreleased": "2026-10-18 01:19:02",
       "logo": "https://moddbcdn.vintagestory.at/modimg_e03504c72922a84ac97472838e599db6.png"
     },
     {
@@ -594,8 +693,8 @@
       ],
       "modid": 12512,
       "name": "Equus: Expanded",
-      "lastreleased": "2026-10-16 18:41:17",
-      "logo": "https://moddbcdn.vintagestory.at/logo_fb3745a11a96a21d69007689436635ba.png"
+      "lastreleased": "2026-10-17 03:34:19",
+      "logo": "https://moddbcdn.vintagestory.at/equus-expanded-logo-_b62aca9d1320aaac30580afb5d992f4b.png"
     },
     {
       "modidstrs": [
@@ -707,6 +806,15 @@
     },
     {
       "modidstrs": [
+        "questline"
+      ],
+      "modid": 12495,
+      "name": "Questline",
+      "lastreleased": "2026-10-18 01:57:59",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_ac72a5b8765de13d1f8a29de24a4ebec.png"
+    },
+    {
+      "modidstrs": [
         "chiselmergeworldedit"
       ],
       "modid": 12493,
@@ -761,11 +869,12 @@
     },
     {
       "modidstrs": [
-        "goodhunting2"
+        "goodhunting2",
+        "goodhuntingforked"
       ],
       "modid": 12485,
       "name": "Good Hunting - Forked",
-      "lastreleased": "2026-10-12 11:29:12",
+      "lastreleased": "2026-10-17 17:47:53",
       "logo": null
     },
     {
@@ -792,7 +901,7 @@
       ],
       "modid": 12480,
       "name": "Tuna's clothes for bixo",
-      "lastreleased": "2026-10-13 16:50:10",
+      "lastreleased": "2026-10-17 16:14:32",
       "logo": null
     },
     {
@@ -900,7 +1009,7 @@
       ],
       "modid": 12466,
       "name": "NationWarlord",
-      "lastreleased": "2026-10-16 14:45:29",
+      "lastreleased": "2026-10-17 15:49:06",
       "logo": "https://moddbcdn.vintagestory.at/modimage_warlord2_2162df414bd0cba155c9ccb668752d24.png"
     },
     {
@@ -945,7 +1054,7 @@
       ],
       "modid": 12459,
       "name": "Signals Tubes",
-      "lastreleased": "2026-10-15 17:18:38",
+      "lastreleased": "2026-10-17 17:55:54",
       "logo": "https://moddbcdn.vintagestory.at/SignalsLinkTubes-tit_d569bd3ef1087162a6836b0646f4ebc2.jpg"
     },
     {
@@ -990,7 +1099,7 @@
       ],
       "modid": 12453,
       "name": "C&N Halloween",
-      "lastreleased": "2026-10-16 18:36:34",
+      "lastreleased": "2026-10-17 09:49:52",
       "logo": "https://moddbcdn.vintagestory.at/Bez+n%C3%A1zvu_c7f462c2a498efe5e5d3fd10ec1b0478.png"
     },
     {
@@ -999,7 +1108,7 @@
       ],
       "modid": 12452,
       "name": "Backrooms: Survival Story",
-      "lastreleased": "2026-10-14 23:00:32",
+      "lastreleased": "2026-10-17 06:42:39",
       "logo": "https://moddbcdn.vintagestory.at/cover-480_8db80414bc183415a110a384f41e4265.png"
     },
     {
@@ -1189,7 +1298,7 @@
       ],
       "modid": 12425,
       "name": "BATS!",
-      "lastreleased": "2026-10-16 11:29:09",
+      "lastreleased": "2026-10-17 10:09:03",
       "logo": "https://moddbcdn.vintagestory.at/Title_69726b60c17e59cd6f99a1d8a2c81466_480_320.gif"
     },
     {
@@ -1243,7 +1352,7 @@
       ],
       "modid": 12418,
       "name": "Vintage Fantasy",
-      "lastreleased": "2026-10-16 05:26:49",
+      "lastreleased": "2026-10-18 02:37:24",
       "logo": "https://moddbcdn.vintagestory.at/vintageFantasy_modDB_fbcd47f8a384d09530eda270a3fa39d7.png"
     },
     {
@@ -1450,7 +1559,7 @@
       ],
       "modid": 12383,
       "name": "Fancy Fences",
-      "lastreleased": "2026-10-16 07:09:50",
+      "lastreleased": "2026-10-17 19:04:27",
       "logo": "https://moddbcdn.vintagestory.at/modDBicon2_bcb4debba79c3dbcb85035f151a26af7.png"
     },
     {
@@ -1811,7 +1920,7 @@
       ],
       "modid": 12308,
       "name": "套索",
-      "lastreleased": "2026-10-12 20:50:26",
+      "lastreleased": "2026-10-17 20:06:09",
       "logo": null
     },
     {
@@ -1821,7 +1930,7 @@
       ],
       "modid": 12307,
       "name": "XIT",
-      "lastreleased": "2026-10-15 12:18:30",
+      "lastreleased": "2026-10-17 11:07:43",
       "logo": "https://moddbcdn.vintagestory.at/5_5385023cd07e252599982429f5ad8376.png"
     },
     {
@@ -1875,7 +1984,7 @@
       ],
       "modid": 12293,
       "name": "PushShip",
-      "lastreleased": "2026-10-10 09:46:06",
+      "lastreleased": "2026-10-17 13:14:49",
       "logo": "https://moddbcdn.vintagestory.at/download_91a17d7d55c56742c565495436d5b011.jpg"
     },
     {
@@ -1921,7 +2030,7 @@
       ],
       "modid": 12284,
       "name": "Syrup and CO2",
-      "lastreleased": "2026-10-14 22:32:29",
+      "lastreleased": "2026-10-18 00:34:02",
       "logo": "https://moddbcdn.vintagestory.at/Recording+2026-10-10_40660fa4889a257954ddb9afe6c1cb41_480_320.gif"
     },
     {
@@ -2020,7 +2129,7 @@
       ],
       "modid": 12259,
       "name": "Hex's Mechworks x Boric Alchemy Compat",
-      "lastreleased": "2026-10-03 13:40:14",
+      "lastreleased": "2026-10-17 12:38:06",
       "logo": null
     },
     {
@@ -2372,7 +2481,7 @@
       ],
       "modid": 12199,
       "name": "Geology Expansion: World",
-      "lastreleased": "2026-10-10 04:54:16",
+      "lastreleased": "2026-10-17 20:58:01",
       "logo": "https://moddbcdn.vintagestory.at/modicon_87de42e060dd81aa9a3ec885a0d1d913.png"
     },
     {
@@ -2681,7 +2790,7 @@
       ],
       "modid": 12149,
       "name": "VSCN 文明模拟主模组",
-      "lastreleased": "2026-10-15 09:37:29",
+      "lastreleased": "2026-10-18 03:16:17",
       "logo": null
     },
     {
@@ -2762,7 +2871,7 @@
       ],
       "modid": 12135,
       "name": "Food Preservation & Display",
-      "lastreleased": "2026-10-14 23:15:30",
+      "lastreleased": "2026-10-17 23:46:09",
       "logo": "https://moddbcdn.vintagestory.at/moddbextthumbnail_e2909799d0c37920cfe26a9fe42b4b83.png"
     },
     {
@@ -2897,7 +3006,7 @@
       ],
       "modid": 12113,
       "name": "GhostChunks",
-      "lastreleased": "2026-10-17 00:33:15",
+      "lastreleased": "2026-10-17 17:46:25",
       "logo": "https://moddbcdn.vintagestory.at/ExternalPreview_46ff573fb97a2084874d4ad02259beeb.png"
     },
     {
@@ -3032,7 +3141,7 @@
       ],
       "modid": 12091,
       "name": "VSPT: Path Tracing",
-      "lastreleased": "2026-10-15 10:09:17",
+      "lastreleased": "2026-10-17 10:39:23",
       "logo": "https://moddbcdn.vintagestory.at/vspt_logo_480_centre_1c93379021666dff981730148ac95205.jpg"
     },
     {
@@ -3338,7 +3447,7 @@
       ],
       "modid": 12040,
       "name": "VSCN 服务器改进模组的模组",
-      "lastreleased": "2026-10-16 17:15:20",
+      "lastreleased": "2026-10-17 08:49:09",
       "logo": null
     },
     {
@@ -3717,7 +3826,7 @@
       ],
       "modid": 11962,
       "name": "Minimally Invasive Performance Tweaks",
-      "lastreleased": "2026-10-16 21:38:38",
+      "lastreleased": "2026-10-17 07:27:57",
       "logo": "https://moddbcdn.vintagestory.at/perftweaksthumb_edc81856dab9754525ee019a0485b72f.jpg"
     },
     {
@@ -4078,7 +4187,7 @@
       ],
       "modid": 11892,
       "name": "VSA - BUILDINGTOOLS",
-      "lastreleased": "2026-10-15 16:21:33",
+      "lastreleased": "2026-10-17 12:13:39",
       "logo": "https://moddbcdn.vintagestory.at/VSA-BUILDINGTOOLS_e8ed68f96c86fc982f4a9ae98b47974f.png"
     },
     {
@@ -5789,7 +5898,7 @@
       ],
       "modid": 11622,
       "name": "ND Patches",
-      "lastreleased": "2026-10-14 03:02:46",
+      "lastreleased": "2026-10-18 02:44:32",
       "logo": null
     },
     {
@@ -7401,7 +7510,7 @@
       ],
       "modid": 11325,
       "name": "Arcanum Lib",
-      "lastreleased": "2026-10-12 12:22:22",
+      "lastreleased": "2026-10-17 06:55:21",
       "logo": "https://moddbcdn.vintagestory.at/modicon_866fba289c9b80bc97bb45cb9022cf75.png"
     },
     {
@@ -7547,15 +7656,6 @@
       "modid": 11292,
       "name": "VF Server Mod",
       "lastreleased": "2026-08-31 21:33:44",
-      "logo": null
-    },
-    {
-      "modidstrs": [
-        "miscservertweaks"
-      ],
-      "modid": 11289,
-      "name": "Misc Server Tweaks",
-      "lastreleased": "2026-08-24 21:56:33",
       "logo": null
     },
     {
@@ -7898,7 +7998,7 @@
       ],
       "modid": 11234,
       "name": "Seraph Leveling ReClassed",
-      "lastreleased": "2026-10-13 05:40:15",
+      "lastreleased": "2026-10-17 22:26:38",
       "logo": "https://moddbcdn.vintagestory.at/slrc_icon_e2fbe8fc805720680c4494ffd7488555.png"
     },
     {
@@ -8630,7 +8730,7 @@
       ],
       "modid": 11120,
       "name": "Valioso",
-      "lastreleased": "2026-09-20 00:19:19",
+      "lastreleased": "2026-10-17 19:03:09",
       "logo": null
     },
     {
@@ -9649,7 +9749,7 @@
       ],
       "modid": 10934,
       "name": "Gondola Cable Car",
-      "lastreleased": "2026-10-16 15:56:20",
+      "lastreleased": "2026-10-17 22:55:01",
       "logo": "https://moddbcdn.vintagestory.at/logo_vintagestory_12_cb129753341e22535147a2a4e868f925.gif"
     },
     {
@@ -9712,7 +9812,7 @@
       ],
       "modid": 10925,
       "name": "Feral Kinship: Companions",
-      "lastreleased": "2026-10-14 17:06:16",
+      "lastreleased": "2026-10-18 02:48:55",
       "logo": "https://moddbcdn.vintagestory.at/companionsallnow_6fa5160fd93b561f7508848f2a1c4baf.png"
     },
     {
@@ -9739,7 +9839,7 @@
       ],
       "modid": 10921,
       "name": "Grassroots Coca",
-      "lastreleased": "2026-09-15 02:44:54",
+      "lastreleased": "2026-10-17 19:04:43",
       "logo": "https://moddbcdn.vintagestory.at/grcoca_802e2498f757306cf0cedc3470f4fb70.png"
     },
     {
@@ -9766,7 +9866,7 @@
       ],
       "modid": 10917,
       "name": "Locks & Keys",
-      "lastreleased": "2026-08-13 14:30:23",
+      "lastreleased": "2026-10-17 12:53:29",
       "logo": "https://moddbcdn.vintagestory.at/modiconV3_b8545eb73ec3d0b5e1a7fac1ef171e59.png"
     },
     {
@@ -10272,7 +10372,7 @@
       ],
       "modid": 10816,
       "name": "Offline No Spoil",
-      "lastreleased": "2026-09-09 13:20:28",
+      "lastreleased": "2026-10-17 11:12:13",
       "logo": null
     },
     {
@@ -10524,7 +10624,7 @@
       ],
       "modid": 10779,
       "name": "Rot Bin",
-      "lastreleased": "2026-08-30 09:03:09",
+      "lastreleased": "2026-10-17 19:25:49",
       "logo": "https://moddbcdn.vintagestory.at/rotbin-480x480_ad2d7749d987cb77ca6b9ef8ab2687fa_480_320.png"
     },
     {
@@ -12728,7 +12828,7 @@
       ],
       "modid": 10455,
       "name": "The Quire Patches",
-      "lastreleased": "2026-10-09 22:10:49",
+      "lastreleased": "2026-10-17 20:50:05",
       "logo": null
     },
     {
@@ -12737,7 +12837,7 @@
       ],
       "modid": 10454,
       "name": "The Almanac: Illuminated",
-      "lastreleased": "2026-09-03 04:11:21",
+      "lastreleased": "2026-10-17 20:50:43",
       "logo": null
     },
     {
@@ -12746,7 +12846,7 @@
       ],
       "modid": 10453,
       "name": "The Almanac: Trades, Callings & Mastery",
-      "lastreleased": "2026-10-09 19:27:18",
+      "lastreleased": "2026-10-17 20:49:03",
       "logo": null
     },
     {
@@ -15472,7 +15572,7 @@
       ],
       "modid": 10021,
       "name": "SheyderMod",
-      "lastreleased": "2026-08-17 13:04:00",
+      "lastreleased": "2026-10-18 00:17:03",
       "logo": "https://moddbcdn.vintagestory.at/logo_c795ea7de4676d0a632f7179b8e5059d.jpg"
     },
     {
@@ -17306,7 +17406,7 @@
       ],
       "modid": 9716,
       "name": "Pie Fixes",
-      "lastreleased": "2026-06-18 17:11:02",
+      "lastreleased": "2026-10-17 16:42:42",
       "logo": "https://moddbcdn.vintagestory.at/modicon_22ab5522d36bd838c3bf67557be6fc94.png"
     },
     {
@@ -18143,9 +18243,9 @@
         "simplevoicechat"
       ],
       "modid": 9570,
-      "name": "Simple Voice Chat",
-      "lastreleased": "2026-10-16 05:01:22",
-      "logo": "https://moddbcdn.vintagestory.at/Snipaste_2026-10-13__58d670affaeb35cb24eefb360794bac9.png"
+      "name": "简单语音聊天",
+      "lastreleased": "2026-10-16 05:01:09",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -18970,7 +19070,7 @@
       ],
       "modid": 9433,
       "name": "Dar's Server Utilities",
-      "lastreleased": "2026-10-17 03:16:47",
+      "lastreleased": "2026-10-18 02:10:40",
       "logo": "https://moddbcdn.vintagestory.at/darlems_server_utili_7e9faff765a128989338de9982b15d48.png"
     },
     {
@@ -19981,7 +20081,7 @@
       ],
       "modid": 9259,
       "name": "WOO Fantasy Additions",
-      "lastreleased": "2026-10-14 23:46:24",
+      "lastreleased": "2026-10-17 22:14:54",
       "logo": "https://moddbcdn.vintagestory.at/fantasyadditionslogo_bf1f94e916034c7ab4d23b71f93fe3cb_480_320.png"
     },
     {
@@ -20620,7 +20720,7 @@
       ],
       "modid": 9158,
       "name": "Expanded Foods Fowlmod Compat",
-      "lastreleased": "2026-08-23 11:57:45",
+      "lastreleased": "2026-10-17 08:18:46",
       "logo": "https://moddbcdn.vintagestory.at/modicon2_89b8af657321b9d8f78dd7e86ef6851e.jpg"
     },
     {
@@ -20917,7 +21017,7 @@
       ],
       "modid": 9115,
       "name": "VSA - Replica",
-      "lastreleased": "2026-10-16 20:14:52",
+      "lastreleased": "2026-10-17 21:31:23",
       "logo": "https://moddbcdn.vintagestory.at/VSA-REPLICA-IMAGE_7a5d8ce24277b1053da4d616aede1e74.png"
     },
     {
@@ -23056,7 +23156,7 @@
       ],
       "modid": 8766,
       "name": "More Cheese",
-      "lastreleased": "2026-06-18 17:41:37",
+      "lastreleased": "2026-10-17 14:08:49",
       "logo": "https://moddbcdn.vintagestory.at/morecheese_e2595c7bd763cc213e90772420023d5b.png"
     },
     {
@@ -23273,7 +23373,7 @@
       ],
       "modid": 8740,
       "name": "Craftable Salt",
-      "lastreleased": "2026-06-18 17:42:23",
+      "lastreleased": "2026-10-17 16:43:02",
       "logo": null
     },
     {
@@ -24246,7 +24346,7 @@
       ],
       "modid": 8590,
       "name": "Grassroots",
-      "lastreleased": "2026-10-10 04:11:36",
+      "lastreleased": "2026-10-17 19:09:30",
       "logo": "https://moddbcdn.vintagestory.at/grmodicon_79c3f85be4859e159ba998d5b64f04c2.png"
     },
     {
@@ -31121,7 +31221,7 @@
       ],
       "modid": 7320,
       "name": "Wilderlands Adjustments",
-      "lastreleased": "2026-10-17 03:09:54",
+      "lastreleased": "2026-10-17 21:54:37",
       "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Adjustme_926c09f0ca44b2df91ebe78d2489f1fc.png"
     },
     {
@@ -31689,7 +31789,7 @@
       ],
       "modid": 7167,
       "name": "Advanced Geology",
-      "lastreleased": "2026-10-16 00:53:18",
+      "lastreleased": "2026-10-17 20:06:54",
       "logo": "https://moddbcdn.vintagestory.at/rhyoliteicon_3c2a7fd57a5c5fe266cedc467628ffb2.png"
     },
     {
@@ -31827,7 +31927,7 @@
       ],
       "modid": 7141,
       "name": "Antique Harmony | Music Additions / Alternative Soundtrack",
-      "lastreleased": "2026-10-13 17:41:29",
+      "lastreleased": "2026-10-17 14:47:05",
       "logo": "https://moddbcdn.vintagestory.at/pixil-frame-0%2823%29_b5121bfee8b3ca8bebe7846bda121d43.png"
     },
     {
@@ -32214,7 +32314,7 @@
       ],
       "modid": 6997,
       "name": "Alegacy patches",
-      "lastreleased": "2026-10-12 12:30:39",
+      "lastreleased": "2026-10-17 17:51:32",
       "logo": null
     },
     {
@@ -33120,7 +33220,7 @@
       ],
       "modid": 6694,
       "name": "Alegacy: Foundation",
-      "lastreleased": "2026-10-12 12:32:13",
+      "lastreleased": "2026-10-17 17:25:16",
       "logo": "https://moddbcdn.vintagestory.at/alegacy_foundation+%28_7d597f18dd4c0b82d533e296f0e7876d_480_320.png"
     },
     {
@@ -33240,7 +33340,7 @@
       "modid": 6636,
       "name": "Quick Mode",
       "lastreleased": "2026-10-13 00:27:24",
-      "logo": "https://moddbcdn.vintagestory.at/342f808c-25a8-4fc1-b_1d18cf977adc83b2c9ebf2fca0d0adac.png"
+      "logo": "https://moddbcdn.vintagestory.at/quickmode_square_5d7222d5b470d5ae1530fa0fee5db015.png"
     },
     {
       "modidstrs": [
@@ -33321,7 +33421,7 @@
       ],
       "modid": 6609,
       "name": "Alegacy Quest Framework",
-      "lastreleased": "2026-10-12 12:26:31",
+      "lastreleased": "2026-10-17 17:24:20",
       "logo": "https://moddbcdn.vintagestory.at/content_31b150b7383036b61726b1347f7d8f0d.png"
     },
     {
@@ -34590,8 +34690,8 @@
       ],
       "modid": 6153,
       "name": "GiMap",
-      "lastreleased": "2026-09-13 08:03:20",
-      "logo": "https://moddbcdn.vintagestory.at/icon_f683362beb6d289bfdd8ca9f1fc1dc45.png"
+      "lastreleased": "2026-10-17 15:32:48",
+      "logo": "https://moddbcdn.vintagestory.at/icon_627c3c633502a72b6579a23277ca7e16.png"
     },
     {
       "modidstrs": [
@@ -35239,7 +35339,7 @@
       ],
       "modid": 5942,
       "name": "OptiTime",
-      "lastreleased": "2026-10-10 11:59:31",
+      "lastreleased": "2026-10-17 12:09:08",
       "logo": "https://moddbcdn.vintagestory.at/moddb_squared_b9f12365ccc53adeb5e751542dd1cb7d.png"
     },
     {
@@ -36419,7 +36519,7 @@
       ],
       "modid": 5356,
       "name": "Wilderlands Caves",
-      "lastreleased": "2026-10-04 21:56:19",
+      "lastreleased": "2026-10-18 02:47:41",
       "logo": "https://moddbcdn.vintagestory.at/WilderlandsCavesModi_b8e84644b730440ca6ac925721e2d13c.png"
     },
     {
@@ -36637,7 +36737,7 @@
       ],
       "modid": 5243,
       "name": "ChunkMap Pregenerator",
-      "lastreleased": "2026-07-21 08:51:05",
+      "lastreleased": "2026-10-17 06:07:23",
       "logo": "https://moddbcdn.vintagestory.at/ChunkMap+Pregenerato_339bcb6c6f85014789f6743792352a4b.png"
     },
     {
@@ -39710,7 +39810,7 @@
       ],
       "modid": 3795,
       "name": "Random things",
-      "lastreleased": "2026-06-04 08:28:46",
+      "lastreleased": "2026-10-17 04:33:14",
       "logo": null
     },
     {
@@ -40500,7 +40600,7 @@
       ],
       "modid": 3369,
       "name": "Envelopes",
-      "lastreleased": "2026-10-17 00:41:20",
+      "lastreleased": "2026-10-17 11:13:15",
       "logo": "https://moddbcdn.vintagestory.at/envelopesthumblove_30e55b1274c7b62fae77d6ae9a1e23d4.png"
     },
     {
@@ -41266,7 +41366,7 @@
       ],
       "modid": 2920,
       "name": "SpecializedBags Revived",
-      "lastreleased": "2026-10-17 02:20:17",
+      "lastreleased": "2026-10-17 18:38:14",
       "logo": "https://moddbcdn.vintagestory.at/Modicon_10333561747e8789b74d8b48fd15ec18.png"
     },
     {
@@ -42262,7 +42362,7 @@
       ],
       "modid": 2473,
       "name": "Russian Horde: Armor",
-      "lastreleased": "2026-10-09 04:12:05",
+      "lastreleased": "2026-10-17 07:58:15",
       "logo": "https://moddbcdn.vintagestory.at/2024-09-08_00-57-49_fcbfbfe813008e7b557040c07dbef60d.png"
     },
     {
@@ -42298,7 +42398,7 @@
       ],
       "modid": 2455,
       "name": "Eternal Seraph: Patch",
-      "lastreleased": "2026-10-16 21:34:21",
+      "lastreleased": "2026-10-17 11:15:44",
       "logo": "https://moddbcdn.vintagestory.at/patch1_7ba614b8d4526012bda2f18d3bd0fca6.png"
     },
     {
@@ -42816,7 +42916,7 @@
       ],
       "modid": 2187,
       "name": "Japanese Horde: Armor",
-      "lastreleased": "2026-08-14 15:48:28",
+      "lastreleased": "2026-10-17 08:03:36",
       "logo": "https://moddbcdn.vintagestory.at/113_f7502b950f3f76f1f849a51e49c74026.PNG"
     },
     {
@@ -43321,7 +43421,7 @@
       ],
       "modid": 1794,
       "name": "Cuman Horde: Armor",
-      "lastreleased": "2026-08-14 16:46:51",
+      "lastreleased": "2026-10-17 08:06:25",
       "logo": null
     },
     {
@@ -45008,7 +45108,7 @@
       ],
       "modid": 496,
       "name": "Expanded Matter",
-      "lastreleased": "2026-10-16 15:56:36",
+      "lastreleased": "2026-10-17 13:47:51",
       "logo": "https://moddbcdn.vintagestory.at/modlogo_metal_ac45ddc317aa440d44cf92a17505b5a7.png"
     },
     {
@@ -45316,7 +45416,7 @@
       ],
       "modid": 117,
       "name": "Bricklayers",
-      "lastreleased": "2026-10-16 15:55:53",
+      "lastreleased": "2026-10-17 13:04:54",
       "logo": "https://moddbcdn.vintagestory.at/terasses_480_d0aa03edcbbc5f185d58aa24de276660.jpg"
     },
     {
