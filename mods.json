@@ -1,8 +1,98 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.22.x",
-  "last_updated": "2026-11-06 05:38 UTC",
+  "last_updated": "2026-11-07 05:07 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "kcssynthtraits"
+      ],
+      "modid": 13208,
+      "name": "KCs Synth Traits",
+      "lastreleased": "2026-11-07 04:41:58",
+      "logo": "https://moddbcdn.vintagestory.at/modicon-kcssynthtrai_3f44dc39799d03b17d3730a83ac9237d.png"
+    },
+    {
+      "modidstrs": [
+        "leadtobrass"
+      ],
+      "modid": 13206,
+      "name": "True Archimedes Screw Lead to Brass Swap",
+      "lastreleased": "2026-11-07 03:32:44",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_22758dceebba30034f9b4c6c7fcc6b32.png"
+    },
+    {
+      "modidstrs": [
+        "findanyblock122"
+      ],
+      "modid": 13205,
+      "name": "find any block for 1.22.7",
+      "lastreleased": "2026-11-07 03:27:14",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "lopcore"
+      ],
+      "modid": 13204,
+      "name": "LoP-Core",
+      "lastreleased": "2026-11-07 02:31:19",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "wardrobe"
+      ],
+      "modid": 13202,
+      "name": "Wardrobe",
+      "lastreleased": "2026-11-07 00:22:38",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "petroleumpatch"
+      ],
+      "modid": 13200,
+      "name": "Petroleum Age: Iron & Refining Patch",
+      "lastreleased": "2026-11-07 01:35:46",
+      "logo": "https://moddbcdn.vintagestory.at/moddb-logo_50493e75302d834004e74697c62c25b8.png"
+    },
+    {
+      "modidstrs": [
+        "varastreeline"
+      ],
+      "modid": 13197,
+      "name": "Vara's Tree Line",
+      "lastreleased": "2026-11-06 19:08:06",
+      "logo": "https://moddbcdn.vintagestory.at/2026-11-06_20-53-53_08aee14aeba39ff8519606d359f892cc.png"
+    },
+    {
+      "modidstrs": [
+        "varasplums"
+      ],
+      "modid": 13192,
+      "name": "Vara's Plums",
+      "lastreleased": "2026-11-06 23:35:21",
+      "logo": "https://moddbcdn.vintagestory.at/2026-11-06_16-52-14_2d3535b5006bed6bf48319d5817daa8c.png"
+    },
+    {
+      "modidstrs": [
+        "classicsayhi"
+      ],
+      "modid": 13191,
+      "name": "Classic Say Hi :)",
+      "lastreleased": "2026-11-06 12:46:46",
+      "logo": "https://moddbcdn.vintagestory.at/moddb_c1d639c3a6e57fa0f0402859fb21bed2.png"
+    },
+    {
+      "modidstrs": [
+        "ceratopsidaepatched"
+      ],
+      "modid": 13190,
+      "name": "Legacy of the Phanerozoic: Horned Crown",
+      "lastreleased": "2026-11-06 10:58:55",
+      "logo": null
+    },
     {
       "modidstrs": [
         "alderothrepairs"
@@ -27,7 +117,7 @@
       ],
       "modid": 13186,
       "name": "The Mad Crow Attacks",
-      "lastreleased": "2026-11-06 05:29:47",
+      "lastreleased": "2026-11-07 05:07:04",
       "logo": "https://moddbcdn.vintagestory.at/imresizer-resize-Scr_0623c72743f7bf71237630475cdd8fa4.jpg"
     },
     {
@@ -50,11 +140,20 @@
     },
     {
       "modidstrs": [
+        "composterpatched"
+      ],
+      "modid": 13180,
+      "name": "Composter (.NET 10 rebuild for 1.22.7)",
+      "lastreleased": "2026-11-06 09:50:38",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "licantropomorphia"
       ],
       "modid": 13179,
       "name": "Licantropomorphia",
-      "lastreleased": "2026-11-05 23:27:15",
+      "lastreleased": "2026-11-07 00:40:08",
       "logo": "https://moddbcdn.vintagestory.at/icon_4f0c39e9d52b70c7db2f8b81c48bac5e.png"
     },
     {
@@ -81,7 +180,7 @@
       ],
       "modid": 13155,
       "name": "Projectiles In Entities",
-      "lastreleased": "2026-11-05 23:54:31",
+      "lastreleased": "2026-11-06 11:46:35",
       "logo": "https://moddbcdn.vintagestory.at/entites_ec9740fc6d133ec6ec12afbfee78f924.png"
     },
     {
@@ -144,7 +243,7 @@
       ],
       "modid": 13147,
       "name": "Vara's Crabapples",
-      "lastreleased": "2026-11-05 16:51:04",
+      "lastreleased": "2026-11-06 19:16:14",
       "logo": "https://moddbcdn.vintagestory.at/2026-11-05_15-49-33_b25ebcf78bd2710d9b88d564fa8259b8.png"
     },
     {
@@ -162,7 +261,7 @@
       ],
       "modid": 13143,
       "name": "Rust Arrival",
-      "lastreleased": "2026-11-05 21:44:10",
+      "lastreleased": "2026-11-06 22:47:14",
       "logo": "https://moddbcdn.vintagestory.at/Untitled_ac370c98dac563d6559e6859cfd0ca9b.gif"
     },
     {
@@ -198,7 +297,7 @@
       ],
       "modid": 13136,
       "name": "Raptor race",
-      "lastreleased": "2026-11-04 22:05:51",
+      "lastreleased": "2026-11-06 21:14:51",
       "logo": "https://moddbcdn.vintagestory.at/Raptoricon_ef279100649da57c6b15f684773dd4e3.png"
     },
     {
@@ -216,7 +315,7 @@
       ],
       "modid": 13133,
       "name": "Incredible Edibles: The Incredible Gourd",
-      "lastreleased": "2026-11-04 19:17:04",
+      "lastreleased": "2026-11-06 14:40:53",
       "logo": "https://moddbcdn.vintagestory.at/pumpkinmodicon_990921120cbf1e2185b2776e55575d3c.png"
     },
     {
@@ -225,7 +324,7 @@
       ],
       "modid": 13132,
       "name": "Nature's Call REMADE",
-      "lastreleased": "2026-11-04 18:51:44",
+      "lastreleased": "2026-11-06 18:13:04",
       "logo": null
     },
     {
@@ -279,7 +378,7 @@
       ],
       "modid": 13126,
       "name": "PreGen Chunk",
-      "lastreleased": "2026-11-04 15:16:40",
+      "lastreleased": "2026-11-07 01:31:50",
       "logo": null
     },
     {
@@ -338,11 +437,137 @@
     },
     {
       "modidstrs": [
+        "tyrannosauridaepatched"
+      ],
+      "modid": 13116,
+      "name": "Legacy of the Phanerozoic: Tyrant King",
+      "lastreleased": "2026-11-06 10:26:40",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "carcharodontosauridaepatched"
+      ],
+      "modid": 13114,
+      "name": "Legacy of the Phanerozoic: Sharp Tooth",
+      "lastreleased": "2026-11-06 10:34:47",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "therizinosauridaepatched"
+      ],
+      "modid": 13113,
+      "name": "Legacy of the Phanerozoic: Scythe Claws",
+      "lastreleased": "2026-11-06 10:56:42",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "spinosauridaepatched"
+      ],
+      "modid": 13112,
+      "name": "Legacy of the Phanerozoic: Sailed Spine",
+      "lastreleased": "2026-11-06 10:53:58",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "loppterosauria"
+      ],
+      "modid": 13111,
+      "name": "Legacy of the Phanerozoic: Storm Wing",
+      "lastreleased": "2026-11-06 10:51:18",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "lopplesiosauria"
+      ],
+      "modid": 13110,
+      "name": "Legacy of the Phanerozoic: Sea Serpent",
+      "lastreleased": "2026-11-06 10:50:15",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "stegosauriapatched"
+      ],
+      "modid": 13108,
+      "name": "Legacy of the Phanerozoic: Plated Back",
+      "lastreleased": "2026-11-06 10:55:26",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "lopoviraptorosauria"
+      ],
+      "modid": 13107,
+      "name": "Legacy of the Phanerozoic: Egg Thief",
+      "lastreleased": "2026-11-06 10:48:16",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "mosasauridaepatched"
+      ],
+      "modid": 13106,
+      "name": "Legacy of the Phanerozoic: Ocean Tyrant",
+      "lastreleased": "2026-11-06 10:45:10",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "lopallosauridae"
+      ],
+      "modid": 13104,
+      "name": "Legacy of the Phanerozoic: Jurassic Giants (Allosauridae)",
+      "lastreleased": "2026-11-06 10:32:36",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "lopiguanodontia"
+      ],
+      "modid": 13103,
+      "name": "Legacy of the Phanerozoic: Thumb Spike",
+      "lastreleased": "2026-11-06 10:43:57",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "ornithomimosauriapatched"
+      ],
+      "modid": 13101,
+      "name": "Legacy of the Phanerozoic: Horrible Hands",
+      "lastreleased": "2026-11-06 10:46:20",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "pachycephalosauriapatched"
+      ],
+      "modid": 13098,
+      "name": "Legacy of the Phanerozoic: Domed Head",
+      "lastreleased": "2026-11-06 10:49:15",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "lopdiplodocoidea"
+      ],
+      "modid": 13097,
+      "name": "Legacy of the Phanerozoic: Whip Tail",
+      "lastreleased": "2026-11-06 10:37:57",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "betterdialogue"
       ],
       "modid": 13092,
       "name": "Better Dialogue",
-      "lastreleased": "2026-11-04 07:22:24",
+      "lastreleased": "2026-11-06 15:06:50",
       "logo": "https://moddbcdn.vintagestory.at/better-dialogue-icon_e10d81170f49b63d8d632d4b828598d4.png"
     },
     {
@@ -459,7 +684,7 @@
       ],
       "modid": 13072,
       "name": "Offline Bodies",
-      "lastreleased": "2026-11-05 23:08:04",
+      "lastreleased": "2026-11-07 00:24:59",
       "logo": "https://moddbcdn.vintagestory.at/offline-bodies-inven_b6f5c6403e0059e228a007b7024aa244.png"
     },
     {
@@ -1207,7 +1432,7 @@
       ],
       "modid": 12947,
       "name": "Teapot's Giant Redriver",
-      "lastreleased": "2026-10-30 13:29:56",
+      "lastreleased": "2026-11-06 20:08:29",
       "logo": "https://moddbcdn.vintagestory.at/VS_ModDB_GiantRedriv_e78bc1a41e7786e681df23ee81c326df.png"
     },
     {
@@ -1432,7 +1657,7 @@
       ],
       "modid": 12911,
       "name": "Terra Incognita: True Value",
-      "lastreleased": "2026-10-31 18:06:58",
+      "lastreleased": "2026-11-06 15:55:17",
       "logo": "https://moddbcdn.vintagestory.at/TerraIncognitaTrueVa_709566eeb0811ac85cee245608dd7ce1.png"
     },
     {
@@ -1483,6 +1708,15 @@
     },
     {
       "modidstrs": [
+        "cottageindustry"
+      ],
+      "modid": 12903,
+      "name": "Cottage Industry",
+      "lastreleased": "2026-11-07 02:28:24",
+      "logo": "https://moddbcdn.vintagestory.at/CandyApple_58f87ed21c1c8e001911e4f4c976f5a0_480_320.gif"
+    },
+    {
+      "modidstrs": [
         "debarked"
       ],
       "modid": 12895,
@@ -1525,6 +1759,60 @@
       "name": "Wilderlands Old World",
       "lastreleased": "2026-10-29 21:54:15",
       "logo": "https://moddbcdn.vintagestory.at/sdfsdfs_53e81738408d0752ee2ea4ca81596d08.png"
+    },
+    {
+      "modidstrs": [
+        "toolsharpening"
+      ],
+      "modid": 12887,
+      "name": "Sharpening & Whetstones",
+      "lastreleased": "2026-11-06 22:25:04",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "cargoclothing"
+      ],
+      "modid": 12886,
+      "name": "Cargo Clothing",
+      "lastreleased": "2026-11-06 22:15:05",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "advancedresearch"
+      ],
+      "modid": 12885,
+      "name": "Advanced Research",
+      "lastreleased": "2026-11-06 22:18:10",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "minecarts"
+      ],
+      "modid": 12884,
+      "name": "Mine Carts",
+      "lastreleased": "2026-11-06 22:18:52",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "coalseams"
+      ],
+      "modid": 12883,
+      "name": "Geologic Coal Seams",
+      "lastreleased": "2026-11-06 22:19:16",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "miningexpanded"
+      ],
+      "modid": 12882,
+      "name": "Mining Expanded",
+      "lastreleased": "2026-11-06 22:23:04",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -1937,7 +2225,7 @@
         "spyglassfork"
       ],
       "modid": 12806,
-      "name": "望远镜分支（Spyglass Fork）",
+      "name": "Spyglass Fork",
       "lastreleased": "2026-10-27 00:23:47",
       "logo": "https://moddbcdn.vintagestory.at/Snipaste_2026-10-26__f596246a6de6f45643991fde2bcd66da.png"
     },
@@ -2217,7 +2505,7 @@
       ],
       "modid": 12761,
       "name": "Ardyn Leveling",
-      "lastreleased": "2026-11-04 09:39:56",
+      "lastreleased": "2026-11-06 09:51:25",
       "logo": "https://moddbcdn.vintagestory.at/06_ArdynWorkshop_Log_7bcd0530aa969de08852ec98460220d6.png"
     },
     {
@@ -2263,7 +2551,7 @@
       ],
       "modid": 12756,
       "name": "Jakemon's server patches",
-      "lastreleased": "2026-11-02 22:33:53",
+      "lastreleased": "2026-11-07 02:09:57",
       "logo": "https://moddbcdn.vintagestory.at/animatedmodicon_d7dab285ccf91d41d7f26acdebf94c09.png"
     },
     {
@@ -2803,16 +3091,7 @@
       ],
       "modid": 12676,
       "name": "Evenfall Server Patches",
-      "lastreleased": "2026-11-05 12:11:54",
-      "logo": null
-    },
-    {
-      "modidstrs": [
-        "simpleserverpanel"
-      ],
-      "modid": 12675,
-      "name": "Simple Server Panel",
-      "lastreleased": "2026-10-19 14:53:48",
+      "lastreleased": "2026-11-06 14:28:19",
       "logo": null
     },
     {
@@ -3091,7 +3370,7 @@
       ],
       "modid": 12633,
       "name": "Rough Seas",
-      "lastreleased": "2026-11-05 18:53:59",
+      "lastreleased": "2026-11-06 18:58:29",
       "logo": "https://moddbcdn.vintagestory.at/rough-seas-logo-modd_a97e8297f35a8549b2e6de8f8af14405.png"
     },
     {
@@ -3145,7 +3424,7 @@
       ],
       "modid": 12625,
       "name": "Vintage E",
-      "lastreleased": "2026-11-05 06:17:48",
+      "lastreleased": "2026-11-06 14:10:28",
       "logo": "https://moddbcdn.vintagestory.at/card-480x320_26504bdbca8ab64576378a4b48bc9c6d.png"
     },
     {
@@ -3595,7 +3874,7 @@
       ],
       "modid": 12543,
       "name": "The Rookery",
-      "lastreleased": "2026-10-28 05:32:15",
+      "lastreleased": "2026-11-06 21:44:58",
       "logo": "https://moddbcdn.vintagestory.at/resized-Screenshot+2_d159f218e4861cb6551ada943de72495.jpg"
     },
     {
@@ -3748,7 +4027,7 @@
       ],
       "modid": 12513,
       "name": "Remember It",
-      "lastreleased": "2026-10-29 14:19:35",
+      "lastreleased": "2026-11-07 02:28:09",
       "logo": "https://moddbcdn.vintagestory.at/logo_04a70a672cf79a8db6f976d032ebd813.png"
     },
     {
@@ -4363,7 +4642,7 @@
       ],
       "modid": 12425,
       "name": "BATS!",
-      "lastreleased": "2026-11-05 20:06:22",
+      "lastreleased": "2026-11-06 14:58:57",
       "logo": "https://moddbcdn.vintagestory.at/Title_69726b60c17e59cd6f99a1d8a2c81466_480_320.gif"
     },
     {
@@ -4660,7 +4939,7 @@
       ],
       "modid": 12375,
       "name": "aikostweaks",
-      "lastreleased": "2026-11-05 22:52:12",
+      "lastreleased": "2026-11-06 19:17:36",
       "logo": null
     },
     {
@@ -5792,7 +6071,7 @@
       ],
       "modid": 12156,
       "name": "Gentage",
-      "lastreleased": "2026-11-06 02:16:39",
+      "lastreleased": "2026-11-06 12:08:49",
       "logo": "https://moddbcdn.vintagestory.at/gentage-logo-480x320_57cd19b57bb3a55d24661413e1d85e9b.png"
     },
     {
@@ -5855,7 +6134,7 @@
         "vscncivilizationsimulation"
       ],
       "modid": 12149,
-      "name": "VSCN 文明模拟主模组（Civilization Simulation）",
+      "name": "VSCN Civilization Simulation",
       "lastreleased": "2026-10-27 11:32:18",
       "logo": null
     },
@@ -6243,7 +6522,7 @@
       ],
       "modid": 12086,
       "name": "TheKingdoms: Draconic Races",
-      "lastreleased": "2026-10-25 02:50:12",
+      "lastreleased": "2026-11-07 01:27:51",
       "logo": "https://moddbcdn.vintagestory.at/moddb+icon_f15b0bc71ff9bcb2e976b2a7eba75d75.png"
     },
     {
@@ -6521,7 +6800,7 @@
         "vscnservermodfix"
       ],
       "modid": 12040,
-      "name": "VSCN 服务器改进模组的模组（Mod Fix Mod）",
+      "name": "VSCN Mod Fix Mod",
       "lastreleased": "2026-10-27 05:23:39",
       "logo": null
     },
@@ -7118,7 +7397,7 @@
       ],
       "modid": 11927,
       "name": "Custom Music Radio",
-      "lastreleased": "2026-10-31 22:05:37",
+      "lastreleased": "2026-11-06 22:47:50",
       "logo": "https://moddbcdn.vintagestory.at/head_69958f38cf81f793ef7e92797fb5ca4f.png"
     },
     {
@@ -9748,7 +10027,7 @@
       ],
       "modid": 11476,
       "name": "Crown & Coalition Server Tweaks",
-      "lastreleased": "2026-11-06 02:02:48",
+      "lastreleased": "2026-11-06 19:00:45",
       "logo": null
     },
     {
@@ -9965,7 +10244,7 @@
       ],
       "modid": 11428,
       "name": "Crown & Coalition Chapter 2",
-      "lastreleased": "2026-11-06 02:03:02",
+      "lastreleased": "2026-11-06 19:01:01",
       "logo": null
     },
     {
@@ -11167,7 +11446,7 @@
       ],
       "modid": 11198,
       "name": "Professions",
-      "lastreleased": "2026-11-04 23:40:46",
+      "lastreleased": "2026-11-07 04:53:39",
       "logo": "https://moddbcdn.vintagestory.at/prof01_55e2e570587f240b66f52d0432046812.png"
     },
     {
@@ -12338,7 +12617,7 @@
       ],
       "modid": 10992,
       "name": "Sauna",
-      "lastreleased": "2026-09-23 19:30:52",
+      "lastreleased": "2026-11-06 21:25:42",
       "logo": "https://moddbcdn.vintagestory.at/modicon_dd0121c4ccd1a1e4d993f1f923a3afe2.png"
     },
     {
@@ -12709,7 +12988,7 @@
       ],
       "modid": 10934,
       "name": "Gondola Cable Car",
-      "lastreleased": "2026-11-06 01:08:03",
+      "lastreleased": "2026-11-06 23:45:33",
       "logo": "https://moddbcdn.vintagestory.at/gondola-480x320-orig_9415e0dc4a8c63e72c24b5213687f9fc.gif"
     },
     {
@@ -12772,7 +13051,7 @@
       ],
       "modid": 10925,
       "name": "Feral Kinship: Companions",
-      "lastreleased": "2026-11-02 05:30:18",
+      "lastreleased": "2026-11-06 22:47:31",
       "logo": "https://moddbcdn.vintagestory.at/companionsallnow_6fa5160fd93b561f7508848f2a1c4baf.png"
     },
     {
@@ -13332,7 +13611,7 @@
       ],
       "modid": 10816,
       "name": "Offline No Spoil",
-      "lastreleased": "2026-10-17 11:12:13",
+      "lastreleased": "2026-11-06 08:04:13",
       "logo": null
     },
     {
@@ -13494,7 +13773,7 @@
       ],
       "modid": 10791,
       "name": "Viresap",
-      "lastreleased": "2026-11-01 12:08:08",
+      "lastreleased": "2026-11-06 10:07:04",
       "logo": null
     },
     {
@@ -14958,7 +15237,7 @@
       ],
       "modid": 10565,
       "name": "Galeret Traits Mod",
-      "lastreleased": "2026-10-29 12:12:20",
+      "lastreleased": "2026-11-06 13:57:59",
       "logo": "https://moddbcdn.vintagestory.at/traits_e26fa4e9c5f68c33de26e43942c8a7e1.png"
     },
     {
@@ -14976,7 +15255,7 @@
       ],
       "modid": 10562,
       "name": "Animalica - Compatibility Pack 3 (Dinosaurs)",
-      "lastreleased": "2026-10-31 22:01:21",
+      "lastreleased": "2026-11-06 22:48:16",
       "logo": "https://moddbcdn.vintagestory.at/Animalica+compat3_1d440a9c01fe6b0fe2eec6d40d589e4e.png"
     },
     {
@@ -16203,7 +16482,7 @@
       ],
       "modid": 10386,
       "name": "KCs Synth Player",
-      "lastreleased": "2026-09-22 23:54:21",
+      "lastreleased": "2026-11-07 04:31:29",
       "logo": "https://moddbcdn.vintagestory.at/modicon-kcssynths_4e442c239c0ee39be32a8dbbab6a4b5f.png"
     },
     {
@@ -18767,7 +19046,7 @@
       ],
       "modid": 9970,
       "name": "Galeret",
-      "lastreleased": "2026-10-26 11:54:44",
+      "lastreleased": "2026-11-06 13:52:20",
       "logo": "https://moddbcdn.vintagestory.at/2026-07-01_20-06-32_180b144137f0ae9e56dbc248540fce29.png"
     },
     {
@@ -19447,7 +19726,7 @@
         "kcsdragongliding"
       ],
       "modid": 9849,
-      "name": "KCs Dragon Gliding!",
+      "name": "KCs Dragon Gliding",
       "lastreleased": "2026-09-27 05:47:54",
       "logo": "https://moddbcdn.vintagestory.at/moddbicon-kcsdragong_b39b87afa44d6d87d9068e4579105867.png"
     },
@@ -21141,7 +21420,7 @@
         "simplevoicechat"
       ],
       "modid": 9570,
-      "name": "简单语音聊天（Voice Chat Mod）",
+      "name": "Simple Voice Chat Mod",
       "lastreleased": "2026-10-24 16:17:29",
       "logo": null
     },
@@ -23744,7 +24023,7 @@
       ],
       "modid": 9139,
       "name": "VSA_API",
-      "lastreleased": "2026-11-05 19:45:23",
+      "lastreleased": "2026-11-07 00:10:36",
       "logo": "https://moddbcdn.vintagestory.at/API_Connect_VSA_mods_5c6aa29b4b4e6a25b6abebf7389dfc8f.png"
     },
     {
@@ -23915,7 +24194,7 @@
       ],
       "modid": 9115,
       "name": "VSA - Replica",
-      "lastreleased": "2026-11-05 19:41:15",
+      "lastreleased": "2026-11-06 20:07:56",
       "logo": "https://moddbcdn.vintagestory.at/VSA-REPLICA-IMAGE_7a5d8ce24277b1053da4d616aede1e74.png"
     },
     {
@@ -24258,7 +24537,7 @@
       ],
       "modid": 9063,
       "name": "Caeloria: Content",
-      "lastreleased": "2026-11-06 04:32:13",
+      "lastreleased": "2026-11-06 20:35:05",
       "logo": "https://moddbcdn.vintagestory.at/Caeloria+Content_51de5351bb1580104295f5101f37ca94_480_320.png"
     },
     {
@@ -28931,7 +29210,7 @@
         "kcsdragontraits"
       ],
       "modid": 8335,
-      "name": "KCs Dragon Traits!",
+      "name": "KCs Dragon Traits",
       "lastreleased": "2026-09-27 05:47:06",
       "logo": "https://moddbcdn.vintagestory.at/moddbicon-kcsdragont_1b5dec73065c905b4e09df6c353034ce.png"
     },
@@ -30069,7 +30348,7 @@
         "kcsdragons"
       ],
       "modid": 8146,
-      "name": "KCs Dragon Player!",
+      "name": "KCs Dragon Player",
       "lastreleased": "2026-10-27 16:27:52",
       "logo": "https://moddbcdn.vintagestory.at/moddbicon-kcsdragons_2e1bb83e585ea93658e1586bc326c803.png"
     },
@@ -33551,7 +33830,7 @@
       ],
       "modid": 7449,
       "name": "Mad Crow Glider",
-      "lastreleased": "2026-09-22 21:43:04",
+      "lastreleased": "2026-11-06 07:51:34",
       "logo": "https://moddbcdn.vintagestory.at/modicon_751c6cf66f2726a59e150b2cdd191123.png"
     },
     {
@@ -34102,7 +34381,7 @@
       ],
       "modid": 7320,
       "name": "Wilderlands Adjustments",
-      "lastreleased": "2026-11-05 17:51:26",
+      "lastreleased": "2026-11-06 13:46:35",
       "logo": "https://moddbcdn.vintagestory.at/Wilderlands+Adjustme_926c09f0ca44b2df91ebe78d2489f1fc.png"
     },
     {
@@ -34790,7 +35069,7 @@
       ],
       "modid": 7141,
       "name": "Antique Harmony | Additional/Alternative Music Soundtrack",
-      "lastreleased": "2026-10-25 23:22:15",
+      "lastreleased": "2026-11-06 06:08:26",
       "logo": "https://moddbcdn.vintagestory.at/pixil-frame-0%2823%29_b5121bfee8b3ca8bebe7846bda121d43.png"
     },
     {
@@ -38881,7 +39160,7 @@
       ],
       "modid": 5672,
       "name": "Panning Machine",
-      "lastreleased": "2026-11-05 10:30:59",
+      "lastreleased": "2026-11-06 15:51:44",
       "logo": "https://moddbcdn.vintagestory.at/panningmachine_indus_a48d33025737889ad9bd1fde28dfae1f.png"
     },
     {
@@ -39090,7 +39369,7 @@
       ],
       "modid": 5577,
       "name": "Boric Alchemy",
-      "lastreleased": "2026-11-04 07:22:29",
+      "lastreleased": "2026-11-06 18:43:06",
       "logo": "https://moddbcdn.vintagestory.at/untitled_45d30a269b0f78d735cd3a710379d339.png"
     },
     {
@@ -42571,7 +42850,7 @@
       ],
       "modid": 3966,
       "name": "Insanity Lib",
-      "lastreleased": "2026-10-07 09:39:39",
+      "lastreleased": "2026-11-06 23:21:22",
       "logo": "https://moddbcdn.vintagestory.at/modicon_76029d58fa7cd4a34f9206fee5f14e1b.png"
     },
     {
@@ -44145,7 +44424,7 @@
       ],
       "modid": 3103,
       "name": "Fauna of the Stone Age: Bovinae",
-      "lastreleased": "2026-11-06 01:38:44",
+      "lastreleased": "2026-11-06 22:06:57",
       "logo": "https://moddbcdn.vintagestory.at/modicon_da6a74e94ac4d9b78d858349df5f6f58.png"
     },
     {
@@ -44501,7 +44780,7 @@
       ],
       "modid": 2925,
       "name": "Brain Freeze",
-      "lastreleased": "2026-06-23 11:52:00",
+      "lastreleased": "2026-11-06 23:23:52",
       "logo": "https://moddbcdn.vintagestory.at/modicon_5f2f66d239a9fb3915d9a1528bb71ada.png"
     },
     {
