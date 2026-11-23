@@ -1,8 +1,45 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.23.x",
-  "last_updated": "2026-11-22 05:40 UTC",
+  "last_updated": "2026-11-23 06:24 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "expandedbees"
+      ],
+      "modid": 13724,
+      "name": "Hive And Honey",
+      "lastreleased": "2026-11-23 01:45:48",
+      "logo": "https://moddbcdn.vintagestory.at/HiveAndHoney-thumbna_e6e5566b32d2c68c3a68988adbb084a0.png"
+    },
+    {
+      "modidstrs": [
+        "nightvisiontoglasses"
+      ],
+      "modid": 13707,
+      "name": "Night Vision to Glasses",
+      "lastreleased": "2026-11-22 18:24:31",
+      "logo": "https://moddbcdn.vintagestory.at/nightvisiontoglasses_1c089ff01298e9ec68b1f746b37459aa.png"
+    },
+    {
+      "modidstrs": [
+        "simplevoicechat"
+      ],
+      "modid": 13706,
+      "name": "Simple Voice Chat",
+      "lastreleased": "2026-11-22 17:07:32",
+      "logo": "https://moddbcdn.vintagestory.at/Snipaste_2026-10-13__58d670affaeb35cb24eefb360794bac9.png"
+    },
+    {
+      "modidstrs": [
+        "hotspringcomfortfork",
+        "hotspringsfork"
+      ],
+      "modid": 13700,
+      "name": "Hot Spring Comfort Fork (no hardcore winter) ",
+      "lastreleased": "2026-11-22 15:14:29",
+      "logo": "https://moddbcdn.vintagestory.at/homeworkdirartifacts_8d0ac4bdfe59052f49df8b192445ea75.png"
+    },
     {
       "modidstrs": [
         "resourcemap"
@@ -45,7 +82,7 @@
       ],
       "modid": 13678,
       "name": "Alchemy Trader updated",
-      "lastreleased": "2026-11-21 16:44:44",
+      "lastreleased": "2026-11-22 09:54:46",
       "logo": "https://moddbcdn.vintagestory.at/alchemist_2a942b5f46_ff503527eda73646412322cc56542281.png"
     },
     {
@@ -108,7 +145,7 @@
       ],
       "modid": 13657,
       "name": "Traders Overhaul",
-      "lastreleased": "2026-11-21 02:33:00",
+      "lastreleased": "2026-11-22 18:00:17",
       "logo": "https://moddbcdn.vintagestory.at/external-logo_fc2de0b43f75518b4e618bee8d302a56.jpg"
     },
     {
@@ -117,7 +154,7 @@
       ],
       "modid": 13656,
       "name": "Seraph QoL",
-      "lastreleased": "2026-11-21 02:21:03",
+      "lastreleased": "2026-11-22 18:01:54",
       "logo": "https://moddbcdn.vintagestory.at/external-logo_7eacf751828d7f5e076f00307db3caca.jpg"
     },
     {
@@ -128,6 +165,15 @@
       "name": "VS Director Fork",
       "lastreleased": "2026-11-21 18:50:31",
       "logo": "https://moddbcdn.vintagestory.at/logo_480x480_plain_6f129a4f7fedfa5484135632f50b8e2e.png"
+    },
+    {
+      "modidstrs": [
+        "seraphui"
+      ],
+      "modid": 13653,
+      "name": "Seraph UI",
+      "lastreleased": "2026-11-22 18:00:56",
+      "logo": "https://moddbcdn.vintagestory.at/external-logo_9da76547a0dd83468977a25f05c289bf.jpg"
     },
     {
       "modidstrs": [
@@ -153,7 +199,7 @@
       ],
       "modid": 13644,
       "name": "Cook UI",
-      "lastreleased": "2026-11-21 04:13:03",
+      "lastreleased": "2026-11-23 00:12:06",
       "logo": "https://moddbcdn.vintagestory.at/cook-ui_a7c25235eca871082e741fca3bc6344f.png"
     },
     {
@@ -189,7 +235,7 @@
       ],
       "modid": 13639,
       "name": "Earth Rustbound compat for mira's server",
-      "lastreleased": "2026-11-22 00:58:02",
+      "lastreleased": "2026-11-22 15:21:49",
       "logo": null
     },
     {
@@ -261,7 +307,7 @@
       ],
       "modid": 13621,
       "name": "wall cal for mira server",
-      "lastreleased": "2026-11-21 13:49:51",
+      "lastreleased": "2026-11-22 21:41:29",
       "logo": null
     },
     {
@@ -279,7 +325,7 @@
       ],
       "modid": 13594,
       "name": "Better Bars",
-      "lastreleased": "2026-11-20 05:17:51",
+      "lastreleased": "2026-11-22 21:32:52",
       "logo": "https://moddbcdn.vintagestory.at/betterbars_all_480x4_895a9481d35ada033d8a880a81e55029.png"
     },
     {
@@ -320,6 +366,33 @@
     },
     {
       "modidstrs": [
+        "temporalshrines"
+      ],
+      "modid": 13567,
+      "name": "Temporal Shrines",
+      "lastreleased": "2026-11-23 01:28:50",
+      "logo": "https://moddbcdn.vintagestory.at/temporalshrines-thum_164473da3b76ebd91cd08e6e0ae24f40.png"
+    },
+    {
+      "modidstrs": [
+        "greenthumb"
+      ],
+      "modid": 13562,
+      "name": "Green Thumb",
+      "lastreleased": "2026-11-23 01:24:43",
+      "logo": "https://moddbcdn.vintagestory.at/greenthumb_thumbnail_66e1f4e81686d017d72c7f623006b7a4.png"
+    },
+    {
+      "modidstrs": [
+        "molluscweaponry"
+      ],
+      "modid": 13555,
+      "name": "Mollusc Weaponry",
+      "lastreleased": "2026-11-22 06:32:43",
+      "logo": "https://moddbcdn.vintagestory.at/MM480x480_2734423d71aa4901471f87c44a622485.png"
+    },
+    {
+      "modidstrs": [
         "villagealegacyquests"
       ],
       "modid": 13541,
@@ -356,12 +429,39 @@
     },
     {
       "modidstrs": [
+        "limestonemaps"
+      ],
+      "modid": 13485,
+      "name": "Limestone And Bauxite Maps",
+      "lastreleased": "2026-11-23 01:33:24",
+      "logo": "https://moddbcdn.vintagestory.at/limestonebauxitemaps_aa6c2625230468c33d030d5281f2bdf9.png"
+    },
+    {
+      "modidstrs": [
+        "hordestorms"
+      ],
+      "modid": 13479,
+      "name": "Horde Storms",
+      "lastreleased": "2026-11-23 01:23:43",
+      "logo": "https://moddbcdn.vintagestory.at/hordestorms-thumbnai_8e79558a4cdf3bc68c21b98fa8811826.png"
+    },
+    {
+      "modidstrs": [
         "servertickfixes"
       ],
       "modid": 13446,
       "name": "servertickfixes",
       "lastreleased": "2026-11-20 01:42:10",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "journeymanskills"
+      ],
+      "modid": 13444,
+      "name": "Journeyman Skills",
+      "lastreleased": "2026-11-23 01:20:50",
+      "logo": "https://moddbcdn.vintagestory.at/journeymanskills-thu_5b2a2b945ab61c468cf017bb35a0f4e1.png"
     },
     {
       "modidstrs": [
@@ -405,7 +505,7 @@
       ],
       "modid": 13266,
       "name": "fCombatBalance",
-      "lastreleased": "2026-11-22 00:37:45",
+      "lastreleased": "2026-11-23 00:12:47",
       "logo": null
     },
     {
@@ -423,7 +523,7 @@
       ],
       "modid": 13246,
       "name": "Landships: Type95 & Grosstraktor",
-      "lastreleased": "2026-11-21 23:18:38",
+      "lastreleased": "2026-11-22 15:23:42",
       "logo": "https://moddbcdn.vintagestory.at/modiconbig_7cfeafd6126bc524f56c569f83a264c5.png"
     },
     {
@@ -432,7 +532,7 @@
       ],
       "modid": 13245,
       "name": "Hamlet (Villagers & Villages)",
-      "lastreleased": "2026-11-20 02:14:02",
+      "lastreleased": "2026-11-22 13:45:12",
       "logo": "https://moddbcdn.vintagestory.at/2026-11-06_21-12-16_be6adb447fb138dc4a9066cfb7126b5a.png"
     },
     {
@@ -455,12 +555,48 @@
     },
     {
       "modidstrs": [
+        "dreadstarregalia"
+      ],
+      "modid": 13068,
+      "name": "Dreadstar Regalia",
+      "lastreleased": "2026-11-22 21:57:43",
+      "logo": "https://moddbcdn.vintagestory.at/preview+%281%29_bd87807188f49e007d098e5cc744ab48.webp"
+    },
+    {
+      "modidstrs": [
         "sigils"
       ],
       "modid": 13042,
       "name": "Sigils",
       "lastreleased": "2026-11-21 14:44:08",
       "logo": "https://moddbcdn.vintagestory.at/1-480x320_ceeb82f92cfb64efce9e2e66eb5ed6ee.png"
+    },
+    {
+      "modidstrs": [
+        "inapons"
+      ],
+      "modid": 13021,
+      "name": "inaNis' Weapons",
+      "lastreleased": "2026-11-23 00:04:41",
+      "logo": "https://moddbcdn.vintagestory.at/inaponsthumbnail_63017b0aee3cc77aa6f4f321d4e5647c.png"
+    },
+    {
+      "modidstrs": [
+        "vgmocrops"
+      ],
+      "modid": 12991,
+      "name": "Vintage GMOs:Crops",
+      "lastreleased": "2026-11-23 02:01:41",
+      "logo": "https://moddbcdn.vintagestory.at/Vintage_GMOs_Crop_Ge_b762e2f03fe08f0f7fbc3cd74c22d163.png"
+    },
+    {
+      "modidstrs": [
+        "vgmolibrary"
+      ],
+      "modid": 12986,
+      "name": "Vintage GMOs: Library",
+      "lastreleased": "2026-11-23 01:59:42",
+      "logo": "https://moddbcdn.vintagestory.at/Vintage_GMOs_Library_f9941b67fa9696adff9abd2170e6245a.png"
     },
     {
       "modidstrs": [
@@ -554,21 +690,30 @@
     },
     {
       "modidstrs": [
-        "volumesliders"
-      ],
-      "modid": 12854,
-      "name": "Volume Sliders",
-      "lastreleased": "2026-11-21 22:57:38",
-      "logo": "https://moddbcdn.vintagestory.at/thumbnail_679d22b2e09fc5ef8be4fc0a80fb77e5.png"
-    },
-    {
-      "modidstrs": [
         "translocatorconfigurator"
       ],
       "modid": 12838,
       "name": "Translocator Relocator +Configurator",
       "lastreleased": "2026-11-20 03:00:50",
       "logo": "https://moddbcdn.vintagestory.at/translocator_home_to_b5fef649193381359bffeee19a8890e5.jpg"
+    },
+    {
+      "modidstrs": [
+        "jonasrobots"
+      ],
+      "modid": 12831,
+      "name": "Jonas Robots",
+      "lastreleased": "2026-11-22 14:42:56",
+      "logo": "https://moddbcdn.vintagestory.at/jonasrobots_logo_480_8c9245fbcf4e23b7e6f27ed329e931c0.png"
+    },
+    {
+      "modidstrs": [
+        "sturdybeararmor"
+      ],
+      "modid": 12807,
+      "name": "Sturdy Bear Armor",
+      "lastreleased": "2026-11-23 00:43:49",
+      "logo": "https://moddbcdn.vintagestory.at/sturdybearpic_c6a0b6b77679c1816fb89208d4afd213.png"
     },
     {
       "modidstrs": [
@@ -590,6 +735,15 @@
     },
     {
       "modidstrs": [
+        "crows"
+      ],
+      "modid": 12762,
+      "name": "Crow Bros",
+      "lastreleased": "2026-11-22 14:16:49",
+      "logo": "https://moddbcdn.vintagestory.at/CrBr_99177f831aa76ab9f40e7bc215ae5895.png"
+    },
+    {
+      "modidstrs": [
         "pisciculture"
       ],
       "modid": 12744,
@@ -605,6 +759,15 @@
       "name": "Aegis Claims",
       "lastreleased": "2026-11-21 20:20:31",
       "logo": "https://moddbcdn.vintagestory.at/328581768_2eca486471700949adabdb55bd2f4ca4.png"
+    },
+    {
+      "modidstrs": [
+        "wilderlandswinter"
+      ],
+      "modid": 12678,
+      "name": "Wilderlands Winter",
+      "lastreleased": "2026-11-23 04:08:42",
+      "logo": "https://moddbcdn.vintagestory.at/ezgif-5700d579970a00_3dfb9002b51c1e7ce9ee193a16f99dfc.gif"
     },
     {
       "modidstrs": [
@@ -639,7 +802,7 @@
       ],
       "modid": 12418,
       "name": "Vintage Fantasy",
-      "lastreleased": "2026-11-22 04:58:36",
+      "lastreleased": "2026-11-22 06:18:14",
       "logo": "https://moddbcdn.vintagestory.at/vintageFantasy_modDB_fbcd47f8a384d09530eda270a3fa39d7.png"
     },
     {
@@ -659,6 +822,15 @@
       "name": "Transparent Chisel Patch",
       "lastreleased": "2026-11-20 02:12:22",
       "logo": "https://moddbcdn.vintagestory.at/modicon_0b0429ef8d083e477a476f420a18228c.png"
+    },
+    {
+      "modidstrs": [
+        "aegis"
+      ],
+      "modid": 12213,
+      "name": "Aegis",
+      "lastreleased": "2026-11-22 15:26:39",
+      "logo": "https://moddbcdn.vintagestory.at/328581768_2eca486471700949adabdb55bd2f4ca4.png"
     },
     {
       "modidstrs": [
@@ -693,7 +865,7 @@
       ],
       "modid": 12127,
       "name": "Serverfixes for Miraserver",
-      "lastreleased": "2026-11-21 20:55:30",
+      "lastreleased": "2026-11-22 21:27:40",
       "logo": null
     },
     {
@@ -702,7 +874,7 @@
       ],
       "modid": 12113,
       "name": "GhostChunks",
-      "lastreleased": "2026-11-21 21:46:51",
+      "lastreleased": "2026-11-22 18:17:59",
       "logo": "https://moddbcdn.vintagestory.at/ExternalPreview_46ff573fb97a2084874d4ad02259beeb.png"
     },
     {
@@ -720,7 +892,7 @@
       ],
       "modid": 12016,
       "name": "VSA - Atmos lite",
-      "lastreleased": "2026-11-19 22:23:14",
+      "lastreleased": "2026-11-22 12:52:29",
       "logo": "https://moddbcdn.vintagestory.at/VSA+-+Atmos+Lite_3951ba2680a755327e376fa30d7025db.jpg"
     },
     {
@@ -777,6 +949,15 @@
       "name": "Cocktail Madness!",
       "lastreleased": "2026-11-22 00:00:17",
       "logo": "https://moddbcdn.vintagestory.at/mixerhold-480_1107a912b35a43c308a0beca0ae0d79d.png"
+    },
+    {
+      "modidstrs": [
+        "advancedtoolparts"
+      ],
+      "modid": 11633,
+      "name": "Advanced Tool Parts",
+      "lastreleased": "2026-11-22 23:52:18",
+      "logo": "https://moddbcdn.vintagestory.at/Advanced+Tool+Parts+_7e319b57ef94352030650e6e6ef492b1.png"
     },
     {
       "modidstrs": [
@@ -847,7 +1028,7 @@
       ],
       "modid": 10780,
       "name": "Music Box Mod",
-      "lastreleased": "2026-11-20 22:31:48",
+      "lastreleased": "2026-11-20 22:30:24",
       "logo": "https://moddbcdn.vintagestory.at/modicon_b03ecdbaa59d3ef118c353a90107474a.png"
     },
     {
@@ -879,21 +1060,31 @@
     },
     {
       "modidstrs": [
+        "boatautopilot"
+      ],
+      "modid": 10304,
+      "name": "Boat Autopilot",
+      "lastreleased": "2026-11-22 20:32:11",
+      "logo": "https://moddbcdn.vintagestory.at/autopilotboats_8b22145ca61a2b938663c7ef45a4e7bd.png"
+    },
+    {
+      "modidstrs": [
+        "seraphatelier",
+        "seraphgirls"
+      ],
+      "modid": 10276,
+      "name": "Seraph Atelier - Player Model Lib",
+      "lastreleased": "2026-11-22 17:15:34",
+      "logo": "https://moddbcdn.vintagestory.at/seraphgirlscover_3a477bfabe056aeb6b8ba51315649976.png"
+    },
+    {
+      "modidstrs": [
         "betterpyrolysis"
       ],
       "modid": 10228,
       "name": "Better Pyrolysis",
       "lastreleased": "2026-11-21 22:11:15",
       "logo": "https://moddbcdn.vintagestory.at/coke-480x480_871ed093d129ea6116f8210574e74ade_480_320.png"
-    },
-    {
-      "modidstrs": [
-        "rkncrafting"
-      ],
-      "modid": 10162,
-      "name": "RKN Generic Crafting",
-      "lastreleased": "2026-11-20 17:57:40",
-      "logo": "https://moddbcdn.vintagestory.at/thumbnail_small_35ea0989ab4fa5ccbe21e5c54a6ef2a0.png"
     },
     {
       "modidstrs": [
@@ -921,6 +1112,24 @@
       "name": "CB Economy",
       "lastreleased": "2026-11-19 21:40:40",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "metalrecoveryrevivedrevived"
+      ],
+      "modid": 9615,
+      "name": "Anvil Metal Recovery Revived (Revived)",
+      "lastreleased": "2026-11-22 06:37:22",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "vintagecanvas"
+      ],
+      "modid": 9406,
+      "name": "Vintage Canvas",
+      "lastreleased": "2026-11-22 20:52:34",
+      "logo": "https://moddbcdn.vintagestory.at/Thumbnail_v2_b2b62d603f5e8d5ccd5db78912e93350.png"
     },
     {
       "modidstrs": [
@@ -955,7 +1164,7 @@
       ],
       "modid": 9139,
       "name": "VSA_API",
-      "lastreleased": "2026-11-19 22:05:58",
+      "lastreleased": "2026-11-22 09:58:03",
       "logo": "https://moddbcdn.vintagestory.at/API_Connect_VSA_mods_5c6aa29b4b4e6a25b6abebf7389dfc8f.png"
     },
     {
@@ -964,8 +1173,17 @@
       ],
       "modid": 9115,
       "name": "VSA - Replica",
-      "lastreleased": "2026-11-19 22:05:49",
+      "lastreleased": "2026-11-22 09:59:06",
       "logo": "https://moddbcdn.vintagestory.at/VSA-REPLICA-IMAGE_7a5d8ce24277b1053da4d616aede1e74.png"
+    },
+    {
+      "modidstrs": [
+        "metalbitrecovery"
+      ],
+      "modid": 9085,
+      "name": "metalbitrecovery",
+      "lastreleased": "2026-11-22 12:04:53",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -984,6 +1202,33 @@
       "name": "CB Patches",
       "lastreleased": "2026-11-20 01:42:17",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "playerstatusstrip"
+      ],
+      "modid": 8554,
+      "name": "Player Status HUD",
+      "lastreleased": "2026-11-23 00:34:21",
+      "logo": "https://moddbcdn.vintagestory.at/status_strip_banner__ead5c82af818454e09bfdb9ff87f3408.png"
+    },
+    {
+      "modidstrs": [
+        "aosspecializedclasses"
+      ],
+      "modid": 8501,
+      "name": "Age of Seraphs Specialized Classes",
+      "lastreleased": "2026-11-23 03:34:32",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "slowtoxvisualized"
+      ],
+      "modid": 8495,
+      "name": "SlowTox visualizer",
+      "lastreleased": "2026-11-23 00:37:31",
+      "logo": "https://moddbcdn.vintagestory.at/banner_large_1dc4b41a3f0406b374cb81c3bbfa196c.png"
     },
     {
       "modidstrs": [
@@ -1059,15 +1304,6 @@
     },
     {
       "modidstrs": [
-        "watersheds"
-      ],
-      "modid": 7286,
-      "name": "Algernon's Watersheds",
-      "lastreleased": "2026-11-20 02:22:08",
-      "logo": "https://moddbcdn.vintagestory.at/001_title_author_ani_94dfc2046c891d928268448faa994fa7.png"
-    },
-    {
-      "modidstrs": [
         "hazmatsuit"
       ],
       "modid": 7157,
@@ -1093,6 +1329,15 @@
       "name": "Alegacy Server: Patches",
       "lastreleased": "2026-11-19 23:09:36",
       "logo": "https://moddbcdn.vintagestory.at/a2df0349-74a2-4399-b_e9fefa35230c58d6f2adab2cb801ddd4_480_320.png"
+    },
+    {
+      "modidstrs": [
+        "treetapredux"
+      ],
+      "modid": 6989,
+      "name": "Tree Tap Redux",
+      "lastreleased": "2026-11-22 16:24:52",
+      "logo": "https://moddbcdn.vintagestory.at/2023-02-20_10-25-47__582cdf777f37c89dc6532f4e01a90180.png"
     },
     {
       "modidstrs": [
@@ -1177,6 +1422,33 @@
     },
     {
       "modidstrs": [
+        "bettererprospecting"
+      ],
+      "modid": 4916,
+      "name": "BetterEr Prospecting",
+      "lastreleased": "2026-11-22 19:02:12",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_db9278f27244b0f0c6d45abab8a94e07.png"
+    },
+    {
+      "modidstrs": [
+        "bettermoistureredux"
+      ],
+      "modid": 4871,
+      "name": "Better Moisture Redux",
+      "lastreleased": "2026-11-22 16:22:48",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_d3380677f3f4083648d5fbe4f4f13f77.png"
+    },
+    {
+      "modidstrs": [
+        "aosservertweaks"
+      ],
+      "modid": 4539,
+      "name": "Age of Seraphs Tweaks",
+      "lastreleased": "2026-11-22 21:01:20",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "aminerscraft"
       ],
       "modid": 4299,
@@ -1213,12 +1485,30 @@
     },
     {
       "modidstrs": [
+        "specialexpandedbags"
+      ],
+      "modid": 2920,
+      "name": "Spec's Specialized Bags Revived",
+      "lastreleased": "2026-11-23 00:07:52",
+      "logo": "https://moddbcdn.vintagestory.at/Modicon_10333561747e8789b74d8b48fd15ec18.png"
+    },
+    {
+      "modidstrs": [
         "floralzonesmediterraneanregion"
       ],
       "modid": 2779,
       "name": "Floral Zones: Mediterranean Region",
       "lastreleased": "2026-11-21 03:40:23",
       "logo": "https://moddbcdn.vintagestory.at/modicon_083567ad1be4f5f14ee0e3710c4af114.png"
+    },
+    {
+      "modidstrs": [
+        "Pirate"
+      ],
+      "modid": 2599,
+      "name": "Pirate",
+      "lastreleased": "2026-11-22 11:23:40",
+      "logo": "https://moddbcdn.vintagestory.at/Pirate_server_480x32_9ddcba810e0c21a51c1dc5c39ff9afc2.jpg"
     },
     {
       "modidstrs": [
