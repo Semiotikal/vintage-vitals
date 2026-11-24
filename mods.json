@@ -1,16 +1,34 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.23.x",
-  "last_updated": "2026-11-23 06:24 UTC",
+  "last_updated": "2026-11-24 08:56 UTC",
   "mods": [
     {
       "modidstrs": [
-        "expandedbees"
+        "obibucketspillfix"
       ],
-      "modid": 13724,
-      "name": "Hive And Honey",
-      "lastreleased": "2026-11-23 01:45:48",
-      "logo": "https://moddbcdn.vintagestory.at/HiveAndHoney-thumbna_e6e5566b32d2c68c3a68988adbb084a0.png"
+      "modid": 13753,
+      "name": "BucketSpillFix",
+      "lastreleased": "2026-11-24 05:12:32",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "lenslessfarming"
+      ],
+      "modid": 13738,
+      "name": "Lensless's Farming Recipes",
+      "lastreleased": "2026-11-23 17:15:07",
+      "logo": "https://moddbcdn.vintagestory.at/dbicon_41a3853fb3c54629199a4a70f3b65732.png"
+    },
+    {
+      "modidstrs": [
+        "nutritionbuffer"
+      ],
+      "modid": 13733,
+      "name": "Nutrition Buffer",
+      "lastreleased": "2026-11-23 14:22:42",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_61ed74f2ec1c23ad2ab5d69bdc1830d2.png"
     },
     {
       "modidstrs": [
@@ -39,6 +57,15 @@
       "name": "Hot Spring Comfort Fork (no hardcore winter) ",
       "lastreleased": "2026-11-22 15:14:29",
       "logo": "https://moddbcdn.vintagestory.at/homeworkdirartifacts_8d0ac4bdfe59052f49df8b192445ea75.png"
+    },
+    {
+      "modidstrs": [
+        "modernarsenal"
+      ],
+      "modid": 13699,
+      "name": "Modern Arsenal",
+      "lastreleased": "2026-11-23 20:59:03",
+      "logo": "https://moddbcdn.vintagestory.at/cover-480_be5fbb99296d14bb6e1fcb1a46e68aee.png"
     },
     {
       "modidstrs": [
@@ -127,7 +154,7 @@
       ],
       "modid": 13664,
       "name": "Better Bags (Server Edition)",
-      "lastreleased": "2026-11-21 06:44:00",
+      "lastreleased": "2026-11-23 12:58:21",
       "logo": "https://moddbcdn.vintagestory.at/betterbagsse_logo_48_3a0593df2b9bc6f3509fa172891f65b9.png"
     },
     {
@@ -280,7 +307,16 @@
       ],
       "modid": 13634,
       "name": "Seraph Civilization Patches",
-      "lastreleased": "2026-11-20 19:15:49",
+      "lastreleased": "2026-11-23 09:47:00",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "vsscsmod"
+      ],
+      "modid": 13633,
+      "name": "Seraph Civilization Simulation",
+      "lastreleased": "2026-11-23 10:00:07",
       "logo": null
     },
     {
@@ -343,7 +379,7 @@
       ],
       "modid": 13575,
       "name": "Teapot's Dwarven Arsenal",
-      "lastreleased": "2026-11-21 06:10:42",
+      "lastreleased": "2026-11-23 19:59:40",
       "logo": "https://moddbcdn.vintagestory.at/VS_ModDB_DwarvenArse_b88ba209f1c5b719494075189d3c1d02.png"
     },
     {
@@ -366,24 +402,6 @@
     },
     {
       "modidstrs": [
-        "temporalshrines"
-      ],
-      "modid": 13567,
-      "name": "Temporal Shrines",
-      "lastreleased": "2026-11-23 01:28:50",
-      "logo": "https://moddbcdn.vintagestory.at/temporalshrines-thum_164473da3b76ebd91cd08e6e0ae24f40.png"
-    },
-    {
-      "modidstrs": [
-        "greenthumb"
-      ],
-      "modid": 13562,
-      "name": "Green Thumb",
-      "lastreleased": "2026-11-23 01:24:43",
-      "logo": "https://moddbcdn.vintagestory.at/greenthumb_thumbnail_66e1f4e81686d017d72c7f623006b7a4.png"
-    },
-    {
-      "modidstrs": [
         "molluscweaponry"
       ],
       "modid": 13555,
@@ -398,6 +416,15 @@
       "modid": 13541,
       "name": "Alegacy quest for Mira Server",
       "lastreleased": "2026-11-20 20:35:26",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "loadouts"
+      ],
+      "modid": 13517,
+      "name": "LOADOUTS",
+      "lastreleased": "2026-11-23 22:22:52",
       "logo": null
     },
     {
@@ -429,39 +456,12 @@
     },
     {
       "modidstrs": [
-        "limestonemaps"
-      ],
-      "modid": 13485,
-      "name": "Limestone And Bauxite Maps",
-      "lastreleased": "2026-11-23 01:33:24",
-      "logo": "https://moddbcdn.vintagestory.at/limestonebauxitemaps_aa6c2625230468c33d030d5281f2bdf9.png"
-    },
-    {
-      "modidstrs": [
-        "hordestorms"
-      ],
-      "modid": 13479,
-      "name": "Horde Storms",
-      "lastreleased": "2026-11-23 01:23:43",
-      "logo": "https://moddbcdn.vintagestory.at/hordestorms-thumbnai_8e79558a4cdf3bc68c21b98fa8811826.png"
-    },
-    {
-      "modidstrs": [
         "servertickfixes"
       ],
       "modid": 13446,
       "name": "servertickfixes",
       "lastreleased": "2026-11-20 01:42:10",
       "logo": null
-    },
-    {
-      "modidstrs": [
-        "journeymanskills"
-      ],
-      "modid": 13444,
-      "name": "Journeyman Skills",
-      "lastreleased": "2026-11-23 01:20:50",
-      "logo": "https://moddbcdn.vintagestory.at/journeymanskills-thu_5b2a2b945ab61c468cf017bb35a0f4e1.png"
     },
     {
       "modidstrs": [
@@ -501,15 +501,6 @@
     },
     {
       "modidstrs": [
-        "fcombatbalance"
-      ],
-      "modid": 13266,
-      "name": "fCombatBalance",
-      "lastreleased": "2026-11-23 00:12:47",
-      "logo": null
-    },
-    {
-      "modidstrs": [
         "lamellarplus"
       ],
       "modid": 13259,
@@ -532,7 +523,7 @@
       ],
       "modid": 13245,
       "name": "Hamlet (Villagers & Villages)",
-      "lastreleased": "2026-11-22 13:45:12",
+      "lastreleased": "2026-11-24 01:41:58",
       "logo": "https://moddbcdn.vintagestory.at/2026-11-06_21-12-16_be6adb447fb138dc4a9066cfb7126b5a.png"
     },
     {
@@ -703,17 +694,8 @@
       ],
       "modid": 12831,
       "name": "Jonas Robots",
-      "lastreleased": "2026-11-22 14:42:56",
+      "lastreleased": "2026-11-24 00:16:07",
       "logo": "https://moddbcdn.vintagestory.at/jonasrobots_logo_480_8c9245fbcf4e23b7e6f27ed329e931c0.png"
-    },
-    {
-      "modidstrs": [
-        "sturdybeararmor"
-      ],
-      "modid": 12807,
-      "name": "Sturdy Bear Armor",
-      "lastreleased": "2026-11-23 00:43:49",
-      "logo": "https://moddbcdn.vintagestory.at/sturdybearpic_c6a0b6b77679c1816fb89208d4afd213.png"
     },
     {
       "modidstrs": [
@@ -762,11 +744,20 @@
     },
     {
       "modidstrs": [
+        "vintagefirstaid"
+      ],
+      "modid": 12739,
+      "name": "Vintage First Aid - Health Overhaul",
+      "lastreleased": "2026-11-23 16:02:56",
+      "logo": "https://moddbcdn.vintagestory.at/VintageFirstAidIcon_5dad722636f8ffad009687fa4d212c6b.png"
+    },
+    {
+      "modidstrs": [
         "wilderlandswinter"
       ],
       "modid": 12678,
       "name": "Wilderlands Winter",
-      "lastreleased": "2026-11-23 04:08:42",
+      "lastreleased": "2026-11-23 18:21:55",
       "logo": "https://moddbcdn.vintagestory.at/ezgif-5700d579970a00_3dfb9002b51c1e7ce9ee193a16f99dfc.gif"
     },
     {
@@ -793,7 +784,7 @@
       ],
       "modid": 12452,
       "name": "Backrooms: Survival Story",
-      "lastreleased": "2026-11-21 01:08:41",
+      "lastreleased": "2026-11-24 07:31:02",
       "logo": "https://moddbcdn.vintagestory.at/cover-480_8db80414bc183415a110a384f41e4265.png"
     },
     {
@@ -865,7 +856,7 @@
       ],
       "modid": 12127,
       "name": "Serverfixes for Miraserver",
-      "lastreleased": "2026-11-22 21:27:40",
+      "lastreleased": "2026-11-23 17:10:51",
       "logo": null
     },
     {
@@ -884,7 +875,7 @@
       "modid": 12091,
       "name": "VSPT: Path Tracing",
       "lastreleased": "2026-11-22 04:02:31",
-      "logo": "https://moddbcdn.vintagestory.at/vspt_logo_480_centre_1c93379021666dff981730148ac95205.jpg"
+      "logo": "https://moddbcdn.vintagestory.at/Untitled555_efeef80f8d92f75954b6cc3c47551b57.png"
     },
     {
       "modidstrs": [
@@ -902,7 +893,7 @@
       "modid": 11969,
       "name": "Sirayne's Fantasy Structures",
       "lastreleased": "2026-11-21 12:43:16",
-      "logo": "https://moddbcdn.vintagestory.at/Group+36224_36077e7abd8f69dbc103118724d933be.png"
+      "logo": "https://moddbcdn.vintagestory.at/header_df163ec69afc9202583a531590298bd1.gif"
     },
     {
       "modidstrs": [
@@ -912,16 +903,6 @@
       "name": "kris-copper-additions",
       "lastreleased": "2026-11-20 06:38:51",
       "logo": "https://moddbcdn.vintagestory.at/2026-10-09_11-06-48_7a1e74d22392a302da733b1929dc2431.png"
-    },
-    {
-      "modidstrs": [
-        "evil",
-        "evil2"
-      ],
-      "modid": 11872,
-      "name": "Evil Ruins",
-      "lastreleased": "2026-11-20 00:06:15",
-      "logo": "https://moddbcdn.vintagestory.at/modicon_4095a1d6ef9874b6489b4e393ed888ff.png"
     },
     {
       "modidstrs": [
@@ -956,7 +937,7 @@
       ],
       "modid": 11633,
       "name": "Advanced Tool Parts",
-      "lastreleased": "2026-11-22 23:52:18",
+      "lastreleased": "2026-11-24 03:40:55",
       "logo": "https://moddbcdn.vintagestory.at/Advanced+Tool+Parts+_7e319b57ef94352030650e6e6ef492b1.png"
     },
     {
@@ -1019,7 +1000,7 @@
       ],
       "modid": 11048,
       "name": " Auto Map Markers (Client-Side Only)",
-      "lastreleased": "2026-11-21 03:20:10",
+      "lastreleased": "2026-11-23 17:51:19",
       "logo": "https://moddbcdn.vintagestory.at/cover-image-clientsi_fcdf4f7c498344c1b18543a988352c32.png"
     },
     {
@@ -1028,7 +1009,7 @@
       ],
       "modid": 10780,
       "name": "Music Box Mod",
-      "lastreleased": "2026-11-20 22:30:24",
+      "lastreleased": "2026-11-24 02:50:42",
       "logo": "https://moddbcdn.vintagestory.at/modicon_b03ecdbaa59d3ef118c353a90107474a.png"
     },
     {
@@ -1037,7 +1018,7 @@
       ],
       "modid": 10677,
       "name": "The Revived Lands [PATCHES]",
-      "lastreleased": "2026-11-21 04:22:05",
+      "lastreleased": "2026-11-24 08:55:05",
       "logo": "https://moddbcdn.vintagestory.at/ModLogo_c2c9edb9e0dbec9b55153f7b2388f8d3.png"
     },
     {
@@ -1048,6 +1029,15 @@
       "name": "Timewood Tree",
       "lastreleased": "2026-11-21 23:22:05",
       "logo": "https://moddbcdn.vintagestory.at/output-onlinepngtool_31f508c1812db4bf963afe49a9e5a254.png"
+    },
+    {
+      "modidstrs": [
+        "almanactcm"
+      ],
+      "modid": 10453,
+      "name": "The Almanac: Trades, Callings & Mastery",
+      "lastreleased": "2026-11-23 20:13:24",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -1101,8 +1091,27 @@
       ],
       "modid": 9984,
       "name": "Leaf Litter",
-      "lastreleased": "2026-11-20 19:59:37",
+      "lastreleased": "2026-11-24 00:35:43",
       "logo": "https://moddbcdn.vintagestory.at/Logo_a2211ae5c443f1caf889bc0be9e49c11_480_320.gif"
+    },
+    {
+      "modidstrs": [
+        "logicalnerfsdirection"
+      ],
+      "modid": 9983,
+      "name": "LogicalNerfsDirection",
+      "lastreleased": "2026-11-23 18:21:53",
+      "logo": "https://moddbcdn.vintagestory.at/logicalnerfsdirectio_f1ca80515a3a8bcc120c4a3247d06fac.png"
+    },
+    {
+      "modidstrs": [
+        "logicalchiselnerf",
+        "logicalnerfschisel"
+      ],
+      "modid": 9776,
+      "name": "LogicalNerfsChisel",
+      "lastreleased": "2026-11-23 18:33:23",
+      "logo": "https://moddbcdn.vintagestory.at/logicalchiselnerf_538e3387709b4f73b559ef9689b079d6.png"
     },
     {
       "modidstrs": [
@@ -1218,7 +1227,7 @@
       ],
       "modid": 8501,
       "name": "Age of Seraphs Specialized Classes",
-      "lastreleased": "2026-11-23 03:34:32",
+      "lastreleased": "2026-11-24 04:45:25",
       "logo": null
     },
     {
@@ -1245,7 +1254,7 @@
       ],
       "modid": 8202,
       "name": "Achievements",
-      "lastreleased": "2026-11-21 21:56:44",
+      "lastreleased": "2026-11-23 17:06:25",
       "logo": "https://moddbcdn.vintagestory.at/Ach480x320_65be09f36307cf94857f1cf6e24ccbd1.png"
     },
     {
@@ -1256,6 +1265,33 @@
       "name": "Auto Walk Extended",
       "lastreleased": "2026-11-19 19:07:08",
       "logo": "https://moddbcdn.vintagestory.at/autowalkextended_d924656aa33bc451a6cc1962144e8f4c.jpg"
+    },
+    {
+      "modidstrs": [
+        "gothicmusic3"
+      ],
+      "modid": 8066,
+      "name": "Gothic Game Music Part 3",
+      "lastreleased": "2026-11-23 19:50:17",
+      "logo": "https://moddbcdn.vintagestory.at/part+3_f40ee5d10103812cec48e496401d9e98.png"
+    },
+    {
+      "modidstrs": [
+        "gothicmusic2"
+      ],
+      "modid": 7988,
+      "name": " Gothic Game Music Part 2",
+      "lastreleased": "2026-11-23 19:50:19",
+      "logo": "https://moddbcdn.vintagestory.at/part+2_0724656aea5595a70ffe3705ce51c2bb.png"
+    },
+    {
+      "modidstrs": [
+        "gothicmusic1"
+      ],
+      "modid": 7987,
+      "name": "Gothic Game Music Part 1",
+      "lastreleased": "2026-11-23 19:50:20",
+      "logo": "https://moddbcdn.vintagestory.at/part+1_4229cb7d05cec4090d5cd1a05a2ef150.png"
     },
     {
       "modidstrs": [
@@ -1390,7 +1426,7 @@
       ],
       "modid": 6190,
       "name": "topgsmod",
-      "lastreleased": "2026-11-21 18:56:43",
+      "lastreleased": "2026-11-24 03:22:09",
       "logo": "https://moddbcdn.vintagestory.at/topg_modpack_moddb_l_e46630be775ee925f255ab21764b57c1.png"
     },
     {
@@ -1440,6 +1476,15 @@
     },
     {
       "modidstrs": [
+        "backpackpackplusexpanded"
+      ],
+      "modid": 4769,
+      "name": "BackpackPackPlus Expanded",
+      "lastreleased": "2026-11-23 08:25:45",
+      "logo": "https://moddbcdn.vintagestory.at/Steel+Backpack_6084e196712f43ad4cb3ad6580c5125b_480_320.png"
+    },
+    {
+      "modidstrs": [
         "aosservertweaks"
       ],
       "modid": 4539,
@@ -1476,12 +1521,31 @@
     },
     {
       "modidstrs": [
+        "playermodellib"
+      ],
+      "modid": 3910,
+      "name": "Player Model lib",
+      "lastreleased": "2026-11-23 18:52:06",
+      "logo": "https://moddbcdn.vintagestory.at/moddb-thumbnail_f2f0bdb496df5dec07d70e497e500e0a.png"
+    },
+    {
+      "modidstrs": [
         "floralzonescosmopolitanregion"
       ],
       "modid": 3792,
       "name": "Floral Zones: Cosmopolitan Region",
       "lastreleased": "2026-11-21 03:41:06",
       "logo": "https://moddbcdn.vintagestory.at/modicon_3640ab29c66907818eb28207a7684a22.png"
+    },
+    {
+      "modidstrs": [
+        "easybuilding",
+        "infrastructureextension"
+      ],
+      "modid": 3290,
+      "name": "Easy Building",
+      "lastreleased": "2026-11-23 14:22:27",
+      "logo": "https://moddbcdn.vintagestory.at/thumbnail+3_6aafe57597d384fd39201553c54ff51d.jpg"
     },
     {
       "modidstrs": [
