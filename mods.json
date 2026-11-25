@@ -1,15 +1,69 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.23.x",
-  "last_updated": "2026-11-24 08:56 UTC",
+  "last_updated": "2026-11-25 07:32 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "usableslabs"
+      ],
+      "modid": 13784,
+      "name": "Usable Slabs",
+      "lastreleased": "2026-11-25 05:06:18",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "dwarfstart"
+      ],
+      "modid": 13780,
+      "name": "Dwarf Start",
+      "lastreleased": "2026-11-25 01:57:33",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "shipwrightmasscompatibility"
+      ],
+      "modid": 13773,
+      "name": "ShipWright: Additions and Configurations",
+      "lastreleased": "2026-11-24 20:48:00",
+      "logo": "https://moddbcdn.vintagestory.at/AC+Shipwright_e689396484b0e3d0c27987ebc34768d7.png"
+    },
+    {
+      "modidstrs": [
+        "forgeandfeast"
+      ],
+      "modid": 13759,
+      "name": "Forge and Feast",
+      "lastreleased": "2026-11-24 13:17:54",
+      "logo": "https://moddbcdn.vintagestory.at/forgeandfeast_logo_4_6ee72e82c2076c0093e4bae96de816ca.png"
+    },
+    {
+      "modidstrs": [
+        "mineralpiles"
+      ],
+      "modid": 13757,
+      "name": "Mineral Piles",
+      "lastreleased": "2026-11-24 11:35:35",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_c622b6ed1842c26d2b8352c8824854ea.png"
+    },
+    {
+      "modidstrs": [
+        "bettermods"
+      ],
+      "modid": 13756,
+      "name": "BetterMods",
+      "lastreleased": "2026-11-25 03:47:13",
+      "logo": "https://moddbcdn.vintagestory.at/logo-480x320_64aa8c6868651ce60b631f3d816d780a.png"
+    },
     {
       "modidstrs": [
         "obibucketspillfix"
       ],
       "modid": 13753,
       "name": "BucketSpillFix",
-      "lastreleased": "2026-11-24 05:12:32",
+      "lastreleased": "2026-11-24 17:53:37",
       "logo": null
     },
     {
@@ -27,7 +81,7 @@
       ],
       "modid": 13733,
       "name": "Nutrition Buffer",
-      "lastreleased": "2026-11-23 14:22:42",
+      "lastreleased": "2026-11-24 18:27:48",
       "logo": "https://moddbcdn.vintagestory.at/modicon_61ed74f2ec1c23ad2ab5d69bdc1830d2.png"
     },
     {
@@ -118,7 +172,7 @@
       ],
       "modid": 13675,
       "name": "Content Tester for Mira Server",
-      "lastreleased": "2026-11-21 20:55:10",
+      "lastreleased": "2026-11-24 19:35:22",
       "logo": null
     },
     {
@@ -136,7 +190,7 @@
       ],
       "modid": 13671,
       "name": "Earth Marshlands for Miraserver",
-      "lastreleased": "2026-11-21 13:49:19",
+      "lastreleased": "2026-11-24 19:44:03",
       "logo": null
     },
     {
@@ -172,7 +226,7 @@
       ],
       "modid": 13657,
       "name": "Traders Overhaul",
-      "lastreleased": "2026-11-22 18:00:17",
+      "lastreleased": "2026-11-24 19:12:46",
       "logo": "https://moddbcdn.vintagestory.at/external-logo_fc2de0b43f75518b4e618bee8d302a56.jpg"
     },
     {
@@ -181,7 +235,7 @@
       ],
       "modid": 13656,
       "name": "Seraph QoL",
-      "lastreleased": "2026-11-22 18:01:54",
+      "lastreleased": "2026-11-24 19:40:30",
       "logo": "https://moddbcdn.vintagestory.at/external-logo_7eacf751828d7f5e076f00307db3caca.jpg"
     },
     {
@@ -226,7 +280,7 @@
       ],
       "modid": 13644,
       "name": "Cook UI",
-      "lastreleased": "2026-11-23 00:12:06",
+      "lastreleased": "2026-11-25 02:32:40",
       "logo": "https://moddbcdn.vintagestory.at/cook-ui_a7c25235eca871082e741fca3bc6344f.png"
     },
     {
@@ -469,7 +523,7 @@
       ],
       "modid": 13440,
       "name": "Teapot's Giant Scorpion",
-      "lastreleased": "2026-11-20 08:30:57",
+      "lastreleased": "2026-11-25 07:02:11",
       "logo": "https://moddbcdn.vintagestory.at/GiantScorpion_ModPag_a23e035fc8866a707529e75d49a85a41.png"
     },
     {
@@ -478,7 +532,7 @@
       ],
       "modid": 13423,
       "name": "Alegacy SteamWorks",
-      "lastreleased": "2026-11-19 23:12:55",
+      "lastreleased": "2026-11-24 16:11:25",
       "logo": "https://moddbcdn.vintagestory.at/00-logo-480_59e91114ca5b101554712fa97ee2903a.gif"
     },
     {
@@ -541,17 +595,8 @@
       ],
       "modid": 13153,
       "name": "VS Director: Replay, Camera＆Animation",
-      "lastreleased": "2026-11-20 18:25:37",
+      "lastreleased": "2026-11-24 14:17:40",
       "logo": "https://moddbcdn.vintagestory.at/modicon%281%29_0d51688f563f0b632ee6c37305e18e2c.png"
-    },
-    {
-      "modidstrs": [
-        "dreadstarregalia"
-      ],
-      "modid": 13068,
-      "name": "Dreadstar Regalia",
-      "lastreleased": "2026-11-22 21:57:43",
-      "logo": "https://moddbcdn.vintagestory.at/preview+%281%29_bd87807188f49e007d098e5cc744ab48.webp"
     },
     {
       "modidstrs": [
@@ -561,15 +606,6 @@
       "name": "Sigils",
       "lastreleased": "2026-11-21 14:44:08",
       "logo": "https://moddbcdn.vintagestory.at/1-480x320_ceeb82f92cfb64efce9e2e66eb5ed6ee.png"
-    },
-    {
-      "modidstrs": [
-        "inapons"
-      ],
-      "modid": 13021,
-      "name": "inaNis' Weapons",
-      "lastreleased": "2026-11-23 00:04:41",
-      "logo": "https://moddbcdn.vintagestory.at/inaponsthumbnail_63017b0aee3cc77aa6f4f321d4e5647c.png"
     },
     {
       "modidstrs": [
@@ -757,7 +793,7 @@
       ],
       "modid": 12678,
       "name": "Wilderlands Winter",
-      "lastreleased": "2026-11-23 18:21:55",
+      "lastreleased": "2026-11-24 15:13:32",
       "logo": "https://moddbcdn.vintagestory.at/ezgif-5700d579970a00_3dfb9002b51c1e7ce9ee193a16f99dfc.gif"
     },
     {
@@ -768,6 +804,15 @@
       "name": "Evenfall Server Patches",
       "lastreleased": "2026-11-21 03:24:24",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "liceworld"
+      ],
+      "modid": 12617,
+      "name": "ProjectL Ice World",
+      "lastreleased": "2026-11-24 20:49:36",
+      "logo": "https://moddbcdn.vintagestory.at/modiconpage_823e4c6b5ec498942cf2e13e6e95ac65.png"
     },
     {
       "modidstrs": [
@@ -820,7 +865,7 @@
       ],
       "modid": 12213,
       "name": "Aegis",
-      "lastreleased": "2026-11-22 15:26:39",
+      "lastreleased": "2026-11-25 06:09:29",
       "logo": "https://moddbcdn.vintagestory.at/328581768_2eca486471700949adabdb55bd2f4ca4.png"
     },
     {
@@ -856,7 +901,7 @@
       ],
       "modid": 12127,
       "name": "Serverfixes for Miraserver",
-      "lastreleased": "2026-11-23 17:10:51",
+      "lastreleased": "2026-11-24 19:29:25",
       "logo": null
     },
     {
@@ -942,6 +987,15 @@
     },
     {
       "modidstrs": [
+        "configkit"
+      ],
+      "modid": 11506,
+      "name": "configkit",
+      "lastreleased": "2026-11-24 22:50:11",
+      "logo": "https://moddbcdn.vintagestory.at/logo_be0a17d8a1de74f41677160044124b9f.png"
+    },
+    {
+      "modidstrs": [
         "milkingaoe"
       ],
       "modid": 11455,
@@ -1002,6 +1056,24 @@
       "name": " Auto Map Markers (Client-Side Only)",
       "lastreleased": "2026-11-23 17:51:19",
       "logo": "https://moddbcdn.vintagestory.at/cover-image-clientsi_fcdf4f7c498344c1b18543a988352c32.png"
+    },
+    {
+      "modidstrs": [
+        "traitforgerestrictions"
+      ],
+      "modid": 10823,
+      "name": "Trait Forge Restrictions",
+      "lastreleased": "2026-11-25 01:37:54",
+      "logo": "https://moddbcdn.vintagestory.at/TraitForgeRestrictio_8ffc3715bc52e87ebdde3c603c0cf160.png"
+    },
+    {
+      "modidstrs": [
+        "vistasbeyondsmooth"
+      ],
+      "modid": 10790,
+      "name": "Vistas Beyond - Smoothed",
+      "lastreleased": "2026-11-24 17:06:40",
+      "logo": "https://moddbcdn.vintagestory.at/vb2_92241cf5fde9648671791ab62d441ea5.png"
     },
     {
       "modidstrs": [
@@ -1105,12 +1177,31 @@
     },
     {
       "modidstrs": [
+        "linteractables"
+      ],
+      "modid": 9972,
+      "name": "ProjectL Interactables",
+      "lastreleased": "2026-11-24 20:42:06",
+      "logo": "https://moddbcdn.vintagestory.at/modiconpage_6e7ab26f7982a9d93141f57b6350789c.png"
+    },
+    {
+      "modidstrs": [
+        "lblocks",
+        "projectlblocks"
+      ],
+      "modid": 9948,
+      "name": "ProjectL Blocks",
+      "lastreleased": "2026-11-24 20:51:54",
+      "logo": "https://moddbcdn.vintagestory.at/modiconpage_c9fffbfa5e445a175da7a6084de20b56.png"
+    },
+    {
+      "modidstrs": [
         "logicalchiselnerf",
         "logicalnerfschisel"
       ],
       "modid": 9776,
       "name": "LogicalNerfsChisel",
-      "lastreleased": "2026-11-23 18:33:23",
+      "lastreleased": "2026-11-24 12:34:13",
       "logo": "https://moddbcdn.vintagestory.at/logicalchiselnerf_538e3387709b4f73b559ef9689b079d6.png"
     },
     {
@@ -1196,6 +1287,15 @@
     },
     {
       "modidstrs": [
+        "passivestorms"
+      ],
+      "modid": 9011,
+      "name": "Passive Storms",
+      "lastreleased": "2026-11-24 20:58:32",
+      "logo": "https://moddbcdn.vintagestory.at/2_5a1646a8fb9af9e39dc7f83d59c18cbf.png"
+    },
+    {
+      "modidstrs": [
         "cbharmonypatches"
       ],
       "modid": 8811,
@@ -1223,11 +1323,29 @@
     },
     {
       "modidstrs": [
+        "vistasbeyond"
+      ],
+      "modid": 8540,
+      "name": "Vistas Beyond",
+      "lastreleased": "2026-11-24 17:06:32",
+      "logo": "https://moddbcdn.vintagestory.at/vb-thumb_e902c4e41b7f88e5bf7bd514c2e085b3.png"
+    },
+    {
+      "modidstrs": [
         "aosspecializedclasses"
       ],
       "modid": 8501,
       "name": "Age of Seraphs Specialized Classes",
-      "lastreleased": "2026-11-24 04:45:25",
+      "lastreleased": "2026-11-25 04:50:00",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "armordebuffremover"
+      ],
+      "modid": 8500,
+      "name": "Armor Debuff Remover",
+      "lastreleased": "2026-11-24 18:34:14",
       "logo": null
     },
     {
@@ -1313,6 +1431,15 @@
     },
     {
       "modidstrs": [
+        "collapsestory"
+      ],
+      "modid": 7776,
+      "name": "CollapseStory",
+      "lastreleased": "2026-11-24 15:49:59",
+      "logo": "https://moddbcdn.vintagestory.at/adadad_4a08aa022af6e8600e223fdc16097482.gif"
+    },
+    {
+      "modidstrs": [
         "portcullis"
       ],
       "modid": 7736,
@@ -1363,7 +1490,7 @@
       ],
       "modid": 6997,
       "name": "Alegacy Server: Patches",
-      "lastreleased": "2026-11-19 23:09:36",
+      "lastreleased": "2026-11-24 16:32:00",
       "logo": "https://moddbcdn.vintagestory.at/a2df0349-74a2-4399-b_e9fefa35230c58d6f2adab2cb801ddd4_480_320.png"
     },
     {
@@ -1440,6 +1567,15 @@
     },
     {
       "modidstrs": [
+        "worldoffortune"
+      ],
+      "modid": 5969,
+      "name": "World Of Fortune",
+      "lastreleased": "2026-11-24 17:06:23",
+      "logo": "https://moddbcdn.vintagestory.at/wof-thumb_c84a5df7e856414b013d62465273881e.png"
+    },
+    {
+      "modidstrs": [
         "footprints"
       ],
       "modid": 5625,
@@ -1489,7 +1625,7 @@
       ],
       "modid": 4539,
       "name": "Age of Seraphs Tweaks",
-      "lastreleased": "2026-11-22 21:01:20",
+      "lastreleased": "2026-11-25 04:49:11",
       "logo": null
     },
     {
@@ -1536,6 +1672,15 @@
       "name": "Floral Zones: Cosmopolitan Region",
       "lastreleased": "2026-11-21 03:41:06",
       "logo": "https://moddbcdn.vintagestory.at/modicon_3640ab29c66907818eb28207a7684a22.png"
+    },
+    {
+      "modidstrs": [
+        "fleeexhaustion"
+      ],
+      "modid": 3739,
+      "name": "Flee Exhaustion",
+      "lastreleased": "2026-11-25 07:06:24",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_82522a2a54f87d75b4bd9092f7237ada_480_320.png"
     },
     {
       "modidstrs": [
