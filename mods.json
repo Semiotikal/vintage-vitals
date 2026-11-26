@@ -1,8 +1,62 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.23.x",
-  "last_updated": "2026-11-25 07:32 UTC",
+  "last_updated": "2026-11-26 07:21 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "pipesnuff"
+      ],
+      "modid": 13814,
+      "name": "Tabacaria: Pipes & Snuff",
+      "lastreleased": "2026-11-26 02:36:54",
+      "logo": "https://moddbcdn.vintagestory.at/image-1795660939289_9a0a67344a67958d823a2b85b4d2a328.png"
+    },
+    {
+      "modidstrs": [
+        "deadeventscompat"
+      ],
+      "modid": 13811,
+      "name": "Dead + C&N Events Compatibility Mod",
+      "lastreleased": "2026-11-26 00:39:22",
+      "logo": "https://moddbcdn.vintagestory.at/logo_9012c6985120a0d72a02f3ae616492ac.png"
+    },
+    {
+      "modidstrs": [
+        "gloomservertweaks"
+      ],
+      "modid": 13801,
+      "name": "GlooMeServerTweaks",
+      "lastreleased": "2026-11-25 20:04:02",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "steelworks"
+      ],
+      "modid": 13799,
+      "name": "Steelworks",
+      "lastreleased": "2026-11-26 00:33:31",
+      "logo": "https://moddbcdn.vintagestory.at/Steelworks__Forged_I_8b864d662c1648965cd6d6f8d4a1cd59.png"
+    },
+    {
+      "modidstrs": [
+        "immersiveinventory"
+      ],
+      "modid": 13798,
+      "name": "Immersive Inventory",
+      "lastreleased": "2026-11-25 18:22:02",
+      "logo": "https://moddbcdn.vintagestory.at/logo_a0e6bd103b5e4643616f61ba9dbe812f.png"
+    },
+    {
+      "modidstrs": [
+        "inventoryparticles"
+      ],
+      "modid": 13796,
+      "name": "Inventory Particles",
+      "lastreleased": "2026-11-25 18:09:57",
+      "logo": "https://moddbcdn.vintagestory.at/logo_f5ee430cffc92c3fc7d8cf43f62d8d78.png"
+    },
     {
       "modidstrs": [
         "usableslabs"
@@ -29,6 +83,15 @@
       "name": "ShipWright: Additions and Configurations",
       "lastreleased": "2026-11-24 20:48:00",
       "logo": "https://moddbcdn.vintagestory.at/AC+Shipwright_e689396484b0e3d0c27987ebc34768d7.png"
+    },
+    {
+      "modidstrs": [
+        "gempiles"
+      ],
+      "modid": 13772,
+      "name": "Gem Piles",
+      "lastreleased": "2026-11-24 20:25:14",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_627511713acb9aebc9366cb85af3eb3a.png"
     },
     {
       "modidstrs": [
@@ -141,6 +204,15 @@
     },
     {
       "modidstrs": [
+        "rustfall"
+      ],
+      "modid": 13686,
+      "name": "Rustfall",
+      "lastreleased": "2026-11-26 00:04:18",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "nostilthouses"
       ],
       "modid": 13680,
@@ -199,7 +271,7 @@
       ],
       "modid": 13665,
       "name": "Trash Can",
-      "lastreleased": "2026-11-22 00:43:44",
+      "lastreleased": "2026-11-25 11:38:04",
       "logo": "https://moddbcdn.vintagestory.at/trashcan_logo_480x32_f1e0c21f539057922bd57cd05d0c5ca2.png"
     },
     {
@@ -208,7 +280,7 @@
       ],
       "modid": 13664,
       "name": "Better Bags (Server Edition)",
-      "lastreleased": "2026-11-23 12:58:21",
+      "lastreleased": "2026-11-25 13:09:00",
       "logo": "https://moddbcdn.vintagestory.at/betterbagsse_logo_48_3a0593df2b9bc6f3509fa172891f65b9.png"
     },
     {
@@ -334,7 +406,7 @@
       ],
       "modid": 13637,
       "name": "Innovations Tester for Miraserver",
-      "lastreleased": "2026-11-21 14:16:11",
+      "lastreleased": "2026-11-25 23:44:26",
       "logo": null
     },
     {
@@ -402,6 +474,24 @@
     },
     {
       "modidstrs": [
+        "bossarena"
+      ],
+      "modid": 13616,
+      "name": "SkillBosses . BETA 2.5",
+      "lastreleased": "2026-11-26 02:59:14",
+      "logo": "https://moddbcdn.vintagestory.at/frontpage_480x480_dd7873ea8dfd137fc67d084b7e505c2c.png"
+    },
+    {
+      "modidstrs": [
+        "nqpeople"
+      ],
+      "modid": 13606,
+      "name": "NQ People",
+      "lastreleased": "2026-11-25 13:34:59",
+      "logo": "https://moddbcdn.vintagestory.at/nqpeople_logo_480_23e2a937abe27dee90178d7fa6b05743.jpg"
+    },
+    {
+      "modidstrs": [
         "earthgrounduses"
       ],
       "modid": 13596,
@@ -429,6 +519,15 @@
     },
     {
       "modidstrs": [
+        "steamboat"
+      ],
+      "modid": 13585,
+      "name": "Steamwright",
+      "lastreleased": "2026-11-26 05:09:07",
+      "logo": "https://moddbcdn.vintagestory.at/Steamwright+Steamboa_71c8f9829478509b897881e25a64af9d.png"
+    },
+    {
+      "modidstrs": [
         "teapotsdwarvenarsenal"
       ],
       "modid": 13575,
@@ -450,9 +549,9 @@
         "skillcapes"
       ],
       "modid": 13568,
-      "name": "Skillscapes.BETA 5.6.3",
-      "lastreleased": "2026-11-21 06:04:21",
-      "logo": "https://moddbcdn.vintagestory.at/heart_cape_480x480_13c9eefe16987a36351ac46c0436d5a4.png"
+      "name": "Skillscapes.BETA 5.7.0 (levels)",
+      "lastreleased": "2026-11-26 02:55:29",
+      "logo": "https://moddbcdn.vintagestory.at/scene_480x480_d0d306f27999435105968e86d1ebae45.png"
     },
     {
       "modidstrs": [
@@ -487,7 +586,7 @@
       ],
       "modid": 13510,
       "name": "Earth Village tweak for Mira Server",
-      "lastreleased": "2026-11-20 20:35:03",
+      "lastreleased": "2026-11-25 14:50:58",
       "logo": null
     },
     {
@@ -606,6 +705,15 @@
       "name": "Sigils",
       "lastreleased": "2026-11-21 14:44:08",
       "logo": "https://moddbcdn.vintagestory.at/1-480x320_ceeb82f92cfb64efce9e2e66eb5ed6ee.png"
+    },
+    {
+      "modidstrs": [
+        "backpackloss"
+      ],
+      "modid": 13029,
+      "name": "Backpack Loss",
+      "lastreleased": "2026-11-25 14:36:59",
+      "logo": "https://moddbcdn.vintagestory.at/Backpack_65911b390339855ae98cdea566d47fdd.png"
     },
     {
       "modidstrs": [
@@ -775,7 +883,7 @@
       ],
       "modid": 12740,
       "name": "Aegis Claims",
-      "lastreleased": "2026-11-21 20:20:31",
+      "lastreleased": "2026-11-26 06:29:25",
       "logo": "https://moddbcdn.vintagestory.at/328581768_2eca486471700949adabdb55bd2f4ca4.png"
     },
     {
@@ -865,7 +973,7 @@
       ],
       "modid": 12213,
       "name": "Aegis",
-      "lastreleased": "2026-11-25 06:09:29",
+      "lastreleased": "2026-11-26 05:52:51",
       "logo": "https://moddbcdn.vintagestory.at/328581768_2eca486471700949adabdb55bd2f4ca4.png"
     },
     {
@@ -901,7 +1009,7 @@
       ],
       "modid": 12127,
       "name": "Serverfixes for Miraserver",
-      "lastreleased": "2026-11-24 19:29:25",
+      "lastreleased": "2026-11-25 19:31:57",
       "logo": null
     },
     {
@@ -951,6 +1059,15 @@
     },
     {
       "modidstrs": [
+        "dynamicseasonaltemperature"
+      ],
+      "modid": 11883,
+      "name": "Dynamic Seasonal Temperature",
+      "lastreleased": "2026-11-25 23:00:55",
+      "logo": "https://moddbcdn.vintagestory.at/moddb_logo_480x480_b5a90bd3a261272468840e76431d398e.png"
+    },
+    {
+      "modidstrs": [
         "effectlibexample"
       ],
       "modid": 11717,
@@ -982,7 +1099,7 @@
       ],
       "modid": 11633,
       "name": "Advanced Tool Parts",
-      "lastreleased": "2026-11-24 03:40:55",
+      "lastreleased": "2026-11-25 22:37:41",
       "logo": "https://moddbcdn.vintagestory.at/Advanced+Tool+Parts+_7e319b57ef94352030650e6e6ef492b1.png"
     },
     {
@@ -1054,7 +1171,7 @@
       ],
       "modid": 11048,
       "name": " Auto Map Markers (Client-Side Only)",
-      "lastreleased": "2026-11-23 17:51:19",
+      "lastreleased": "2026-11-25 13:48:27",
       "logo": "https://moddbcdn.vintagestory.at/cover-image-clientsi_fcdf4f7c498344c1b18543a988352c32.png"
     },
     {
@@ -1090,7 +1207,7 @@
       ],
       "modid": 10677,
       "name": "The Revived Lands [PATCHES]",
-      "lastreleased": "2026-11-24 08:55:05",
+      "lastreleased": "2026-11-25 23:04:41",
       "logo": "https://moddbcdn.vintagestory.at/ModLogo_c2c9edb9e0dbec9b55153f7b2388f8d3.png"
     },
     {
@@ -1099,7 +1216,7 @@
       ],
       "modid": 10633,
       "name": "Timewood Tree",
-      "lastreleased": "2026-11-21 23:22:05",
+      "lastreleased": "2026-11-25 22:03:39",
       "logo": "https://moddbcdn.vintagestory.at/output-onlinepngtool_31f508c1812db4bf963afe49a9e5a254.png"
     },
     {
@@ -1110,6 +1227,15 @@
       "name": "The Almanac: Trades, Callings & Mastery",
       "lastreleased": "2026-11-23 20:13:24",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "tsearch"
+      ],
+      "modid": 10450,
+      "name": "TSearch",
+      "lastreleased": "2026-11-26 00:18:55",
+      "logo": "https://moddbcdn.vintagestory.at/Screenshot+2026-10-2_751e31cbeb822ead32b5da2c48650169.png"
     },
     {
       "modidstrs": [
@@ -1138,6 +1264,16 @@
       "name": "Seraph Atelier - Player Model Lib",
       "lastreleased": "2026-11-22 17:15:34",
       "logo": "https://moddbcdn.vintagestory.at/seraphgirlscover_3a477bfabe056aeb6b8ba51315649976.png"
+    },
+    {
+      "modidstrs": [
+        "hexxed",
+        "hexxedclient"
+      ],
+      "modid": 10240,
+      "name": "Hexxed Client",
+      "lastreleased": "2026-11-26 00:54:08",
+      "logo": "https://moddbcdn.vintagestory.at/328581768_2eca486471700949adabdb55bd2f4ca4.png"
     },
     {
       "modidstrs": [
@@ -1336,7 +1472,7 @@
       ],
       "modid": 8501,
       "name": "Age of Seraphs Specialized Classes",
-      "lastreleased": "2026-11-25 04:50:00",
+      "lastreleased": "2026-11-26 02:55:54",
       "logo": null
     },
     {
@@ -1437,6 +1573,15 @@
       "name": "CollapseStory",
       "lastreleased": "2026-11-24 15:49:59",
       "logo": "https://moddbcdn.vintagestory.at/adadad_4a08aa022af6e8600e223fdc16097482.gif"
+    },
+    {
+      "modidstrs": [
+        "limestonescanner"
+      ],
+      "modid": 7742,
+      "name": "Limestone Scanner",
+      "lastreleased": "2026-11-25 17:52:22",
+      "logo": "https://moddbcdn.vintagestory.at/LimestoneScanner-Tit_c530ffddd2e160a7194c2959db06c832.jpg"
     },
     {
       "modidstrs": [
@@ -1553,7 +1698,7 @@
       ],
       "modid": 6190,
       "name": "topgsmod",
-      "lastreleased": "2026-11-24 03:22:09",
+      "lastreleased": "2026-11-25 08:58:51",
       "logo": "https://moddbcdn.vintagestory.at/topg_modpack_moddb_l_e46630be775ee925f255ab21764b57c1.png"
     },
     {
@@ -1739,12 +1884,30 @@
     },
     {
       "modidstrs": [
+        "th3dungeontopentrance"
+      ],
+      "modid": 2018,
+      "name": "Th3DungeonTopEntrance",
+      "lastreleased": "2026-11-25 14:20:56",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "floralzonescentralaustralianregion"
       ],
       "modid": 1989,
       "name": "Floral Zones: Central Australian Region",
       "lastreleased": "2026-11-21 03:38:31",
       "logo": "https://moddbcdn.vintagestory.at/modicon_1de985e683812cc8f0c237d2bdd4c6fa.png"
+    },
+    {
+      "modidstrs": [
+        "temporalog"
+      ],
+      "modid": 1791,
+      "name": "Temporalog",
+      "lastreleased": "2026-11-25 12:30:29",
+      "logo": "https://moddbcdn.vintagestory.at/temporlalog_ff115d3cb138416de228d5ddeea8a6dd.png"
     },
     {
       "modidstrs": [
@@ -1766,6 +1929,15 @@
     },
     {
       "modidstrs": [
+        "fairplayguardian"
+      ],
+      "modid": 1213,
+      "name": "FairPlayGuardian",
+      "lastreleased": "2026-11-25 13:17:28",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "fieldsandplateaus",
         "TA_fieldsandplateaus",
         "TAfieldsandplateaus"
@@ -1774,6 +1946,51 @@
       "name": "Fields and Plateaus",
       "lastreleased": "2026-11-19 20:22:16",
       "logo": "https://moddbcdn.vintagestory.at/modicon_27bc761a33a18487296a07044bdf7e13.png"
+    },
+    {
+      "modidstrs": [
+        "rifteye"
+      ],
+      "modid": 1127,
+      "name": "Rifteye",
+      "lastreleased": "2026-11-25 13:34:34",
+      "logo": "https://moddbcdn.vintagestory.at/crop_705d296041fa5be10f721c50280445a6.png"
+    },
+    {
+      "modidstrs": [
+        "creativehotbar"
+      ],
+      "modid": 1062,
+      "name": "CreativeHotbar",
+      "lastreleased": "2026-11-25 14:21:14",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "webcartographer"
+      ],
+      "modid": 1051,
+      "name": "WebCartographer",
+      "lastreleased": "2026-11-25 13:10:10",
+      "logo": "https://moddbcdn.vintagestory.at/wc_480_6b231b4778e6db9793d363ca88b259fe.png"
+    },
+    {
+      "modidstrs": [
+        "webcartographercolorexporter"
+      ],
+      "modid": 1041,
+      "name": "WebCartographer color  exporter",
+      "lastreleased": "2026-11-25 13:08:08",
+      "logo": "https://moddbcdn.vintagestory.at/wcc_480_2cb66c75b00f4522e655d65f3387e22b.png"
+    },
+    {
+      "modidstrs": [
+        "th3dungeon"
+      ],
+      "modid": 1032,
+      "name": "Ancient Dungeons (Th3Dungeon)",
+      "lastreleased": "2026-11-25 14:20:07",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_987822d622987c1884e2696e2fdbd3a2.png"
     },
     {
       "modidstrs": [
@@ -1788,12 +2005,39 @@
     },
     {
       "modidstrs": [
+        "th3serverstats"
+      ],
+      "modid": 731,
+      "name": "Th3ServerStats",
+      "lastreleased": "2026-11-25 13:37:36",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "Th3Essentials"
+      ],
+      "modid": 334,
+      "name": "Th3Essentials",
+      "lastreleased": "2026-11-25 14:12:00",
+      "logo": "https://moddbcdn.vintagestory.at/th3essentials_crop_c1409de25691f7a0a88b802cf67457a1.png"
+    },
+    {
+      "modidstrs": [
         "alchemy"
       ],
       "modid": 175,
       "name": "Alchemy",
       "lastreleased": "2026-11-20 14:57:04",
       "logo": "https://moddbcdn.vintagestory.at/The_Alchemy_mod_logo_2873c5c666ad117a13ef58a1d15433f2.png"
+    },
+    {
+      "modidstrs": [
+        "fancysky"
+      ],
+      "modid": 47,
+      "name": "Fancy Sky",
+      "lastreleased": "2026-11-25 18:37:13",
+      "logo": "https://moddbcdn.vintagestory.at/FancySky%2Bwater-small_9ba5c5d771459d276a02f6e59d0f2683.png"
     }
   ]
 }
