@@ -1,8 +1,71 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.23.x",
-  "last_updated": "2026-11-26 07:21 UTC",
+  "last_updated": "2026-11-27 07:18 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "platearmorrecipes"
+      ],
+      "modid": 13849,
+      "name": "Plate Armor Recipes",
+      "lastreleased": "2026-11-27 01:46:22",
+      "logo": "https://moddbcdn.vintagestory.at/mod+page_2059dcfb0368c9ca272032a12cbc76a9.png"
+    },
+    {
+      "modidstrs": [
+        "playermodellibtesselatecrashfix"
+      ],
+      "modid": 13838,
+      "name": "PlayerModelLibTesselateCrashFix",
+      "lastreleased": "2026-11-26 22:48:05",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "helvehammerstencils"
+      ],
+      "modid": 13835,
+      "name": "Helve Hammer Stencils",
+      "lastreleased": "2026-11-26 21:58:17",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "nqcommand"
+      ],
+      "modid": 13827,
+      "name": "NQ Command",
+      "lastreleased": "2026-11-26 18:55:28",
+      "logo": "https://moddbcdn.vintagestory.at/nqcommand_logo_480_8ff479adf0b21be96ec9bce07e45a98a.jpg"
+    },
+    {
+      "modidstrs": [
+        "shiverfentlean"
+      ],
+      "modid": 13823,
+      "name": "Shiver Fent Lean Mod",
+      "lastreleased": "2026-11-26 21:39:59",
+      "logo": "https://moddbcdn.vintagestory.at/shiver-lean-logo-480_a8b0ecaeaa45e9fff5cd8e646d95a545.png"
+    },
+    {
+      "modidstrs": [
+        "teapotsherdcaller"
+      ],
+      "modid": 13821,
+      "name": "Teapot's Herdcaller",
+      "lastreleased": "2026-11-26 17:03:31",
+      "logo": "https://moddbcdn.vintagestory.at/VS_ModDB_Herdcaller__21338634addb21281412d58585e08a21.png"
+    },
+    {
+      "modidstrs": [
+        "donutssaltyscrawlfix"
+      ],
+      "modid": 13819,
+      "name": "Donut's Salty Crawl&Dive Fixes",
+      "lastreleased": "2026-11-26 10:44:45",
+      "logo": null
+    },
     {
       "modidstrs": [
         "pipesnuff"
@@ -20,6 +83,15 @@
       "name": "Dead + C&N Events Compatibility Mod",
       "lastreleased": "2026-11-26 00:39:22",
       "logo": "https://moddbcdn.vintagestory.at/logo_9012c6985120a0d72a02f3ae616492ac.png"
+    },
+    {
+      "modidstrs": [
+        "fopsandfrocks"
+      ],
+      "modid": 13806,
+      "name": "Fops and Frocks",
+      "lastreleased": "2026-11-26 16:48:39",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_9e6c38723ad5407619f6fcc4ab6399c0.png"
     },
     {
       "modidstrs": [
@@ -95,24 +167,6 @@
     },
     {
       "modidstrs": [
-        "forgeandfeast"
-      ],
-      "modid": 13759,
-      "name": "Forge and Feast",
-      "lastreleased": "2026-11-24 13:17:54",
-      "logo": "https://moddbcdn.vintagestory.at/forgeandfeast_logo_4_6ee72e82c2076c0093e4bae96de816ca.png"
-    },
-    {
-      "modidstrs": [
-        "mineralpiles"
-      ],
-      "modid": 13757,
-      "name": "Mineral Piles",
-      "lastreleased": "2026-11-24 11:35:35",
-      "logo": "https://moddbcdn.vintagestory.at/modicon_c622b6ed1842c26d2b8352c8824854ea.png"
-    },
-    {
-      "modidstrs": [
         "bettermods"
       ],
       "modid": 13756,
@@ -149,6 +203,15 @@
     },
     {
       "modidstrs": [
+        "coalpiles"
+      ],
+      "modid": 13718,
+      "name": "Coal Piles",
+      "lastreleased": "2026-11-26 22:37:39",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_1eb23aaf230ca61e67bd451c5d560369.png"
+    },
+    {
+      "modidstrs": [
         "nightvisiontoglasses"
       ],
       "modid": 13707,
@@ -181,7 +244,7 @@
       ],
       "modid": 13699,
       "name": "Modern Arsenal",
-      "lastreleased": "2026-11-23 20:59:03",
+      "lastreleased": "2026-11-26 20:55:47",
       "logo": "https://moddbcdn.vintagestory.at/cover-480_be5fbb99296d14bb6e1fcb1a46e68aee.png"
     },
     {
@@ -204,11 +267,21 @@
     },
     {
       "modidstrs": [
+        "extendedsurvival",
+        "extsur"
+      ],
+      "modid": 13687,
+      "name": "Extended Survival",
+      "lastreleased": "2026-11-27 00:57:30",
+      "logo": null
+    },
+    {
+      "modidstrs": [
         "rustfall"
       ],
       "modid": 13686,
       "name": "Rustfall",
-      "lastreleased": "2026-11-26 00:04:18",
+      "lastreleased": "2026-11-27 01:10:31",
       "logo": null
     },
     {
@@ -406,7 +479,7 @@
       ],
       "modid": 13637,
       "name": "Innovations Tester for Miraserver",
-      "lastreleased": "2026-11-25 23:44:26",
+      "lastreleased": "2026-11-27 00:54:06",
       "logo": null
     },
     {
@@ -442,7 +515,7 @@
       ],
       "modid": 13633,
       "name": "Seraph Civilization Simulation",
-      "lastreleased": "2026-11-23 10:00:07",
+      "lastreleased": "2026-11-26 15:45:45",
       "logo": null
     },
     {
@@ -487,8 +560,17 @@
       ],
       "modid": 13606,
       "name": "NQ People",
-      "lastreleased": "2026-11-25 13:34:59",
+      "lastreleased": "2026-11-26 19:14:24",
       "logo": "https://moddbcdn.vintagestory.at/nqpeople_logo_480_23e2a937abe27dee90178d7fa6b05743.jpg"
+    },
+    {
+      "modidstrs": [
+        "nqlands"
+      ],
+      "modid": 13602,
+      "name": "NQ Lands",
+      "lastreleased": "2026-11-26 19:34:37",
+      "logo": "https://moddbcdn.vintagestory.at/Gemini_Generated_Ima_1c1eab4853638e1463375dd4cbe28eff.jpg"
     },
     {
       "modidstrs": [
@@ -640,7 +722,7 @@
       ],
       "modid": 13404,
       "name": "Mobs Radar Redux",
-      "lastreleased": "2026-11-21 03:04:57",
+      "lastreleased": "2026-11-26 18:02:16",
       "logo": "https://moddbcdn.vintagestory.at/mobsradar-480x480-ti_b8f442b325559400e0e611f72899915f.png"
     },
     {
@@ -708,6 +790,15 @@
     },
     {
       "modidstrs": [
+        "lingamspanningtweak"
+      ],
+      "modid": 13031,
+      "name": "Lingam's Panning Tweak",
+      "lastreleased": "2026-11-26 20:41:53",
+      "logo": "https://moddbcdn.vintagestory.at/Lingams_Panning_Twea_8f7df0a2d7d6ef64a79df12cc5b97dee_480_320.png"
+    },
+    {
+      "modidstrs": [
         "backpackloss"
       ],
       "modid": 13029,
@@ -759,6 +850,15 @@
       "name": "SheatheOrDrop",
       "lastreleased": "2026-11-21 19:27:55",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "afterdusk"
+      ],
+      "modid": 12925,
+      "name": "After Dusk",
+      "lastreleased": "2026-11-26 17:14:16",
+      "logo": "https://moddbcdn.vintagestory.at/AfterDusk480_c9f82434dcfd0119f14b868eeee14819.png"
     },
     {
       "modidstrs": [
@@ -937,7 +1037,7 @@
       ],
       "modid": 12452,
       "name": "Backrooms: Survival Story",
-      "lastreleased": "2026-11-24 07:31:02",
+      "lastreleased": "2026-11-26 20:57:50",
       "logo": "https://moddbcdn.vintagestory.at/cover-480_8db80414bc183415a110a384f41e4265.png"
     },
     {
@@ -973,7 +1073,7 @@
       ],
       "modid": 12213,
       "name": "Aegis",
-      "lastreleased": "2026-11-26 05:52:51",
+      "lastreleased": "2026-11-27 06:33:52",
       "logo": "https://moddbcdn.vintagestory.at/328581768_2eca486471700949adabdb55bd2f4ca4.png"
     },
     {
@@ -1000,7 +1100,7 @@
       ],
       "modid": 12135,
       "name": "Food Preservation & Display",
-      "lastreleased": "2026-11-20 20:58:37",
+      "lastreleased": "2026-11-26 21:07:25",
       "logo": "https://moddbcdn.vintagestory.at/moddbextthumbnail_e2909799d0c37920cfe26a9fe42b4b83.png"
     },
     {
@@ -1009,7 +1109,7 @@
       ],
       "modid": 12127,
       "name": "Serverfixes for Miraserver",
-      "lastreleased": "2026-11-25 19:31:57",
+      "lastreleased": "2026-11-27 01:08:03",
       "logo": null
     },
     {
@@ -1027,7 +1127,7 @@
       ],
       "modid": 12091,
       "name": "VSPT: Path Tracing",
-      "lastreleased": "2026-11-22 04:02:31",
+      "lastreleased": "2026-11-26 07:34:02",
       "logo": "https://moddbcdn.vintagestory.at/Untitled555_efeef80f8d92f75954b6cc3c47551b57.png"
     },
     {
@@ -1099,7 +1199,7 @@
       ],
       "modid": 11633,
       "name": "Advanced Tool Parts",
-      "lastreleased": "2026-11-25 22:37:41",
+      "lastreleased": "2026-11-26 22:46:28",
       "logo": "https://moddbcdn.vintagestory.at/Advanced+Tool+Parts+_7e319b57ef94352030650e6e6ef492b1.png"
     },
     {
@@ -1216,8 +1316,17 @@
       ],
       "modid": 10633,
       "name": "Timewood Tree",
-      "lastreleased": "2026-11-25 22:03:39",
+      "lastreleased": "2026-11-26 21:56:26",
       "logo": "https://moddbcdn.vintagestory.at/output-onlinepngtool_31f508c1812db4bf963afe49a9e5a254.png"
+    },
+    {
+      "modidstrs": [
+        "taborservers"
+      ],
+      "modid": 10491,
+      "name": "TaborServers",
+      "lastreleased": "2026-11-26 19:22:56",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -1339,6 +1448,15 @@
       "name": "LogicalNerfsChisel",
       "lastreleased": "2026-11-24 12:34:13",
       "logo": "https://moddbcdn.vintagestory.at/logicalchiselnerf_538e3387709b4f73b559ef9689b079d6.png"
+    },
+    {
+      "modidstrs": [
+        "vscnlangpack"
+      ],
+      "modid": 9660,
+      "name": "Vintage Story Chinese Language Pack",
+      "lastreleased": "2026-11-26 14:43:44",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -1594,6 +1712,15 @@
     },
     {
       "modidstrs": [
+        "crlib"
+      ],
+      "modid": 7509,
+      "name": "Catch and Release LIB",
+      "lastreleased": "2026-11-26 09:23:47",
+      "logo": "https://moddbcdn.vintagestory.at/modpreview_4470eee90cd2aff56a0f9f53ce4e4e43.png"
+    },
+    {
+      "modidstrs": [
         "madcrowglider"
       ],
       "modid": 7449,
@@ -1618,6 +1745,17 @@
       "name": "Hazmat Suit",
       "lastreleased": "2026-11-21 02:12:23",
       "logo": "https://moddbcdn.vintagestory.at/modicon_59a15a422fbd3352f1db1d3251e51043.png"
+    },
+    {
+      "modidstrs": [
+        "antiqueharmony",
+        "antiqueharmony1",
+        "antiqueharmonyone"
+      ],
+      "modid": 7141,
+      "name": "Antique Harmony | Additional/Alternative Music Soundtrack",
+      "lastreleased": "2026-11-27 07:11:50",
+      "logo": "https://moddbcdn.vintagestory.at/pixil-frame-0%2823%29_b5121bfee8b3ca8bebe7846bda121d43.png"
     },
     {
       "modidstrs": [
@@ -1698,7 +1836,7 @@
       ],
       "modid": 6190,
       "name": "topgsmod",
-      "lastreleased": "2026-11-25 08:58:51",
+      "lastreleased": "2026-11-26 09:08:01",
       "logo": "https://moddbcdn.vintagestory.at/topg_modpack_moddb_l_e46630be775ee925f255ab21764b57c1.png"
     },
     {
@@ -1834,8 +1972,17 @@
       ],
       "modid": 3290,
       "name": "Easy Building",
-      "lastreleased": "2026-11-23 14:22:27",
+      "lastreleased": "2026-11-26 21:34:33",
       "logo": "https://moddbcdn.vintagestory.at/thumbnail+3_6aafe57597d384fd39201553c54ff51d.jpg"
+    },
+    {
+      "modidstrs": [
+        "abcsredux"
+      ],
+      "modid": 3193,
+      "name": "Advanced Backpack Construction System REDUX [Now With Lantern Bags!]",
+      "lastreleased": "2026-11-27 03:38:25",
+      "logo": "https://moddbcdn.vintagestory.at/ABCSReduxPic_6416ad0876a7c504bf3829f126433828_480_320.png"
     },
     {
       "modidstrs": [
@@ -1845,6 +1992,15 @@
       "name": "Spec's Specialized Bags Revived",
       "lastreleased": "2026-11-23 00:07:52",
       "logo": "https://moddbcdn.vintagestory.at/Modicon_10333561747e8789b74d8b48fd15ec18.png"
+    },
+    {
+      "modidstrs": [
+        "hudclockpatch"
+      ],
+      "modid": 2788,
+      "name": "HUD Clock",
+      "lastreleased": "2026-11-27 06:18:01",
+      "logo": "https://moddbcdn.vintagestory.at/_HudClock_Info_605d15cea02ced4532c83a6c6cc25c70.png"
     },
     {
       "modidstrs": [
@@ -1863,6 +2019,15 @@
       "name": "Pirate",
       "lastreleased": "2026-11-22 11:23:40",
       "logo": "https://moddbcdn.vintagestory.at/Pirate_server_480x32_9ddcba810e0c21a51c1dc5c39ff9afc2.jpg"
+    },
+    {
+      "modidstrs": [
+        "ESP"
+      ],
+      "modid": 2455,
+      "name": "Eternal Seraph: Patch",
+      "lastreleased": "2026-11-27 04:42:16",
+      "logo": "https://moddbcdn.vintagestory.at/patch1_7ba614b8d4526012bda2f18d3bd0fca6.png"
     },
     {
       "modidstrs": [
