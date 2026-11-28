@@ -1,8 +1,35 @@
 {
   "app_version": "v1.0.0-alpha",
   "version": "1.23.x",
-  "last_updated": "2026-11-27 07:18 UTC",
+  "last_updated": "2026-11-28 06:50 UTC",
   "mods": [
+    {
+      "modidstrs": [
+        "thekingdomstweaks"
+      ],
+      "modid": 13865,
+      "name": "The Kingdoms Tweaks",
+      "lastreleased": "2026-11-27 22:33:47",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "darkpinefibercraft"
+      ],
+      "modid": 13857,
+      "name": "Opine upon Dark Pine/Immersive Fibercraft Compatibility",
+      "lastreleased": "2026-11-27 09:31:15",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "mapshare"
+      ],
+      "modid": 13853,
+      "name": "Map Share",
+      "lastreleased": "2026-11-27 09:00:33",
+      "logo": null
+    },
     {
       "modidstrs": [
         "platearmorrecipes"
@@ -45,7 +72,7 @@
       ],
       "modid": 13823,
       "name": "Shiver Fent Lean Mod",
-      "lastreleased": "2026-11-26 21:39:59",
+      "lastreleased": "2026-11-27 10:47:33",
       "logo": "https://moddbcdn.vintagestory.at/shiver-lean-logo-480_a8b0ecaeaa45e9fff5cd8e646d95a545.png"
     },
     {
@@ -90,7 +117,7 @@
       ],
       "modid": 13806,
       "name": "Fops and Frocks",
-      "lastreleased": "2026-11-26 16:48:39",
+      "lastreleased": "2026-11-27 17:49:50",
       "logo": "https://moddbcdn.vintagestory.at/modicon_9e6c38723ad5407619f6fcc4ab6399c0.png"
     },
     {
@@ -108,7 +135,7 @@
       ],
       "modid": 13799,
       "name": "Steelworks",
-      "lastreleased": "2026-11-26 00:33:31",
+      "lastreleased": "2026-11-28 02:49:43",
       "logo": "https://moddbcdn.vintagestory.at/Steelworks__Forged_I_8b864d662c1648965cd6d6f8d4a1cd59.png"
     },
     {
@@ -162,8 +189,17 @@
       ],
       "modid": 13772,
       "name": "Gem Piles",
-      "lastreleased": "2026-11-24 20:25:14",
+      "lastreleased": "2026-11-27 15:51:58",
       "logo": "https://moddbcdn.vintagestory.at/modicon_627511713acb9aebc9366cb85af3eb3a.png"
+    },
+    {
+      "modidstrs": [
+        "forgeandfeast"
+      ],
+      "modid": 13759,
+      "name": "Forge and Feast",
+      "lastreleased": "2026-11-28 03:44:06",
+      "logo": "https://moddbcdn.vintagestory.at/orange_480x320_1756274b0efc49ded8f8f6ec14d50c18.png"
     },
     {
       "modidstrs": [
@@ -198,8 +234,8 @@
       ],
       "modid": 13733,
       "name": "Nutrition Buffer",
-      "lastreleased": "2026-11-24 18:27:48",
-      "logo": "https://moddbcdn.vintagestory.at/modicon_61ed74f2ec1c23ad2ab5d69bdc1830d2.png"
+      "lastreleased": "2026-11-27 20:45:46",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_95a9588e6a6085a8e425f6ab60078a19.png"
     },
     {
       "modidstrs": [
@@ -272,7 +308,7 @@
       ],
       "modid": 13687,
       "name": "Extended Survival",
-      "lastreleased": "2026-11-27 00:57:30",
+      "lastreleased": "2026-11-28 04:01:00",
       "logo": null
     },
     {
@@ -335,7 +371,7 @@
       ],
       "modid": 13671,
       "name": "Earth Marshlands for Miraserver",
-      "lastreleased": "2026-11-24 19:44:03",
+      "lastreleased": "2026-11-27 21:18:10",
       "logo": null
     },
     {
@@ -425,7 +461,7 @@
       ],
       "modid": 13644,
       "name": "Cook UI",
-      "lastreleased": "2026-11-25 02:32:40",
+      "lastreleased": "2026-11-28 03:09:43",
       "logo": "https://moddbcdn.vintagestory.at/cook-ui_a7c25235eca871082e741fca3bc6344f.png"
     },
     {
@@ -452,7 +488,7 @@
       ],
       "modid": 13640,
       "name": "Mira's Food Tastes",
-      "lastreleased": "2026-11-20 22:26:52",
+      "lastreleased": "2026-11-27 22:07:29",
       "logo": null
     },
     {
@@ -479,7 +515,7 @@
       ],
       "modid": 13637,
       "name": "Innovations Tester for Miraserver",
-      "lastreleased": "2026-11-27 00:54:06",
+      "lastreleased": "2026-11-27 22:03:03",
       "logo": null
     },
     {
@@ -562,6 +598,15 @@
       "name": "NQ People",
       "lastreleased": "2026-11-26 19:14:24",
       "logo": "https://moddbcdn.vintagestory.at/nqpeople_logo_480_23e2a937abe27dee90178d7fa6b05743.jpg"
+    },
+    {
+      "modidstrs": [
+        "mc"
+      ],
+      "modid": 13604,
+      "name": "Metal Cookware",
+      "lastreleased": "2026-11-28 03:01:15",
+      "logo": "https://moddbcdn.vintagestory.at/MetalCookware_ModDB__06be1d074fa43bcc87895f20ffc82cb7.png"
     },
     {
       "modidstrs": [
@@ -659,7 +704,7 @@
       ],
       "modid": 13517,
       "name": "LOADOUTS",
-      "lastreleased": "2026-11-23 22:22:52",
+      "lastreleased": "2026-11-27 19:29:04",
       "logo": null
     },
     {
@@ -668,7 +713,7 @@
       ],
       "modid": 13510,
       "name": "Earth Village tweak for Mira Server",
-      "lastreleased": "2026-11-25 14:50:58",
+      "lastreleased": "2026-11-27 19:21:13",
       "logo": null
     },
     {
@@ -974,7 +1019,7 @@
       ],
       "modid": 12744,
       "name": "Pisciculture",
-      "lastreleased": "2026-11-20 20:45:32",
+      "lastreleased": "2026-11-27 14:08:45",
       "logo": "https://moddbcdn.vintagestory.at/ModDB-Logo_4fcbfbfc4366de6bd7eca1d40ebdb1a7.jpg"
     },
     {
@@ -1010,7 +1055,16 @@
       ],
       "modid": 12676,
       "name": "Evenfall Server Patches",
-      "lastreleased": "2026-11-21 03:24:24",
+      "lastreleased": "2026-11-27 16:50:39",
+      "logo": null
+    },
+    {
+      "modidstrs": [
+        "vscnfirearrows"
+      ],
+      "modid": 12657,
+      "name": "火箭（Fire Arrows）",
+      "lastreleased": "2026-11-27 09:17:30",
       "logo": null
     },
     {
@@ -1057,6 +1111,15 @@
       "name": "Saguaro",
       "lastreleased": "2026-11-20 05:16:29",
       "logo": "https://moddbcdn.vintagestory.at/modicon_3ca3009011491c06b5f7c36b2686e0cf.png"
+    },
+    {
+      "modidstrs": [
+        "vscnroping"
+      ],
+      "modid": 12308,
+      "name": "套索（Roping）",
+      "lastreleased": "2026-11-27 09:16:28",
+      "logo": null
     },
     {
       "modidstrs": [
@@ -1109,7 +1172,7 @@
       ],
       "modid": 12127,
       "name": "Serverfixes for Miraserver",
-      "lastreleased": "2026-11-27 01:08:03",
+      "lastreleased": "2026-11-27 22:13:20",
       "logo": null
     },
     {
@@ -1132,6 +1195,15 @@
     },
     {
       "modidstrs": [
+        "thekingdomsdraconicraces"
+      ],
+      "modid": 12086,
+      "name": "TheKingdoms: Draconic Races",
+      "lastreleased": "2026-11-28 05:20:23",
+      "logo": "https://moddbcdn.vintagestory.at/moddb+icon_f15b0bc71ff9bcb2e976b2a7eba75d75.png"
+    },
+    {
+      "modidstrs": [
         "vsaatmoslite"
       ],
       "modid": 12016,
@@ -1145,7 +1217,7 @@
       ],
       "modid": 11969,
       "name": "Sirayne's Fantasy Structures",
-      "lastreleased": "2026-11-21 12:43:16",
+      "lastreleased": "2026-11-27 20:10:44",
       "logo": "https://moddbcdn.vintagestory.at/header_df163ec69afc9202583a531590298bd1.gif"
     },
     {
@@ -1172,7 +1244,7 @@
       ],
       "modid": 11717,
       "name": "Effectlib examples",
-      "lastreleased": "2026-11-20 14:45:29",
+      "lastreleased": "2026-11-27 13:35:57",
       "logo": null
     },
     {
@@ -1181,7 +1253,7 @@
       ],
       "modid": 11715,
       "name": "Effectlib",
-      "lastreleased": "2026-11-20 14:55:24",
+      "lastreleased": "2026-11-27 15:03:04",
       "logo": "https://moddbcdn.vintagestory.at/modicon_39880c52ef1d7873240c3eb56f71e2dc.png"
     },
     {
@@ -1192,6 +1264,15 @@
       "name": "Cocktail Madness!",
       "lastreleased": "2026-11-22 00:00:17",
       "logo": "https://moddbcdn.vintagestory.at/mixerhold-480_1107a912b35a43c308a0beca0ae0d79d.png"
+    },
+    {
+      "modidstrs": [
+        "prosequor"
+      ],
+      "modid": 11674,
+      "name": "Prosequor - Skills, Levels, Trees and Stats",
+      "lastreleased": "2026-11-27 17:25:52",
+      "logo": "https://moddbcdn.vintagestory.at/prosequor-480_ba30219a1ad4c39ad976bf54d9d58f0b.png"
     },
     {
       "modidstrs": [
@@ -1210,6 +1291,15 @@
       "name": "configkit",
       "lastreleased": "2026-11-24 22:50:11",
       "logo": "https://moddbcdn.vintagestory.at/logo_be0a17d8a1de74f41677160044124b9f.png"
+    },
+    {
+      "modidstrs": [
+        "integratedmodmanager"
+      ],
+      "modid": 11458,
+      "name": "Integrated Mod Manager",
+      "lastreleased": "2026-11-27 13:46:02",
+      "logo": "https://moddbcdn.vintagestory.at/immdoc_60b9cad9b4e2a34e566ece30b75c7a9f.png"
     },
     {
       "modidstrs": [
@@ -1307,7 +1397,7 @@
       ],
       "modid": 10677,
       "name": "The Revived Lands [PATCHES]",
-      "lastreleased": "2026-11-25 23:04:41",
+      "lastreleased": "2026-11-28 01:58:40",
       "logo": "https://moddbcdn.vintagestory.at/ModLogo_c2c9edb9e0dbec9b55153f7b2388f8d3.png"
     },
     {
@@ -1325,7 +1415,7 @@
       ],
       "modid": 10491,
       "name": "TaborServers",
-      "lastreleased": "2026-11-26 19:22:56",
+      "lastreleased": "2026-11-27 12:06:17",
       "logo": null
     },
     {
@@ -1428,6 +1518,15 @@
       "name": "ProjectL Interactables",
       "lastreleased": "2026-11-24 20:42:06",
       "logo": "https://moddbcdn.vintagestory.at/modiconpage_6e7ab26f7982a9d93141f57b6350789c.png"
+    },
+    {
+      "modidstrs": [
+        "galeret"
+      ],
+      "modid": 9970,
+      "name": "Galeret",
+      "lastreleased": "2026-11-27 11:48:34",
+      "logo": "https://moddbcdn.vintagestory.at/2026-07-01_20-06-32_180b144137f0ae9e56dbc248540fce29.png"
     },
     {
       "modidstrs": [
@@ -1550,6 +1649,15 @@
     },
     {
       "modidstrs": [
+        "hudshelfessentials"
+      ],
+      "modid": 8831,
+      "name": "HUD Shelf: Essentials",
+      "lastreleased": "2026-11-27 14:45:28",
+      "logo": "https://moddbcdn.vintagestory.at/HudShelfEssentials_L_2108beed29cb1223f10d0f17aadb7159.png"
+    },
+    {
+      "modidstrs": [
         "cbharmonypatches"
       ],
       "modid": 8811,
@@ -1565,6 +1673,15 @@
       "name": "CB Patches",
       "lastreleased": "2026-11-20 01:42:17",
       "logo": null
+    },
+    {
+      "modidstrs": [
+        "shadehouse"
+      ],
+      "modid": 8698,
+      "name": "Shadehouse",
+      "lastreleased": "2026-11-27 14:39:08",
+      "logo": "https://moddbcdn.vintagestory.at/modpreview_fe3af02ffe413975de98f9cff1095315.png"
     },
     {
       "modidstrs": [
@@ -1590,7 +1707,7 @@
       ],
       "modid": 8501,
       "name": "Age of Seraphs Specialized Classes",
-      "lastreleased": "2026-11-26 02:55:54",
+      "lastreleased": "2026-11-28 02:26:18",
       "logo": null
     },
     {
@@ -1613,6 +1730,15 @@
     },
     {
       "modidstrs": [
+        "hudshelf"
+      ],
+      "modid": 8468,
+      "name": "HUD Shelf",
+      "lastreleased": "2026-11-27 14:44:16",
+      "logo": "https://moddbcdn.vintagestory.at/HudShelf_LogoAnimate_db56d39dc9112988b20c49f7254d7703.gif"
+    },
+    {
+      "modidstrs": [
         "improvedhandbookrecipesfork"
       ],
       "modid": 8240,
@@ -1628,6 +1754,15 @@
       "name": "Achievements",
       "lastreleased": "2026-11-23 17:06:25",
       "logo": "https://moddbcdn.vintagestory.at/Ach480x320_65be09f36307cf94857f1cf6e24ccbd1.png"
+    },
+    {
+      "modidstrs": [
+        "kcsdragons"
+      ],
+      "modid": 8146,
+      "name": "KCs Dragon Player",
+      "lastreleased": "2026-11-28 05:09:47",
+      "logo": "https://moddbcdn.vintagestory.at/moddbicon-kcsdragons_2e1bb83e585ea93658e1586bc326c803.png"
     },
     {
       "modidstrs": [
@@ -1730,6 +1865,15 @@
     },
     {
       "modidstrs": [
+        "crfish"
+      ],
+      "modid": 7410,
+      "name": "Catch and Release: Fish",
+      "lastreleased": "2026-11-27 14:45:26",
+      "logo": "https://moddbcdn.vintagestory.at/modpreview_b420bd267b58b0516d56c293f605bf54.png"
+    },
+    {
+      "modidstrs": [
         "tallheightwatershedslandforms"
       ],
       "modid": 7297,
@@ -1754,7 +1898,7 @@
       ],
       "modid": 7141,
       "name": "Antique Harmony | Additional/Alternative Music Soundtrack",
-      "lastreleased": "2026-11-27 07:11:50",
+      "lastreleased": "2026-11-28 05:10:32",
       "logo": "https://moddbcdn.vintagestory.at/pixil-frame-0%2823%29_b5121bfee8b3ca8bebe7846bda121d43.png"
     },
     {
@@ -1820,6 +1964,15 @@
       "name": "GGBC's Repair",
       "lastreleased": "2026-11-20 08:16:09",
       "logo": "https://moddbcdn.vintagestory.at/logo_centered_57fc88ab901bfd7befa70d1e4789734f.png"
+    },
+    {
+      "modidstrs": [
+        "freedomunits"
+      ],
+      "modid": 6554,
+      "name": "Freedom Units [The Reupload]",
+      "lastreleased": "2026-11-28 01:00:26",
+      "logo": "https://moddbcdn.vintagestory.at/FreedomUnits_b1524128980194aa6fafcd54e720782f.png"
     },
     {
       "modidstrs": [
@@ -1931,6 +2084,15 @@
     },
     {
       "modidstrs": [
+        "insanitylib"
+      ],
+      "modid": 3966,
+      "name": "Insanity Lib",
+      "lastreleased": "2026-11-28 00:01:25",
+      "logo": "https://moddbcdn.vintagestory.at/modicon_76029d58fa7cd4a34f9206fee5f14e1b.png"
+    },
+    {
+      "modidstrs": [
         "itempickupnotifier"
       ],
       "modid": 3947,
@@ -1995,11 +2157,20 @@
     },
     {
       "modidstrs": [
+        "czechpatch"
+      ],
+      "modid": 2800,
+      "name": "Czech Patch - Čeština do módů",
+      "lastreleased": "2026-11-27 15:59:42",
+      "logo": "https://moddbcdn.vintagestory.at/czp_prime_edbac8155d125937546f6f7177a4f204.png"
+    },
+    {
+      "modidstrs": [
         "hudclockpatch"
       ],
       "modid": 2788,
       "name": "HUD Clock",
-      "lastreleased": "2026-11-27 06:18:01",
+      "lastreleased": "2026-11-27 14:47:14",
       "logo": "https://moddbcdn.vintagestory.at/_HudClock_Info_605d15cea02ced4532c83a6c6cc25c70.png"
     },
     {
@@ -2026,8 +2197,17 @@
       ],
       "modid": 2455,
       "name": "Eternal Seraph: Patch",
-      "lastreleased": "2026-11-27 04:42:16",
+      "lastreleased": "2026-11-28 02:15:27",
       "logo": "https://moddbcdn.vintagestory.at/patch1_7ba614b8d4526012bda2f18d3bd0fca6.png"
+    },
+    {
+      "modidstrs": [
+        "hydrateordiedrate"
+      ],
+      "modid": 2282,
+      "name": "Hydrate or Diedrate",
+      "lastreleased": "2026-11-28 00:47:50",
+      "logo": "https://moddbcdn.vintagestory.at/hodlogo480x480_65caad9aa5f4b7e5f1b3bed810e1282e.png"
     },
     {
       "modidstrs": [
@@ -2192,7 +2372,7 @@
       ],
       "modid": 175,
       "name": "Alchemy",
-      "lastreleased": "2026-11-20 14:57:04",
+      "lastreleased": "2026-11-27 15:01:40",
       "logo": "https://moddbcdn.vintagestory.at/The_Alchemy_mod_logo_2873c5c666ad117a13ef58a1d15433f2.png"
     },
     {
